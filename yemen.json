@@ -1,0 +1,1734 @@
+{
+  "Governorates": [
+    {
+      "name_en": "Amant Al-Asmah",
+      "name_ar": "أمانة العاصمة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Sana'a Alqdimah",
+          "name_ar": "صنعاء القديمة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sh'oob",
+          "name_ar": "شعوب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Azal",
+          "name_ar": "آزال",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Alsafiah",
+          "name_ar": "الصافية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Alsabe'en",
+          "name_ar": "السبعين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sh'oob",
+          "name_ar": "شعوب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Alwehdah",
+          "name_ar": "الوحدة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Tahrir",
+          "name_ar": "التحرير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Thorah",
+          "name_ar": "الثورة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maeen",
+          "name_ar": "معين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Al-Harith",
+          "name_ar": "بني الحارث",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Sanaa",
+      "name_ar": "صنعاء",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Hamdan",
+          "name_ar": "همدان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Arhab",
+          "name_ar": "أرحب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jihanah",
+          "name_ar": "جحانة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Blad AL-Roos",
+          "name_ar": "بلاد الروس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sanhan",
+          "name_ar": "سنحان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hisn",
+          "name_ar": "الحصن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sa'fan",
+          "name_ar": "صعفان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Hoshaish",
+          "name_ar": "بني حشيش",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Tial",
+          "name_ar": "الطيال",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Khawlan",
+          "name_ar": "خولان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Dhibian",
+          "name_ar": "بني ضبيان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "AL-Haimah Al-Kharijiah",
+          "name_ar": "الحيمة الخارجية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Haimah Al-Dakhiliah",
+          "name_ar": "الحيمة الداخلية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Manakhah",
+          "name_ar": "مناخة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Nihm",
+          "name_ar": "نهم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Matar",
+          "name_ar": "بني مطر",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Aden",
+      "name_ar": "عدن",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Dar Saad",
+          "name_ar": "دار سعد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shaikh Othman",
+          "name_ar": "الشيخ عثمان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mansoorah",
+          "name_ar": "المنصورة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Boriqah",
+          "name_ar": "البريقة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Towahi",
+          "name_ar": "التواهي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Khoor Maksar",
+          "name_ar": "خور مكسر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Seerh",
+          "name_ar": "صيرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mo'alla",
+          "name_ar": "المعلا",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-Hodaida",
+      "name_ar": "الحديدة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Bait Al-Fakih",
+          "name_ar": "بيت الفقية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Tohaita",
+          "name_ar": "التحيتا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "kamaran",
+          "name_ar": "كمران",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Amana",
+          "name_ar": "الخوخة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Doraihmi",
+          "name_ar": "الدريهمي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Lihyah",
+          "name_ar": "اللحية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Zabed",
+          "name_ar": "زبيد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jabal Raas",
+          "name_ar": "جبل راس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Marawiah",
+          "name_ar": "المراوعة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Jarrahi",
+          "name_ar": "الجراحي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Zahrah",
+          "name_ar": "الزهرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Miglaf",
+          "name_ar": "المغلاف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mansoriah",
+          "name_ar": "المنصورية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Zabidiah",
+          "name_ar": "الزيدية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hali",
+          "name_ar": "الحالي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hojailah",
+          "name_ar": "الحجيلة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sokhnah",
+          "name_ar": "السخنة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Manirah",
+          "name_ar": "المنيرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hook",
+          "name_ar": "الحوك",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Saleef",
+          "name_ar": "الصليف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mena",
+          "name_ar": "الميناء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bajil",
+          "name_ar": "باجل",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Dhoha",
+          "name_ar": "الضحى",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hais",
+          "name_ar": "حيس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-qnaws",
+          "name_ar": "القناوص",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bora",
+          "name_ar": "برع",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Thamar",
+      "name_ar": "ذمار",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Jhran",
+          "name_ar": "جهران",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Otmah",
+          "name_ar": "عتمه",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maifaa Ans",
+          "name_ar": "ميفعة عنس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hada",
+          "name_ar": "الحداء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ans",
+          "name_ar": "عنس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Wosab Al-Safil",
+          "name_ar": "وصاب السافل",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Wosab Al-Aali",
+          "name_ar": "وصاب العالي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jabal Al-Sharq",
+          "name_ar": "جبل الشرق",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Manar",
+          "name_ar": "المنار",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Magrib Ans",
+          "name_ar": "مغرب عنس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Dhoran Aanis",
+          "name_ar": "ضوران آنس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thamar City",
+          "name_ar": "مدينة ذمار",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Amran",
+      "name_ar": "عمران",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Harf Sofian",
+          "name_ar": "حرف سفيان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hooth",
+          "name_ar": "حوث",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Ashah",
+          "name_ar": "العشة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qaflt Ethar",
+          "name_ar": "قفلة عذر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shaharah",
+          "name_ar": "شهارة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Madan",
+          "name_ar": "المدان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sowair",
+          "name_ar": "صوير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Dholaimah Haboor",
+          "name_ar": "ظليمة حبور",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Soodah",
+          "name_ar": "السودة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Khamr",
+          "name_ar": "خمر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Deben",
+          "name_ar": "ديبين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Kharif",
+          "name_ar": "خارف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Raidah",
+          "name_ar": "ريدة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Eyal Yazeed Mounten",
+          "name_ar": "جبل عيال يزيد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sood",
+          "name_ar": "السود",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Amran City",
+          "name_ar": "مدينة عمران",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maswar",
+          "name_ar": "مسور",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thula",
+          "name_ar": "ثلا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Eial Sraih",
+          "name_ar": "عيال سريح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Soraim",
+          "name_ar": "بني صريم",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Hajjah",
+      "name_ar": "حجة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Bakel Al-Meer",
+          "name_ar": "بكيل المير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Al-Awam",
+          "name_ar": "بني العوام",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Aflah Al-Sham",
+          "name_ar": "أفلح الشام",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Aflah Al-Yamen",
+          "name_ar": "أفلح  اليمن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Qaws Al-Tawr",
+          "name_ar": "بني قوس الطور",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Kohlan Al-Sharaf",
+          "name_ar": "كحلان الشرف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qohlan Affar",
+          "name_ar": "كحلان عفار",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Khiran Al-Mahraq",
+          "name_ar": "خيران المحرق",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hajjah City",
+          "name_ar": "مدينة حجة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qafl Shammar",
+          "name_ar": "قفل شمر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qarah",
+          "name_ar": "قارة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Aslam",
+          "name_ar": "أسلم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Jamimah",
+          "name_ar": "الجميمة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Wishhah",
+          "name_ar": "وشحة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shaghadrah",
+          "name_ar": "الشغادرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mahabishah",
+          "name_ar": "المحابشة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Maghrabah",
+          "name_ar": "المغربة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Miftah",
+          "name_ar": "المفتاح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Haradh",
+          "name_ar": "حرض",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hairan",
+          "name_ar": "حيران",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Koshar",
+          "name_ar": "كشر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sharas",
+          "name_ar": "شرس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Abs",
+          "name_ar": "عبس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Koa'dnah",
+          "name_ar": "كعيدنة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mabian",
+          "name_ar": "مبين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Odhrah",
+          "name_ar": "وضرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mostaba'",
+          "name_ar": "مستباء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Midy",
+          "name_ar": "ميدي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Najrah",
+          "name_ar": "نجرة",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Ibb",
+      "name_ar": "إب",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Odain",
+          "name_ar": "العدين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ibb City",
+          "name_ar": "مدينة إب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ba'dan",
+          "name_ar": "بعدان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jiblah",
+          "name_ar": "جبلة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Nadrah",
+          "name_ar": "النادرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hobaish",
+          "name_ar": "حبيش",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hazm Al-Odain",
+          "name_ar": "حزم العدين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thi Al-Sifal",
+          "name_ar": "ذي السفال",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Radhmah",
+          "name_ar": "الرضمة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sabrah",
+          "name_ar": "السبرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Saddah",
+          "name_ar": "السدة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Syiani",
+          "name_ar": "السياني",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sha'ir",
+          "name_ar": "الشعر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Dhahar",
+          "name_ar": "الظهار",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Fara' Al-Odain",
+          "name_ar": "فرع العدين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qafr",
+          "name_ar": "القفر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Makhadrh",
+          "name_ar": "المخادر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mothaikhrah",
+          "name_ar": "مذيخرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mashnnah",
+          "name_ar": "المشنة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Yarim",
+          "name_ar": "يريم",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Sa'dah",
+      "name_ar": "صعدة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Hashwah",
+          "name_ar": "الحشوة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Safra'a",
+          "name_ar": "الصفراء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Dhahir",
+          "name_ar": "الظاهر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Baqim",
+          "name_ar": "باقم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Haidan",
+          "name_ar": "حيدان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Razh",
+          "name_ar": "رازح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sagain",
+          "name_ar": "ساقين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sahar",
+          "name_ar": "سحار",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shida'a",
+          "name_ar": "شداء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sa'dah City",
+          "name_ar": "مدينة صعدة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ghamr",
+          "name_ar": "غمر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qaqtabr",
+          "name_ar": "قطابر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Kitaf and Bog'",
+          "name_ar": "كتاف والبقع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Majz",
+          "name_ar": "مجز",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Manbh",
+          "name_ar": "منبة",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-Baidha",
+      "name_ar": "البيضاء",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Baidha City",
+          "name_ar": "مدينة البيضاء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Zaher",
+          "name_ar": "الزاهر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Radman",
+          "name_ar": "ردمان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Riashiah",
+          "name_ar": "الرياشية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Swadiah",
+          "name_ar": "السوادية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shriah",
+          "name_ar": "الشرية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Sabah",
+          "name_ar": "صباح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sawma'ah",
+          "name_ar": "الصومعة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Tiffah",
+          "name_ar": "الطفة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Arash",
+          "name_ar": "العرش",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qarishiah",
+          "name_ar": "القريشية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Zaher Al Homaiqani",
+          "name_ar": "الزاهر آل الحميقاني",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thi Na'em",
+          "name_ar": "ذي ناعم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maswarah",
+          "name_ar": "مسورة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mekiras",
+          "name_ar": "مكيراس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Malajim",
+          "name_ar": "الملاجم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Nata'",
+          "name_ar": "ناطع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Noman",
+          "name_ar": "نعمان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Walad Rabee'",
+          "name_ar": "ولد ربيع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Rada'a",
+          "name_ar": "رداع",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Shaboah",
+      "name_ar": "شبوة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Rwothah",
+          "name_ar": "الروضة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Baihan",
+          "name_ar": "بيحان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jardan",
+          "name_ar": "جردان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hebban",
+          "name_ar": "حبان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ain",
+          "name_ar": "عين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hotaib",
+          "name_ar": "حطيب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Dahr",
+          "name_ar": "دهر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Radhoom",
+          "name_ar": "رضوم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sa'ed",
+          "name_ar": "الصعيد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Talh",
+          "name_ar": "الطلح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ataq",
+          "name_ar": "عتق",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Arma'a",
+          "name_ar": "عرماء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Osailan",
+          "name_ar": "عسيلان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Markhah Al-Sofla",
+          "name_ar": "مرخة السفلى",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Markhah Al-Alia",
+          "name_ar": "مرخة العليا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maifa'h",
+          "name_ar": "ميفعة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Nsab",
+          "name_ar": "نصاب",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Taiz",
+      "name_ar": "تعز",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Mawiah",
+          "name_ar": "ماوية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shara'b Al-Salam",
+          "name_ar": "شرعب السلام",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shara'b Al-Rwnah",
+          "name_ar": "شرعب الرونة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Maqbana",
+          "name_ar": "مقبنة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Makhat",
+          "name_ar": "المخا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thebab",
+          "name_ar": "ذباب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mawza'",
+          "name_ar": "موزع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hobish Mounten",
+          "name_ar": "جبل حبشي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mashra'a and Hadnan",
+          "name_ar": "مشرعة وحدنان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Saber Al-Mawadim",
+          "name_ar": "صبر الموادم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Misrakh",
+          "name_ar": "المسراخ",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Khater",
+          "name_ar": "الخدير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Slow",
+          "name_ar": "الصلو",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shamaiatain",
+          "name_ar": "الشمايتين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Waz'iah",
+          "name_ar": "الوازعية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Haifan",
+          "name_ar": "حيفان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mathfar",
+          "name_ar": "المظفر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qahera",
+          "name_ar": "القاهرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Salh",
+          "name_ar": "صالة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Taiziah",
+          "name_ar": "التعزية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Ma'afer",
+          "name_ar": "المعافر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mawasit",
+          "name_ar": "المواسط",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sama'",
+          "name_ar": "سامع",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-jawf",
+      "name_ar": "الجوف",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Barat Al-enan",
+          "name_ar": "برط العنان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hazm",
+          "name_ar": "الحزم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Humaidat",
+          "name_ar": "الحميدات",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Khab and Al-Shaghf",
+          "name_ar": "خب والشغف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Kharab Al-Marashi",
+          "name_ar": "خراب المراشي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Khalg",
+          "name_ar": "الخلق",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Rjozah",
+          "name_ar": "رجوزة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Zaher",
+          "name_ar": "الزاهر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Ghail",
+          "name_ar": "الغيل",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mtoon",
+          "name_ar": "المتون",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Sallob",
+          "name_ar": "المصلوب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Matmah",
+          "name_ar": "المطمة",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Ma'rib",
+      "name_ar": "مأرب",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Badbedah",
+          "name_ar": "بدبدة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Morad Mounten",
+          "name_ar": "جبل مراد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Madghal Al-Gida'n",
+          "name_ar": "مدغل الجدعان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ma'rib City",
+          "name_ar": "مدينة مأرب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hareeb",
+          "name_ar": "حريب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hareeb Al-Qaramish",
+          "name_ar": "حريب القرامش",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Rahabah",
+          "name_ar": "رحبة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Raghwan",
+          "name_ar": "رغوان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Srwah",
+          "name_ar": "صرواح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Abdiah",
+          "name_ar": "العبدية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mahliah",
+          "name_ar": "ماهلية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Jobah",
+          "name_ar": "الجوبة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mjriz",
+          "name_ar": "مجرز",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Hadramot",
+      "name_ar": "حضرموت",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Mokalla",
+          "name_ar": "المكلاء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Thamood",
+          "name_ar": "ثمود",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qaf",
+          "name_ar": "القف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Zamakh and manookh",
+          "name_ar": "زمخ ومنوخ",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hijr",
+          "name_ar": "حجر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Moa'lla",
+          "name_ar": "المعلا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Abr",
+          "name_ar": "العبر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qatn",
+          "name_ar": "القطن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shibam",
+          "name_ar": "شبام",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Saah",
+          "name_ar": "ساه",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Say'on",
+          "name_ar": "سيئون",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Tarim",
+          "name_ar": "تريم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shoom",
+          "name_ar": "السوم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Raidah and Qusaier",
+          "name_ar": "الريدة وقصيعر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Dais",
+          "name_ar": "الديس",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shahar",
+          "name_ar": "الشحر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ghail Bin-Yameen",
+          "name_ar": "غيل بن يمين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Ghail Ba-Wazeer",
+          "name_ar": "غيل باوزير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Dawa'an",
+          "name_ar": "دوعن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Amd",
+          "name_ar": "عمد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hora and Alain Valiy",
+          "name_ar": "حورة ووادي العين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Raikhyah",
+          "name_ar": "رخية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Yaba'ath",
+          "name_ar": "يبعث",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hajar Al-Saia'ar",
+          "name_ar": "حجر الصيعر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Barom Maifa'a",
+          "name_ar": "بروم ميفع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Harithah",
+          "name_ar": "حريضة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Romah",
+          "name_ar": "رماه",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mokalla Valiges",
+          "name_ar": "أرياف المكلاء",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-Maharah",
+      "name_ar": "المهرة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Haat",
+          "name_ar": "حات",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hsween",
+          "name_ar": "حصوين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hawf",
+          "name_ar": "حوف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Syhoot",
+          "name_ar": "سيحوت",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shihin",
+          "name_ar": "شحن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Ghithah",
+          "name_ar": "الغيضة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qashn",
+          "name_ar": "قشن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Masilah",
+          "name_ar": "المسيلة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mana'ar",
+          "name_ar": "منعر",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-Dhala'a",
+      "name_ar": "الضالع",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Azariq",
+          "name_ar": "الأزارق",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hasha",
+          "name_ar": "الحشاء",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hosain",
+          "name_ar": "الحصين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Moalla",
+          "name_ar": "المعلا",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Shoaib",
+          "name_ar": "الشعيب",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Dhala'a City",
+          "name_ar": "مدينة الضالع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Joban",
+          "name_ar": "جبن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Jehaf",
+          "name_ar": "جحاف",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Damt",
+          "name_ar": "دمت",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Qataba",
+          "name_ar": "قعطبة",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Al-Mahweet",
+      "name_ar": "المحويت",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Melhan",
+          "name_ar": "ملحان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Khabt",
+          "name_ar": "الخبت",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Tawilah",
+          "name_ar": "الطويلة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Bni Saad",
+          "name_ar": "بني سعد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Rojom",
+          "name_ar": "الرجم",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mahweet City",
+          "name_ar": "مدينة المحويت",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Shibam Kawkaban",
+          "name_ar": "شبام كوكبان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hofash",
+          "name_ar": "حفاش",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Lahj",
+      "name_ar": "لحج",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Al-Had",
+          "name_ar": "الحد",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Hotah",
+          "name_ar": "الحوطة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Qobaitah",
+          "name_ar": "القبيطة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Mosaimeer",
+          "name_ar": "المسيمير",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Madharaba and Al-Ma'ara",
+          "name_ar": "المضاربة والمعارة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Meflhi",
+          "name_ar": "المفلحي",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Maqatirah",
+          "name_ar": "المقاطرة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Milah",
+          "name_ar": "الملاح",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Tbn",
+          "name_ar": "تبن",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Halimain",
+          "name_ar": "حالمين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Hobail Jabr",
+          "name_ar": "حبيل جبر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Radfan",
+          "name_ar": "ردفان",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Toor Al-Baha",
+          "name_ar": "طور الباحة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Yafei",
+          "name_ar": "يافع",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Yaher",
+          "name_ar": "يهر",
+          "polygon": "123456"
+        }
+      ]
+    },
+    {
+      "name_en": "Raimah",
+      "name_ar": "ريمة",
+      "polygon": "123456",
+      "Cities": [
+        {
+          "name_en": "Bilad Al-Ta'am",
+          "name_ar": "بلاد الطعام",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Salafiah",
+          "name_ar": "السلفية",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-Jobain",
+          "name_ar": "الجبين",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Mazhar",
+          "name_ar": "مزهر",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Kosmah",
+          "name_ar": "كسمة",
+          "polygon": "123456"
+        },
+        {
+          "name_en": "Al-jafaria",
+          "name_ar": "الجعفرية",
+          "polygon": "123456"
+        }
+      ]
+    }
+  ]
+}
