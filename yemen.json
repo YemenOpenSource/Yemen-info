@@ -40,12 +40,12 @@
 	"longitude": "48.00000000",
 	"emoji": "🇾🇪",
 	"emojiU": "U+1F1FE U+1F1EA",
-	"Governorates": [
+	"governorates": [
 		{
 			"name_en": "Amant Al-Asmah",
 			"name_ar": "أمانة العاصمة",
 			"polygon": "",
-			"Cities": [
+			"cities": [
 				{
 					"name_en": "Sana'a Alqdimah",
 					"name_ar": "صنعاء القديمة",

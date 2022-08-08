@@ -66,7 +66,17 @@ def add_all_yemeni_names_to_custom_dictionary():
     json_file = read_json_file('./yemen.json')
     # TODO
 
+def add_tashkeel_to_governorates_and_cities():
+    json_file = read_json_file('./yemen.json')
+    # TODO
+    # loop around every governorate and add name_ar_tashkeel
+    for gov in json_file['governorates']:
+        print(gov)
+
+
+    # and loop around every city and add name_ar_tashkeel
+
 ################################
 # Using Functions
 ################################
-sort_json_by_city_name('./yemen.json')
+add_tashkeel_to_governorates_and_cities()
