@@ -12,4 +12,6 @@ We can learn a lot from [this project](https://github.com/dr5hn/countries-states
 - [ ] add descriptive and better Readme file
 - [ ] Add general information about Yemen (area, location, etc)
 - [ ] add phone code / car code for every city
+- [ ] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/ governance's names
+- [ ] add automatic script to add all cities/governance's names to cspell dictionary
 
