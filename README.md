@@ -1,14 +1,14 @@
 # Yemen-info
-Here is Json file for the most information for Yemen programmatically 
+Here is Json file for the most information for Yemen programmatically
 
 
 ## TODO
-We can learn alot from [this project](https://github.com/dr5hn/countries-states-cities-database)
-1. Add tashkeel in addition to Arabic names
-2. Add polygon for map coordinates
-3. check more for the correctectence
-4. add script to convert json file automatecally to: csv, SQLite, and other usefult formats
-5. add desctiptive and better Readme file
-6. Add general information about Yemen (area, location, etc)
-7. add phone code / car code for every city
+We can learn a lot from [this project](https://github.com/dr5hn/countries-states-cities-database)
+- [] Add Tashkeel in addition to Arabic names
+- [] Add polygon for map coordinates
+- [] check more for the correctness of the information
+- [] add script to convert json file automatically to: csv, SQLite, and other useful formats
+- [] add descriptive and better Readme file
+- [] Add general information about Yemen (area, location, etc)
+- [] add phone code / car code for every city
 
