@@ -1827,6 +1827,24 @@
           "polygon": ""
         }
       ]
+    },
+    ,
+    {
+      "name_en": "Socotra",
+      "name_ar": "سقطرى",
+      "polygon": "",
+      "Cities": [
+        {
+          "name_en": "Hadibu",
+          "name_ar": "حديبو ",
+          "polygon": ""
+        },
+        {
+          "name_en": "Qalansiyah and Abd al Kuri",
+          "name_ar": "قلنسيه وعبد الكوري",
+          "polygon": ""
+        }
+      ]
     }
   ]
 }
