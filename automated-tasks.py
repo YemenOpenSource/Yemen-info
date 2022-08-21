@@ -1,6 +1,10 @@
+from ast import parse
 from codecs import ascii_encode
 import json
 import pprint
+from collections import defaultdict
+import pyarabic.araby as araby
+import pyarabic.number as number
 
 ################################
 # Define Functions
@@ -99,55 +103,26 @@ def get_all_governorates_cities_name_ar_tashkeel():
     write_json_file('./yemen3.json', {'governorates': gov_names, 'cities': cities_names})
 
 
-def change_after_google_sheet_to_json():
+def add_id_for_each_item():
+    json_file = read_json_file('./yemen.json')
 
-    json_file = read_json_file('./correct_gov_needs_format.json')
+    # convert this code to python
+    # for (let i = 0; i < yemen.length; i++) {
+    #     yemen[i].id = i;
+    #     for (let j = 0; j < yemen[i].districts.length; j++) {
+    #         yemen[i].districts[j].id = j;
+    #     }
+    # }
 
-    for gov in json_file:
-        # if there is governorates__name_en
-        # add inner obj for cities
+    for (i, gov) in enumerate(json_file['governorates']):
+        gov['id'] = int(i)
+        for (j, city) in enumerate(gov['districts']):
+            city['id'] = int(j)
 
-        # if 'ct'
-        # gov['cities'] = []
-        # if 'governorates__name_en' in gov:
-        #     gov['cities'] = [
-        #         {
-        #             'name_en': gov['governorates__cities__name_en'],
-        #             'name_ar': gov['governorates__cities__name_ar'],
-        #             'name_ar_tashkeel': gov['governorates__cities__name_ar_tashkeel']
-        #         }
-        #     ]
-        #     # remove governorates__name_en
-        #     del gov['governorates__cities__name_en']
-        #     del gov['governorates__cities__name_ar']
-        #     del gov['governorates__cities__name_ar_tashkeel']
-
-        # if there is no governorates__name_en
-        # add this object to the previous cities array
-            # go back until you find object with governorates__name_en
-            # add this object to the previous cities array
-
-
-
-        # if 'governorates__cities__name_en' in gov:
-            # gov['cities'].append({'name_en': gov[s
-
-            # gov['cities'].append(
-            #     {
-            #         'name_en': gov['governorates__cities__name_en'],
-            #         'name_ar': gov['governorates__cities__name_ar'],
-            #         'name_ar_tashkeel': gov['governorates__cities__name_ar_tashkeel']
-            #     }
-            # )
-
-            # del gov['governorates__cities__name_en']
-            # del gov['governorates__cities__name_ar']
-            # del gov['governorates__cities__name_ar_tashkeel']
-
-    write_json_file('./correct2.json', json_file)
+    write_json_file('./output.json', json_file)
 
 
 ################################
 # Using Functions
 ################################
-change_after_google_sheet_to_json()
+add_id_for_each_item()

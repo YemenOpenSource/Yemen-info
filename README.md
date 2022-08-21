@@ -1,35 +1,38 @@
 # Yemen-info
 
-Here is Json file for the most information for Yemen programmatically
+Here is JSON file for the most information for Yemen programmatically.
 
 ## TODO
 
 We can learn a lot from [this project](https://github.com/dr5hn/countries-states-cities-database)
 
 - [ x ] Add Tashkeel in addition to Arabic names. we can use these automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
+- [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
+- [ ] add descriptive and better Readme file.
+- [ x ] add phone code code for every city.
+- [ x ] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names.
+- [ ] add automatic script to add all cities/governance's names to cspell dictionary.
+- [ ] add an id for every governance and districts.
+- [ ] order governance/districts by name.
+- [ ] add capital districts for every governance.
+- [ ] add text_normalization for every governance/districts in both Arabic and English.
+## Later On Future
+
+This list for todos that are not in our scope now, but if we have time and resources we may do it, or we can do it separately in another repo.
+
 - [ ] Add polygon for map coordinates
-- [ ] Add latitude and longitude for map coordinates in governance / cities centers
-- [ ] add script to convert json file automatically to: csv, SQLite, and other useful formats
-- [ ] add descriptive and better Readme file
-- [ ] Add general information about Yemen (area, location, etc)
-- [ ] add phone code / car code for every city
-- [ ] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/ governance's names
-- [ ] add automatic script to add all cities/governance's names to cspell dictionary
-
-- [ ] add useful and joyful JS map like [this](https://yemenlg.org/ar/)
-
-- [ ] add more info links /  and backup link to the same site in Archive.org links from these websites:
-    1. https://yemen-nic.info/
-    2. https://yemenlg.org/ar/resources-by-governorate/
-- [ ] add id for every city/governance
-
-- [] numbers phone prefix
-    https://sites.google.com/site/yemenfonweb/keyyecty
-    https://ar.wikipedia.org/wiki/%D8%A3%D8%B1%D9%82%D8%A7%D9%85_%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81_%D9%81%D9%8A_%D8%A7%D9%84%D9%8A%D9%85%D9%86
-
-- Yemen cars prefex
-    https://ye.opensooq.com/ar/%D8%B5%D9%86%D8%B9%D8%A7%D8%A1/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA/%D9%84%D9%88%D8%AD%D8%A7%D8%AA-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9
+- [ ] Add latitude and longitude for map coordinates in governance / districts centers.
+- [ ] add useful and joyful JS map like [this](https://yemenlg.org/ar/).
 
 ## Resources
-- [Yemen](https://en.wikipedia.org/wiki/Yemen)
+
+some resources that helped us to build this project:
+
 - [modaqiq](https://dictionary.alc.ae/modaqiq) for automatic Tashkeel and spell checker
+- https://github.com/dr5hn/countries-states-cities-database
+- https://yemen-nic.info/
+- https://yemenlg.org/ar/resources-by-governorate/
+
+# Thanks
+
+here are list for people who helped us to build this project with information, but didn't contribute directly to the repository, you can find the contributors on the [Github page]()
