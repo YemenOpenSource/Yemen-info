@@ -12,9 +12,8 @@ We can learn a lot from [this project](https://github.com/dr5hn/countries-states
 - [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
 - [ ] add descriptive and better Readme file.
 - [ ] add another Arabic Readme file beside the English Readme.
-- [ ] add automatic script to add all cities/governance's names to cspell dictionary.
 - [ ] add an id for every governance and districts.
-- [ ] order governance/districts by name.
+- [ ] sort governance/districts by name.
 - [ ] add capital districts for every governance.
 - [ ] add text_normalization for every governance/districts in both Arabic and English.
 
