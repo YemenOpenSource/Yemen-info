@@ -8,7 +8,7 @@ We can learn a lot from [this project](https://github.com/dr5hn/countries-states
 
 - [x] Add Tashkeel in addition to Arabic names. we can use these automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
 - [x] add phone code code for every city.
-- [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here] you can find it and copy the text and paste it in any text editor that have the fuctionality of spelling dictionary and the user dictionary, like Micrtosoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extention on VS Code.
+- [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here] you can find it and copy the text and paste it in any text editor that have the functionality of spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 - [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
 - [ ] add descriptive and better Readme file.
 - [ ] add another Arabic Readme file beside the English Readme.
@@ -30,7 +30,7 @@ This list for todos that are not in our scope now, but if we have time and resou
 
 some resources that helped us to build this project:
 
-- [modaqiq](https://dictionary.alc.ae/modaqiq) for automatic Tashkeel and spell checker
+- [Modaqiq](https://dictionary.alc.ae/modaqiq) for automatic Tashkeel and spell checker
 - [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database)
 - [Yemen Information Center](https://yemen-nic.info/)
 - [Local Governance in Yemen](https://yemenlg.org/ar/resources-by-governorate/)
