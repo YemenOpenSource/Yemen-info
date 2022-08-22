@@ -115,9 +115,8 @@ def add_id_for_each_item():
     # }
 
     for (i, gov) in enumerate(json_file['governorates']):
-        gov['id'] = int(i)
         for (j, city) in enumerate(gov['districts']):
-            city['id'] = int(j)
+            city['id'] = int(j+1)
 
     write_json_file('./output.json', json_file)
 
