@@ -49,6 +49,8 @@
 			"name_ar": "أمانة العاصمة",
 			"name_ar_tashkeel": "أَمانَة العاصِمَةِ",
 			"phone_numbering_plan": "01",
+			"capital_name_ar": "",
+			"capital_name_en": "",
 			"districts": [
 				{
 					"id": 1,
@@ -118,6 +120,8 @@
 			"name_ar": "صنعاء",
 			"name_ar_tashkeel": "صَنْعاء",
 			"phone_numbering_plan": "01",
+			"capital_name_ar": "",
+			"capital_name_en": "",
 			"districts": [
 				{
 					"id": 1,
@@ -223,6 +227,8 @@
 			"name_ar": "عدن",
 			"name_ar_tashkeel": "عَدَن",
 			"phone_numbering_plan": "02",
+			"capital_name_ar": "",
+			"capital_name_en": "",
 			"districts": [
 				{
 					"id": 1,
@@ -280,6 +286,8 @@
 			"name_ar": "الحديدة",
 			"name_ar_tashkeel": "الحُدَيْدَة",
 			"phone_numbering_plan": "03",
+			"capital_name_ar": "مدينة الحديدة",
+			"capital_name_en": "Al-Hodeidah City",
 			"districts": [
 				{
 					"id": 1,
@@ -445,6 +453,8 @@
 			"name_ar": "ذمار",
 			"name_ar_tashkeel": "ذَمَار",
 			"phone_numbering_plan": "06",
+			"capital_name_ar": "مدينة ذمار",
+			"capital_name_en": "Thamar City",
 			"districts": [
 				{
 					"id": 1,
@@ -526,6 +536,8 @@
 			"name_ar": "عمران",
 			"name_ar_tashkeel": "عَمْران",
 			"phone_numbering_plan": "07",
+			"capital_name_ar": "مدينة عمران",
+			"capital_name_en": "Amran City",
 			"districts": [
 				{
 					"id": 1,
@@ -655,6 +667,8 @@
 			"name_ar": "حجة",
 			"name_ar_tashkeel": "حَجَّة",
 			"phone_numbering_plan": "07",
+			"capital_name_ar": "مدينة حجة",
+			"capital_name_en": "Hajjah City",
 			"districts": [
 				{
 					"id": 1,
@@ -850,6 +864,8 @@
 			"name_ar": "إب",
 			"name_ar_tashkeel": "إِبْ",
 			"phone_numbering_plan": "04",
+			"capital_name_ar": "مدينة إب",
+			"capital_name_en": "Ibb City",
 			"districts": [
 				{
 					"id": 1,
@@ -979,6 +995,8 @@
 			"name_ar": "صعدة",
 			"name_ar_tashkeel": "صَعْدَة",
 			"phone_numbering_plan": "07",
+			"capital_name_ar": "مدينة صعدة",
+			"capital_name_en": "Sa'dah City",
 			"districts": [
 				{
 					"id": 1,
@@ -1078,6 +1096,8 @@
 			"name_ar": "البيضاء",
 			"name_ar_tashkeel": "البَيْضَاء",
 			"phone_numbering_plan": "06",
+			"capital_name_ar": "مدينة البيضاء",
+			"capital_name_en": "Al-Baidha City",
 			"districts": [
 				{
 					"id": 1,
@@ -1207,6 +1227,8 @@
 			"name_ar": "شبوة",
 			"name_ar_tashkeel": "شَبْوَة",
 			"phone_numbering_plan": "05",
+			"capital_name_ar": "عتق",
+			"capital_name_en": "Ataq",
 			"districts": [
 				{
 					"id": 1,
@@ -1318,6 +1340,8 @@
 			"name_ar": "تعز",
 			"name_ar_tashkeel": "تَعِز",
 			"phone_numbering_plan": "04",
+			"capital_name_ar": "مدينة تعز",
+			"capital_name_en": "Taiz City",
 			"districts": [
 				{
 					"id": 1,
@@ -1465,6 +1489,8 @@
 			"name_ar": "الجوف",
 			"name_ar_tashkeel": "الجَوْف",
 			"phone_numbering_plan": "06",
+			"capital_name_ar": "الحزم",
+			"capital_name_en": "Al-Hazm",
 			"districts": [
 				{
 					"id": 1,
@@ -1546,6 +1572,8 @@
 			"name_ar": "مأرب",
 			"name_ar_tashkeel": "مَأْرِب",
 			"phone_numbering_plan": "06",
+			"capital_name_ar": "مدينة مأرب",
+			"capital_name_en": "Ma'rib City",
 			"districts": [
 				{
 					"id": 1,
@@ -1639,6 +1667,8 @@
 			"name_ar": "حضرموت",
 			"name_ar_tashkeel": "حَضْرَمَوْت",
 			"phone_numbering_plan": "05",
+			"capital_name_ar": "المكلا",
+			"capital_name_en": "Al-Mokalla",
 			"districts": [
 				{
 					"id": 1,
@@ -1810,6 +1840,8 @@
 			"name_ar": "المهرة",
 			"name_ar_tashkeel": "المَهَرَة",
 			"phone_numbering_plan": "05",
+			"capital_name_ar": "الغيضة",
+			"capital_name_en": "Al-Ghaidhah",
 			"districts": [
 				{
 					"id": 1,
@@ -1873,6 +1905,8 @@
 			"name_ar": "الضالع",
 			"name_ar_tashkeel": "الضَّالِع",
 			"phone_numbering_plan": "02",
+			"capital_name_ar": "مدينة الضالع",
+			"capital_name_en": "Al-Dhale' City",
 			"districts": [
 				{
 					"id": 1,
@@ -1936,6 +1970,8 @@
 			"name_ar": "المحويت",
 			"name_ar_tashkeel": "المَحْوِيْت",
 			"phone_numbering_plan": "07",
+			"capital_name_ar": "مدينة المحويت",
+			"capital_name_en": "Al-Mahweet City",
 			"districts": [
 				{
 					"id": 1,
@@ -1999,6 +2035,8 @@
 			"name_ar": "لحج",
 			"name_ar_tashkeel": "لَحْج",
 			"phone_numbering_plan": "02",
+			"capital_name_ar": "الحوطة",
+			"capital_name_en": "Al-Hotah",
 			"districts": [
 				{
 					"id": 1,
@@ -2098,6 +2136,8 @@
 			"name_ar": "ريمة",
 			"name_ar_tashkeel": "رَيْمَة",
 			"phone_numbering_plan": "03",
+			"capital_name_ar": "الجبين",
+			"capital_name_en": "Al-Jabeen",
 			"districts": [
 				{
 					"id": 1,
@@ -2113,7 +2153,7 @@
 				},
 				{
 					"id": 3,
-					"name_en": "Al-Jobain",
+					"name_en": "Al-Jabeen",
 					"name_ar": "الجبين",
 					"name_ar_tashkeel": "الجَبِيْن"
 				},
@@ -2143,6 +2183,8 @@
 			"name_ar": "سقطرى",
 			"name_ar_tashkeel": "سُقَطْرَى",
 			"phone_numbering_plan": "05",
+			"capital_name_ar": "حديبو",
+			"capital_name_en": "Hadibu",
 			"districts": [
 				{
 					"id": 1,
@@ -2164,6 +2206,8 @@
 			"name_ar": "أبين",
 			"name_ar_tashkeel": "أَبْيَن",
 			"phone_numbering_plan": "02",
+			"capital_name_ar": "زنجبار",
+			"capital_name_en": "Zunjubar",
 			"districts": [
 				{
 					"id": 1,

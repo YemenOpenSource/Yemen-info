@@ -1,19 +1,33 @@
 # Yemen-info
 
-Here is JSON file for the most information for Yemen programmatically.
+Here is some files for the most important information for Yemen programmatically. We have information about Yemeni governance, and districts with both Arabic and English languages.
+The Arabic names are introduced with many forms: with Tashkeel, without it, and as a normalized text.
+The English names are provided as close as possible to the Arabic name, and we have another format as a normalized text. These normalized text are very useful for searching in the web or mobile applications.
 
+## Why?
+
+Many governments have open data centers with incredible amount of information that are very useful for programmers, data scientists, and any researchers. Unfortunately, we don't have something like this so we decided to build it ourselves.
+For example, a simple question as: "What are the governance and districts of Yemen with the right pronunciation" is not answerable because the lack of information.
+
+## Methodology and Notes
+- Capital district are chosen for every governance except: Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorate.
+- We have dont our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistake you are sure about, we are more than welcome to correct it.
+- We have done our research in August, 2022. So, if our information is outdated that because the changes in the governance and districts, and we hope to update this repo with the latest information.
+- We have chosen the Fusha pronunciation over some local pronunciation in the Tashkeel.
+
+## How to use it
+// TODO
 ## TODO
 
 - [x] Add Tashkeel in addition to Arabic names. we can use these automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
 - [x] add phone code code for every city.
 - [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it in any text editor that have the functionality of spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 - [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
-- [ ] add descriptive and better Readme file.
-- [ ] add another Arabic Readme file beside the English Readme.
-- [ ] add an id for every governance and districts.
-- [ ] sort governance/districts by name.
-- [ ] add capital districts for every governance.
+- [x] add an id for every governance and districts.
+- [ ] sort governance/districts by name (ar or english).
+- [x] add capital districts for every governance.
 - [ ] add text_normalization for every governance/districts in both Arabic and English.
+- [ ] add descriptive and better Readme file with different Arabic Readme.
 
 ## Later On Future
 
@@ -27,11 +41,12 @@ This list for todos that are not in our scope now, but if we have time and resou
 
 some resources that helped us to build this project:
 
-- [Modaqiq](https://dictionary.alc.ae/modaqiq) for automatic Tashkeel and spell checker
+- [Modaqiq](https://dictionary.alc.ae/modaqiq) used for automatic Tashkeel before we checked it ourselves.
 - [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database)
-- [Yemen Information Center](https://yemen-nic.info/)
 - [Local Governance in Yemen](https://yemenlg.org/ar/resources-by-governorate/)
+- [Yemen Information Center](https://yemen-nic.info/)
 - [PyArabic Python library](https://github.com/linuxscout/pyarabic)
+- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp)
 
 # Thanks
 
