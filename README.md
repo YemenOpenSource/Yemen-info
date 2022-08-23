@@ -24,7 +24,7 @@ For example, a simple question as: "What are the governance and districts of Yem
 - [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it in any text editor that have the functionality of spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 - [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
 - [x] add an id for every governance and districts.
-- [ ] sort governance/districts by name (ar or english).
+- [ ] sort governance/districts by name (Arabic or English).
 - [x] add capital districts for every governance.
 - [ ] add text_normalization for every governance/districts in both Arabic and English.
 - [ ] add descriptive and better Readme file with different Arabic Readme.
