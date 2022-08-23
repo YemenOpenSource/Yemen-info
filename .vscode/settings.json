@@ -1,0 +1,18 @@
+{
+    "python.formatting.provider": "yapf",
+    "cSpell.words": [
+        "Fusha",
+        "Iémen",
+        "Iêmen",
+        "Jemen",
+        "Yémen"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Yemen-info}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

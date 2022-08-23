@@ -29,11 +29,11 @@ def remove_duplication():
 
 def sort_json_by_governorate_name(file_path):
     json_data = read_json_file(file_path)
-    workflows = json_data["Governorates"]
+    workflows = json_data["governorates"]
 
     sorted_data = sorted(workflows, key=lambda d: d["name_en"])
 
-    write_json_file(file_path, sorted_data)  # TODO keep the original structure like "Governorates"
+    write_json_file('output.json', sorted_data)  # TODO keep the original structure like "Governorates"
     # TODO
     return 'Complete sorting by `governorate name_en` name'
 
@@ -124,4 +124,4 @@ def add_id_for_each_item():
 ################################
 # Using Functions
 ################################
-add_id_for_each_item()
+sort_json_by_governorate_name('./yemen.json')
