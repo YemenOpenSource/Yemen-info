@@ -27,11 +27,11 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 - [x] Add Tashkeel in addition to Arabic names. we can use these automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
 - [x] add phone code code for every city.
 - [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it in any text editor that have the functionality of spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
-- [ ] add script to convert json file automatically to: CSV, SQLite, YAML and other useful formats.
 - [x] add an id for every governance and districts.
 - [x] add capital districts for every governance.
 - [ ] add text_normalization for every governance/districts in both Arabic and English.
 - [ ] sort governance/districts by name (Arabic or English).
+- [ ] add script to convert json file automatically to: CSV, XML, YAML, and SQL formats.
 
 ## Later On Future
 
