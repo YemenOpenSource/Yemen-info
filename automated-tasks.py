@@ -5,6 +5,8 @@ import pprint
 from collections import defaultdict
 import pyarabic.araby as araby
 import pyarabic.number as number
+from collections import OrderedDict
+from operator import getitem
 
 ################################
 # Define Functions
@@ -43,8 +45,16 @@ def sort_governorates_by_name_ar(file_path):
     return 'Complete sorting by `governorate name_en` name'
 
 
-def sort_governorate_cities_by_name_en(file_path):
-    return 'Complete sorting by `governorate name_en` name'
+def sort_governorate_districts_by_name_en(file_path):
+    json_data = read_json_file(file_path)
+
+    districts = json_data["districts"]
+
+    sorted_data = sorted(districts, key=lambda d: d["name_en"])
+
+    write_json_file('output2.json', sorted_data)
+
+    return 'Complete..'
 
 
 def sort_governorate_cities_by_name_ar(file_path):
@@ -106,14 +116,6 @@ def get_all_governorates_cities_name_ar_tashkeel():
 def add_id_for_each_item():
     json_file = read_json_file('./yemen.json')
 
-    # convert this code to python
-    # for (let i = 0; i < yemen.length; i++) {
-    #     yemen[i].id = i;
-    #     for (let j = 0; j < yemen[i].districts.length; j++) {
-    #         yemen[i].districts[j].id = j;
-    #     }
-    # }
-
     for (i, gov) in enumerate(json_file['governorates']):
         for (j, city) in enumerate(gov['districts']):
             city['id'] = int(j+1)
@@ -121,7 +123,11 @@ def add_id_for_each_item():
     write_json_file('./output.json', json_file)
 
 
+
+
 ################################
 # Using Functions
 ################################
-sort_json_by_governorate_name('./yemen.json')
+# sort_json_by_governorate_name('./yemen.json')
+# sort_json_by_districts_name('./yemen.json)
+sort_governorate_districts_by_name_en('./output.json')
