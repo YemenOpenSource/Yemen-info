@@ -12,10 +12,21 @@ This repository will help. Yes a little, it is helpful!
 
 ## Methodology and Notes
 
-- Capital Districts are chosen for every governance except Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorate.
+- Capital Districts are chosen for every governance except Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorate. If there is a match between the name of the governance capital and one of the district, that make this district the capital. Sometimes Capital has a suffix "City", and that doesn't affect that it the capital in the districts. For example: Amran capital is "Amran City", and one of the districts is called "Amran", They are the same thing. So Why we didn't add "City" to the districts as well? because we are strictly stick to the official documents.
+
+- We choose to put the capital name underneath the governance directly to make it easier to grab the information and because some governance do not have capital as we mentioned above.
+
 - We have done our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistakes you are sure about, we are more than welcome to correct them.
+
 - We have done our research in August 2022. So, if our information is outdated because of the changes in the governance and districts, we hope to update this repo with the latest information.
+
 - We have chosen the Fusha pronunciation over some local pronunciations in the Tashkeel.
+
+- Our Arabic Tashkeel is the ultimate way of pronunciation. If the English version contrasts with the Arabic version, the Arabic version is probably the correct pronunciation, and, as always, if you are sure about more correct pronunciation, tell us to fix it.
+
+- In the English version of the governance/districts we chose to Add **Al** as a representative of "أل التعريف" in Arabic, because we think that this prefix is identifier and we can remove it in different contexts when we are talking about the governance/districts. For example make the Arabic version of "التحرير" district is: "Al-Tahrir" instead of "At Tahrir" which some people/organizations prefer. We prefer the first version. If you prefer the second version of naming governance/districts in English, you may check [this website](https://yemenlg.org/governorates/).
+
+- Wa made a normalized version for every governance and district. Out methodology in Arabic text is by using [Ar-PHP](https://ar-php.org/github/examples/standard.php) algorithms for Arabic text normalization. For English text we have made to changes to the text: 1. remove apostrophes ('), 2. replace dashes (-) with one blank space. All of this text normalization we made to help better results when searching either in Arabic or English.
 
 ## How to use it
 
@@ -23,15 +34,14 @@ Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yem
 
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it.
 
-## TODO
+## TODO // TODO will change this later to feature
 
 - [x] Add Tashkeel in addition to Arabic names. we can use this automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
 - [x] add phone code for every city.
 - [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 - [x] add an id for every governance and district.
 - [x] add capital districts for every governance.
-- [ ] add text_normalization for every governance/districts in both Arabic and English.
-- [ ] sort governance/districts by name (Arabic or English).
+- [x] add text_normalization for every governance/districts in both Arabic and English.
 - [ ] add script to convert json file automatically to: CSV, XML, YAML, and SQL formats.
 
 ## Later On Future
@@ -47,11 +57,11 @@ This list is for todos that are not in our scope now, but if we have time and re
 some resources that helped us to build this project:
 
 - [Modaqiq](https://dictionary.alc.ae/modaqiq) was used for automatic Tashkeel before we checked it ourselves.
-- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database)
-- [Local Governance in Yemen](https://yemenlg.org/ar/resources-by-governorate/)
-- [Yemen Information Center](https://yemen-nic.info/)
-- [PyArabic Python library](https://github.com/linuxscout/pyarabic)
-- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp)
+- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) helped us with the general information about Yemen.
+- [Local Governance in Yemen](https://yemenlg.org/ar/%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%81%d8%b8%d8%a7%d8%aa/) helped with data about districts within every governance, with English version of governance and districts names.
+- [Yemen Information Center](https://yemen-nic.info/yemen/gover/) helped besides the previous resource.
+- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) Was used to know every governance capital.
+- [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) was used to text normalized all districts and governance. Thanks Eng. [Khaled Alshamaa](https://github.com/khaled-alshamaa).
 
 # Thanks
 

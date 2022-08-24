@@ -105,6 +105,7 @@ Humaidat
 Huridhah
 ja'faria
 Jabal
+Jabeen
 Jabr
 Jamimah
 Jardan
@@ -222,7 +223,6 @@ Nati
 Nesab
 Nihm
 Odain
-Jabeen
 Olia
 Osailan
 Otmah
@@ -269,8 +269,10 @@ Rumah
 Rusud
 Sa'eed
 Saad
+sabe'en
 Sabrah
 Saddah
+safiah
 Safil
 Safra'a
 Sahar
@@ -344,6 +346,7 @@ Wadhi
 Waz'iah
 Wazeer
 Wdhrah
+Wehdah
 Wishhah
 Wosab
 Yabo'th

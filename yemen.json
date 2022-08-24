@@ -51,66 +51,88 @@
 			"phone_numbering_plan": "01",
 			"capital_name_ar": "",
 			"capital_name_en": "",
+			"name_ar_normalized": "امانه العاصمه",
+			"name_en_normalized": "Amant Al Asmah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Sana'a Alqdimah",
 					"name_ar": "صنعاء القديمة",
-					"name_ar_tashkeel": "صَنْعاء القَدِيمَة"
+					"name_ar_tashkeel": "صَنْعاء القَدِيمَة",
+					"name_ar_normalized": "صنعاء القديمه",
+					"name_en_normalized": "Sanaa Alqdimah"
 				},
 				{
 					"id": 2,
 					"name_en": "Azal",
 					"name_ar": "آزَاْل",
-					"name_ar_tashkeel": "آزَاْل"
+					"name_ar_tashkeel": "آزَاْل",
+					"name_ar_normalized": "ازال",
+					"name_en_normalized": "Azal"
 				},
 				{
 					"id": 3,
-					"name_en": "Alsafiah",
-					"name_ar": "الصَّافِيَة",
-					"name_ar_tashkeel": "الصَّافِيَة"
+					"name_en": "Al-Safiah",
+					"name_ar": "الصافية",
+					"name_ar_tashkeel": "الصَّافِيَة",
+					"name_ar_normalized": "الصافيه",
+					"name_en_normalized": "Al Safiah"
 				},
 				{
 					"id": 4,
-					"name_en": "Alsabe'en",
+					"name_en": "Al-Sabe'en",
 					"name_ar": "السبعين",
-					"name_ar_tashkeel": "السَّبْعِين"
+					"name_ar_tashkeel": "السَّبْعِين",
+					"name_ar_normalized": "السبعين",
+					"name_en_normalized": "Al Sabeen"
 				},
 				{
 					"id": 5,
 					"name_en": "Sh'oob",
 					"name_ar": "شعوب",
-					"name_ar_tashkeel": "شُعُوْب"
+					"name_ar_tashkeel": "شُعُوْب",
+					"name_ar_normalized": "شعوب",
+					"name_en_normalized": "Shoob"
 				},
 				{
 					"id": 6,
-					"name_en": "Alwehdah",
+					"name_en": "Al-Wehdah",
 					"name_ar": "الوحدة",
-					"name_ar_tashkeel": "الوِحْدَة"
+					"name_ar_tashkeel": "الوِحْدَة",
+					"name_ar_normalized": "الوحده",
+					"name_en_normalized": "Al Wehdah"
 				},
 				{
 					"id": 7,
 					"name_en": "Al-Tahrir",
 					"name_ar": "التحرير",
-					"name_ar_tashkeel": "التَّحْرِير"
+					"name_ar_tashkeel": "التَّحْرِير",
+					"name_ar_normalized": "التحرير",
+					"name_en_normalized": "Al Tahrir"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Thowarah",
 					"name_ar": "الثورة",
-					"name_ar_tashkeel": "الثَّوْرَة"
+					"name_ar_tashkeel": "الثَّوْرَة",
+					"name_ar_normalized": "الثوره",
+					"name_en_normalized": "Al Thowarah"
 				},
 				{
 					"id": 9,
 					"name_en": "Maeen",
 					"name_ar": "معين",
-					"name_ar_tashkeel": "مَعَيْن"
+					"name_ar_tashkeel": "مَعَيْن",
+					"name_ar_normalized": "معين",
+					"name_en_normalized": "Maeen"
 				},
 				{
 					"id": 10,
 					"name_en": "Bni Al-Harith",
 					"name_ar": "بني الحارث",
-					"name_ar_tashkeel": "بَنِيْ الحَارِث"
+					"name_ar_tashkeel": "بَنِيْ الحَارِث",
+					"name_ar_normalized": "بني الحارث",
+					"name_en_normalized": "Bni Al Harith"
 				}
 			]
 		},
@@ -122,102 +144,136 @@
 			"phone_numbering_plan": "01",
 			"capital_name_ar": "",
 			"capital_name_en": "",
+			"name_ar_normalized": "صنعاء",
+			"name_en_normalized": "Sanaa",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Hamdan",
 					"name_ar": "همدان",
-					"name_ar_tashkeel": "هَمْدَان"
+					"name_ar_tashkeel": "هَمْدَان",
+					"name_ar_normalized": "همدان",
+					"name_en_normalized": "Hamdan"
 				},
 				{
 					"id": 2,
 					"name_en": "Arhab",
 					"name_ar": "أرحب",
-					"name_ar_tashkeel": "أَرْحَب"
+					"name_ar_tashkeel": "أَرْحَب",
+					"name_ar_normalized": "ارحب",
+					"name_en_normalized": "Arhab"
 				},
 				{
 					"id": 3,
 					"name_en": "Jihanah",
 					"name_ar": "جحانة",
-					"name_ar_tashkeel": "جِحانْة"
+					"name_ar_tashkeel": "جِحانْة",
+					"name_ar_normalized": "جحانه",
+					"name_en_normalized": "Jihanah"
 				},
 				{
 					"id": 4,
 					"name_en": "Bilad AL-Roos",
 					"name_ar": "بلاد الروس",
-					"name_ar_tashkeel": "بِلَاد الرُّوْس"
+					"name_ar_tashkeel": "بِلَاد الرُّوْس",
+					"name_ar_normalized": "بلاد الروس",
+					"name_en_normalized": "Bilad AL Roos"
 				},
 				{
 					"id": 5,
 					"name_en": "Sanhan",
 					"name_ar": "سنحان",
-					"name_ar_tashkeel": "سَنْحَان"
+					"name_ar_tashkeel": "سَنْحَان",
+					"name_ar_normalized": "سنحان",
+					"name_en_normalized": "Sanhan"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Hisn",
 					"name_ar": "الحصن",
-					"name_ar_tashkeel": "الحِصْن"
+					"name_ar_tashkeel": "الحِصْن",
+					"name_ar_normalized": "الحصن",
+					"name_en_normalized": "Al Hisn"
 				},
 				{
 					"id": 7,
 					"name_en": "Sa'fan",
 					"name_ar": "صعفان",
-					"name_ar_tashkeel": "صَعْفان"
+					"name_ar_tashkeel": "صَعْفان",
+					"name_ar_normalized": "صعفان",
+					"name_en_normalized": "Safan"
 				},
 				{
 					"id": 8,
 					"name_en": "Bni Hishaish",
 					"name_ar": "بني حشيش",
-					"name_ar_tashkeel": "بَنِي حِشِيْش"
+					"name_ar_tashkeel": "بَنِي حِشِيْش",
+					"name_ar_normalized": "بني حشيش",
+					"name_en_normalized": "Bni Hishaish"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Tial",
 					"name_ar": "الطيال",
-					"name_ar_tashkeel": "الطِّيَال"
+					"name_ar_tashkeel": "الطِّيَال",
+					"name_ar_normalized": "الطيال",
+					"name_en_normalized": "Al Tial"
 				},
 				{
 					"id": 10,
 					"name_en": "Khawlan",
 					"name_ar": "خولان",
-					"name_ar_tashkeel": "خَوْلَان"
+					"name_ar_tashkeel": "خَوْلَان",
+					"name_ar_normalized": "خولان",
+					"name_en_normalized": "Khawlan"
 				},
 				{
 					"id": 11,
 					"name_en": "Bni Dhabian",
 					"name_ar": "بني ضبيان",
-					"name_ar_tashkeel": "بَنِيَ ضَبْيَان"
+					"name_ar_tashkeel": "بَنِيَ ضَبْيَان",
+					"name_ar_normalized": "بني ضبيان",
+					"name_en_normalized": "Bni Dhabian"
 				},
 				{
 					"id": 12,
 					"name_en": "AL-Haimah Al-Kharijiah",
 					"name_ar": "الحيمة الخارجية",
-					"name_ar_tashkeel": "الحَيْمَة الخَارِجِيَّة"
+					"name_ar_tashkeel": "الحَيْمَة الخَارِجِيَّة",
+					"name_ar_normalized": "الحيمه الخارجيه",
+					"name_en_normalized": "AL Haimah Al Kharijiah"
 				},
 				{
 					"id": 13,
 					"name_en": "Al-Haimah Al-Dakhiliah",
 					"name_ar": "الحيمة الداخلية",
-					"name_ar_tashkeel": "الحَيْمَة الدَّاخِلِيَّة"
+					"name_ar_tashkeel": "الحَيْمَة الدَّاخِلِيَّة",
+					"name_ar_normalized": "الحيمه الداخليه",
+					"name_en_normalized": "Al Haimah Al Dakhiliah"
 				},
 				{
 					"id": 14,
 					"name_en": "Manakhah",
 					"name_ar": "مناخة",
-					"name_ar_tashkeel": "مَنَاخَة"
+					"name_ar_tashkeel": "مَنَاخَة",
+					"name_ar_normalized": "مناخه",
+					"name_en_normalized": "Manakhah"
 				},
 				{
 					"id": 15,
 					"name_en": "Nihm",
 					"name_ar": "نهم",
-					"name_ar_tashkeel": "نِهْم"
+					"name_ar_tashkeel": "نِهْم",
+					"name_ar_normalized": "نهم",
+					"name_en_normalized": "Nihm"
 				},
 				{
 					"id": 16,
 					"name_en": "Bni Matar",
 					"name_ar": "بني مطر",
-					"name_ar_tashkeel": "بَنِي مَطَر"
+					"name_ar_tashkeel": "بَنِي مَطَر",
+					"name_ar_normalized": "بني مطر",
+					"name_en_normalized": "Bni Matar"
 				}
 			]
 		},
@@ -229,54 +285,72 @@
 			"phone_numbering_plan": "02",
 			"capital_name_ar": "",
 			"capital_name_en": "",
+			"name_ar_normalized": "عدن",
+			"name_en_normalized": "Aden",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Dar Saad",
 					"name_ar": "دار سعد",
-					"name_ar_tashkeel": "دَار سَعْد"
+					"name_ar_tashkeel": "دَار سَعْد",
+					"name_ar_normalized": "دار سعد",
+					"name_en_normalized": "Dar Saad"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Shaikh Othman",
 					"name_ar": "الشيخ عثمان",
-					"name_ar_tashkeel": "الشَّيْخ عُثْمَان"
+					"name_ar_tashkeel": "الشَّيْخ عُثْمَان",
+					"name_ar_normalized": "الشيخ عثمان",
+					"name_en_normalized": "Al Shaikh Othman"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Mansorah",
 					"name_ar": "المنصورة",
-					"name_ar_tashkeel": "المَنْصُورَة"
+					"name_ar_tashkeel": "المَنْصُورَة",
+					"name_ar_normalized": "المنصوره",
+					"name_en_normalized": "Al Mansorah"
 				},
 				{
 					"id": 4,
 					"name_en": "Al-Boriqah",
 					"name_ar": "البريقة",
-					"name_ar_tashkeel": "البُرَيْقَة"
+					"name_ar_tashkeel": "البُرَيْقَة",
+					"name_ar_normalized": "البريقه",
+					"name_en_normalized": "Al Boriqah"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Tawwahi",
 					"name_ar": "التواهي",
-					"name_ar_tashkeel": "التَّوَّاهِي"
+					"name_ar_tashkeel": "التَّوَّاهِي",
+					"name_ar_normalized": "التواهي",
+					"name_en_normalized": "Al Tawwahi"
 				},
 				{
 					"id": 6,
 					"name_en": "Khoor Maksar",
 					"name_ar": "خور مكسر",
-					"name_ar_tashkeel": "خُوْر مَكَسَر"
+					"name_ar_tashkeel": "خُوْر مَكَسَر",
+					"name_ar_normalized": "خور مكسر",
+					"name_en_normalized": "Khoor Maksar"
 				},
 				{
 					"id": 7,
 					"name_en": "Seerh",
 					"name_ar": "صيرة",
-					"name_ar_tashkeel": "صِيْرَة"
+					"name_ar_tashkeel": "صِيْرَة",
+					"name_ar_normalized": "صيره",
+					"name_en_normalized": "Seerh"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Mo'alla",
 					"name_ar": "المعلا",
-					"name_ar_tashkeel": "المُعَلَّا"
+					"name_ar_tashkeel": "المُعَلَّا",
+					"name_ar_normalized": "المعلا",
+					"name_en_normalized": "Al Moalla"
 				}
 			]
 		},
@@ -288,162 +362,216 @@
 			"phone_numbering_plan": "03",
 			"capital_name_ar": "مدينة الحديدة",
 			"capital_name_en": "Al-Hodeidah City",
+			"name_ar_normalized": "الحديده",
+			"name_en_normalized": "Al Hodeidah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Bait Al-Fakih",
 					"name_ar": "بيت الفقية",
-					"name_ar_tashkeel": "بَيْت الفَقِيْة"
+					"name_ar_tashkeel": "بَيْت الفَقِيْة",
+					"name_ar_normalized": "بيت الفقيه",
+					"name_en_normalized": "Bait Al Fakih"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Tohaita",
 					"name_ar": "التحيتا",
-					"name_ar_tashkeel": "التُّحَيْتَا"
+					"name_ar_tashkeel": "التُّحَيْتَا",
+					"name_ar_normalized": "التحيتا",
+					"name_en_normalized": "Al Tohaita"
 				},
 				{
 					"id": 3,
 					"name_en": "Kamaran",
 					"name_ar": "كمران",
-					"name_ar_tashkeel": "كَمَرَان"
+					"name_ar_tashkeel": "كَمَرَان",
+					"name_ar_normalized": "كمران",
+					"name_en_normalized": "Kamaran"
 				},
 				{
 					"id": 4,
 					"name_en": "Al-Khookhah",
 					"name_ar": "الخوخة",
-					"name_ar_tashkeel": "الخُوْخُة"
+					"name_ar_tashkeel": "الخُوْخُة",
+					"name_ar_normalized": "الخوخه",
+					"name_en_normalized": "Al Khookhah"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Doraihmi",
 					"name_ar": "الدريهمي",
-					"name_ar_tashkeel": "الدُرَيْهِمِي"
+					"name_ar_tashkeel": "الدُرَيْهِمِي",
+					"name_ar_normalized": "الدريهمي",
+					"name_en_normalized": "Al Doraihmi"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Luhayyah",
 					"name_ar": "اللحية",
-					"name_ar_tashkeel": "اللُّحَيَّة"
+					"name_ar_tashkeel": "اللُّحَيَّة",
+					"name_ar_normalized": "اللحيه",
+					"name_en_normalized": "Al Luhayyah"
 				},
 				{
 					"id": 7,
 					"name_en": "Zabeed",
 					"name_ar": "زبيد",
-					"name_ar_tashkeel": "زَبِيْد"
+					"name_ar_tashkeel": "زَبِيْد",
+					"name_ar_normalized": "زبيد",
+					"name_en_normalized": "Zabeed"
 				},
 				{
 					"id": 8,
 					"name_en": "Jabal Raas",
 					"name_ar": "جبل راس",
-					"name_ar_tashkeel": "جَبَل رَاس"
+					"name_ar_tashkeel": "جَبَل رَاس",
+					"name_ar_normalized": "جبل راس",
+					"name_en_normalized": "Jabal Raas"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Marawiah",
 					"name_ar": "المراوعة",
-					"name_ar_tashkeel": "المَرَاوِعَة"
+					"name_ar_tashkeel": "المَرَاوِعَة",
+					"name_ar_normalized": "المراوعه",
+					"name_en_normalized": "Al Marawiah"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Jarrahi",
 					"name_ar": "الجراحي",
-					"name_ar_tashkeel": "الجَّرَّاحِي"
+					"name_ar_tashkeel": "الجَّرَّاحِي",
+					"name_ar_normalized": "الجراحي",
+					"name_en_normalized": "Al Jarrahi"
 				},
 				{
 					"id": 11,
 					"name_en": "Al-Zuhrah",
 					"name_ar": "الزهرة",
-					"name_ar_tashkeel": "الزُّهْرَة"
+					"name_ar_tashkeel": "الزُّهْرَة",
+					"name_ar_normalized": "الزهره",
+					"name_en_normalized": "Al Zuhrah"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Mighlaf",
 					"name_ar": "المغلاف",
-					"name_ar_tashkeel": "المِغْلَاف"
+					"name_ar_tashkeel": "المِغْلَاف",
+					"name_ar_normalized": "المغلاف",
+					"name_en_normalized": "Al Mighlaf"
 				},
 				{
 					"id": 13,
 					"name_en": "Al-Mansoriah",
 					"name_ar": "المنصورية",
-					"name_ar_tashkeel": "المَنْصُورِيَّة"
+					"name_ar_tashkeel": "المَنْصُورِيَّة",
+					"name_ar_normalized": "المنصوريه",
+					"name_en_normalized": "Al Mansoriah"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Zaydiyah",
 					"name_ar": "الزيدية",
-					"name_ar_tashkeel": "الزَّيْدِيَة"
+					"name_ar_tashkeel": "الزَّيْدِيَة",
+					"name_ar_normalized": "الزيديه",
+					"name_en_normalized": "Al Zaydiyah"
 				},
 				{
 					"id": 15,
 					"name_en": "Al-Hali",
 					"name_ar": "الحالي",
-					"name_ar_tashkeel": "الحَالِي"
+					"name_ar_tashkeel": "الحَالِي",
+					"name_ar_normalized": "الحالي",
+					"name_en_normalized": "Al Hali"
 				},
 				{
 					"id": 16,
 					"name_en": "Al-Hojailah",
 					"name_ar": "الحجيلة",
-					"name_ar_tashkeel": "الحُجَّيْلَة"
+					"name_ar_tashkeel": "الحُجَّيْلَة",
+					"name_ar_normalized": "الحجيله",
+					"name_en_normalized": "Al Hojailah"
 				},
 				{
 					"id": 17,
 					"name_en": "Al-Sokhnah",
 					"name_ar": "السخنة",
-					"name_ar_tashkeel": "السُّخْنَة"
+					"name_ar_tashkeel": "السُّخْنَة",
+					"name_ar_normalized": "السخنه",
+					"name_en_normalized": "Al Sokhnah"
 				},
 				{
 					"id": 18,
 					"name_en": "Al-Munirah",
 					"name_ar": "المنيرة",
-					"name_ar_tashkeel": "المُنِيْرَة"
+					"name_ar_tashkeel": "المُنِيْرَة",
+					"name_ar_normalized": "المنيره",
+					"name_en_normalized": "Al Munirah"
 				},
 				{
 					"id": 19,
 					"name_en": "Al-Hook",
 					"name_ar": "الحوك",
-					"name_ar_tashkeel": "الحَوَك"
+					"name_ar_tashkeel": "الحَوَك",
+					"name_ar_normalized": "الحوك",
+					"name_en_normalized": "Al Hook"
 				},
 				{
 					"id": 20,
 					"name_en": "Al-Saleef",
 					"name_ar": "الصليف",
-					"name_ar_tashkeel": "الصَّلِيْف"
+					"name_ar_tashkeel": "الصَّلِيْف",
+					"name_ar_normalized": "الصليف",
+					"name_en_normalized": "Al Saleef"
 				},
 				{
 					"id": 21,
 					"name_en": "Al-Mena",
 					"name_ar": "الميناء",
-					"name_ar_tashkeel": "المِيْنَاء"
+					"name_ar_tashkeel": "المِيْنَاء",
+					"name_ar_normalized": "الميناء",
+					"name_en_normalized": "Al Mena"
 				},
 				{
 					"id": 22,
 					"name_en": "Bajil",
 					"name_ar": "باجل",
-					"name_ar_tashkeel": "بَاجِل"
+					"name_ar_tashkeel": "بَاجِل",
+					"name_ar_normalized": "باجل",
+					"name_en_normalized": "Bajil"
 				},
 				{
 					"id": 23,
 					"name_en": "Al-Dhahi",
 					"name_ar": "الضحي",
-					"name_ar_tashkeel": "الضَّحِي"
+					"name_ar_tashkeel": "الضَّحِي",
+					"name_ar_normalized": "الضحي",
+					"name_en_normalized": "Al Dhahi"
 				},
 				{
 					"id": 24,
 					"name_en": "Hais",
 					"name_ar": "حيس",
-					"name_ar_tashkeel": "حَيْس"
+					"name_ar_tashkeel": "حَيْس",
+					"name_ar_normalized": "حيس",
+					"name_en_normalized": "Hais"
 				},
 				{
 					"id": 25,
 					"name_en": "Al-Qnawis",
 					"name_ar": "القناوص",
-					"name_ar_tashkeel": "القَنَاوِص"
+					"name_ar_tashkeel": "القَنَاوِص",
+					"name_ar_normalized": "القناوص",
+					"name_en_normalized": "Al Qnawis"
 				},
 				{
 					"id": 26,
 					"name_en": "Bora",
 					"name_ar": "برع",
-					"name_ar_tashkeel": "بُرَع"
+					"name_ar_tashkeel": "بُرَع",
+					"name_ar_normalized": "برع",
+					"name_en_normalized": "Bora"
 				}
 			]
 		},
@@ -455,78 +583,104 @@
 			"phone_numbering_plan": "06",
 			"capital_name_ar": "مدينة ذمار",
 			"capital_name_en": "Thamar City",
+			"name_ar_normalized": "ذمار",
+			"name_en_normalized": "Thamar",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Jhran",
 					"name_ar": "جهران",
-					"name_ar_tashkeel": "جَهْرَان"
+					"name_ar_tashkeel": "جَهْرَان",
+					"name_ar_normalized": "جهران",
+					"name_en_normalized": "Jhran"
 				},
 				{
 					"id": 2,
 					"name_en": "Otmah",
 					"name_ar": "عتمة",
-					"name_ar_tashkeel": "عُتْمَة"
+					"name_ar_tashkeel": "عُتْمَة",
+					"name_ar_normalized": "عتمه",
+					"name_en_normalized": "Otmah"
 				},
 				{
 					"id": 3,
 					"name_en": "Mayfa’at Ans",
 					"name_ar": "ميفعة عنس",
-					"name_ar_tashkeel": "مَيْفَعَة عَنْس"
+					"name_ar_tashkeel": "مَيْفَعَة عَنْس",
+					"name_ar_normalized": "ميفعه عنس",
+					"name_en_normalized": "Mayfa’at Ans"
 				},
 				{
 					"id": 4,
 					"name_en": "Al-Hada",
 					"name_ar": "الحداء",
-					"name_ar_tashkeel": "الحَدَاء"
+					"name_ar_tashkeel": "الحَدَاء",
+					"name_ar_normalized": "الحداء",
+					"name_en_normalized": "Al Hada"
 				},
 				{
 					"id": 5,
 					"name_en": "Ans",
 					"name_ar": "عنس",
-					"name_ar_tashkeel": "عَنْس"
+					"name_ar_tashkeel": "عَنْس",
+					"name_ar_normalized": "عنس",
+					"name_en_normalized": "Ans"
 				},
 				{
 					"id": 6,
 					"name_en": "Wosab Al-Safil",
 					"name_ar": "وصاب السافل",
-					"name_ar_tashkeel": "وِصَاب السَّافِل"
+					"name_ar_tashkeel": "وِصَاب السَّافِل",
+					"name_ar_normalized": "وصاب السافل",
+					"name_en_normalized": "Wosab Al Safil"
 				},
 				{
 					"id": 7,
 					"name_en": "Wosab Al-Aali",
 					"name_ar": "وصاب العالي",
-					"name_ar_tashkeel": "وِصَاب العَالِي"
+					"name_ar_tashkeel": "وِصَاب العَالِي",
+					"name_ar_normalized": "وصاب العالي",
+					"name_en_normalized": "Wosab Al Aali"
 				},
 				{
 					"id": 8,
 					"name_en": "Jabal Al-Sharq",
 					"name_ar": "جبل الشرق",
-					"name_ar_tashkeel": "جَبَل الشَّرْق"
+					"name_ar_tashkeel": "جَبَل الشَّرْق",
+					"name_ar_normalized": "جبل الشرق",
+					"name_en_normalized": "Jabal Al Sharq"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Manar",
 					"name_ar": "المنار",
-					"name_ar_tashkeel": "المَنَار"
+					"name_ar_tashkeel": "المَنَار",
+					"name_ar_normalized": "المنار",
+					"name_en_normalized": "Al Manar"
 				},
 				{
 					"id": 10,
 					"name_en": "Maghrib Ans",
 					"name_ar": "مغرب عنس",
-					"name_ar_tashkeel": "مَغْرِب عَنْس"
+					"name_ar_tashkeel": "مَغْرِب عَنْس",
+					"name_ar_normalized": "مغرب عنس",
+					"name_en_normalized": "Maghrib Ans"
 				},
 				{
 					"id": 11,
 					"name_en": "Dhoran Aanis",
 					"name_ar": "ضوران آنس",
-					"name_ar_tashkeel": "ضُوْرَان آنِس"
+					"name_ar_tashkeel": "ضُوْرَان آنِس",
+					"name_ar_normalized": "ضوران انس",
+					"name_en_normalized": "Dhoran Aanis"
 				},
 				{
 					"id": 12,
 					"name_en": "Thamar City",
 					"name_ar": "مدينة ذمار",
-					"name_ar_tashkeel": "مَدِيْنَة ذَمَار"
+					"name_ar_tashkeel": "مَدِيْنَة ذَمَار",
+					"name_ar_normalized": "مدينه ذمار",
+					"name_en_normalized": "Thamar City"
 				}
 			]
 		},
@@ -538,126 +692,168 @@
 			"phone_numbering_plan": "07",
 			"capital_name_ar": "مدينة عمران",
 			"capital_name_en": "Amran City",
+			"name_ar_normalized": "عمران",
+			"name_en_normalized": "Amran",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Harf Sofian",
 					"name_ar": "حرف سفيان",
-					"name_ar_tashkeel": "حَرْف سُفْيَان"
+					"name_ar_tashkeel": "حَرْف سُفْيَان",
+					"name_ar_normalized": "حرف سفيان",
+					"name_en_normalized": "Harf Sofian"
 				},
 				{
 					"id": 2,
 					"name_en": "Hooth",
 					"name_ar": "حوث",
-					"name_ar_tashkeel": "حُوْث"
+					"name_ar_tashkeel": "حُوْث",
+					"name_ar_normalized": "حوث",
+					"name_en_normalized": "Hooth"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Ashah",
 					"name_ar": "العشة",
-					"name_ar_tashkeel": "العَشِّة"
+					"name_ar_tashkeel": "العَشِّة",
+					"name_ar_normalized": "العشه",
+					"name_en_normalized": "Al Ashah"
 				},
 				{
 					"id": 4,
 					"name_en": "Qiflt Ethar",
 					"name_ar": "قفلة عذر",
-					"name_ar_tashkeel": "قِفْلَة عِذَر"
+					"name_ar_tashkeel": "قِفْلَة عِذَر",
+					"name_ar_normalized": "قفله عذر",
+					"name_en_normalized": "Qiflt Ethar"
 				},
 				{
 					"id": 5,
 					"name_en": "Shaharah",
 					"name_ar": "شهارة",
-					"name_ar_tashkeel": "شَهَارَة"
+					"name_ar_tashkeel": "شَهَارَة",
+					"name_ar_normalized": "شهاره",
+					"name_en_normalized": "Shaharah"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Madan",
 					"name_ar": "المدان",
-					"name_ar_tashkeel": "المَدَان"
+					"name_ar_tashkeel": "المَدَان",
+					"name_ar_normalized": "المدان",
+					"name_en_normalized": "Al Madan"
 				},
 				{
 					"id": 7,
 					"name_en": "Sowair",
 					"name_ar": "صوير",
-					"name_ar_tashkeel": "صُوَيْر"
+					"name_ar_tashkeel": "صُوَيْر",
+					"name_ar_normalized": "صوير",
+					"name_en_normalized": "Sowair"
 				},
 				{
 					"id": 8,
 					"name_en": "Dholaimah Haboor",
 					"name_ar": "ظليمة حبور",
-					"name_ar_tashkeel": "ظُلَيْمَة حَبُوْر"
+					"name_ar_tashkeel": "ظُلَيْمَة حَبُوْر",
+					"name_ar_normalized": "ظليمه حبور",
+					"name_en_normalized": "Dholaimah Haboor"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Sawdah",
 					"name_ar": "السودة",
-					"name_ar_tashkeel": "السَّوْدَة"
+					"name_ar_tashkeel": "السَّوْدَة",
+					"name_ar_normalized": "السوده",
+					"name_en_normalized": "Al Sawdah"
 				},
 				{
 					"id": 10,
 					"name_en": "Khamer",
 					"name_ar": "خمر",
-					"name_ar_tashkeel": "خَمِر"
+					"name_ar_tashkeel": "خَمِر",
+					"name_ar_normalized": "خمر",
+					"name_en_normalized": "Khamer"
 				},
 				{
 					"id": 11,
 					"name_en": "Thibain",
 					"name_ar": "ذيبين",
-					"name_ar_tashkeel": "ذِيْبَيْن"
+					"name_ar_tashkeel": "ذِيْبَيْن",
+					"name_ar_normalized": "ذيبين",
+					"name_en_normalized": "Thibain"
 				},
 				{
 					"id": 12,
 					"name_en": "Kharif",
 					"name_ar": "خارف",
-					"name_ar_tashkeel": "خَارِف"
+					"name_ar_tashkeel": "خَارِف",
+					"name_ar_normalized": "خارف",
+					"name_en_normalized": "Kharif"
 				},
 				{
 					"id": 13,
 					"name_en": "Raidah",
 					"name_ar": "ريدة",
-					"name_ar_tashkeel": "رَيْدَة"
+					"name_ar_tashkeel": "رَيْدَة",
+					"name_ar_normalized": "ريده",
+					"name_en_normalized": "Raidah"
 				},
 				{
 					"id": 14,
 					"name_en": "Eyal Yazeed Mountain",
 					"name_ar": "جبل عيال يزيد",
-					"name_ar_tashkeel": "جَبَل عِيَال يَزِيْد"
+					"name_ar_tashkeel": "جَبَل عِيَال يَزِيْد",
+					"name_ar_normalized": "جبل عيال يزيد",
+					"name_en_normalized": "Eyal Yazeed Mountain"
 				},
 				{
 					"id": 15,
 					"name_en": "Al-Sawd",
 					"name_ar": "السود",
-					"name_ar_tashkeel": "السَّوْد"
+					"name_ar_tashkeel": "السَّوْد",
+					"name_ar_normalized": "السود",
+					"name_en_normalized": "Al Sawd"
 				},
 				{
 					"id": 16,
 					"name_en": "Amran",
 					"name_ar": "عمران",
-					"name_ar_tashkeel": "عَمْرَان"
+					"name_ar_tashkeel": "عَمْرَان",
+					"name_ar_normalized": "عمران",
+					"name_en_normalized": "Amran"
 				},
 				{
 					"id": 17,
 					"name_en": "Maswar",
 					"name_ar": "مسور",
-					"name_ar_tashkeel": "مَسْوَر"
+					"name_ar_tashkeel": "مَسْوَر",
+					"name_ar_normalized": "مسور",
+					"name_en_normalized": "Maswar"
 				},
 				{
 					"id": 18,
 					"name_en": "Thula",
 					"name_ar": "ثلا",
-					"name_ar_tashkeel": "ثُلَا"
+					"name_ar_tashkeel": "ثُلَا",
+					"name_ar_normalized": "ثلا",
+					"name_en_normalized": "Thula"
 				},
 				{
 					"id": 19,
 					"name_en": "Eial Sraih",
 					"name_ar": "عيال سريح",
-					"name_ar_tashkeel": "عِيْال سُرَيْح"
+					"name_ar_tashkeel": "عِيْال سُرَيْح",
+					"name_ar_normalized": "عيال سريح",
+					"name_en_normalized": "Eial Sraih"
 				},
 				{
 					"id": 20,
 					"name_en": "Bni Soraim",
 					"name_ar": "بني صريم",
-					"name_ar_tashkeel": "بَنِي صُرَيْم"
+					"name_ar_tashkeel": "بَنِي صُرَيْم",
+					"name_ar_normalized": "بني صريم",
+					"name_en_normalized": "Bni Soraim"
 				}
 			]
 		},
@@ -669,192 +865,256 @@
 			"phone_numbering_plan": "07",
 			"capital_name_ar": "مدينة حجة",
 			"capital_name_en": "Hajjah City",
+			"name_ar_normalized": "حجه",
+			"name_en_normalized": "Hajjah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Bakel Al-Meer",
 					"name_ar": "بكيل المير",
-					"name_ar_tashkeel": "بَكِيْل المِيْر"
+					"name_ar_tashkeel": "بَكِيْل المِيْر",
+					"name_ar_normalized": "بكيل المير",
+					"name_en_normalized": "Bakel Al Meer"
 				},
 				{
 					"id": 2,
 					"name_en": "Bni Al-Awam",
 					"name_ar": "بني العوام",
-					"name_ar_tashkeel": "بَنِي العَوّام"
+					"name_ar_tashkeel": "بَنِي العَوّام",
+					"name_ar_normalized": "بني العوام",
+					"name_en_normalized": "Bni Al Awam"
 				},
 				{
 					"id": 3,
 					"name_en": "Aflah Al-Sham",
 					"name_ar": "أفلح الشام",
-					"name_ar_tashkeel": "أَفْلَح الشَّام"
+					"name_ar_tashkeel": "أَفْلَح الشَّام",
+					"name_ar_normalized": "افلح الشام",
+					"name_en_normalized": "Aflah Al Sham"
 				},
 				{
 					"id": 4,
 					"name_en": "Aflah Al-Yemen",
 					"name_ar": "أفلح اليمن",
-					"name_ar_tashkeel": "أَفْلَح اليَمَن"
+					"name_ar_tashkeel": "أَفْلَح اليَمَن",
+					"name_ar_normalized": "افلح اليمن",
+					"name_en_normalized": "Aflah Al Yemen"
 				},
 				{
 					"id": 5,
 					"name_en": "Bni Qais Al-Tawr",
 					"name_ar": "بني قيس الطور",
-					"name_ar_tashkeel": "بَنِي قَيْس الطَُوْر"
+					"name_ar_tashkeel": "بَنِي قَيْس الطَُوْر",
+					"name_ar_normalized": "بني قيس الطور",
+					"name_en_normalized": "Bni Qais Al Tawr"
 				},
 				{
 					"id": 6,
 					"name_en": "Kohlan Al-Sharaf",
 					"name_ar": "كحلان الشرف",
-					"name_ar_tashkeel": "كُحْلَان الشَّرَف"
+					"name_ar_tashkeel": "كُحْلَان الشَّرَف",
+					"name_ar_normalized": "كحلان الشرف",
+					"name_en_normalized": "Kohlan Al Sharaf"
 				},
 				{
 					"id": 7,
 					"name_en": "Qohlan Affar",
 					"name_ar": "كحلان عفار",
-					"name_ar_tashkeel": "كُحْلَان عَفَّار"
+					"name_ar_tashkeel": "كُحْلَان عَفَّار",
+					"name_ar_normalized": "كحلان عفار",
+					"name_en_normalized": "Qohlan Affar"
 				},
 				{
 					"id": 8,
 					"name_en": "Khiran Al-Mahrraq",
 					"name_ar": "خيران المحرق",
-					"name_ar_tashkeel": "خَيْرَان المُحَرَّق"
+					"name_ar_tashkeel": "خَيْرَان المُحَرَّق",
+					"name_ar_normalized": "خيران المحرق",
+					"name_en_normalized": "Khiran Al Mahrraq"
 				},
 				{
 					"id": 9,
 					"name_en": "Hajjah",
 					"name_ar": "حجة",
-					"name_ar_tashkeel": "حَجَّة"
+					"name_ar_tashkeel": "حَجَّة",
+					"name_ar_normalized": "حجه",
+					"name_en_normalized": "Hajjah"
 				},
 				{
 					"id": 10,
 					"name_en": "Hajjah City",
 					"name_ar": "مدينة حجة",
-					"name_ar_tashkeel": "مَدِيْنَة حَجَّة"
+					"name_ar_tashkeel": "مَدِيْنَة حَجَّة",
+					"name_ar_normalized": "مدينه حجه",
+					"name_en_normalized": "Hajjah City"
 				},
 				{
 					"id": 11,
 					"name_en": "Qufl Shamar",
 					"name_ar": "قفل شمر",
-					"name_ar_tashkeel": "قُفْل شَمَر"
+					"name_ar_tashkeel": "قُفْل شَمَر",
+					"name_ar_normalized": "قفل شمر",
+					"name_en_normalized": "Qufl Shamar"
 				},
 				{
 					"id": 12,
 					"name_en": "Qarah",
 					"name_ar": "قارة",
-					"name_ar_tashkeel": "قَارَة"
+					"name_ar_tashkeel": "قَارَة",
+					"name_ar_normalized": "قاره",
+					"name_en_normalized": "Qarah"
 				},
 				{
 					"id": 13,
 					"name_en": "Aslm",
 					"name_ar": "أسلم",
-					"name_ar_tashkeel": "أَسْلَم"
+					"name_ar_tashkeel": "أَسْلَم",
+					"name_ar_normalized": "اسلم",
+					"name_en_normalized": "Aslm"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Jamimah",
 					"name_ar": "الجميمة",
-					"name_ar_tashkeel": "الجَمِيْمَة"
+					"name_ar_tashkeel": "الجَمِيْمَة",
+					"name_ar_normalized": "الجميمه",
+					"name_en_normalized": "Al Jamimah"
 				},
 				{
 					"id": 15,
 					"name_en": "Wishhah",
 					"name_ar": "وشحة",
-					"name_ar_tashkeel": "وِشْحَة"
+					"name_ar_tashkeel": "وِشْحَة",
+					"name_ar_normalized": "وشحه",
+					"name_en_normalized": "Wishhah"
 				},
 				{
 					"id": 16,
 					"name_en": "Al-Shaghadrah",
 					"name_ar": "الشغادرة",
-					"name_ar_tashkeel": "الشَّغَادِرَة"
+					"name_ar_tashkeel": "الشَّغَادِرَة",
+					"name_ar_normalized": "الشغادره",
+					"name_en_normalized": "Al Shaghadrah"
 				},
 				{
 					"id": 17,
 					"name_en": "Al-Mahabishah",
 					"name_ar": "المحابشة",
-					"name_ar_tashkeel": "المَحَابِشَة"
+					"name_ar_tashkeel": "المَحَابِشَة",
+					"name_ar_normalized": "المحابشه",
+					"name_en_normalized": "Al Mahabishah"
 				},
 				{
 					"id": 18,
 					"name_en": "Al-Maghribah",
 					"name_ar": "المغربة",
-					"name_ar_tashkeel": "المَغْرِبَة"
+					"name_ar_tashkeel": "المَغْرِبَة",
+					"name_ar_normalized": "المغربه",
+					"name_en_normalized": "Al Maghribah"
 				},
 				{
 					"id": 19,
 					"name_en": "Al-Miftah",
 					"name_ar": "المفتاح",
-					"name_ar_tashkeel": "المِفْتَاح"
+					"name_ar_tashkeel": "المِفْتَاح",
+					"name_ar_normalized": "المفتاح",
+					"name_en_normalized": "Al Miftah"
 				},
 				{
 					"id": 20,
 					"name_en": "Haradh",
 					"name_ar": "حرض",
-					"name_ar_tashkeel": "حَرَض"
+					"name_ar_tashkeel": "حَرَض",
+					"name_ar_normalized": "حرض",
+					"name_en_normalized": "Haradh"
 				},
 				{
 					"id": 21,
 					"name_en": "Hairan",
 					"name_ar": "حيران",
-					"name_ar_tashkeel": "حَيْرَان"
+					"name_ar_tashkeel": "حَيْرَان",
+					"name_ar_normalized": "حيران",
+					"name_en_normalized": "Hairan"
 				},
 				{
 					"id": 22,
 					"name_en": "Koshar",
 					"name_ar": "كشر",
-					"name_ar_tashkeel": "كُشَر"
+					"name_ar_tashkeel": "كُشَر",
+					"name_ar_normalized": "كشر",
+					"name_en_normalized": "Koshar"
 				},
 				{
 					"id": 23,
 					"name_en": "Sharis",
 					"name_ar": "شرس",
-					"name_ar_tashkeel": "شَرِس"
+					"name_ar_tashkeel": "شَرِس",
+					"name_ar_normalized": "شرس",
+					"name_en_normalized": "Sharis"
 				},
 				{
 					"id": 24,
 					"name_en": "Abs",
 					"name_ar": "عبس",
-					"name_ar_tashkeel": "عَبْس"
+					"name_ar_tashkeel": "عَبْس",
+					"name_ar_normalized": "عبس",
+					"name_en_normalized": "Abs"
 				},
 				{
 					"id": 25,
 					"name_en": "Koa'dnah",
 					"name_ar": "كعيدنة",
-					"name_ar_tashkeel": "كُعَيْدِنَة"
+					"name_ar_tashkeel": "كُعَيْدِنَة",
+					"name_ar_normalized": "كعيدنه",
+					"name_en_normalized": "Koadnah"
 				},
 				{
 					"id": 26,
 					"name_en": "Mabian",
 					"name_ar": "مبين",
-					"name_ar_tashkeel": "مَبْيَن"
+					"name_ar_tashkeel": "مَبْيَن",
+					"name_ar_normalized": "مبين",
+					"name_en_normalized": "Mabian"
 				},
 				{
 					"id": 27,
 					"name_en": "Al-Shahil",
 					"name_ar": "الشاهل",
-					"name_ar_tashkeel": "الشَّاهِل"
+					"name_ar_tashkeel": "الشَّاهِل",
+					"name_ar_normalized": "الشاهل",
+					"name_en_normalized": "Al Shahil"
 				},
 				{
 					"id": 28,
 					"name_en": "Wdhrah",
 					"name_ar": "وضرة",
-					"name_ar_tashkeel": "وَضْرَة"
+					"name_ar_tashkeel": "وَضْرَة",
+					"name_ar_normalized": "وضره",
+					"name_en_normalized": "Wdhrah"
 				},
 				{
 					"id": 29,
 					"name_en": "Mostaba'",
 					"name_ar": "مستباء",
-					"name_ar_tashkeel": "مُسْتَبَاء"
+					"name_ar_tashkeel": "مُسْتَبَاء",
+					"name_ar_normalized": "مستباء",
+					"name_en_normalized": "Mostaba"
 				},
 				{
 					"id": 30,
 					"name_en": "Meedi",
 					"name_ar": "ميدي",
-					"name_ar_tashkeel": "مِيْدِي"
+					"name_ar_tashkeel": "مِيْدِي",
+					"name_ar_normalized": "ميدي",
+					"name_en_normalized": "Meedi"
 				},
 				{
 					"id": 31,
 					"name_en": "Najrah",
 					"name_ar": "نجرة",
-					"name_ar_tashkeel": "نَجْرَة"
+					"name_ar_tashkeel": "نَجْرَة",
+					"name_ar_normalized": "نجره",
+					"name_en_normalized": "Najrah"
 				}
 			]
 		},
@@ -866,126 +1126,168 @@
 			"phone_numbering_plan": "04",
 			"capital_name_ar": "مدينة إب",
 			"capital_name_en": "Ibb City",
+			"name_ar_normalized": "اب",
+			"name_en_normalized": "Ibb",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Odain",
 					"name_ar": "العدين",
-					"name_ar_tashkeel": "العُدَيْن"
+					"name_ar_tashkeel": "العُدَيْن",
+					"name_ar_normalized": "العدين",
+					"name_en_normalized": "Al Odain"
 				},
 				{
 					"id": 2,
 					"name_en": "Ibb",
 					"name_ar": "إب",
-					"name_ar_tashkeel": "إِب"
+					"name_ar_tashkeel": "إِب",
+					"name_ar_normalized": "اب",
+					"name_en_normalized": "Ibb"
 				},
 				{
 					"id": 3,
 					"name_en": "Ba'dan",
 					"name_ar": "بعدان",
-					"name_ar_tashkeel": "بَعْدَان"
+					"name_ar_tashkeel": "بَعْدَان",
+					"name_ar_normalized": "بعدان",
+					"name_en_normalized": "Badan"
 				},
 				{
 					"id": 4,
 					"name_en": "Jiblah",
 					"name_ar": "جبلة",
-					"name_ar_tashkeel": "جِبْلَة"
+					"name_ar_tashkeel": "جِبْلَة",
+					"name_ar_normalized": "جبله",
+					"name_en_normalized": "Jiblah"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Nadrah",
 					"name_ar": "النادرة",
-					"name_ar_tashkeel": "النَّادِرَة"
+					"name_ar_tashkeel": "النَّادِرَة",
+					"name_ar_normalized": "النادره",
+					"name_en_normalized": "Al Nadrah"
 				},
 				{
 					"id": 6,
 					"name_en": "Hobaish",
 					"name_ar": "حبيش",
-					"name_ar_tashkeel": "حُبَيْش"
+					"name_ar_tashkeel": "حُبَيْش",
+					"name_ar_normalized": "حبيش",
+					"name_en_normalized": "Hobaish"
 				},
 				{
 					"id": 7,
 					"name_en": "Hazm Al-Odain",
 					"name_ar": "حزم العدين",
-					"name_ar_tashkeel": "حَزْم العُدَيْن"
+					"name_ar_tashkeel": "حَزْم العُدَيْن",
+					"name_ar_normalized": "حزم العدين",
+					"name_en_normalized": "Hazm Al Odain"
 				},
 				{
 					"id": 8,
 					"name_en": "Thi Al-Sufal",
 					"name_ar": "ذي السفال",
-					"name_ar_tashkeel": "ذِي السُّفَال"
+					"name_ar_tashkeel": "ذِي السُّفَال",
+					"name_ar_normalized": "ذي السفال",
+					"name_en_normalized": "Thi Al Sufal"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Radhmah",
 					"name_ar": "الرضمة",
-					"name_ar_tashkeel": "الرَّضْمَة"
+					"name_ar_tashkeel": "الرَّضْمَة",
+					"name_ar_normalized": "الرضمه",
+					"name_en_normalized": "Al Radhmah"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Sabrah",
 					"name_ar": "السبرة",
-					"name_ar_tashkeel": "السَّبْرَة"
+					"name_ar_tashkeel": "السَّبْرَة",
+					"name_ar_normalized": "السبره",
+					"name_en_normalized": "Al Sabrah"
 				},
 				{
 					"id": 11,
 					"name_en": "Al-Saddah",
 					"name_ar": "السدة",
-					"name_ar_tashkeel": "السَّدَّة"
+					"name_ar_tashkeel": "السَّدَّة",
+					"name_ar_normalized": "السده",
+					"name_en_normalized": "Al Saddah"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Syiani",
 					"name_ar": "السياني",
-					"name_ar_tashkeel": "السَّيَّانِي"
+					"name_ar_tashkeel": "السَّيَّانِي",
+					"name_ar_normalized": "السياني",
+					"name_en_normalized": "Al Syiani"
 				},
 				{
 					"id": 13,
 					"name_en": "Al-Sha'ir",
 					"name_ar": "الشعر",
-					"name_ar_tashkeel": "الشَّعِر"
+					"name_ar_tashkeel": "الشَّعِر",
+					"name_ar_normalized": "الشعر",
+					"name_en_normalized": "Al Shair"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Dhahar",
 					"name_ar": "الظهار",
-					"name_ar_tashkeel": "الظَّهَار"
+					"name_ar_tashkeel": "الظَّهَار",
+					"name_ar_normalized": "الظهار",
+					"name_en_normalized": "Al Dhahar"
 				},
 				{
 					"id": 15,
 					"name_en": "Fara' Al-Odain",
 					"name_ar": "فرع العدين",
-					"name_ar_tashkeel": "فَرْع العُدَيْن"
+					"name_ar_tashkeel": "فَرْع العُدَيْن",
+					"name_ar_normalized": "فرع العدين",
+					"name_en_normalized": "Fara Al Odain"
 				},
 				{
 					"id": 16,
 					"name_en": "Al-Qafr",
 					"name_ar": "القفر",
-					"name_ar_tashkeel": "القَفْر"
+					"name_ar_tashkeel": "القَفْر",
+					"name_ar_normalized": "القفر",
+					"name_en_normalized": "Al Qafr"
 				},
 				{
 					"id": 17,
 					"name_en": "Al-Makhadrh",
 					"name_ar": "المخادر",
-					"name_ar_tashkeel": "المَخَادِر"
+					"name_ar_tashkeel": "المَخَادِر",
+					"name_ar_normalized": "المخادر",
+					"name_en_normalized": "Al Makhadrh"
 				},
 				{
 					"id": 18,
 					"name_en": "Mothaikhrah",
 					"name_ar": "مذيخرة",
-					"name_ar_tashkeel": "مُذَيْخِرَة"
+					"name_ar_tashkeel": "مُذَيْخِرَة",
+					"name_ar_normalized": "مذيخره",
+					"name_en_normalized": "Mothaikhrah"
 				},
 				{
 					"id": 19,
 					"name_en": "Al-Mashnnah",
 					"name_ar": "المشنة",
-					"name_ar_tashkeel": "المَشَنَّة"
+					"name_ar_tashkeel": "المَشَنَّة",
+					"name_ar_normalized": "المشنه",
+					"name_en_normalized": "Al Mashnnah"
 				},
 				{
 					"id": 20,
 					"name_en": "Yareem",
 					"name_ar": "يريم",
-					"name_ar_tashkeel": "يَرِيْم"
+					"name_ar_tashkeel": "يَرِيْم",
+					"name_ar_normalized": "يريم",
+					"name_en_normalized": "Yareem"
 				}
 			]
 		},
@@ -997,96 +1299,128 @@
 			"phone_numbering_plan": "07",
 			"capital_name_ar": "مدينة صعدة",
 			"capital_name_en": "Sa'dah City",
+			"name_ar_normalized": "صعده",
+			"name_en_normalized": "Sadah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Hishwah",
 					"name_ar": "الحشوة",
-					"name_ar_tashkeel": "الحِشْوَة"
+					"name_ar_tashkeel": "الحِشْوَة",
+					"name_ar_normalized": "الحشوه",
+					"name_en_normalized": "Al Hishwah"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Safra'a",
 					"name_ar": "الصفراء",
-					"name_ar_tashkeel": "الصَّفْرَاء"
+					"name_ar_tashkeel": "الصَّفْرَاء",
+					"name_ar_normalized": "الصفراء",
+					"name_en_normalized": "Al Safraa"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Dhahir",
 					"name_ar": "الظاهر",
-					"name_ar_tashkeel": "الظَّاهِر"
+					"name_ar_tashkeel": "الظَّاهِر",
+					"name_ar_normalized": "الظاهر",
+					"name_en_normalized": "Al Dhahir"
 				},
 				{
 					"id": 4,
 					"name_en": "Baqim",
 					"name_ar": "باقم",
-					"name_ar_tashkeel": "بَاقِم"
+					"name_ar_tashkeel": "بَاقِم",
+					"name_ar_normalized": "باقم",
+					"name_en_normalized": "Baqim"
 				},
 				{
 					"id": 5,
 					"name_en": "Haidan",
 					"name_ar": "حيدان",
-					"name_ar_tashkeel": "حَيْدَان"
+					"name_ar_tashkeel": "حَيْدَان",
+					"name_ar_normalized": "حيدان",
+					"name_en_normalized": "Haidan"
 				},
 				{
 					"id": 6,
 					"name_en": "Razih",
 					"name_ar": "رازح",
-					"name_ar_tashkeel": "رَازِح"
+					"name_ar_tashkeel": "رَازِح",
+					"name_ar_normalized": "رازح",
+					"name_en_normalized": "Razih"
 				},
 				{
 					"id": 7,
 					"name_en": "Saqain",
 					"name_ar": "ساقين",
-					"name_ar_tashkeel": "سَاقَيْن"
+					"name_ar_tashkeel": "سَاقَيْن",
+					"name_ar_normalized": "ساقين",
+					"name_en_normalized": "Saqain"
 				},
 				{
 					"id": 8,
 					"name_en": "Sahar",
 					"name_ar": "سحار",
-					"name_ar_tashkeel": "سَحَار"
+					"name_ar_tashkeel": "سَحَار",
+					"name_ar_normalized": "سحار",
+					"name_en_normalized": "Sahar"
 				},
 				{
 					"id": 9,
 					"name_en": "Shida'a",
 					"name_ar": "شداء",
-					"name_ar_tashkeel": "شِدَاء"
+					"name_ar_tashkeel": "شِدَاء",
+					"name_ar_normalized": "شداء",
+					"name_en_normalized": "Shidaa"
 				},
 				{
 					"id": 10,
 					"name_en": "Sa'dah",
 					"name_ar": "صعدة",
-					"name_ar_tashkeel": "صَعْدَة"
+					"name_ar_tashkeel": "صَعْدَة",
+					"name_ar_normalized": "صعده",
+					"name_en_normalized": "Sadah"
 				},
 				{
 					"id": 11,
 					"name_en": "Ghamer",
 					"name_ar": "غمر",
-					"name_ar_tashkeel": "غَمَر"
+					"name_ar_tashkeel": "غَمَر",
+					"name_ar_normalized": "غمر",
+					"name_en_normalized": "Ghamer"
 				},
 				{
 					"id": 12,
 					"name_en": "Qatabir",
 					"name_ar": "قطابر",
-					"name_ar_tashkeel": "قَطَابِر"
+					"name_ar_tashkeel": "قَطَابِر",
+					"name_ar_normalized": "قطابر",
+					"name_en_normalized": "Qatabir"
 				},
 				{
 					"id": 13,
 					"name_en": "Kitaf and Bog'",
 					"name_ar": "كتاف والبقع",
-					"name_ar_tashkeel": "كِتَاف وَالبُقْع"
+					"name_ar_tashkeel": "كِتَاف وَالبُقْع",
+					"name_ar_normalized": "كتاف والبقع",
+					"name_en_normalized": "Kitaf and Bog"
 				},
 				{
 					"id": 14,
 					"name_en": "Majz",
 					"name_ar": "مجز",
-					"name_ar_tashkeel": "مَجْز"
+					"name_ar_tashkeel": "مَجْز",
+					"name_ar_normalized": "مجز",
+					"name_en_normalized": "Majz"
 				},
 				{
 					"id": 15,
 					"name_en": "Munabbih",
 					"name_ar": "منبه",
-					"name_ar_tashkeel": "مُنَبِّه"
+					"name_ar_tashkeel": "مُنَبِّه",
+					"name_ar_normalized": "منبه",
+					"name_en_normalized": "Munabbih"
 				}
 			]
 		},
@@ -1098,126 +1432,168 @@
 			"phone_numbering_plan": "06",
 			"capital_name_ar": "مدينة البيضاء",
 			"capital_name_en": "Al-Baidha City",
+			"name_ar_normalized": "البيضاء",
+			"name_en_normalized": "Al Baidha",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Baidha City",
 					"name_ar": "مدينة البيضاء",
-					"name_ar_tashkeel": "مَدِينَة البَيْضَاء"
+					"name_ar_tashkeel": "مَدِينَة البَيْضَاء",
+					"name_ar_normalized": "مدينه البيضاء",
+					"name_en_normalized": "Al Baidha City"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Baidha",
 					"name_ar": "البيضاء",
-					"name_ar_tashkeel": "البَيْضَاء"
+					"name_ar_tashkeel": "البَيْضَاء",
+					"name_ar_normalized": "البيضاء",
+					"name_en_normalized": "Al Baidha"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Zaher",
 					"name_ar": "الزاهر",
-					"name_ar_tashkeel": "الزَّاهِر"
+					"name_ar_tashkeel": "الزَّاهِر",
+					"name_ar_normalized": "الزاهر",
+					"name_en_normalized": "Al Zaher"
 				},
 				{
 					"id": 4,
 					"name_en": "Radman",
 					"name_ar": "ردمان",
-					"name_ar_tashkeel": "رَدْمَان"
+					"name_ar_tashkeel": "رَدْمَان",
+					"name_ar_normalized": "ردمان",
+					"name_en_normalized": "Radman"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Riashiah",
 					"name_ar": "الرياشية",
-					"name_ar_tashkeel": "الرِّيَاشِيَّة"
+					"name_ar_tashkeel": "الرِّيَاشِيَّة",
+					"name_ar_normalized": "الرياشيه",
+					"name_en_normalized": "Al Riashiah"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Swadiah",
 					"name_ar": "السوادية",
-					"name_ar_tashkeel": "السُّوَادِيَّة"
+					"name_ar_tashkeel": "السُّوَادِيَّة",
+					"name_ar_normalized": "السواديه",
+					"name_en_normalized": "Al Swadiah"
 				},
 				{
 					"id": 7,
 					"name_en": "Al-Shariah",
 					"name_ar": "الشرية",
-					"name_ar_tashkeel": "الشَرِيَّة"
+					"name_ar_tashkeel": "الشَرِيَّة",
+					"name_ar_normalized": "الشريه",
+					"name_en_normalized": "Al Shariah"
 				},
 				{
 					"id": 8,
 					"name_en": "Sabah",
 					"name_ar": "صباح",
-					"name_ar_tashkeel": "صَبَاح"
+					"name_ar_tashkeel": "صَبَاح",
+					"name_ar_normalized": "صباح",
+					"name_en_normalized": "Sabah"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Sawma'ah",
 					"name_ar": "الصومعة",
-					"name_ar_tashkeel": "الصَّوْمَعَة"
+					"name_ar_tashkeel": "الصَّوْمَعَة",
+					"name_ar_normalized": "الصومعه",
+					"name_en_normalized": "Al Sawmaah"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Tiffah",
 					"name_ar": "الطفة",
-					"name_ar_tashkeel": "الطَّفَّة"
+					"name_ar_tashkeel": "الطَّفَّة",
+					"name_ar_normalized": "الطفه",
+					"name_en_normalized": "Al Tiffah"
 				},
 				{
 					"id": 11,
 					"name_en": "Al-Arsh",
 					"name_ar": "العرش",
-					"name_ar_tashkeel": "العَرْش"
+					"name_ar_tashkeel": "العَرْش",
+					"name_ar_normalized": "العرش",
+					"name_en_normalized": "Al Arsh"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Qurishiah",
 					"name_ar": "القريشية",
-					"name_ar_tashkeel": "القُرَيْشِيَّة"
+					"name_ar_tashkeel": "القُرَيْشِيَّة",
+					"name_ar_normalized": "القريشيه",
+					"name_en_normalized": "Al Qurishiah"
 				},
 				{
 					"id": 13,
 					"name_en": "Thi Na'em",
 					"name_ar": "ذي ناعم",
-					"name_ar_tashkeel": "ذِي نَاعِم"
+					"name_ar_tashkeel": "ذِي نَاعِم",
+					"name_ar_normalized": "ذي ناعم",
+					"name_en_normalized": "Thi Naem"
 				},
 				{
 					"id": 14,
 					"name_en": "Maswarah",
 					"name_ar": "مسورة",
-					"name_ar_tashkeel": "مَسْوَرَة"
+					"name_ar_tashkeel": "مَسْوَرَة",
+					"name_ar_normalized": "مسوره",
+					"name_en_normalized": "Maswarah"
 				},
 				{
 					"id": 15,
 					"name_en": "Mukiras",
 					"name_ar": "مكيراس",
-					"name_ar_tashkeel": "مُكَيْرَاس"
+					"name_ar_tashkeel": "مُكَيْرَاس",
+					"name_ar_normalized": "مكيراس",
+					"name_en_normalized": "Mukiras"
 				},
 				{
 					"id": 16,
 					"name_en": "Al-Malajim",
 					"name_ar": "الملاجم",
-					"name_ar_tashkeel": "المَلَاجِم"
+					"name_ar_tashkeel": "المَلَاجِم",
+					"name_ar_normalized": "الملاجم",
+					"name_en_normalized": "Al Malajim"
 				},
 				{
 					"id": 17,
 					"name_en": "Nati'",
 					"name_ar": "ناطع",
-					"name_ar_tashkeel": "نَاطِع"
+					"name_ar_tashkeel": "نَاطِع",
+					"name_ar_normalized": "ناطع",
+					"name_en_normalized": "Nati"
 				},
 				{
 					"id": 18,
 					"name_en": "Na'man",
 					"name_ar": "نعمان",
-					"name_ar_tashkeel": "نَعْمَان"
+					"name_ar_tashkeel": "نَعْمَان",
+					"name_ar_normalized": "نعمان",
+					"name_en_normalized": "Naman"
 				},
 				{
 					"id": 19,
 					"name_en": "Wild Rabee'",
 					"name_ar": "ولد ربيع",
-					"name_ar_tashkeel": "وِلْد رَبِيْع"
+					"name_ar_tashkeel": "وِلْد رَبِيْع",
+					"name_ar_normalized": "ولد ربيع",
+					"name_en_normalized": "Wild Rabee"
 				},
 				{
 					"id": 20,
 					"name_en": "Rada'",
 					"name_ar": "رداع",
-					"name_ar_tashkeel": "رَدَاع"
+					"name_ar_tashkeel": "رَدَاع",
+					"name_ar_normalized": "رداع",
+					"name_en_normalized": "Rada"
 				}
 			]
 		},
@@ -1229,108 +1605,144 @@
 			"phone_numbering_plan": "05",
 			"capital_name_ar": "عتق",
 			"capital_name_en": "Ataq",
+			"name_ar_normalized": "شبوه",
+			"name_en_normalized": "Shabwah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Rawdhah",
 					"name_ar": "الروضة",
-					"name_ar_tashkeel": "الرَّوْضَة"
+					"name_ar_tashkeel": "الرَّوْضَة",
+					"name_ar_normalized": "الروضه",
+					"name_en_normalized": "Al Rawdhah"
 				},
 				{
 					"id": 2,
 					"name_en": "Bayhan",
 					"name_ar": "بيحان",
-					"name_ar_tashkeel": "بَيْحَان"
+					"name_ar_tashkeel": "بَيْحَان",
+					"name_ar_normalized": "بيحان",
+					"name_en_normalized": "Bayhan"
 				},
 				{
 					"id": 3,
 					"name_en": "Jardan",
 					"name_ar": "جردان",
-					"name_ar_tashkeel": "جَرْدَان"
+					"name_ar_tashkeel": "جَرْدَان",
+					"name_ar_normalized": "جردان",
+					"name_en_normalized": "Jardan"
 				},
 				{
 					"id": 4,
 					"name_en": "Habban",
 					"name_ar": "حبان",
-					"name_ar_tashkeel": "حَبَّان"
+					"name_ar_tashkeel": "حَبَّان",
+					"name_ar_normalized": "حبان",
+					"name_en_normalized": "Habban"
 				},
 				{
 					"id": 5,
 					"name_en": "Ain",
 					"name_ar": "عين",
-					"name_ar_tashkeel": "عَيْن"
+					"name_ar_tashkeel": "عَيْن",
+					"name_ar_normalized": "عين",
+					"name_en_normalized": "Ain"
 				},
 				{
 					"id": 6,
 					"name_en": "Hotaib",
 					"name_ar": "حطيب",
-					"name_ar_tashkeel": "حُطَيْب"
+					"name_ar_tashkeel": "حُطَيْب",
+					"name_ar_normalized": "حطيب",
+					"name_en_normalized": "Hotaib"
 				},
 				{
 					"id": 7,
 					"name_en": "Duhur",
 					"name_ar": "دهر",
-					"name_ar_tashkeel": "دُهُر"
+					"name_ar_tashkeel": "دُهُر",
+					"name_ar_normalized": "دهر",
+					"name_en_normalized": "Duhur"
 				},
 				{
 					"id": 8,
 					"name_en": "Rudhoom",
 					"name_ar": "رضوم",
-					"name_ar_tashkeel": "رُضُوْم"
+					"name_ar_tashkeel": "رُضُوْم",
+					"name_ar_normalized": "رضوم",
+					"name_en_normalized": "Rudhoom"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Sa'eed",
 					"name_ar": "الصعيد",
-					"name_ar_tashkeel": "الصَّعِيْد"
+					"name_ar_tashkeel": "الصَّعِيْد",
+					"name_ar_normalized": "الصعيد",
+					"name_en_normalized": "Al Saeed"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Talh",
 					"name_ar": "الطلح",
-					"name_ar_tashkeel": "الطَّلْح"
+					"name_ar_tashkeel": "الطَّلْح",
+					"name_ar_normalized": "الطلح",
+					"name_en_normalized": "Al Talh"
 				},
 				{
 					"id": 11,
 					"name_en": "Ataq",
 					"name_ar": "عتق",
-					"name_ar_tashkeel": "عَتَق"
+					"name_ar_tashkeel": "عَتَق",
+					"name_ar_normalized": "عتق",
+					"name_en_normalized": "Ataq"
 				},
 				{
 					"id": 12,
 					"name_en": "Arma'",
 					"name_ar": "عرماء",
-					"name_ar_tashkeel": "عَرْمَاء"
+					"name_ar_tashkeel": "عَرْمَاء",
+					"name_ar_normalized": "عرماء",
+					"name_en_normalized": "Arma"
 				},
 				{
 					"id": 13,
 					"name_en": "Osailan",
 					"name_ar": "عسيلان",
-					"name_ar_tashkeel": "عُسَيْلَان"
+					"name_ar_tashkeel": "عُسَيْلَان",
+					"name_ar_normalized": "عسيلان",
+					"name_en_normalized": "Osailan"
 				},
 				{
 					"id": 14,
 					"name_en": "Markhah Al-Sofla",
 					"name_ar": "مرخة السفلى",
-					"name_ar_tashkeel": "مَرْخَة السُّفْلَى"
+					"name_ar_tashkeel": "مَرْخَة السُّفْلَى",
+					"name_ar_normalized": "مرخه السفلا",
+					"name_en_normalized": "Markhah Al Sofla"
 				},
 				{
 					"id": 15,
 					"name_en": "Markhah Al-Olia",
 					"name_ar": "مرخة العليا",
-					"name_ar_tashkeel": "مَرْخَة العُلْيَا"
+					"name_ar_tashkeel": "مَرْخَة العُلْيَا",
+					"name_ar_normalized": "مرخه العليا",
+					"name_en_normalized": "Markhah Al Olia"
 				},
 				{
 					"id": 16,
 					"name_en": "Maifa'h",
 					"name_ar": "ميفعة",
-					"name_ar_tashkeel": "مَيْفَعَة"
+					"name_ar_tashkeel": "مَيْفَعَة",
+					"name_ar_normalized": "ميفعه",
+					"name_en_normalized": "Maifah"
 				},
 				{
 					"id": 17,
 					"name_en": "Nesab",
 					"name_ar": "نصاب",
-					"name_ar_tashkeel": "نِصَاب"
+					"name_ar_tashkeel": "نِصَاب",
+					"name_ar_normalized": "نصاب",
+					"name_en_normalized": "Nesab"
 				}
 			]
 		},
@@ -1342,144 +1754,192 @@
 			"phone_numbering_plan": "04",
 			"capital_name_ar": "مدينة تعز",
 			"capital_name_en": "Taiz City",
+			"name_ar_normalized": "تعز",
+			"name_en_normalized": "Taiz",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Mawiah",
 					"name_ar": "ماوية",
-					"name_ar_tashkeel": "مَاوِيَة"
+					"name_ar_tashkeel": "مَاوِيَة",
+					"name_ar_normalized": "ماويه",
+					"name_en_normalized": "Mawiah"
 				},
 				{
 					"id": 2,
 					"name_en": "Shara'b Al-Salam",
 					"name_ar": "شرعب السلام",
-					"name_ar_tashkeel": "شَرْعَب السَّلَام"
+					"name_ar_tashkeel": "شَرْعَب السَّلَام",
+					"name_ar_normalized": "شرعب السلام",
+					"name_en_normalized": "Sharab Al Salam"
 				},
 				{
 					"id": 3,
 					"name_en": "Shara'b Al-Rawnah",
 					"name_ar": "شرعب الرونة",
-					"name_ar_tashkeel": "شَرْعَب الرَّوْنَة"
+					"name_ar_tashkeel": "شَرْعَب الرَّوْنَة",
+					"name_ar_normalized": "شرعب الرونه",
+					"name_en_normalized": "Sharab Al Rawnah"
 				},
 				{
 					"id": 4,
 					"name_en": "Maqbana",
 					"name_ar": "مقبنة",
-					"name_ar_tashkeel": "مَقْبَنَة"
+					"name_ar_tashkeel": "مَقْبَنَة",
+					"name_ar_normalized": "مقبنه",
+					"name_en_normalized": "Maqbana"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Makha",
 					"name_ar": "المخا",
-					"name_ar_tashkeel": "المَخَا"
+					"name_ar_tashkeel": "المَخَا",
+					"name_ar_normalized": "المخا",
+					"name_en_normalized": "Al Makha"
 				},
 				{
 					"id": 6,
 					"name_en": "Thubab",
 					"name_ar": "ذباب",
-					"name_ar_tashkeel": "ذُبَاب"
+					"name_ar_tashkeel": "ذُبَاب",
+					"name_ar_normalized": "ذباب",
+					"name_en_normalized": "Thubab"
 				},
 				{
 					"id": 7,
 					"name_en": "Mawza'",
 					"name_ar": "موزع",
-					"name_ar_tashkeel": "مَوْزَع"
+					"name_ar_tashkeel": "مَوْزَع",
+					"name_ar_normalized": "موزع",
+					"name_en_normalized": "Mawza"
 				},
 				{
 					"id": 8,
 					"name_en": "Habashi Mountain",
 					"name_ar": "جبل حبشي",
-					"name_ar_tashkeel": "جَبَل حَبَشِي"
+					"name_ar_tashkeel": "جَبَل حَبَشِي",
+					"name_ar_normalized": "جبل حبشي",
+					"name_en_normalized": "Habashi Mountain"
 				},
 				{
 					"id": 9,
 					"name_en": "Mashra'a and Hadnan",
 					"name_ar": "مشرعة وحدنان",
-					"name_ar_tashkeel": "مَشْرَعَة وَحَدْنَان"
+					"name_ar_tashkeel": "مَشْرَعَة وَحَدْنَان",
+					"name_ar_normalized": "مشرعه وحدنان",
+					"name_en_normalized": "Mashraa and Hadnan"
 				},
 				{
 					"id": 10,
 					"name_en": "Saber Al-Mawadim",
 					"name_ar": "صبر الموادم",
-					"name_ar_tashkeel": "صَبِر المَوَادِم"
+					"name_ar_tashkeel": "صَبِر المَوَادِم",
+					"name_ar_normalized": "صبر الموادم",
+					"name_en_normalized": "Saber Al Mawadim"
 				},
 				{
 					"id": 11,
 					"name_en": "Al-Misrakh",
 					"name_ar": "المسراخ",
-					"name_ar_tashkeel": "المِسْرَاخ"
+					"name_ar_tashkeel": "المِسْرَاخ",
+					"name_ar_normalized": "المسراخ",
+					"name_en_normalized": "Al Misrakh"
 				},
 				{
 					"id": 12,
 					"name_en": "Khadeer",
 					"name_ar": "خدير",
-					"name_ar_tashkeel": "خَدِيْر"
+					"name_ar_tashkeel": "خَدِيْر",
+					"name_ar_normalized": "خدير",
+					"name_en_normalized": "Khadeer"
 				},
 				{
 					"id": 13,
 					"name_en": "Al-Selw",
 					"name_ar": "الصلو",
-					"name_ar_tashkeel": "الصِّلْو"
+					"name_ar_tashkeel": "الصِّلْو",
+					"name_ar_normalized": "الصلو",
+					"name_en_normalized": "Al Selw"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Shamaiatain",
 					"name_ar": "الشمايتين",
-					"name_ar_tashkeel": "الشَّمَايَتَيْن"
+					"name_ar_tashkeel": "الشَّمَايَتَيْن",
+					"name_ar_normalized": "الشمايتين",
+					"name_en_normalized": "Al Shamaiatain"
 				},
 				{
 					"id": 15,
 					"name_en": "Al-Waz'iah",
 					"name_ar": "الوازعية",
-					"name_ar_tashkeel": "الوَازِعِيَّة"
+					"name_ar_tashkeel": "الوَازِعِيَّة",
+					"name_ar_normalized": "الوازعيه",
+					"name_en_normalized": "Al Waziah"
 				},
 				{
 					"id": 16,
 					"name_en": "Haifan",
 					"name_ar": "حيفان",
-					"name_ar_tashkeel": "حَيْفَان"
+					"name_ar_tashkeel": "حَيْفَان",
+					"name_ar_normalized": "حيفان",
+					"name_en_normalized": "Haifan"
 				},
 				{
 					"id": 17,
 					"name_en": "Al-Mathfar",
 					"name_ar": "المظفر",
-					"name_ar_tashkeel": "المَظْفَر"
+					"name_ar_tashkeel": "المَظْفَر",
+					"name_ar_normalized": "المظفر",
+					"name_en_normalized": "Al Mathfar"
 				},
 				{
 					"id": 18,
 					"name_en": "Al-Qahera",
 					"name_ar": "القاهرة",
-					"name_ar_tashkeel": "القَاهِرَة"
+					"name_ar_tashkeel": "القَاهِرَة",
+					"name_ar_normalized": "القاهره",
+					"name_en_normalized": "Al Qahera"
 				},
 				{
 					"id": 19,
 					"name_en": "Salah",
 					"name_ar": "صالة",
-					"name_ar_tashkeel": "صَالَة"
+					"name_ar_tashkeel": "صَالَة",
+					"name_ar_normalized": "صاله",
+					"name_en_normalized": "Salah"
 				},
 				{
 					"id": 20,
 					"name_en": "Al-Taiziah",
 					"name_ar": "التعزية",
-					"name_ar_tashkeel": "التَّعِزِّيَة"
+					"name_ar_tashkeel": "التَّعِزِّيَة",
+					"name_ar_normalized": "التعزيه",
+					"name_en_normalized": "Al Taiziah"
 				},
 				{
 					"id": 21,
 					"name_en": "Al-Ma'afer",
 					"name_ar": "المعافر",
-					"name_ar_tashkeel": "المَعَافِر"
+					"name_ar_tashkeel": "المَعَافِر",
+					"name_ar_normalized": "المعافر",
+					"name_en_normalized": "Al Maafer"
 				},
 				{
 					"id": 22,
 					"name_en": "Al-Mawasit",
 					"name_ar": "المواسط",
-					"name_ar_tashkeel": "المَوَاسِط"
+					"name_ar_tashkeel": "المَوَاسِط",
+					"name_ar_normalized": "المواسط",
+					"name_en_normalized": "Al Mawasit"
 				},
 				{
 					"id": 23,
 					"name_en": "Sama'",
 					"name_ar": "سامع",
-					"name_ar_tashkeel": "سَامِع"
+					"name_ar_tashkeel": "سَامِع",
+					"name_ar_normalized": "سامع",
+					"name_en_normalized": "Sama"
 				}
 			]
 		},
@@ -1491,78 +1951,104 @@
 			"phone_numbering_plan": "06",
 			"capital_name_ar": "الحزم",
 			"capital_name_en": "Al-Hazm",
+			"name_ar_normalized": "الجوف",
+			"name_en_normalized": "Al jawf",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Barat Al-enan",
 					"name_ar": "برط العنان",
-					"name_ar_tashkeel": "بَرَطَ العِنَان"
+					"name_ar_tashkeel": "بَرَطَ العِنَان",
+					"name_ar_normalized": "برط العنان",
+					"name_en_normalized": "Barat Al enan"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Hazm",
 					"name_ar": "الحزم",
-					"name_ar_tashkeel": "الحَزْم"
+					"name_ar_tashkeel": "الحَزْم",
+					"name_ar_normalized": "الحزم",
+					"name_en_normalized": "Al Hazm"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Humaidat",
 					"name_ar": "الحميدات",
-					"name_ar_tashkeel": "الحُمَيْدَات"
+					"name_ar_tashkeel": "الحُمَيْدَات",
+					"name_ar_normalized": "الحميدات",
+					"name_en_normalized": "Al Humaidat"
 				},
 				{
 					"id": 4,
 					"name_en": "Khab and Al-Sha’af",
 					"name_ar": "خب والشعف",
-					"name_ar_tashkeel": "خَب وَالشَعَف"
+					"name_ar_tashkeel": "خَب وَالشَعَف",
+					"name_ar_normalized": "خب والشعف",
+					"name_en_normalized": "Khab and Al Sha’af"
 				},
 				{
 					"id": 5,
 					"name_en": "Kharab Al-Marashi",
 					"name_ar": "خراب المراشي",
-					"name_ar_tashkeel": "خَرَاب المَرَاشِي"
+					"name_ar_tashkeel": "خَرَاب المَرَاشِي",
+					"name_ar_normalized": "خراب المراشي",
+					"name_en_normalized": "Kharab Al Marashi"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Khalq",
 					"name_ar": "الخلق",
-					"name_ar_tashkeel": "الخَلَق"
+					"name_ar_tashkeel": "الخَلَق",
+					"name_ar_normalized": "الخلق",
+					"name_en_normalized": "Al Khalq"
 				},
 				{
 					"id": 7,
 					"name_en": "Rajozah",
 					"name_ar": "رجوزة",
-					"name_ar_tashkeel": "رَجُوْزَة"
+					"name_ar_tashkeel": "رَجُوْزَة",
+					"name_ar_normalized": "رجوزه",
+					"name_en_normalized": "Rajozah"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Zaher",
 					"name_ar": "الزاهر",
-					"name_ar_tashkeel": "الزَّاهِر"
+					"name_ar_tashkeel": "الزَّاهِر",
+					"name_ar_normalized": "الزاهر",
+					"name_en_normalized": "Al Zaher"
 				},
 				{
 					"id": 9,
 					"name_en": "Al-Ghail",
 					"name_ar": "الغيل",
-					"name_ar_tashkeel": "الغَيْل"
+					"name_ar_tashkeel": "الغَيْل",
+					"name_ar_normalized": "الغيل",
+					"name_en_normalized": "Al Ghail"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Mutoon",
 					"name_ar": "المتون",
-					"name_ar_tashkeel": "المُتُوْن"
+					"name_ar_tashkeel": "المُتُوْن",
+					"name_ar_normalized": "المتون",
+					"name_en_normalized": "Al Mutoon"
 				},
 				{
 					"id": 11,
 					"name_en": "Al-Masloob",
 					"name_ar": "المصلوب",
-					"name_ar_tashkeel": "المَصْلُوْب"
+					"name_ar_tashkeel": "المَصْلُوْب",
+					"name_ar_normalized": "المصلوب",
+					"name_en_normalized": "Al Masloob"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Matmmah",
 					"name_ar": "المطمة",
-					"name_ar_tashkeel": "المَطَمّة"
+					"name_ar_tashkeel": "المَطَمّة",
+					"name_ar_normalized": "المطمه",
+					"name_en_normalized": "Al Matmmah"
 				}
 			]
 		},
@@ -1574,90 +2060,120 @@
 			"phone_numbering_plan": "06",
 			"capital_name_ar": "مدينة مأرب",
 			"capital_name_en": "Ma'rib City",
+			"name_ar_normalized": "مارب",
+			"name_en_normalized": "Marib",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Bedbedah",
 					"name_ar": "بدبدة",
-					"name_ar_tashkeel": "بِدْبِدَة"
+					"name_ar_tashkeel": "بِدْبِدَة",
+					"name_ar_normalized": "بدبده",
+					"name_en_normalized": "Bedbedah"
 				},
 				{
 					"id": 2,
 					"name_en": "Morad Mountain",
 					"name_ar": "جبل مراد",
-					"name_ar_tashkeel": "جَبَل مُرَاد"
+					"name_ar_tashkeel": "جَبَل مُرَاد",
+					"name_ar_normalized": "جبل مراد",
+					"name_en_normalized": "Morad Mountain"
 				},
 				{
 					"id": 3,
 					"name_en": "Madghal Al-Gida'an",
 					"name_ar": "مدغل الجدعان",
-					"name_ar_tashkeel": "مَدْغَل الجِدْعَان"
+					"name_ar_tashkeel": "مَدْغَل الجِدْعَان",
+					"name_ar_normalized": "مدغل الجدعان",
+					"name_en_normalized": "Madghal Al Gidaan"
 				},
 				{
 					"id": 4,
 					"name_en": "Ma'rib City",
 					"name_ar": "مدينة مأرب",
-					"name_ar_tashkeel": "مَدِينَة مَأْرِب"
+					"name_ar_tashkeel": "مَدِينَة مَأْرِب",
+					"name_ar_normalized": "مدينه مارب",
+					"name_en_normalized": "Marib City"
 				},
 				{
 					"id": 5,
 					"name_en": "Hareeb",
 					"name_ar": "حريب",
-					"name_ar_tashkeel": "حَرِيْب"
+					"name_ar_tashkeel": "حَرِيْب",
+					"name_ar_normalized": "حريب",
+					"name_en_normalized": "Hareeb"
 				},
 				{
 					"id": 6,
 					"name_en": "Hareeb Al-Qaramish",
 					"name_ar": "حريب القرامش",
-					"name_ar_tashkeel": "حَرِيْب القَرَامِش"
+					"name_ar_tashkeel": "حَرِيْب القَرَامِش",
+					"name_ar_normalized": "حريب القرامش",
+					"name_en_normalized": "Hareeb Al Qaramish"
 				},
 				{
 					"id": 7,
 					"name_en": "Rahabah",
 					"name_ar": "رحبة",
-					"name_ar_tashkeel": "رَحَبَة"
+					"name_ar_tashkeel": "رَحَبَة",
+					"name_ar_normalized": "رحبه",
+					"name_en_normalized": "Rahabah"
 				},
 				{
 					"id": 8,
 					"name_en": "Raghwan",
 					"name_ar": "رغوان",
-					"name_ar_tashkeel": "رَغْوَان"
+					"name_ar_tashkeel": "رَغْوَان",
+					"name_ar_normalized": "رغوان",
+					"name_en_normalized": "Raghwan"
 				},
 				{
 					"id": 9,
 					"name_en": "Sirwah",
 					"name_ar": "صرواح",
-					"name_ar_tashkeel": "صِرْوَاح"
+					"name_ar_tashkeel": "صِرْوَاح",
+					"name_ar_normalized": "صرواح",
+					"name_en_normalized": "Sirwah"
 				},
 				{
 					"id": 10,
 					"name_en": "Al-Abdiah",
 					"name_ar": "العبدية",
-					"name_ar_tashkeel": "العَبْدِيَّة"
+					"name_ar_tashkeel": "العَبْدِيَّة",
+					"name_ar_normalized": "العبديه",
+					"name_en_normalized": "Al Abdiah"
 				},
 				{
 					"id": 11,
 					"name_en": "Mahliah",
 					"name_ar": "ماهلية",
-					"name_ar_tashkeel": "ماهِلِيَّة"
+					"name_ar_tashkeel": "ماهِلِيَّة",
+					"name_ar_normalized": "ماهليه",
+					"name_en_normalized": "Mahliah"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Jobah",
 					"name_ar": "الجوبة",
-					"name_ar_tashkeel": "الجُوْبَة"
+					"name_ar_tashkeel": "الجُوْبَة",
+					"name_ar_normalized": "الجوبه",
+					"name_en_normalized": "Al Jobah"
 				},
 				{
 					"id": 13,
 					"name_en": "Majzar",
 					"name_ar": "مجزر",
-					"name_ar_tashkeel": "مَجْزَر"
+					"name_ar_tashkeel": "مَجْزَر",
+					"name_ar_normalized": "مجزر",
+					"name_en_normalized": "Majzar"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Mokalla City",
 					"name_ar": "مدينة المكلا",
-					"name_ar_tashkeel": "مَدِيْنَة المُكَلَّا"
+					"name_ar_tashkeel": "مَدِيْنَة المُكَلَّا",
+					"name_ar_normalized": "مدينه المكلا",
+					"name_en_normalized": "Al Mokalla City"
 				}
 			]
 		},
@@ -1669,168 +2185,224 @@
 			"phone_numbering_plan": "05",
 			"capital_name_ar": "المكلا",
 			"capital_name_en": "Al-Mokalla",
+			"name_ar_normalized": "حضرموت",
+			"name_en_normalized": "Hadramot",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Mokalla",
 					"name_ar": "المكلا",
-					"name_ar_tashkeel": "المُكَلَّا"
+					"name_ar_tashkeel": "المُكَلَّا",
+					"name_ar_normalized": "المكلا",
+					"name_en_normalized": "Al Mokalla"
 				},
 				{
 					"id": 2,
 					"name_en": "Thamood",
 					"name_ar": "ثمود",
-					"name_ar_tashkeel": "ثَمُوْد"
+					"name_ar_tashkeel": "ثَمُوْد",
+					"name_ar_normalized": "ثمود",
+					"name_en_normalized": "Thamood"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Qaf",
 					"name_ar": "القف",
-					"name_ar_tashkeel": "القَف"
+					"name_ar_tashkeel": "القَف",
+					"name_ar_normalized": "القف",
+					"name_en_normalized": "Al Qaf"
 				},
 				{
 					"id": 4,
 					"name_en": "Zamakh and Manookh",
 					"name_ar": "زمخ ومنوخ",
-					"name_ar_tashkeel": "زَمَخ وَمُنُوْخ"
+					"name_ar_tashkeel": "زَمَخ وَمُنُوْخ",
+					"name_ar_normalized": "زمخ ومنوخ",
+					"name_en_normalized": "Zamakh and Manookh"
 				},
 				{
 					"id": 5,
 					"name_en": "Hajr",
 					"name_ar": "حجر",
-					"name_ar_tashkeel": "حَجْر"
+					"name_ar_tashkeel": "حَجْر",
+					"name_ar_normalized": "حجر",
+					"name_en_normalized": "Hajr"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Abr",
 					"name_ar": "العبر",
-					"name_ar_tashkeel": "العَبْر"
+					"name_ar_tashkeel": "العَبْر",
+					"name_ar_normalized": "العبر",
+					"name_en_normalized": "Al Abr"
 				},
 				{
 					"id": 7,
 					"name_en": "Al-Qatn",
 					"name_ar": "القطن",
-					"name_ar_tashkeel": "القَطَن"
+					"name_ar_tashkeel": "القَطَن",
+					"name_ar_normalized": "القطن",
+					"name_en_normalized": "Al Qatn"
 				},
 				{
 					"id": 8,
 					"name_en": "Shibam",
 					"name_ar": "شبام",
-					"name_ar_tashkeel": "شِبَام"
+					"name_ar_tashkeel": "شِبَام",
+					"name_ar_normalized": "شبام",
+					"name_en_normalized": "Shibam"
 				},
 				{
 					"id": 9,
 					"name_en": "Sah",
 					"name_ar": "ساه",
-					"name_ar_tashkeel": "سَاه"
+					"name_ar_tashkeel": "سَاه",
+					"name_ar_normalized": "ساه",
+					"name_en_normalized": "Sah"
 				},
 				{
 					"id": 10,
 					"name_en": "Say'on",
 					"name_ar": "سيئون",
-					"name_ar_tashkeel": "سَيْئُون"
+					"name_ar_tashkeel": "سَيْئُون",
+					"name_ar_normalized": "سيءون",
+					"name_en_normalized": "Sayon"
 				},
 				{
 					"id": 11,
 					"name_en": "Tarim",
 					"name_ar": "تريم",
-					"name_ar_tashkeel": "تَرِيْم"
+					"name_ar_tashkeel": "تَرِيْم",
+					"name_ar_normalized": "تريم",
+					"name_en_normalized": "Tarim"
 				},
 				{
 					"id": 12,
 					"name_en": "Al-Soom",
 					"name_ar": "السوم",
-					"name_ar_tashkeel": "السُّوْم"
+					"name_ar_tashkeel": "السُّوْم",
+					"name_ar_normalized": "السوم",
+					"name_en_normalized": "Al Soom"
 				},
 				{
 					"id": 13,
 					"name_en": "Al-Raidah and Qusaier",
 					"name_ar": "الريدة وقصيعر",
-					"name_ar_tashkeel": "الرَّيْدَة وَقُصَيْعَِر"
+					"name_ar_tashkeel": "الرَّيْدَة وَقُصَيْعَِر",
+					"name_ar_normalized": "الريده وقصيعر",
+					"name_en_normalized": "Al Raidah and Qusaier"
 				},
 				{
 					"id": 14,
 					"name_en": "Al-Dais",
 					"name_ar": "الديس",
-					"name_ar_tashkeel": "الدِّيْس"
+					"name_ar_tashkeel": "الدِّيْس",
+					"name_ar_normalized": "الديس",
+					"name_en_normalized": "Al Dais"
 				},
 				{
 					"id": 15,
 					"name_en": "Al-Shihr",
 					"name_ar": "الشحر",
-					"name_ar_tashkeel": "الشِّحْر"
+					"name_ar_tashkeel": "الشِّحْر",
+					"name_ar_normalized": "الشحر",
+					"name_en_normalized": "Al Shihr"
 				},
 				{
 					"id": 16,
 					"name_en": "Ghail Bin Yameen",
 					"name_ar": "غيل بن يمين",
-					"name_ar_tashkeel": "غَيْل بِْن يَمِيْن"
+					"name_ar_tashkeel": "غَيْل بِْن يَمِيْن",
+					"name_ar_normalized": "غيل بن يمين",
+					"name_en_normalized": "Ghail Bin Yameen"
 				},
 				{
 					"id": 17,
 					"name_en": "Ghail Ba Wazeer",
 					"name_ar": "غيل باوزير",
-					"name_ar_tashkeel": "غَيْل بَاوَزِيْر"
+					"name_ar_tashkeel": "غَيْل بَاوَزِيْر",
+					"name_ar_normalized": "غيل باوزير",
+					"name_en_normalized": "Ghail Ba Wazeer"
 				},
 				{
 					"id": 18,
 					"name_en": "Dawa'an",
 					"name_ar": "دوعن",
-					"name_ar_tashkeel": "دَوْعَن"
+					"name_ar_tashkeel": "دَوْعَن",
+					"name_ar_normalized": "دوعن",
+					"name_en_normalized": "Dawaan"
 				},
 				{
 					"id": 19,
 					"name_en": "Amd",
 					"name_ar": "عمد",
-					"name_ar_tashkeel": "عَمْد"
+					"name_ar_tashkeel": "عَمْد",
+					"name_ar_normalized": "عمد",
+					"name_en_normalized": "Amd"
 				},
 				{
 					"id": 20,
 					"name_en": "Al-Ayn Valley",
 					"name_ar": "حورة ووادي العين",
-					"name_ar_tashkeel": "حُوْرَة وَوَادِي العَيْن"
+					"name_ar_tashkeel": "حُوْرَة وَوَادِي العَيْن",
+					"name_ar_normalized": "حوره ووادي العين",
+					"name_en_normalized": "Al Ayn Valley"
 				},
 				{
 					"id": 21,
 					"name_en": "Raikhyah",
 					"name_ar": "رخية",
-					"name_ar_tashkeel": "رَخْيَة"
+					"name_ar_tashkeel": "رَخْيَة",
+					"name_ar_normalized": "رخيه",
+					"name_en_normalized": "Raikhyah"
 				},
 				{
 					"id": 22,
 					"name_en": "Yabo'th",
 					"name_ar": "يبعث",
-					"name_ar_tashkeel": "يَبْعُث"
+					"name_ar_tashkeel": "يَبْعُث",
+					"name_ar_normalized": "يبعث",
+					"name_en_normalized": "Yaboth"
 				},
 				{
 					"id": 23,
 					"name_en": "Hajar Al-Saia'ar",
 					"name_ar": "حجر الصيعر",
-					"name_ar_tashkeel": "حَجْر الصَّيْعَر"
+					"name_ar_tashkeel": "حَجْر الصَّيْعَر",
+					"name_ar_normalized": "حجر الصيعر",
+					"name_en_normalized": "Hajar Al Saiaar"
 				},
 				{
 					"id": 24,
 					"name_en": "Barom Maifa'a",
 					"name_ar": "بروم ميفع",
-					"name_ar_tashkeel": "بُرُوم مَيْفَع"
+					"name_ar_tashkeel": "بُرُوم مَيْفَع",
+					"name_ar_normalized": "بروم ميفع",
+					"name_en_normalized": "Barom Maifaa"
 				},
 				{
 					"id": 25,
 					"name_en": "Al-Dhlia'ah",
 					"name_ar": "الضليعة",
-					"name_ar_tashkeel": "الضِّلِيْعَة"
+					"name_ar_tashkeel": "الضِّلِيْعَة",
+					"name_ar_normalized": "الضليعه",
+					"name_en_normalized": "Al Dhliaah"
 				},
 				{
 					"id": 26,
 					"name_en": "Rumah",
 					"name_ar": "رماه",
-					"name_ar_tashkeel": "رُمَاه"
+					"name_ar_tashkeel": "رُمَاه",
+					"name_ar_normalized": "رماه",
+					"name_en_normalized": "Rumah"
 				},
 				{
 					"id": 27,
 					"name_en": "Huridhah",
 					"name_ar": "حريضة",
-					"name_ar_tashkeel": "حُرَيْضَة"
+					"name_ar_tashkeel": "حُرَيْضَة",
+					"name_ar_normalized": "حريضه",
+					"name_en_normalized": "Huridhah"
 				}
 			]
 		},
@@ -1842,60 +2414,80 @@
 			"phone_numbering_plan": "05",
 			"capital_name_ar": "الغيضة",
 			"capital_name_en": "Al-Ghaidhah",
+			"name_ar_normalized": "المهره",
+			"name_en_normalized": "Al Maharah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Haat",
 					"name_ar": "حات",
-					"name_ar_tashkeel": "حَات"
+					"name_ar_tashkeel": "حَات",
+					"name_ar_normalized": "حات",
+					"name_en_normalized": "Haat"
 				},
 				{
 					"id": 2,
 					"name_en": "Hsween",
 					"name_ar": "حصوين",
-					"name_ar_tashkeel": "حَصْوِيْن"
+					"name_ar_tashkeel": "حَصْوِيْن",
+					"name_ar_normalized": "حصوين",
+					"name_en_normalized": "Hsween"
 				},
 				{
 					"id": 3,
 					"name_en": "Hawf",
 					"name_ar": "حوف",
-					"name_ar_tashkeel": "حَوْف"
+					"name_ar_tashkeel": "حَوْف",
+					"name_ar_normalized": "حوف",
+					"name_en_normalized": "Hawf"
 				},
 				{
 					"id": 4,
 					"name_en": "Syhoot",
 					"name_ar": "سيحوت",
-					"name_ar_tashkeel": "سَيْحُوْت"
+					"name_ar_tashkeel": "سَيْحُوْت",
+					"name_ar_normalized": "سيحوت",
+					"name_en_normalized": "Syhoot"
 				},
 				{
 					"id": 5,
 					"name_en": "Shihin",
 					"name_ar": "شحن",
-					"name_ar_tashkeel": "شِحِْن"
+					"name_ar_tashkeel": "شِحِْن",
+					"name_ar_normalized": "شحن",
+					"name_en_normalized": "Shihin"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Ghaidhah",
 					"name_ar": "الغيضة",
-					"name_ar_tashkeel": "الغَيْضَة"
+					"name_ar_tashkeel": "الغَيْضَة",
+					"name_ar_normalized": "الغيضه",
+					"name_en_normalized": "Al Ghaidhah"
 				},
 				{
 					"id": 7,
 					"name_en": "Qashn",
 					"name_ar": "قشن",
-					"name_ar_tashkeel": "قِشْن"
+					"name_ar_tashkeel": "قِشْن",
+					"name_ar_normalized": "قشن",
+					"name_en_normalized": "Qashn"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Masilah",
 					"name_ar": "المسيلة",
-					"name_ar_tashkeel": "المَسِيْلَة"
+					"name_ar_tashkeel": "المَسِيْلَة",
+					"name_ar_normalized": "المسيله",
+					"name_en_normalized": "Al Masilah"
 				},
 				{
 					"id": 9,
 					"name_en": "Man'r",
 					"name_ar": "منعر",
-					"name_ar_tashkeel": "مَنْعَر"
+					"name_ar_tashkeel": "مَنْعَر",
+					"name_ar_normalized": "منعر",
+					"name_en_normalized": "Manr"
 				}
 			]
 		},
@@ -1907,60 +2499,80 @@
 			"phone_numbering_plan": "02",
 			"capital_name_ar": "مدينة الضالع",
 			"capital_name_en": "Al-Dhale' City",
+			"name_ar_normalized": "الضالع",
+			"name_en_normalized": "Al Dhale",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Azariq",
 					"name_ar": "الأزارق",
-					"name_ar_tashkeel": "الأَزَارِق"
+					"name_ar_tashkeel": "الأَزَارِق",
+					"name_ar_normalized": "الازارق",
+					"name_en_normalized": "Al Azariq"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Hasha'",
 					"name_ar": "الحشاء",
-					"name_ar_tashkeel": "الحَشَاء"
+					"name_ar_tashkeel": "الحَشَاء",
+					"name_ar_normalized": "الحشاء",
+					"name_en_normalized": "Al Hasha"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Hosain",
 					"name_ar": "الحصين",
-					"name_ar_tashkeel": "الحُصَيْن"
+					"name_ar_tashkeel": "الحُصَيْن",
+					"name_ar_normalized": "الحصين",
+					"name_en_normalized": "Al Hosain"
 				},
 				{
 					"id": 4,
 					"name_en": "Al-Sho'aib",
 					"name_ar": "الشعيب",
-					"name_ar_tashkeel": "الشُّعَيْب"
+					"name_ar_tashkeel": "الشُّعَيْب",
+					"name_ar_normalized": "الشعيب",
+					"name_en_normalized": "Al Shoaib"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Dhale'",
 					"name_ar": "الضالع",
-					"name_ar_tashkeel": "الضَّالِع"
+					"name_ar_tashkeel": "الضَّالِع",
+					"name_ar_normalized": "الضالع",
+					"name_en_normalized": "Al Dhale"
 				},
 				{
 					"id": 6,
 					"name_en": "Joban",
 					"name_ar": "جبن",
-					"name_ar_tashkeel": "جُبَن"
+					"name_ar_tashkeel": "جُبَن",
+					"name_ar_normalized": "جبن",
+					"name_en_normalized": "Joban"
 				},
 				{
 					"id": 7,
 					"name_en": "Jehaf",
 					"name_ar": "جحاف",
-					"name_ar_tashkeel": "جِحَاف"
+					"name_ar_tashkeel": "جِحَاف",
+					"name_ar_normalized": "جحاف",
+					"name_en_normalized": "Jehaf"
 				},
 				{
 					"id": 8,
 					"name_en": "Damt",
 					"name_ar": "دمت",
-					"name_ar_tashkeel": "دَمْت"
+					"name_ar_tashkeel": "دَمْت",
+					"name_ar_normalized": "دمت",
+					"name_en_normalized": "Damt"
 				},
 				{
 					"id": 9,
 					"name_en": "Qa'tabah",
 					"name_ar": "قعطبة",
-					"name_ar_tashkeel": "قَعْطَبَة"
+					"name_ar_tashkeel": "قَعْطَبَة",
+					"name_ar_normalized": "قعطبه",
+					"name_en_normalized": "Qatabah"
 				}
 			]
 		},
@@ -1972,60 +2584,80 @@
 			"phone_numbering_plan": "07",
 			"capital_name_ar": "مدينة المحويت",
 			"capital_name_en": "Al-Mahweet City",
+			"name_ar_normalized": "المحويت",
+			"name_en_normalized": "Al Mahweet",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Melhan",
 					"name_ar": "ملحان",
-					"name_ar_tashkeel": "مَلْحَان"
+					"name_ar_tashkeel": "مَلْحَان",
+					"name_ar_normalized": "ملحان",
+					"name_en_normalized": "Melhan"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Khabt",
 					"name_ar": "الخبت",
-					"name_ar_tashkeel": "الخَبْت"
+					"name_ar_tashkeel": "الخَبْت",
+					"name_ar_normalized": "الخبت",
+					"name_en_normalized": "Al Khabt"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Tawilah",
 					"name_ar": "الطويلة",
-					"name_ar_tashkeel": "الطَّوِيْلَة"
+					"name_ar_tashkeel": "الطَّوِيْلَة",
+					"name_ar_normalized": "الطويله",
+					"name_en_normalized": "Al Tawilah"
 				},
 				{
 					"id": 4,
 					"name_en": "Bni Sa'd",
 					"name_ar": "بني سعد",
-					"name_ar_tashkeel": "بَنِي سَعْد"
+					"name_ar_tashkeel": "بَنِي سَعْد",
+					"name_ar_normalized": "بني سعد",
+					"name_en_normalized": "Bni Sad"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Rojom",
 					"name_ar": "الرجم",
-					"name_ar_tashkeel": "الرُّجُم"
+					"name_ar_tashkeel": "الرُّجُم",
+					"name_ar_normalized": "الرجم",
+					"name_en_normalized": "Al Rojom"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Mahweet",
 					"name_ar": "المحويت",
-					"name_ar_tashkeel": "المَحْوِيْت"
+					"name_ar_tashkeel": "المَحْوِيْت",
+					"name_ar_normalized": "المحويت",
+					"name_en_normalized": "Al Mahweet"
 				},
 				{
 					"id": 7,
 					"name_en": "Al-Mahweet City",
 					"name_ar": "مدينة المحويت",
-					"name_ar_tashkeel": "مَدِيْنَة المَحْوِيْت"
+					"name_ar_tashkeel": "مَدِيْنَة المَحْوِيْت",
+					"name_ar_normalized": "مدينه المحويت",
+					"name_en_normalized": "Al Mahweet City"
 				},
 				{
 					"id": 8,
 					"name_en": "Shibam Kawkaban",
 					"name_ar": "شبام كوكبان",
-					"name_ar_tashkeel": "شِبَام كَوْكَبَان"
+					"name_ar_tashkeel": "شِبَام كَوْكَبَان",
+					"name_ar_normalized": "شبام كوكبان",
+					"name_en_normalized": "Shibam Kawkaban"
 				},
 				{
 					"id": 9,
 					"name_en": "Hofash",
 					"name_ar": "حفاش",
-					"name_ar_tashkeel": "حُفَاش"
+					"name_ar_tashkeel": "حُفَاش",
+					"name_ar_normalized": "حفاش",
+					"name_en_normalized": "Hofash"
 				}
 			]
 		},
@@ -2037,96 +2669,128 @@
 			"phone_numbering_plan": "02",
 			"capital_name_ar": "الحوطة",
 			"capital_name_en": "Al-Hotah",
+			"name_ar_normalized": "لحج",
+			"name_en_normalized": "Lahj",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Al-Had",
 					"name_ar": "الحد",
-					"name_ar_tashkeel": "الحَد"
+					"name_ar_tashkeel": "الحَد",
+					"name_ar_normalized": "الحد",
+					"name_en_normalized": "Al Had"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Hotah",
 					"name_ar": "الحوطة",
-					"name_ar_tashkeel": "الحُوْطَة"
+					"name_ar_tashkeel": "الحُوْطَة",
+					"name_ar_normalized": "الحوطه",
+					"name_en_normalized": "Al Hotah"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Qabbaytah",
 					"name_ar": "القبيطة",
-					"name_ar_tashkeel": "القَبَّيْطَة"
+					"name_ar_tashkeel": "القَبَّيْطَة",
+					"name_ar_normalized": "القبيطه",
+					"name_en_normalized": "Al Qabbaytah"
 				},
 				{
 					"id": 4,
 					"name_en": "Al-Mosaimeer",
 					"name_ar": "المسيمير",
-					"name_ar_tashkeel": "المُسَيمِيْر"
+					"name_ar_tashkeel": "المُسَيمِيْر",
+					"name_ar_normalized": "المسيمير",
+					"name_en_normalized": "Al Mosaimeer"
 				},
 				{
 					"id": 5,
 					"name_en": "Al-Madharaba and Al-A'ara",
 					"name_ar": "المضاربة والعارة",
-					"name_ar_tashkeel": "المَضَارِبَة وَالعَارَة"
+					"name_ar_tashkeel": "المَضَارِبَة وَالعَارَة",
+					"name_ar_normalized": "المضاربه والعاره",
+					"name_en_normalized": "Al Madharaba and Al Aara"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-Muflhi",
 					"name_ar": "المفلحي",
-					"name_ar_tashkeel": "المُفْلِحِي"
+					"name_ar_tashkeel": "المُفْلِحِي",
+					"name_ar_normalized": "المفلحي",
+					"name_en_normalized": "Al Muflhi"
 				},
 				{
 					"id": 7,
 					"name_en": "Al-Maqatirah",
 					"name_ar": "المقاطرة",
-					"name_ar_tashkeel": "المَقَاطِرَة"
+					"name_ar_tashkeel": "المَقَاطِرَة",
+					"name_ar_normalized": "المقاطره",
+					"name_en_normalized": "Al Maqatirah"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Milah",
 					"name_ar": "الملاح",
-					"name_ar_tashkeel": "المَلَاح"
+					"name_ar_tashkeel": "المَلَاح",
+					"name_ar_normalized": "الملاح",
+					"name_en_normalized": "Al Milah"
 				},
 				{
 					"id": 9,
 					"name_en": "Tbn",
 					"name_ar": "تبن",
-					"name_ar_tashkeel": "تُبَن"
+					"name_ar_tashkeel": "تُبَن",
+					"name_ar_normalized": "تبن",
+					"name_en_normalized": "Tbn"
 				},
 				{
 					"id": 10,
 					"name_en": "Halimain",
 					"name_ar": "حالمين",
-					"name_ar_tashkeel": "حَالِمَيْن"
+					"name_ar_tashkeel": "حَالِمَيْن",
+					"name_ar_normalized": "حالمين",
+					"name_en_normalized": "Halimain"
 				},
 				{
 					"id": 11,
 					"name_en": "Hobail Jabr",
 					"name_ar": "حبيل جبر",
-					"name_ar_tashkeel": "حَبِيْل جَبْر"
+					"name_ar_tashkeel": "حَبِيْل جَبْر",
+					"name_ar_normalized": "حبيل جبر",
+					"name_en_normalized": "Hobail Jabr"
 				},
 				{
 					"id": 12,
 					"name_en": "Radfan",
 					"name_ar": "ردفان",
-					"name_ar_tashkeel": "رَدْفَان"
+					"name_ar_tashkeel": "رَدْفَان",
+					"name_ar_normalized": "ردفان",
+					"name_en_normalized": "Radfan"
 				},
 				{
 					"id": 13,
 					"name_en": "Toor Al-Baha",
 					"name_ar": "طور الباحة",
-					"name_ar_tashkeel": "طُوْر البَاحَة"
+					"name_ar_tashkeel": "طُوْر البَاحَة",
+					"name_ar_normalized": "طور الباحه",
+					"name_en_normalized": "Toor Al Baha"
 				},
 				{
 					"id": 14,
 					"name_en": "Yafe'",
 					"name_ar": "يافع",
-					"name_ar_tashkeel": "يَافِع"
+					"name_ar_tashkeel": "يَافِع",
+					"name_ar_normalized": "يافع",
+					"name_en_normalized": "Yafe"
 				},
 				{
 					"id": 15,
 					"name_en": "Yahar",
 					"name_ar": "يهر",
-					"name_ar_tashkeel": "يَهَر"
+					"name_ar_tashkeel": "يَهَر",
+					"name_ar_normalized": "يهر",
+					"name_en_normalized": "Yahar"
 				}
 			]
 		},
@@ -2138,42 +2802,56 @@
 			"phone_numbering_plan": "03",
 			"capital_name_ar": "الجبين",
 			"capital_name_en": "Al-Jabeen",
+			"name_ar_normalized": "ريمه",
+			"name_en_normalized": "Raimah",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Bilad Al-Ta'am",
 					"name_ar": "بلاد الطعام",
-					"name_ar_tashkeel": "بِلَاد الطَّعَام"
+					"name_ar_tashkeel": "بِلَاد الطَّعَام",
+					"name_ar_normalized": "بلاد الطعام",
+					"name_en_normalized": "Bilad Al Taam"
 				},
 				{
 					"id": 2,
 					"name_en": "Al-Salfiah",
 					"name_ar": "السلفية",
-					"name_ar_tashkeel": "السَّلْفِيَة"
+					"name_ar_tashkeel": "السَّلْفِيَة",
+					"name_ar_normalized": "السلفيه",
+					"name_en_normalized": "Al Salfiah"
 				},
 				{
 					"id": 3,
 					"name_en": "Al-Jabeen",
 					"name_ar": "الجبين",
-					"name_ar_tashkeel": "الجَبِيْن"
+					"name_ar_tashkeel": "الجَبِيْن",
+					"name_ar_normalized": "الجبين",
+					"name_en_normalized": "Al Jabeen"
 				},
 				{
 					"id": 4,
 					"name_en": "Mizhir",
 					"name_ar": "مزهر",
-					"name_ar_tashkeel": "مِزْهِر"
+					"name_ar_tashkeel": "مِزْهِر",
+					"name_ar_normalized": "مزهر",
+					"name_en_normalized": "Mizhir"
 				},
 				{
 					"id": 5,
 					"name_en": "Kosmah",
 					"name_ar": "كسمة",
-					"name_ar_tashkeel": "كُسْمَة"
+					"name_ar_tashkeel": "كُسْمَة",
+					"name_ar_normalized": "كسمه",
+					"name_en_normalized": "Kosmah"
 				},
 				{
 					"id": 6,
 					"name_en": "Al-ja'faria",
 					"name_ar": "الجعفرية",
-					"name_ar_tashkeel": "الجَعْفَرِيَّة"
+					"name_ar_tashkeel": "الجَعْفَرِيَّة",
+					"name_ar_normalized": "الجعفريه",
+					"name_en_normalized": "Al jafaria"
 				}
 			]
 		},
@@ -2185,18 +2863,24 @@
 			"phone_numbering_plan": "05",
 			"capital_name_ar": "حديبو",
 			"capital_name_en": "Hadibu",
+			"name_ar_normalized": "سقطرا",
+			"name_en_normalized": "Socatra",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Hadibu",
 					"name_ar": "حديبو",
-					"name_ar_tashkeel": "حَدِيْبُو"
+					"name_ar_tashkeel": "حَدِيْبُو",
+					"name_ar_normalized": "حديبو",
+					"name_en_normalized": "Hadibu"
 				},
 				{
 					"id": 2,
 					"name_en": "Qulansiyah and 'Abd-al-Kuri",
 					"name_ar": "قلنسية وعبد الكوري",
-					"name_ar_tashkeel": "قَلَنْسِيِّة وَعَبْد الكُوْرِي"
+					"name_ar_tashkeel": "قَلَنْسِيِّة وَعَبْد الكُوْرِي",
+					"name_ar_normalized": "قلنسيه وعبد الكوري",
+					"name_en_normalized": "Qulansiyah and Abd al Kuri"
 				}
 			]
 		},
@@ -2208,72 +2892,96 @@
 			"phone_numbering_plan": "02",
 			"capital_name_ar": "زنجبار",
 			"capital_name_en": "Zunjubar",
+			"name_ar_normalized": "ابين",
+			"name_en_normalized": "Abyan",
 			"districts": [
 				{
 					"id": 1,
 					"name_en": "Mudiyah",
 					"name_ar": "مودية",
-					"name_ar_tashkeel": "مُوْدِيَة"
+					"name_ar_tashkeel": "مُوْدِيَة",
+					"name_ar_normalized": "موديه",
+					"name_en_normalized": "Mudiyah"
 				},
 				{
 					"id": 2,
 					"name_en": "Al Mahfid",
 					"name_ar": "المحفد",
-					"name_ar_tashkeel": "المَحْفَد"
+					"name_ar_tashkeel": "المَحْفَد",
+					"name_ar_normalized": "المحفد",
+					"name_en_normalized": "Al Mahfid"
 				},
 				{
 					"id": 3,
 					"name_en": "Jayshan",
 					"name_ar": "جيشان",
-					"name_ar_tashkeel": "جَيْشَان"
+					"name_ar_tashkeel": "جَيْشَان",
+					"name_ar_normalized": "جيشان",
+					"name_en_normalized": "Jayshan"
 				},
 				{
 					"id": 4,
 					"name_en": "Lawdar",
 					"name_ar": "لودر",
-					"name_ar_tashkeel": "لَوْدَر"
+					"name_ar_tashkeel": "لَوْدَر",
+					"name_ar_normalized": "لودر",
+					"name_en_normalized": "Lawdar"
 				},
 				{
 					"id": 5,
 					"name_en": "Sabah",
 					"name_ar": "سباح",
-					"name_ar_tashkeel": "سَبَاح"
+					"name_ar_tashkeel": "سَبَاح",
+					"name_ar_normalized": "سباح",
+					"name_en_normalized": "Sabah"
 				},
 				{
 					"id": 6,
 					"name_en": "Rusud",
 					"name_ar": "رصد",
-					"name_ar_tashkeel": "رُصُد"
+					"name_ar_tashkeel": "رُصُد",
+					"name_ar_normalized": "رصد",
+					"name_en_normalized": "Rusud"
 				},
 				{
 					"id": 7,
 					"name_en": "Sarar",
 					"name_ar": "سرار",
-					"name_ar_tashkeel": "سَرَار"
+					"name_ar_tashkeel": "سَرَار",
+					"name_ar_normalized": "سرار",
+					"name_en_normalized": "Sarar"
 				},
 				{
 					"id": 8,
 					"name_en": "Al-Wadhi'",
 					"name_ar": "الوضيع",
-					"name_ar_tashkeel": "الوَضِيْع"
+					"name_ar_tashkeel": "الوَضِيْع",
+					"name_ar_normalized": "الوضيع",
+					"name_en_normalized": "Al Wadhi"
 				},
 				{
 					"id": 9,
 					"name_en": "Ahwar",
 					"name_ar": "أحور",
-					"name_ar_tashkeel": "أَحْوَر"
+					"name_ar_tashkeel": "أَحْوَر",
+					"name_ar_normalized": "احور",
+					"name_en_normalized": "Ahwar"
 				},
 				{
 					"id": 10,
 					"name_en": "Zunjubar",
 					"name_ar": "زنجبار",
-					"name_ar_tashkeel": "زُنْجُبَار"
+					"name_ar_tashkeel": "زُنْجُبَار",
+					"name_ar_normalized": "زنجبار",
+					"name_en_normalized": "Zunjubar"
 				},
 				{
 					"id": 11,
 					"name_en": "Khanfar",
 					"name_ar": "خنفر",
-					"name_ar_tashkeel": "خَنْفَر"
+					"name_ar_tashkeel": "خَنْفَر",
+					"name_ar_normalized": "خنفر",
+					"name_en_normalized": "Khanfar"
 				}
 			]
 		}
