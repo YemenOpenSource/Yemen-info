@@ -34,15 +34,29 @@ Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yem
 
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it.
 
-## TODO // TODO will change this later to feature
+## Features
 
-- [x] Add Tashkeel in addition to Arabic names. we can use this automatic service at the beginning: [modaqiq](https://dictionary.alc.ae/modaqiq), then we add Tashkeel manually based on people who know them.
-- [x] add phone code for every city.
-- [x] add custom cspell dictionary for spell checkers, to ignore Yemeni cities/governance's names. [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
-- [x] add an id for every governance and district.
-- [x] add capital districts for every governance.
-- [x] add text_normalization for every governance/district in both Arabic and English.
-- [ ] add script to convert json file automatically to: CSV, XML, YAML, and SQL formats.
+✅ Arabic Tashkeel to every governance and every districts.
+✅ Phone numbering plan (code prefix) for every governance.
+✅ Custom cspell dictionary for spell checkers, to ignore Yemeni governance/districts names.
+[Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
+✅ A unique id for every governance and district.
+✅ Capital districts for every governance.
+✅ Text normalization for every governance/district in both Arabic and English. (very good for search).
+✅ There are several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+
+## TODO
+
+- [ ] Add an SQL format with relationships to make it easy to grab it into your database.
+- [ ] Add an No-SQL formats like mongoose Schema to make it easy to grab it into your database.
+- [ ] Add a GraphQL format to make it easy to grab it into your database.
+- [ ] Add script to convert json file programmatically to: CSV, XML, XLSX, YAML, and any future formats.
+- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
+
+# How To contribute
+
+You can make an issue if you find any mistake or you have any suggestions, or create a pull request. Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like: [yemen.csv]('./other-formats/yemen.csv'), [yemen.xlsx](./other-formats/yemen.xlsx), [yemen.xml](./other-formats/yemen.xml), [yemen.yml]('./other-formats/yemen.yml'), and any other future formats.
+We may automate the process using python code with GitHub actions, and we are welcoming contribution in this area, it will help us a lot.
 
 ## Later On Future
 
