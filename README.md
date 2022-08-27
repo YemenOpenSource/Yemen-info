@@ -32,7 +32,7 @@ This repository will help. Yes a little, it is helpful!
 
 Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: [yemen.csv](./other-formats/yemen.csv), [yemen.xlsx](./other-formats/yemen.xlsx) (Microsoft EXCEL format), [yemen.xml](./other-formats/yemen.xml), [yemen.yml](./other-formats/yemen.yml) and other formats.
 
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
