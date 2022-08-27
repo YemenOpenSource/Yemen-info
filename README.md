@@ -61,16 +61,24 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 # How To contribute
 
-You can make an issue if you find any mistake or you have any suggestions, or create a pull request. Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like: [yemen.csv]('./other-formats/yemen.csv'), [yemen.xlsx](./other-formats/yemen.xlsx), [yemen.xml](./other-formats/yemen.xml), [yemen.yml]('./other-formats/yemen.yml'), and any other future formats.
+You can make an issue if you find any mistake or you have any suggestions, or create a pull request.
+
+Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like: 
+- [yemen.csv]('./other-formats/yemen.csv'),
+- [yemen.xlsx](./other-formats/yemen.xlsx), 
+- [yemen.xml](./other-formats/yemen.xml), 
+- [yemen.yml]('./other-formats/yemen.yml'), 
+and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes related to it.
+
 We may automate the process using python code with GitHub actions, and we are welcoming contribution in this area, it will help us a lot.
 
-## Later On Future
-
+## Later On Future (out of out scope now)
+ 
 This list is for todos that are not in our scope now, but if we have time and resources we may do it, or we can do it separately in another repo.
 
-- [ ] Add polygon for map coordinates.
-- [ ] Add latitude and longitude for map coordinates in governance / districts centers.
-- [ ] add useful and joyful JS map like [this](https://yemenlg.org/ar/).
+- Add polygon for map coordinates.
+- Add latitude and longitude for map coordinates in governance / districts centers.
+- Add useful and joyful JS map like [this](https://yemenlg.org/ar/).
 
 ## Resources
 
