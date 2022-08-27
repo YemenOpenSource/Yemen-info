@@ -37,12 +37,18 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 ## Features
 
 ✅ Arabic Tashkeel to every governance and every districts.
+
 ✅ Phone numbering plan (code prefix) for every governance.
+
 ✅ Custom cspell dictionary for spell checkers, to ignore Yemeni governance/districts names.
 [Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
+
 ✅ A unique id for every governance and district.
+
 ✅ Capital districts for every governance.
+
 ✅ Text normalization for every governance/district in both Arabic and English. (very good for search).
+
 ✅ There are several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
 
 ## TODO
