@@ -32,9 +32,9 @@ This repository will help. Yes a little, it is helpful!
 
 Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [this folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats): CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+We have different formats with the same information you can use if you prefer in [this folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
 
-You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it.
+You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
 ## Features
 
@@ -43,7 +43,6 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 ✅ Phone numbering plan (code prefix) for every governance.
 
 ✅ Custom cspell dictionary for spell checkers, to ignore Yemeni governance/districts names.
-[Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) you can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
 ✅ A unique id for every governance and district.
 
@@ -51,7 +50,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ✅ Text normalization for every governance/district in both Arabic and English. (very good for search).
 
-✅ There are several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+✅ Several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
 
 ## TODO
 
@@ -60,23 +59,24 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 - [ ] Add a GraphQL format to make it easy to grab it into your database.
 - [ ] Add script to convert json file programmatically to: CSV, XML, XLSX, YAML, and any future formats.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
-- [ ] Make an Arabic veriosn of the Readme file.
+- [ ] Make an Arabic version of the Readme file.
 
 # How To contribute
 
 You can make an issue if you find any mistake or you have any suggestions, or create a pull request.
 
-Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like: 
+Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like:
+
 - [yemen.csv]('./other-formats/yemen.csv'),
-- [yemen.xlsx](./other-formats/yemen.xlsx), 
-- [yemen.xml](./other-formats/yemen.xml), 
-- [yemen.yml]('./other-formats/yemen.yml'), 
-and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes related to it.
+- [yemen.xlsx](./other-formats/yemen.xlsx),
+- [yemen.xml](./other-formats/yemen.xml),
+- [yemen.yml]('./other-formats/yemen.yml'),
+  and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes related to it.
 
 We may automate the process using python code with GitHub actions, and we are welcoming contribution in this area, it will help us a lot.
 
 ## Later On Future (out of out scope now)
- 
+
 This list is for todos that are not in our scope now, but if we have time and resources we may do it, or we can do it separately in another repo.
 
 - Add polygon for map coordinates.
@@ -98,11 +98,11 @@ some resources that helped us to build this project:
 
 For all people who contributed to this repository. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
 
-But also other people who helped us with some of the names of Yemeni governance and districts, and are:
+But also other people who helped us with some of the names of Yemeni governance and districts, and they are in alphabetical order:
 
-- ضياء الجبوبي
+- أمجد الهتاري
 - صفوان بنيان
-- يعقوب الكهادي
+- ضياء الجبوبي
 - طلال محرم
 - عبداللطيف الرداعي
-- أمجد الهتاري
+- يعقوب الكهادي
