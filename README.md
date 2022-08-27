@@ -32,7 +32,7 @@ This repository will help. Yes a little, it is helpful!
 
 Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [this folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
 
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
@@ -55,9 +55,9 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 ## TODO
 
 - [ ] Add an SQL format with relationships to make it easy to grab it into your database.
-- [ ] Add an No-SQL formats like mongoose Schema to make it easy to grab it into your database.
-- [ ] Add a GraphQL format to make it easy to grab it into your database.
-- [ ] Add script to convert json file programmatically to: CSV, XML, XLSX, YAML, and any future formats.
+- [ ] Add an No-SQL formats like mongoose Schema to make it easy to grab it in similar databases.
+- [ ] Add a GraphQL format to make it easy to grab it in this environment.
+- [ ] Add script to convert json file programmatically to: CSV, XML, XLSX, YAML, SQl, and any future formats.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
 - [ ] Make an Arabic version of the Readme file.
 
@@ -100,9 +100,11 @@ For all people who contributed to this repository. You can find the contributors
 
 But also other people who helped us with some of the names of Yemeni governance and districts, and they are in alphabetical order:
 
-- أمجد الهتاري
-- صفوان بنيان
-- ضياء الجبوبي
-- طلال محرم
-- عبداللطيف الرداعي
-- يعقوب الكهادي
+<div style="direction: lrt;">
+    <li>أمجد الهتاري</li>
+    <li>صفوان بنيان</li>
+    <li>ضياء الجبوبي</li>
+    <li>طلال محرم</li>
+    <li>عبداللطيف الرداعي</li>
+    <li>يعقوب الكهادي</li>
+<div>
