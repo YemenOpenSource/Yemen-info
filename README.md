@@ -55,9 +55,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 ## TODO
 
 - [ ] Add an SQL format with relationships to make it easy to grab it into your database.
-- [ ] Add a No-SQL format like mongoose Schema to make it easy to grab it in similar databases.
-- [ ] Add a GraphQL format to make it easy to grab it in this environment.
-- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL, and any future formats.
+- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
 - [ ] Make an Arabic version of the Readme file.
 
@@ -71,6 +69,7 @@ Our `yemen.json` is the main source of data. If you change something on `yemen.j
 - [yemen.xlsx](./other-formats/yemen.xlsx),
 - [yemen.xml](./other-formats/yemen.xml),
 - [yemen.yml]('./other-formats/yemen.yml'),
+- [yemen.sql]('./other-formats/yemen.sql'),
   and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes are related to it.
 
 We may automate the process using python code with GitHub actions, and we are welcoming contributions in this area, it will help us a lot.
