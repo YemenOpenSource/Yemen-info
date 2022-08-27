@@ -32,6 +32,8 @@ This repository will help. Yes a little, it is helpful!
 
 Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
+We have different formats with the same information you can use if you prefer in [this folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats): CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governance's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it.
 
 ## Features
