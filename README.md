@@ -58,6 +58,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 - [ ] Add a GraphQL format to make it easy to grab it into your database.
 - [ ] Add script to convert json file programmatically to: CSV, XML, XLSX, YAML, and any future formats.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
+- [ ] Make an Arabic veriosn of the Readme file.
 
 # How To contribute
 
