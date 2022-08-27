@@ -75,7 +75,7 @@ Our `yemen.json` is the main source of data. If you change something on `yemen.j
 
 We may automate the process using python code with GitHub actions, and we are welcoming contribution in this area, it will help us a lot.
 
-## Later On Future (out of out scope now)
+## Later On Future (out of our scope now)
 
 This list is for todos that are not in our scope now, but if we have time and resources we may do it, or we can do it separately in another repo.
 
