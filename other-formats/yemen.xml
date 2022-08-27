@@ -1,2942 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <english_name>Yemen</english_name>
-    <arabic_name>اليَمَن</arabic_name>
-    <iso3>YEM</iso3>
-    <iso2>YE</iso2>
-    <phone_code>967</phone_code>
-    <capital_english>Sanaa</capital_english>
-    <capital_arabic>صنعاء</capital_arabic>
-    <area_in_kilometer_square>555000</area_in_kilometer_square>
-    <currency>YER</currency>
-    <currency_name_en>Yemeni rial</currency_name_en>
-    <currency_name_ar>ريال يمني</currency_name_ar>
-    <currency_symbol>﷼</currency_symbol>
-    <tld>.ye</tld>
-    <region>Asia</region>
-    <subregion>Western Asia</subregion>
-    <timezones>
-        <zoneName>Asia/Aden</zoneName>
-        <gmtOffset>10800</gmtOffset>
-        <gmtOffsetName>UTC+03:00</gmtOffsetName>
-        <abbreviation>AST</abbreviation>
-        <tzName>Arabia Standard Time</tzName>
-    </timezones>
-    <translations>
-        <kr>예멘</kr>
-        <br>Iêmen</br>
-        <pt>Iémen</pt>
-        <nl>Jemen</nl>
-        <hr>Jemen</hr>
-        <fa>یمن</fa>
-        <de>Jemen</de>
-        <es>Yemen</es>
-        <fr>Yémen</fr>
-        <ja>イエメン</ja>
-        <it>Yemen</it>
-        <cn>也门</cn>
-        <tr>Yemen</tr>
-    </translations>
-    <latitude>15.00000000</latitude>
-    <longitude>48.00000000</longitude>
-    <emoji>🇾🇪</emoji>
-    <emojiU>U+1F1FE U+1F1EA</emojiU>
-    <governorates>
-        <id>1</id>
-        <name_en>Amant Al-Asmah</name_en>
-        <name_ar>أمانة العاصمة</name_ar>
-        <name_ar_tashkeel>أَمانَة العاصِمَةِ</name_ar_tashkeel>
-        <phone_numbering_plan>01</phone_numbering_plan>
-        <capital_name_ar></capital_name_ar>
-        <capital_name_en></capital_name_en>
-        <name_ar_normalized>امانه العاصمه</name_ar_normalized>
-        <name_en_normalized>Amant Al Asmah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Sana&#x27;a Alqdimah</name_en>
-            <name_ar>صنعاء القديمة</name_ar>
-            <name_ar_tashkeel>صَنْعاء القَدِيمَة</name_ar_tashkeel>
-            <name_ar_normalized>صنعاء القديمه</name_ar_normalized>
-            <name_en_normalized>Sanaa Alqdimah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Azal</name_en>
-            <name_ar>آزَاْل</name_ar>
-            <name_ar_tashkeel>آزَاْل</name_ar_tashkeel>
-            <name_ar_normalized>ازال</name_ar_normalized>
-            <name_en_normalized>Azal</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Safiah</name_en>
-            <name_ar>الصافية</name_ar>
-            <name_ar_tashkeel>الصَّافِيَة</name_ar_tashkeel>
-            <name_ar_normalized>الصافيه</name_ar_normalized>
-            <name_en_normalized>Al Safiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Sabe&#x27;en</name_en>
-            <name_ar>السبعين</name_ar>
-            <name_ar_tashkeel>السَّبْعِين</name_ar_tashkeel>
-            <name_ar_normalized>السبعين</name_ar_normalized>
-            <name_en_normalized>Al Sabeen</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Sh&#x27;oob</name_en>
-            <name_ar>شعوب</name_ar>
-            <name_ar_tashkeel>شُعُوْب</name_ar_tashkeel>
-            <name_ar_normalized>شعوب</name_ar_normalized>
-            <name_en_normalized>Shoob</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Wehdah</name_en>
-            <name_ar>الوحدة</name_ar>
-            <name_ar_tashkeel>الوِحْدَة</name_ar_tashkeel>
-            <name_ar_normalized>الوحده</name_ar_normalized>
-            <name_en_normalized>Al Wehdah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Al-Tahrir</name_en>
-            <name_ar>التحرير</name_ar>
-            <name_ar_tashkeel>التَّحْرِير</name_ar_tashkeel>
-            <name_ar_normalized>التحرير</name_ar_normalized>
-            <name_en_normalized>Al Tahrir</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Thowarah</name_en>
-            <name_ar>الثورة</name_ar>
-            <name_ar_tashkeel>الثَّوْرَة</name_ar_tashkeel>
-            <name_ar_normalized>الثوره</name_ar_normalized>
-            <name_en_normalized>Al Thowarah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Maeen</name_en>
-            <name_ar>معين</name_ar>
-            <name_ar_tashkeel>مَعَيْن</name_ar_tashkeel>
-            <name_ar_normalized>معين</name_ar_normalized>
-            <name_en_normalized>Maeen</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Bni Al-Harith</name_en>
-            <name_ar>بني الحارث</name_ar>
-            <name_ar_tashkeel>بَنِيْ الحَارِث</name_ar_tashkeel>
-            <name_ar_normalized>بني الحارث</name_ar_normalized>
-            <name_en_normalized>Bni Al Harith</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>2</id>
-        <name_en>Sanaa</name_en>
-        <name_ar>صنعاء</name_ar>
-        <name_ar_tashkeel>صَنْعاء</name_ar_tashkeel>
-        <phone_numbering_plan>01</phone_numbering_plan>
-        <capital_name_ar></capital_name_ar>
-        <capital_name_en></capital_name_en>
-        <name_ar_normalized>صنعاء</name_ar_normalized>
-        <name_en_normalized>Sanaa</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Hamdan</name_en>
-            <name_ar>همدان</name_ar>
-            <name_ar_tashkeel>هَمْدَان</name_ar_tashkeel>
-            <name_ar_normalized>همدان</name_ar_normalized>
-            <name_en_normalized>Hamdan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Arhab</name_en>
-            <name_ar>أرحب</name_ar>
-            <name_ar_tashkeel>أَرْحَب</name_ar_tashkeel>
-            <name_ar_normalized>ارحب</name_ar_normalized>
-            <name_en_normalized>Arhab</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Jihanah</name_en>
-            <name_ar>جحانة</name_ar>
-            <name_ar_tashkeel>جِحانْة</name_ar_tashkeel>
-            <name_ar_normalized>جحانه</name_ar_normalized>
-            <name_en_normalized>Jihanah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Bilad AL-Roos</name_en>
-            <name_ar>بلاد الروس</name_ar>
-            <name_ar_tashkeel>بِلَاد الرُّوْس</name_ar_tashkeel>
-            <name_ar_normalized>بلاد الروس</name_ar_normalized>
-            <name_en_normalized>Bilad AL Roos</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Sanhan</name_en>
-            <name_ar>سنحان</name_ar>
-            <name_ar_tashkeel>سَنْحَان</name_ar_tashkeel>
-            <name_ar_normalized>سنحان</name_ar_normalized>
-            <name_en_normalized>Sanhan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Hisn</name_en>
-            <name_ar>الحصن</name_ar>
-            <name_ar_tashkeel>الحِصْن</name_ar_tashkeel>
-            <name_ar_normalized>الحصن</name_ar_normalized>
-            <name_en_normalized>Al Hisn</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Sa&#x27;fan</name_en>
-            <name_ar>صعفان</name_ar>
-            <name_ar_tashkeel>صَعْفان</name_ar_tashkeel>
-            <name_ar_normalized>صعفان</name_ar_normalized>
-            <name_en_normalized>Safan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Bni Hishaish</name_en>
-            <name_ar>بني حشيش</name_ar>
-            <name_ar_tashkeel>بَنِي حِشِيْش</name_ar_tashkeel>
-            <name_ar_normalized>بني حشيش</name_ar_normalized>
-            <name_en_normalized>Bni Hishaish</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Tial</name_en>
-            <name_ar>الطيال</name_ar>
-            <name_ar_tashkeel>الطِّيَال</name_ar_tashkeel>
-            <name_ar_normalized>الطيال</name_ar_normalized>
-            <name_en_normalized>Al Tial</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Khawlan</name_en>
-            <name_ar>خولان</name_ar>
-            <name_ar_tashkeel>خَوْلَان</name_ar_tashkeel>
-            <name_ar_normalized>خولان</name_ar_normalized>
-            <name_en_normalized>Khawlan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Bni Dhabian</name_en>
-            <name_ar>بني ضبيان</name_ar>
-            <name_ar_tashkeel>بَنِيَ ضَبْيَان</name_ar_tashkeel>
-            <name_ar_normalized>بني ضبيان</name_ar_normalized>
-            <name_en_normalized>Bni Dhabian</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>AL-Haimah Al-Kharijiah</name_en>
-            <name_ar>الحيمة الخارجية</name_ar>
-            <name_ar_tashkeel>الحَيْمَة الخَارِجِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الحيمه الخارجيه</name_ar_normalized>
-            <name_en_normalized>AL Haimah Al Kharijiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Al-Haimah Al-Dakhiliah</name_en>
-            <name_ar>الحيمة الداخلية</name_ar>
-            <name_ar_tashkeel>الحَيْمَة الدَّاخِلِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الحيمه الداخليه</name_ar_normalized>
-            <name_en_normalized>Al Haimah Al Dakhiliah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Manakhah</name_en>
-            <name_ar>مناخة</name_ar>
-            <name_ar_tashkeel>مَنَاخَة</name_ar_tashkeel>
-            <name_ar_normalized>مناخه</name_ar_normalized>
-            <name_en_normalized>Manakhah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Nihm</name_en>
-            <name_ar>نهم</name_ar>
-            <name_ar_tashkeel>نِهْم</name_ar_tashkeel>
-            <name_ar_normalized>نهم</name_ar_normalized>
-            <name_en_normalized>Nihm</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Bni Matar</name_en>
-            <name_ar>بني مطر</name_ar>
-            <name_ar_tashkeel>بَنِي مَطَر</name_ar_tashkeel>
-            <name_ar_normalized>بني مطر</name_ar_normalized>
-            <name_en_normalized>Bni Matar</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>3</id>
-        <name_en>Aden</name_en>
-        <name_ar>عدن</name_ar>
-        <name_ar_tashkeel>عَدَن</name_ar_tashkeel>
-        <phone_numbering_plan>02</phone_numbering_plan>
-        <capital_name_ar></capital_name_ar>
-        <capital_name_en></capital_name_en>
-        <name_ar_normalized>عدن</name_ar_normalized>
-        <name_en_normalized>Aden</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Dar Saad</name_en>
-            <name_ar>دار سعد</name_ar>
-            <name_ar_tashkeel>دَار سَعْد</name_ar_tashkeel>
-            <name_ar_normalized>دار سعد</name_ar_normalized>
-            <name_en_normalized>Dar Saad</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Shaikh Othman</name_en>
-            <name_ar>الشيخ عثمان</name_ar>
-            <name_ar_tashkeel>الشَّيْخ عُثْمَان</name_ar_tashkeel>
-            <name_ar_normalized>الشيخ عثمان</name_ar_normalized>
-            <name_en_normalized>Al Shaikh Othman</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Mansorah</name_en>
-            <name_ar>المنصورة</name_ar>
-            <name_ar_tashkeel>المَنْصُورَة</name_ar_tashkeel>
-            <name_ar_normalized>المنصوره</name_ar_normalized>
-            <name_en_normalized>Al Mansorah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Boriqah</name_en>
-            <name_ar>البريقة</name_ar>
-            <name_ar_tashkeel>البُرَيْقَة</name_ar_tashkeel>
-            <name_ar_normalized>البريقه</name_ar_normalized>
-            <name_en_normalized>Al Boriqah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Tawwahi</name_en>
-            <name_ar>التواهي</name_ar>
-            <name_ar_tashkeel>التَّوَّاهِي</name_ar_tashkeel>
-            <name_ar_normalized>التواهي</name_ar_normalized>
-            <name_en_normalized>Al Tawwahi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Khoor Maksar</name_en>
-            <name_ar>خور مكسر</name_ar>
-            <name_ar_tashkeel>خُوْر مَكَسَر</name_ar_tashkeel>
-            <name_ar_normalized>خور مكسر</name_ar_normalized>
-            <name_en_normalized>Khoor Maksar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Seerh</name_en>
-            <name_ar>صيرة</name_ar>
-            <name_ar_tashkeel>صِيْرَة</name_ar_tashkeel>
-            <name_ar_normalized>صيره</name_ar_normalized>
-            <name_en_normalized>Seerh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Mo&#x27;alla</name_en>
-            <name_ar>المعلا</name_ar>
-            <name_ar_tashkeel>المُعَلَّا</name_ar_tashkeel>
-            <name_ar_normalized>المعلا</name_ar_normalized>
-            <name_en_normalized>Al Moalla</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>4</id>
-        <name_en>Al-Hodeidah</name_en>
-        <name_ar>الحديدة</name_ar>
-        <name_ar_tashkeel>الحُدَيْدَة</name_ar_tashkeel>
-        <phone_numbering_plan>03</phone_numbering_plan>
-        <capital_name_ar>مدينة الحديدة</capital_name_ar>
-        <capital_name_en>Al-Hodeidah City</capital_name_en>
-        <name_ar_normalized>الحديده</name_ar_normalized>
-        <name_en_normalized>Al Hodeidah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Bait Al-Fakih</name_en>
-            <name_ar>بيت الفقية</name_ar>
-            <name_ar_tashkeel>بَيْت الفَقِيْة</name_ar_tashkeel>
-            <name_ar_normalized>بيت الفقيه</name_ar_normalized>
-            <name_en_normalized>Bait Al Fakih</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Tohaita</name_en>
-            <name_ar>التحيتا</name_ar>
-            <name_ar_tashkeel>التُّحَيْتَا</name_ar_tashkeel>
-            <name_ar_normalized>التحيتا</name_ar_normalized>
-            <name_en_normalized>Al Tohaita</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Kamaran</name_en>
-            <name_ar>كمران</name_ar>
-            <name_ar_tashkeel>كَمَرَان</name_ar_tashkeel>
-            <name_ar_normalized>كمران</name_ar_normalized>
-            <name_en_normalized>Kamaran</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Khookhah</name_en>
-            <name_ar>الخوخة</name_ar>
-            <name_ar_tashkeel>الخُوْخُة</name_ar_tashkeel>
-            <name_ar_normalized>الخوخه</name_ar_normalized>
-            <name_en_normalized>Al Khookhah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Doraihmi</name_en>
-            <name_ar>الدريهمي</name_ar>
-            <name_ar_tashkeel>الدُرَيْهِمِي</name_ar_tashkeel>
-            <name_ar_normalized>الدريهمي</name_ar_normalized>
-            <name_en_normalized>Al Doraihmi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Luhayyah</name_en>
-            <name_ar>اللحية</name_ar>
-            <name_ar_tashkeel>اللُّحَيَّة</name_ar_tashkeel>
-            <name_ar_normalized>اللحيه</name_ar_normalized>
-            <name_en_normalized>Al Luhayyah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Zabeed</name_en>
-            <name_ar>زبيد</name_ar>
-            <name_ar_tashkeel>زَبِيْد</name_ar_tashkeel>
-            <name_ar_normalized>زبيد</name_ar_normalized>
-            <name_en_normalized>Zabeed</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Jabal Raas</name_en>
-            <name_ar>جبل راس</name_ar>
-            <name_ar_tashkeel>جَبَل رَاس</name_ar_tashkeel>
-            <name_ar_normalized>جبل راس</name_ar_normalized>
-            <name_en_normalized>Jabal Raas</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Marawiah</name_en>
-            <name_ar>المراوعة</name_ar>
-            <name_ar_tashkeel>المَرَاوِعَة</name_ar_tashkeel>
-            <name_ar_normalized>المراوعه</name_ar_normalized>
-            <name_en_normalized>Al Marawiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Jarrahi</name_en>
-            <name_ar>الجراحي</name_ar>
-            <name_ar_tashkeel>الجَّرَّاحِي</name_ar_tashkeel>
-            <name_ar_normalized>الجراحي</name_ar_normalized>
-            <name_en_normalized>Al Jarrahi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Al-Zuhrah</name_en>
-            <name_ar>الزهرة</name_ar>
-            <name_ar_tashkeel>الزُّهْرَة</name_ar_tashkeel>
-            <name_ar_normalized>الزهره</name_ar_normalized>
-            <name_en_normalized>Al Zuhrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Mighlaf</name_en>
-            <name_ar>المغلاف</name_ar>
-            <name_ar_tashkeel>المِغْلَاف</name_ar_tashkeel>
-            <name_ar_normalized>المغلاف</name_ar_normalized>
-            <name_en_normalized>Al Mighlaf</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Al-Mansoriah</name_en>
-            <name_ar>المنصورية</name_ar>
-            <name_ar_tashkeel>المَنْصُورِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>المنصوريه</name_ar_normalized>
-            <name_en_normalized>Al Mansoriah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Zaydiyah</name_en>
-            <name_ar>الزيدية</name_ar>
-            <name_ar_tashkeel>الزَّيْدِيَة</name_ar_tashkeel>
-            <name_ar_normalized>الزيديه</name_ar_normalized>
-            <name_en_normalized>Al Zaydiyah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Al-Hali</name_en>
-            <name_ar>الحالي</name_ar>
-            <name_ar_tashkeel>الحَالِي</name_ar_tashkeel>
-            <name_ar_normalized>الحالي</name_ar_normalized>
-            <name_en_normalized>Al Hali</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Al-Hojailah</name_en>
-            <name_ar>الحجيلة</name_ar>
-            <name_ar_tashkeel>الحُجَّيْلَة</name_ar_tashkeel>
-            <name_ar_normalized>الحجيله</name_ar_normalized>
-            <name_en_normalized>Al Hojailah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Al-Sokhnah</name_en>
-            <name_ar>السخنة</name_ar>
-            <name_ar_tashkeel>السُّخْنَة</name_ar_tashkeel>
-            <name_ar_normalized>السخنه</name_ar_normalized>
-            <name_en_normalized>Al Sokhnah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Al-Munirah</name_en>
-            <name_ar>المنيرة</name_ar>
-            <name_ar_tashkeel>المُنِيْرَة</name_ar_tashkeel>
-            <name_ar_normalized>المنيره</name_ar_normalized>
-            <name_en_normalized>Al Munirah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Al-Hook</name_en>
-            <name_ar>الحوك</name_ar>
-            <name_ar_tashkeel>الحَوَك</name_ar_tashkeel>
-            <name_ar_normalized>الحوك</name_ar_normalized>
-            <name_en_normalized>Al Hook</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Al-Saleef</name_en>
-            <name_ar>الصليف</name_ar>
-            <name_ar_tashkeel>الصَّلِيْف</name_ar_tashkeel>
-            <name_ar_normalized>الصليف</name_ar_normalized>
-            <name_en_normalized>Al Saleef</name_en_normalized>
-        </districts>
-        <districts>
-            <id>21</id>
-            <name_en>Al-Mena</name_en>
-            <name_ar>الميناء</name_ar>
-            <name_ar_tashkeel>المِيْنَاء</name_ar_tashkeel>
-            <name_ar_normalized>الميناء</name_ar_normalized>
-            <name_en_normalized>Al Mena</name_en_normalized>
-        </districts>
-        <districts>
-            <id>22</id>
-            <name_en>Bajil</name_en>
-            <name_ar>باجل</name_ar>
-            <name_ar_tashkeel>بَاجِل</name_ar_tashkeel>
-            <name_ar_normalized>باجل</name_ar_normalized>
-            <name_en_normalized>Bajil</name_en_normalized>
-        </districts>
-        <districts>
-            <id>23</id>
-            <name_en>Al-Dhahi</name_en>
-            <name_ar>الضحي</name_ar>
-            <name_ar_tashkeel>الضَّحِي</name_ar_tashkeel>
-            <name_ar_normalized>الضحي</name_ar_normalized>
-            <name_en_normalized>Al Dhahi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>24</id>
-            <name_en>Hais</name_en>
-            <name_ar>حيس</name_ar>
-            <name_ar_tashkeel>حَيْس</name_ar_tashkeel>
-            <name_ar_normalized>حيس</name_ar_normalized>
-            <name_en_normalized>Hais</name_en_normalized>
-        </districts>
-        <districts>
-            <id>25</id>
-            <name_en>Al-Qnawis</name_en>
-            <name_ar>القناوص</name_ar>
-            <name_ar_tashkeel>القَنَاوِص</name_ar_tashkeel>
-            <name_ar_normalized>القناوص</name_ar_normalized>
-            <name_en_normalized>Al Qnawis</name_en_normalized>
-        </districts>
-        <districts>
-            <id>26</id>
-            <name_en>Bora</name_en>
-            <name_ar>برع</name_ar>
-            <name_ar_tashkeel>بُرَع</name_ar_tashkeel>
-            <name_ar_normalized>برع</name_ar_normalized>
-            <name_en_normalized>Bora</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>5</id>
-        <name_en>Thamar</name_en>
-        <name_ar>ذمار</name_ar>
-        <name_ar_tashkeel>ذَمَار</name_ar_tashkeel>
-        <phone_numbering_plan>06</phone_numbering_plan>
-        <capital_name_ar>مدينة ذمار</capital_name_ar>
-        <capital_name_en>Thamar City</capital_name_en>
-        <name_ar_normalized>ذمار</name_ar_normalized>
-        <name_en_normalized>Thamar</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Jhran</name_en>
-            <name_ar>جهران</name_ar>
-            <name_ar_tashkeel>جَهْرَان</name_ar_tashkeel>
-            <name_ar_normalized>جهران</name_ar_normalized>
-            <name_en_normalized>Jhran</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Otmah</name_en>
-            <name_ar>عتمة</name_ar>
-            <name_ar_tashkeel>عُتْمَة</name_ar_tashkeel>
-            <name_ar_normalized>عتمه</name_ar_normalized>
-            <name_en_normalized>Otmah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Mayfa’at Ans</name_en>
-            <name_ar>ميفعة عنس</name_ar>
-            <name_ar_tashkeel>مَيْفَعَة عَنْس</name_ar_tashkeel>
-            <name_ar_normalized>ميفعه عنس</name_ar_normalized>
-            <name_en_normalized>Mayfa’at Ans</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Hada</name_en>
-            <name_ar>الحداء</name_ar>
-            <name_ar_tashkeel>الحَدَاء</name_ar_tashkeel>
-            <name_ar_normalized>الحداء</name_ar_normalized>
-            <name_en_normalized>Al Hada</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Ans</name_en>
-            <name_ar>عنس</name_ar>
-            <name_ar_tashkeel>عَنْس</name_ar_tashkeel>
-            <name_ar_normalized>عنس</name_ar_normalized>
-            <name_en_normalized>Ans</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Wosab Al-Safil</name_en>
-            <name_ar>وصاب السافل</name_ar>
-            <name_ar_tashkeel>وِصَاب السَّافِل</name_ar_tashkeel>
-            <name_ar_normalized>وصاب السافل</name_ar_normalized>
-            <name_en_normalized>Wosab Al Safil</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Wosab Al-Aali</name_en>
-            <name_ar>وصاب العالي</name_ar>
-            <name_ar_tashkeel>وِصَاب العَالِي</name_ar_tashkeel>
-            <name_ar_normalized>وصاب العالي</name_ar_normalized>
-            <name_en_normalized>Wosab Al Aali</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Jabal Al-Sharq</name_en>
-            <name_ar>جبل الشرق</name_ar>
-            <name_ar_tashkeel>جَبَل الشَّرْق</name_ar_tashkeel>
-            <name_ar_normalized>جبل الشرق</name_ar_normalized>
-            <name_en_normalized>Jabal Al Sharq</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Manar</name_en>
-            <name_ar>المنار</name_ar>
-            <name_ar_tashkeel>المَنَار</name_ar_tashkeel>
-            <name_ar_normalized>المنار</name_ar_normalized>
-            <name_en_normalized>Al Manar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Maghrib Ans</name_en>
-            <name_ar>مغرب عنس</name_ar>
-            <name_ar_tashkeel>مَغْرِب عَنْس</name_ar_tashkeel>
-            <name_ar_normalized>مغرب عنس</name_ar_normalized>
-            <name_en_normalized>Maghrib Ans</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Dhoran Aanis</name_en>
-            <name_ar>ضوران آنس</name_ar>
-            <name_ar_tashkeel>ضُوْرَان آنِس</name_ar_tashkeel>
-            <name_ar_normalized>ضوران انس</name_ar_normalized>
-            <name_en_normalized>Dhoran Aanis</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Thamar City</name_en>
-            <name_ar>مدينة ذمار</name_ar>
-            <name_ar_tashkeel>مَدِيْنَة ذَمَار</name_ar_tashkeel>
-            <name_ar_normalized>مدينه ذمار</name_ar_normalized>
-            <name_en_normalized>Thamar City</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>6</id>
-        <name_en>Amran</name_en>
-        <name_ar>عمران</name_ar>
-        <name_ar_tashkeel>عَمْران</name_ar_tashkeel>
-        <phone_numbering_plan>07</phone_numbering_plan>
-        <capital_name_ar>مدينة عمران</capital_name_ar>
-        <capital_name_en>Amran City</capital_name_en>
-        <name_ar_normalized>عمران</name_ar_normalized>
-        <name_en_normalized>Amran</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Harf Sofian</name_en>
-            <name_ar>حرف سفيان</name_ar>
-            <name_ar_tashkeel>حَرْف سُفْيَان</name_ar_tashkeel>
-            <name_ar_normalized>حرف سفيان</name_ar_normalized>
-            <name_en_normalized>Harf Sofian</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Hooth</name_en>
-            <name_ar>حوث</name_ar>
-            <name_ar_tashkeel>حُوْث</name_ar_tashkeel>
-            <name_ar_normalized>حوث</name_ar_normalized>
-            <name_en_normalized>Hooth</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Ashah</name_en>
-            <name_ar>العشة</name_ar>
-            <name_ar_tashkeel>العَشِّة</name_ar_tashkeel>
-            <name_ar_normalized>العشه</name_ar_normalized>
-            <name_en_normalized>Al Ashah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Qiflt Ethar</name_en>
-            <name_ar>قفلة عذر</name_ar>
-            <name_ar_tashkeel>قِفْلَة عِذَر</name_ar_tashkeel>
-            <name_ar_normalized>قفله عذر</name_ar_normalized>
-            <name_en_normalized>Qiflt Ethar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Shaharah</name_en>
-            <name_ar>شهارة</name_ar>
-            <name_ar_tashkeel>شَهَارَة</name_ar_tashkeel>
-            <name_ar_normalized>شهاره</name_ar_normalized>
-            <name_en_normalized>Shaharah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Madan</name_en>
-            <name_ar>المدان</name_ar>
-            <name_ar_tashkeel>المَدَان</name_ar_tashkeel>
-            <name_ar_normalized>المدان</name_ar_normalized>
-            <name_en_normalized>Al Madan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Sowair</name_en>
-            <name_ar>صوير</name_ar>
-            <name_ar_tashkeel>صُوَيْر</name_ar_tashkeel>
-            <name_ar_normalized>صوير</name_ar_normalized>
-            <name_en_normalized>Sowair</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Dholaimah Haboor</name_en>
-            <name_ar>ظليمة حبور</name_ar>
-            <name_ar_tashkeel>ظُلَيْمَة حَبُوْر</name_ar_tashkeel>
-            <name_ar_normalized>ظليمه حبور</name_ar_normalized>
-            <name_en_normalized>Dholaimah Haboor</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Sawdah</name_en>
-            <name_ar>السودة</name_ar>
-            <name_ar_tashkeel>السَّوْدَة</name_ar_tashkeel>
-            <name_ar_normalized>السوده</name_ar_normalized>
-            <name_en_normalized>Al Sawdah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Khamer</name_en>
-            <name_ar>خمر</name_ar>
-            <name_ar_tashkeel>خَمِر</name_ar_tashkeel>
-            <name_ar_normalized>خمر</name_ar_normalized>
-            <name_en_normalized>Khamer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Thibain</name_en>
-            <name_ar>ذيبين</name_ar>
-            <name_ar_tashkeel>ذِيْبَيْن</name_ar_tashkeel>
-            <name_ar_normalized>ذيبين</name_ar_normalized>
-            <name_en_normalized>Thibain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Kharif</name_en>
-            <name_ar>خارف</name_ar>
-            <name_ar_tashkeel>خَارِف</name_ar_tashkeel>
-            <name_ar_normalized>خارف</name_ar_normalized>
-            <name_en_normalized>Kharif</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Raidah</name_en>
-            <name_ar>ريدة</name_ar>
-            <name_ar_tashkeel>رَيْدَة</name_ar_tashkeel>
-            <name_ar_normalized>ريده</name_ar_normalized>
-            <name_en_normalized>Raidah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Eyal Yazeed Mountain</name_en>
-            <name_ar>جبل عيال يزيد</name_ar>
-            <name_ar_tashkeel>جَبَل عِيَال يَزِيْد</name_ar_tashkeel>
-            <name_ar_normalized>جبل عيال يزيد</name_ar_normalized>
-            <name_en_normalized>Eyal Yazeed Mountain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Al-Sawd</name_en>
-            <name_ar>السود</name_ar>
-            <name_ar_tashkeel>السَّوْد</name_ar_tashkeel>
-            <name_ar_normalized>السود</name_ar_normalized>
-            <name_en_normalized>Al Sawd</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Amran</name_en>
-            <name_ar>عمران</name_ar>
-            <name_ar_tashkeel>عَمْرَان</name_ar_tashkeel>
-            <name_ar_normalized>عمران</name_ar_normalized>
-            <name_en_normalized>Amran</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Maswar</name_en>
-            <name_ar>مسور</name_ar>
-            <name_ar_tashkeel>مَسْوَر</name_ar_tashkeel>
-            <name_ar_normalized>مسور</name_ar_normalized>
-            <name_en_normalized>Maswar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Thula</name_en>
-            <name_ar>ثلا</name_ar>
-            <name_ar_tashkeel>ثُلَا</name_ar_tashkeel>
-            <name_ar_normalized>ثلا</name_ar_normalized>
-            <name_en_normalized>Thula</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Eial Sraih</name_en>
-            <name_ar>عيال سريح</name_ar>
-            <name_ar_tashkeel>عِيْال سُرَيْح</name_ar_tashkeel>
-            <name_ar_normalized>عيال سريح</name_ar_normalized>
-            <name_en_normalized>Eial Sraih</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Bni Soraim</name_en>
-            <name_ar>بني صريم</name_ar>
-            <name_ar_tashkeel>بَنِي صُرَيْم</name_ar_tashkeel>
-            <name_ar_normalized>بني صريم</name_ar_normalized>
-            <name_en_normalized>Bni Soraim</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>7</id>
-        <name_en>Hajjah</name_en>
-        <name_ar>حجة</name_ar>
-        <name_ar_tashkeel>حَجَّة</name_ar_tashkeel>
-        <phone_numbering_plan>07</phone_numbering_plan>
-        <capital_name_ar>مدينة حجة</capital_name_ar>
-        <capital_name_en>Hajjah City</capital_name_en>
-        <name_ar_normalized>حجه</name_ar_normalized>
-        <name_en_normalized>Hajjah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Bakel Al-Meer</name_en>
-            <name_ar>بكيل المير</name_ar>
-            <name_ar_tashkeel>بَكِيْل المِيْر</name_ar_tashkeel>
-            <name_ar_normalized>بكيل المير</name_ar_normalized>
-            <name_en_normalized>Bakel Al Meer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Bni Al-Awam</name_en>
-            <name_ar>بني العوام</name_ar>
-            <name_ar_tashkeel>بَنِي العَوّام</name_ar_tashkeel>
-            <name_ar_normalized>بني العوام</name_ar_normalized>
-            <name_en_normalized>Bni Al Awam</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Aflah Al-Sham</name_en>
-            <name_ar>أفلح الشام</name_ar>
-            <name_ar_tashkeel>أَفْلَح الشَّام</name_ar_tashkeel>
-            <name_ar_normalized>افلح الشام</name_ar_normalized>
-            <name_en_normalized>Aflah Al Sham</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Aflah Al-Yemen</name_en>
-            <name_ar>أفلح اليمن</name_ar>
-            <name_ar_tashkeel>أَفْلَح اليَمَن</name_ar_tashkeel>
-            <name_ar_normalized>افلح اليمن</name_ar_normalized>
-            <name_en_normalized>Aflah Al Yemen</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Bni Qais Al-Tawr</name_en>
-            <name_ar>بني قيس الطور</name_ar>
-            <name_ar_tashkeel>بَنِي قَيْس الطَُوْر</name_ar_tashkeel>
-            <name_ar_normalized>بني قيس الطور</name_ar_normalized>
-            <name_en_normalized>Bni Qais Al Tawr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Kohlan Al-Sharaf</name_en>
-            <name_ar>كحلان الشرف</name_ar>
-            <name_ar_tashkeel>كُحْلَان الشَّرَف</name_ar_tashkeel>
-            <name_ar_normalized>كحلان الشرف</name_ar_normalized>
-            <name_en_normalized>Kohlan Al Sharaf</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Qohlan Affar</name_en>
-            <name_ar>كحلان عفار</name_ar>
-            <name_ar_tashkeel>كُحْلَان عَفَّار</name_ar_tashkeel>
-            <name_ar_normalized>كحلان عفار</name_ar_normalized>
-            <name_en_normalized>Qohlan Affar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Khiran Al-Mahrraq</name_en>
-            <name_ar>خيران المحرق</name_ar>
-            <name_ar_tashkeel>خَيْرَان المُحَرَّق</name_ar_tashkeel>
-            <name_ar_normalized>خيران المحرق</name_ar_normalized>
-            <name_en_normalized>Khiran Al Mahrraq</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Hajjah</name_en>
-            <name_ar>حجة</name_ar>
-            <name_ar_tashkeel>حَجَّة</name_ar_tashkeel>
-            <name_ar_normalized>حجه</name_ar_normalized>
-            <name_en_normalized>Hajjah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Hajjah City</name_en>
-            <name_ar>مدينة حجة</name_ar>
-            <name_ar_tashkeel>مَدِيْنَة حَجَّة</name_ar_tashkeel>
-            <name_ar_normalized>مدينه حجه</name_ar_normalized>
-            <name_en_normalized>Hajjah City</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Qufl Shamar</name_en>
-            <name_ar>قفل شمر</name_ar>
-            <name_ar_tashkeel>قُفْل شَمَر</name_ar_tashkeel>
-            <name_ar_normalized>قفل شمر</name_ar_normalized>
-            <name_en_normalized>Qufl Shamar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Qarah</name_en>
-            <name_ar>قارة</name_ar>
-            <name_ar_tashkeel>قَارَة</name_ar_tashkeel>
-            <name_ar_normalized>قاره</name_ar_normalized>
-            <name_en_normalized>Qarah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Aslm</name_en>
-            <name_ar>أسلم</name_ar>
-            <name_ar_tashkeel>أَسْلَم</name_ar_tashkeel>
-            <name_ar_normalized>اسلم</name_ar_normalized>
-            <name_en_normalized>Aslm</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Jamimah</name_en>
-            <name_ar>الجميمة</name_ar>
-            <name_ar_tashkeel>الجَمِيْمَة</name_ar_tashkeel>
-            <name_ar_normalized>الجميمه</name_ar_normalized>
-            <name_en_normalized>Al Jamimah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Wishhah</name_en>
-            <name_ar>وشحة</name_ar>
-            <name_ar_tashkeel>وِشْحَة</name_ar_tashkeel>
-            <name_ar_normalized>وشحه</name_ar_normalized>
-            <name_en_normalized>Wishhah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Al-Shaghadrah</name_en>
-            <name_ar>الشغادرة</name_ar>
-            <name_ar_tashkeel>الشَّغَادِرَة</name_ar_tashkeel>
-            <name_ar_normalized>الشغادره</name_ar_normalized>
-            <name_en_normalized>Al Shaghadrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Al-Mahabishah</name_en>
-            <name_ar>المحابشة</name_ar>
-            <name_ar_tashkeel>المَحَابِشَة</name_ar_tashkeel>
-            <name_ar_normalized>المحابشه</name_ar_normalized>
-            <name_en_normalized>Al Mahabishah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Al-Maghribah</name_en>
-            <name_ar>المغربة</name_ar>
-            <name_ar_tashkeel>المَغْرِبَة</name_ar_tashkeel>
-            <name_ar_normalized>المغربه</name_ar_normalized>
-            <name_en_normalized>Al Maghribah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Al-Miftah</name_en>
-            <name_ar>المفتاح</name_ar>
-            <name_ar_tashkeel>المِفْتَاح</name_ar_tashkeel>
-            <name_ar_normalized>المفتاح</name_ar_normalized>
-            <name_en_normalized>Al Miftah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Haradh</name_en>
-            <name_ar>حرض</name_ar>
-            <name_ar_tashkeel>حَرَض</name_ar_tashkeel>
-            <name_ar_normalized>حرض</name_ar_normalized>
-            <name_en_normalized>Haradh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>21</id>
-            <name_en>Hairan</name_en>
-            <name_ar>حيران</name_ar>
-            <name_ar_tashkeel>حَيْرَان</name_ar_tashkeel>
-            <name_ar_normalized>حيران</name_ar_normalized>
-            <name_en_normalized>Hairan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>22</id>
-            <name_en>Koshar</name_en>
-            <name_ar>كشر</name_ar>
-            <name_ar_tashkeel>كُشَر</name_ar_tashkeel>
-            <name_ar_normalized>كشر</name_ar_normalized>
-            <name_en_normalized>Koshar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>23</id>
-            <name_en>Sharis</name_en>
-            <name_ar>شرس</name_ar>
-            <name_ar_tashkeel>شَرِس</name_ar_tashkeel>
-            <name_ar_normalized>شرس</name_ar_normalized>
-            <name_en_normalized>Sharis</name_en_normalized>
-        </districts>
-        <districts>
-            <id>24</id>
-            <name_en>Abs</name_en>
-            <name_ar>عبس</name_ar>
-            <name_ar_tashkeel>عَبْس</name_ar_tashkeel>
-            <name_ar_normalized>عبس</name_ar_normalized>
-            <name_en_normalized>Abs</name_en_normalized>
-        </districts>
-        <districts>
-            <id>25</id>
-            <name_en>Koa&#x27;dnah</name_en>
-            <name_ar>كعيدنة</name_ar>
-            <name_ar_tashkeel>كُعَيْدِنَة</name_ar_tashkeel>
-            <name_ar_normalized>كعيدنه</name_ar_normalized>
-            <name_en_normalized>Koadnah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>26</id>
-            <name_en>Mabian</name_en>
-            <name_ar>مبين</name_ar>
-            <name_ar_tashkeel>مَبْيَن</name_ar_tashkeel>
-            <name_ar_normalized>مبين</name_ar_normalized>
-            <name_en_normalized>Mabian</name_en_normalized>
-        </districts>
-        <districts>
-            <id>27</id>
-            <name_en>Al-Shahil</name_en>
-            <name_ar>الشاهل</name_ar>
-            <name_ar_tashkeel>الشَّاهِل</name_ar_tashkeel>
-            <name_ar_normalized>الشاهل</name_ar_normalized>
-            <name_en_normalized>Al Shahil</name_en_normalized>
-        </districts>
-        <districts>
-            <id>28</id>
-            <name_en>Wdhrah</name_en>
-            <name_ar>وضرة</name_ar>
-            <name_ar_tashkeel>وَضْرَة</name_ar_tashkeel>
-            <name_ar_normalized>وضره</name_ar_normalized>
-            <name_en_normalized>Wdhrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>29</id>
-            <name_en>Mostaba&#x27;</name_en>
-            <name_ar>مستباء</name_ar>
-            <name_ar_tashkeel>مُسْتَبَاء</name_ar_tashkeel>
-            <name_ar_normalized>مستباء</name_ar_normalized>
-            <name_en_normalized>Mostaba</name_en_normalized>
-        </districts>
-        <districts>
-            <id>30</id>
-            <name_en>Meedi</name_en>
-            <name_ar>ميدي</name_ar>
-            <name_ar_tashkeel>مِيْدِي</name_ar_tashkeel>
-            <name_ar_normalized>ميدي</name_ar_normalized>
-            <name_en_normalized>Meedi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>31</id>
-            <name_en>Najrah</name_en>
-            <name_ar>نجرة</name_ar>
-            <name_ar_tashkeel>نَجْرَة</name_ar_tashkeel>
-            <name_ar_normalized>نجره</name_ar_normalized>
-            <name_en_normalized>Najrah</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>8</id>
-        <name_en>Ibb</name_en>
-        <name_ar>إب</name_ar>
-        <name_ar_tashkeel>إِبْ</name_ar_tashkeel>
-        <phone_numbering_plan>04</phone_numbering_plan>
-        <capital_name_ar>مدينة إب</capital_name_ar>
-        <capital_name_en>Ibb City</capital_name_en>
-        <name_ar_normalized>اب</name_ar_normalized>
-        <name_en_normalized>Ibb</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Odain</name_en>
-            <name_ar>العدين</name_ar>
-            <name_ar_tashkeel>العُدَيْن</name_ar_tashkeel>
-            <name_ar_normalized>العدين</name_ar_normalized>
-            <name_en_normalized>Al Odain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Ibb</name_en>
-            <name_ar>إب</name_ar>
-            <name_ar_tashkeel>إِب</name_ar_tashkeel>
-            <name_ar_normalized>اب</name_ar_normalized>
-            <name_en_normalized>Ibb</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Ba&#x27;dan</name_en>
-            <name_ar>بعدان</name_ar>
-            <name_ar_tashkeel>بَعْدَان</name_ar_tashkeel>
-            <name_ar_normalized>بعدان</name_ar_normalized>
-            <name_en_normalized>Badan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Jiblah</name_en>
-            <name_ar>جبلة</name_ar>
-            <name_ar_tashkeel>جِبْلَة</name_ar_tashkeel>
-            <name_ar_normalized>جبله</name_ar_normalized>
-            <name_en_normalized>Jiblah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Nadrah</name_en>
-            <name_ar>النادرة</name_ar>
-            <name_ar_tashkeel>النَّادِرَة</name_ar_tashkeel>
-            <name_ar_normalized>النادره</name_ar_normalized>
-            <name_en_normalized>Al Nadrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Hobaish</name_en>
-            <name_ar>حبيش</name_ar>
-            <name_ar_tashkeel>حُبَيْش</name_ar_tashkeel>
-            <name_ar_normalized>حبيش</name_ar_normalized>
-            <name_en_normalized>Hobaish</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Hazm Al-Odain</name_en>
-            <name_ar>حزم العدين</name_ar>
-            <name_ar_tashkeel>حَزْم العُدَيْن</name_ar_tashkeel>
-            <name_ar_normalized>حزم العدين</name_ar_normalized>
-            <name_en_normalized>Hazm Al Odain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Thi Al-Sufal</name_en>
-            <name_ar>ذي السفال</name_ar>
-            <name_ar_tashkeel>ذِي السُّفَال</name_ar_tashkeel>
-            <name_ar_normalized>ذي السفال</name_ar_normalized>
-            <name_en_normalized>Thi Al Sufal</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Radhmah</name_en>
-            <name_ar>الرضمة</name_ar>
-            <name_ar_tashkeel>الرَّضْمَة</name_ar_tashkeel>
-            <name_ar_normalized>الرضمه</name_ar_normalized>
-            <name_en_normalized>Al Radhmah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Sabrah</name_en>
-            <name_ar>السبرة</name_ar>
-            <name_ar_tashkeel>السَّبْرَة</name_ar_tashkeel>
-            <name_ar_normalized>السبره</name_ar_normalized>
-            <name_en_normalized>Al Sabrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Al-Saddah</name_en>
-            <name_ar>السدة</name_ar>
-            <name_ar_tashkeel>السَّدَّة</name_ar_tashkeel>
-            <name_ar_normalized>السده</name_ar_normalized>
-            <name_en_normalized>Al Saddah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Syiani</name_en>
-            <name_ar>السياني</name_ar>
-            <name_ar_tashkeel>السَّيَّانِي</name_ar_tashkeel>
-            <name_ar_normalized>السياني</name_ar_normalized>
-            <name_en_normalized>Al Syiani</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Al-Sha&#x27;ir</name_en>
-            <name_ar>الشعر</name_ar>
-            <name_ar_tashkeel>الشَّعِر</name_ar_tashkeel>
-            <name_ar_normalized>الشعر</name_ar_normalized>
-            <name_en_normalized>Al Shair</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Dhahar</name_en>
-            <name_ar>الظهار</name_ar>
-            <name_ar_tashkeel>الظَّهَار</name_ar_tashkeel>
-            <name_ar_normalized>الظهار</name_ar_normalized>
-            <name_en_normalized>Al Dhahar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Fara&#x27; Al-Odain</name_en>
-            <name_ar>فرع العدين</name_ar>
-            <name_ar_tashkeel>فَرْع العُدَيْن</name_ar_tashkeel>
-            <name_ar_normalized>فرع العدين</name_ar_normalized>
-            <name_en_normalized>Fara Al Odain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Al-Qafr</name_en>
-            <name_ar>القفر</name_ar>
-            <name_ar_tashkeel>القَفْر</name_ar_tashkeel>
-            <name_ar_normalized>القفر</name_ar_normalized>
-            <name_en_normalized>Al Qafr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Al-Makhadrh</name_en>
-            <name_ar>المخادر</name_ar>
-            <name_ar_tashkeel>المَخَادِر</name_ar_tashkeel>
-            <name_ar_normalized>المخادر</name_ar_normalized>
-            <name_en_normalized>Al Makhadrh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Mothaikhrah</name_en>
-            <name_ar>مذيخرة</name_ar>
-            <name_ar_tashkeel>مُذَيْخِرَة</name_ar_tashkeel>
-            <name_ar_normalized>مذيخره</name_ar_normalized>
-            <name_en_normalized>Mothaikhrah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Al-Mashnnah</name_en>
-            <name_ar>المشنة</name_ar>
-            <name_ar_tashkeel>المَشَنَّة</name_ar_tashkeel>
-            <name_ar_normalized>المشنه</name_ar_normalized>
-            <name_en_normalized>Al Mashnnah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Yareem</name_en>
-            <name_ar>يريم</name_ar>
-            <name_ar_tashkeel>يَرِيْم</name_ar_tashkeel>
-            <name_ar_normalized>يريم</name_ar_normalized>
-            <name_en_normalized>Yareem</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>9</id>
-        <name_en>Sa&#x27;dah</name_en>
-        <name_ar>صعدة</name_ar>
-        <name_ar_tashkeel>صَعْدَة</name_ar_tashkeel>
-        <phone_numbering_plan>07</phone_numbering_plan>
-        <capital_name_ar>مدينة صعدة</capital_name_ar>
-        <capital_name_en>Sa&#x27;dah City</capital_name_en>
-        <name_ar_normalized>صعده</name_ar_normalized>
-        <name_en_normalized>Sadah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Hishwah</name_en>
-            <name_ar>الحشوة</name_ar>
-            <name_ar_tashkeel>الحِشْوَة</name_ar_tashkeel>
-            <name_ar_normalized>الحشوه</name_ar_normalized>
-            <name_en_normalized>Al Hishwah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Safra&#x27;a</name_en>
-            <name_ar>الصفراء</name_ar>
-            <name_ar_tashkeel>الصَّفْرَاء</name_ar_tashkeel>
-            <name_ar_normalized>الصفراء</name_ar_normalized>
-            <name_en_normalized>Al Safraa</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Dhahir</name_en>
-            <name_ar>الظاهر</name_ar>
-            <name_ar_tashkeel>الظَّاهِر</name_ar_tashkeel>
-            <name_ar_normalized>الظاهر</name_ar_normalized>
-            <name_en_normalized>Al Dhahir</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Baqim</name_en>
-            <name_ar>باقم</name_ar>
-            <name_ar_tashkeel>بَاقِم</name_ar_tashkeel>
-            <name_ar_normalized>باقم</name_ar_normalized>
-            <name_en_normalized>Baqim</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Haidan</name_en>
-            <name_ar>حيدان</name_ar>
-            <name_ar_tashkeel>حَيْدَان</name_ar_tashkeel>
-            <name_ar_normalized>حيدان</name_ar_normalized>
-            <name_en_normalized>Haidan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Razih</name_en>
-            <name_ar>رازح</name_ar>
-            <name_ar_tashkeel>رَازِح</name_ar_tashkeel>
-            <name_ar_normalized>رازح</name_ar_normalized>
-            <name_en_normalized>Razih</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Saqain</name_en>
-            <name_ar>ساقين</name_ar>
-            <name_ar_tashkeel>سَاقَيْن</name_ar_tashkeel>
-            <name_ar_normalized>ساقين</name_ar_normalized>
-            <name_en_normalized>Saqain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Sahar</name_en>
-            <name_ar>سحار</name_ar>
-            <name_ar_tashkeel>سَحَار</name_ar_tashkeel>
-            <name_ar_normalized>سحار</name_ar_normalized>
-            <name_en_normalized>Sahar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Shida&#x27;a</name_en>
-            <name_ar>شداء</name_ar>
-            <name_ar_tashkeel>شِدَاء</name_ar_tashkeel>
-            <name_ar_normalized>شداء</name_ar_normalized>
-            <name_en_normalized>Shidaa</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Sa&#x27;dah</name_en>
-            <name_ar>صعدة</name_ar>
-            <name_ar_tashkeel>صَعْدَة</name_ar_tashkeel>
-            <name_ar_normalized>صعده</name_ar_normalized>
-            <name_en_normalized>Sadah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Ghamer</name_en>
-            <name_ar>غمر</name_ar>
-            <name_ar_tashkeel>غَمَر</name_ar_tashkeel>
-            <name_ar_normalized>غمر</name_ar_normalized>
-            <name_en_normalized>Ghamer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Qatabir</name_en>
-            <name_ar>قطابر</name_ar>
-            <name_ar_tashkeel>قَطَابِر</name_ar_tashkeel>
-            <name_ar_normalized>قطابر</name_ar_normalized>
-            <name_en_normalized>Qatabir</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Kitaf and Bog&#x27;</name_en>
-            <name_ar>كتاف والبقع</name_ar>
-            <name_ar_tashkeel>كِتَاف وَالبُقْع</name_ar_tashkeel>
-            <name_ar_normalized>كتاف والبقع</name_ar_normalized>
-            <name_en_normalized>Kitaf and Bog</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Majz</name_en>
-            <name_ar>مجز</name_ar>
-            <name_ar_tashkeel>مَجْز</name_ar_tashkeel>
-            <name_ar_normalized>مجز</name_ar_normalized>
-            <name_en_normalized>Majz</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Munabbih</name_en>
-            <name_ar>منبه</name_ar>
-            <name_ar_tashkeel>مُنَبِّه</name_ar_tashkeel>
-            <name_ar_normalized>منبه</name_ar_normalized>
-            <name_en_normalized>Munabbih</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>10</id>
-        <name_en>Al-Baidha</name_en>
-        <name_ar>البيضاء</name_ar>
-        <name_ar_tashkeel>البَيْضَاء</name_ar_tashkeel>
-        <phone_numbering_plan>06</phone_numbering_plan>
-        <capital_name_ar>مدينة البيضاء</capital_name_ar>
-        <capital_name_en>Al-Baidha City</capital_name_en>
-        <name_ar_normalized>البيضاء</name_ar_normalized>
-        <name_en_normalized>Al Baidha</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Baidha City</name_en>
-            <name_ar>مدينة البيضاء</name_ar>
-            <name_ar_tashkeel>مَدِينَة البَيْضَاء</name_ar_tashkeel>
-            <name_ar_normalized>مدينه البيضاء</name_ar_normalized>
-            <name_en_normalized>Al Baidha City</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Baidha</name_en>
-            <name_ar>البيضاء</name_ar>
-            <name_ar_tashkeel>البَيْضَاء</name_ar_tashkeel>
-            <name_ar_normalized>البيضاء</name_ar_normalized>
-            <name_en_normalized>Al Baidha</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Zaher</name_en>
-            <name_ar>الزاهر</name_ar>
-            <name_ar_tashkeel>الزَّاهِر</name_ar_tashkeel>
-            <name_ar_normalized>الزاهر</name_ar_normalized>
-            <name_en_normalized>Al Zaher</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Radman</name_en>
-            <name_ar>ردمان</name_ar>
-            <name_ar_tashkeel>رَدْمَان</name_ar_tashkeel>
-            <name_ar_normalized>ردمان</name_ar_normalized>
-            <name_en_normalized>Radman</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Riashiah</name_en>
-            <name_ar>الرياشية</name_ar>
-            <name_ar_tashkeel>الرِّيَاشِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الرياشيه</name_ar_normalized>
-            <name_en_normalized>Al Riashiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Swadiah</name_en>
-            <name_ar>السوادية</name_ar>
-            <name_ar_tashkeel>السُّوَادِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>السواديه</name_ar_normalized>
-            <name_en_normalized>Al Swadiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Al-Shariah</name_en>
-            <name_ar>الشرية</name_ar>
-            <name_ar_tashkeel>الشَرِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الشريه</name_ar_normalized>
-            <name_en_normalized>Al Shariah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Sabah</name_en>
-            <name_ar>صباح</name_ar>
-            <name_ar_tashkeel>صَبَاح</name_ar_tashkeel>
-            <name_ar_normalized>صباح</name_ar_normalized>
-            <name_en_normalized>Sabah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Sawma&#x27;ah</name_en>
-            <name_ar>الصومعة</name_ar>
-            <name_ar_tashkeel>الصَّوْمَعَة</name_ar_tashkeel>
-            <name_ar_normalized>الصومعه</name_ar_normalized>
-            <name_en_normalized>Al Sawmaah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Tiffah</name_en>
-            <name_ar>الطفة</name_ar>
-            <name_ar_tashkeel>الطَّفَّة</name_ar_tashkeel>
-            <name_ar_normalized>الطفه</name_ar_normalized>
-            <name_en_normalized>Al Tiffah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Al-Arsh</name_en>
-            <name_ar>العرش</name_ar>
-            <name_ar_tashkeel>العَرْش</name_ar_tashkeel>
-            <name_ar_normalized>العرش</name_ar_normalized>
-            <name_en_normalized>Al Arsh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Qurishiah</name_en>
-            <name_ar>القريشية</name_ar>
-            <name_ar_tashkeel>القُرَيْشِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>القريشيه</name_ar_normalized>
-            <name_en_normalized>Al Qurishiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Thi Na&#x27;em</name_en>
-            <name_ar>ذي ناعم</name_ar>
-            <name_ar_tashkeel>ذِي نَاعِم</name_ar_tashkeel>
-            <name_ar_normalized>ذي ناعم</name_ar_normalized>
-            <name_en_normalized>Thi Naem</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Maswarah</name_en>
-            <name_ar>مسورة</name_ar>
-            <name_ar_tashkeel>مَسْوَرَة</name_ar_tashkeel>
-            <name_ar_normalized>مسوره</name_ar_normalized>
-            <name_en_normalized>Maswarah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Mukiras</name_en>
-            <name_ar>مكيراس</name_ar>
-            <name_ar_tashkeel>مُكَيْرَاس</name_ar_tashkeel>
-            <name_ar_normalized>مكيراس</name_ar_normalized>
-            <name_en_normalized>Mukiras</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Al-Malajim</name_en>
-            <name_ar>الملاجم</name_ar>
-            <name_ar_tashkeel>المَلَاجِم</name_ar_tashkeel>
-            <name_ar_normalized>الملاجم</name_ar_normalized>
-            <name_en_normalized>Al Malajim</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Nati&#x27;</name_en>
-            <name_ar>ناطع</name_ar>
-            <name_ar_tashkeel>نَاطِع</name_ar_tashkeel>
-            <name_ar_normalized>ناطع</name_ar_normalized>
-            <name_en_normalized>Nati</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Na&#x27;man</name_en>
-            <name_ar>نعمان</name_ar>
-            <name_ar_tashkeel>نَعْمَان</name_ar_tashkeel>
-            <name_ar_normalized>نعمان</name_ar_normalized>
-            <name_en_normalized>Naman</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Wild Rabee&#x27;</name_en>
-            <name_ar>ولد ربيع</name_ar>
-            <name_ar_tashkeel>وِلْد رَبِيْع</name_ar_tashkeel>
-            <name_ar_normalized>ولد ربيع</name_ar_normalized>
-            <name_en_normalized>Wild Rabee</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Rada&#x27;</name_en>
-            <name_ar>رداع</name_ar>
-            <name_ar_tashkeel>رَدَاع</name_ar_tashkeel>
-            <name_ar_normalized>رداع</name_ar_normalized>
-            <name_en_normalized>Rada</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>11</id>
-        <name_en>Shabwah</name_en>
-        <name_ar>شبوة</name_ar>
-        <name_ar_tashkeel>شَبْوَة</name_ar_tashkeel>
-        <phone_numbering_plan>05</phone_numbering_plan>
-        <capital_name_ar>عتق</capital_name_ar>
-        <capital_name_en>Ataq</capital_name_en>
-        <name_ar_normalized>شبوه</name_ar_normalized>
-        <name_en_normalized>Shabwah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Rawdhah</name_en>
-            <name_ar>الروضة</name_ar>
-            <name_ar_tashkeel>الرَّوْضَة</name_ar_tashkeel>
-            <name_ar_normalized>الروضه</name_ar_normalized>
-            <name_en_normalized>Al Rawdhah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Bayhan</name_en>
-            <name_ar>بيحان</name_ar>
-            <name_ar_tashkeel>بَيْحَان</name_ar_tashkeel>
-            <name_ar_normalized>بيحان</name_ar_normalized>
-            <name_en_normalized>Bayhan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Jardan</name_en>
-            <name_ar>جردان</name_ar>
-            <name_ar_tashkeel>جَرْدَان</name_ar_tashkeel>
-            <name_ar_normalized>جردان</name_ar_normalized>
-            <name_en_normalized>Jardan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Habban</name_en>
-            <name_ar>حبان</name_ar>
-            <name_ar_tashkeel>حَبَّان</name_ar_tashkeel>
-            <name_ar_normalized>حبان</name_ar_normalized>
-            <name_en_normalized>Habban</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Ain</name_en>
-            <name_ar>عين</name_ar>
-            <name_ar_tashkeel>عَيْن</name_ar_tashkeel>
-            <name_ar_normalized>عين</name_ar_normalized>
-            <name_en_normalized>Ain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Hotaib</name_en>
-            <name_ar>حطيب</name_ar>
-            <name_ar_tashkeel>حُطَيْب</name_ar_tashkeel>
-            <name_ar_normalized>حطيب</name_ar_normalized>
-            <name_en_normalized>Hotaib</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Duhur</name_en>
-            <name_ar>دهر</name_ar>
-            <name_ar_tashkeel>دُهُر</name_ar_tashkeel>
-            <name_ar_normalized>دهر</name_ar_normalized>
-            <name_en_normalized>Duhur</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Rudhoom</name_en>
-            <name_ar>رضوم</name_ar>
-            <name_ar_tashkeel>رُضُوْم</name_ar_tashkeel>
-            <name_ar_normalized>رضوم</name_ar_normalized>
-            <name_en_normalized>Rudhoom</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Sa&#x27;eed</name_en>
-            <name_ar>الصعيد</name_ar>
-            <name_ar_tashkeel>الصَّعِيْد</name_ar_tashkeel>
-            <name_ar_normalized>الصعيد</name_ar_normalized>
-            <name_en_normalized>Al Saeed</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Talh</name_en>
-            <name_ar>الطلح</name_ar>
-            <name_ar_tashkeel>الطَّلْح</name_ar_tashkeel>
-            <name_ar_normalized>الطلح</name_ar_normalized>
-            <name_en_normalized>Al Talh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Ataq</name_en>
-            <name_ar>عتق</name_ar>
-            <name_ar_tashkeel>عَتَق</name_ar_tashkeel>
-            <name_ar_normalized>عتق</name_ar_normalized>
-            <name_en_normalized>Ataq</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Arma&#x27;</name_en>
-            <name_ar>عرماء</name_ar>
-            <name_ar_tashkeel>عَرْمَاء</name_ar_tashkeel>
-            <name_ar_normalized>عرماء</name_ar_normalized>
-            <name_en_normalized>Arma</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Osailan</name_en>
-            <name_ar>عسيلان</name_ar>
-            <name_ar_tashkeel>عُسَيْلَان</name_ar_tashkeel>
-            <name_ar_normalized>عسيلان</name_ar_normalized>
-            <name_en_normalized>Osailan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Markhah Al-Sofla</name_en>
-            <name_ar>مرخة السفلى</name_ar>
-            <name_ar_tashkeel>مَرْخَة السُّفْلَى</name_ar_tashkeel>
-            <name_ar_normalized>مرخه السفلا</name_ar_normalized>
-            <name_en_normalized>Markhah Al Sofla</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Markhah Al-Olia</name_en>
-            <name_ar>مرخة العليا</name_ar>
-            <name_ar_tashkeel>مَرْخَة العُلْيَا</name_ar_tashkeel>
-            <name_ar_normalized>مرخه العليا</name_ar_normalized>
-            <name_en_normalized>Markhah Al Olia</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Maifa&#x27;h</name_en>
-            <name_ar>ميفعة</name_ar>
-            <name_ar_tashkeel>مَيْفَعَة</name_ar_tashkeel>
-            <name_ar_normalized>ميفعه</name_ar_normalized>
-            <name_en_normalized>Maifah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Nesab</name_en>
-            <name_ar>نصاب</name_ar>
-            <name_ar_tashkeel>نِصَاب</name_ar_tashkeel>
-            <name_ar_normalized>نصاب</name_ar_normalized>
-            <name_en_normalized>Nesab</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>12</id>
-        <name_en>Taiz</name_en>
-        <name_ar>تعز</name_ar>
-        <name_ar_tashkeel>تَعِز</name_ar_tashkeel>
-        <phone_numbering_plan>04</phone_numbering_plan>
-        <capital_name_ar>مدينة تعز</capital_name_ar>
-        <capital_name_en>Taiz City</capital_name_en>
-        <name_ar_normalized>تعز</name_ar_normalized>
-        <name_en_normalized>Taiz</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Mawiah</name_en>
-            <name_ar>ماوية</name_ar>
-            <name_ar_tashkeel>مَاوِيَة</name_ar_tashkeel>
-            <name_ar_normalized>ماويه</name_ar_normalized>
-            <name_en_normalized>Mawiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Shara&#x27;b Al-Salam</name_en>
-            <name_ar>شرعب السلام</name_ar>
-            <name_ar_tashkeel>شَرْعَب السَّلَام</name_ar_tashkeel>
-            <name_ar_normalized>شرعب السلام</name_ar_normalized>
-            <name_en_normalized>Sharab Al Salam</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Shara&#x27;b Al-Rawnah</name_en>
-            <name_ar>شرعب الرونة</name_ar>
-            <name_ar_tashkeel>شَرْعَب الرَّوْنَة</name_ar_tashkeel>
-            <name_ar_normalized>شرعب الرونه</name_ar_normalized>
-            <name_en_normalized>Sharab Al Rawnah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Maqbana</name_en>
-            <name_ar>مقبنة</name_ar>
-            <name_ar_tashkeel>مَقْبَنَة</name_ar_tashkeel>
-            <name_ar_normalized>مقبنه</name_ar_normalized>
-            <name_en_normalized>Maqbana</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Makha</name_en>
-            <name_ar>المخا</name_ar>
-            <name_ar_tashkeel>المَخَا</name_ar_tashkeel>
-            <name_ar_normalized>المخا</name_ar_normalized>
-            <name_en_normalized>Al Makha</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Thubab</name_en>
-            <name_ar>ذباب</name_ar>
-            <name_ar_tashkeel>ذُبَاب</name_ar_tashkeel>
-            <name_ar_normalized>ذباب</name_ar_normalized>
-            <name_en_normalized>Thubab</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Mawza&#x27;</name_en>
-            <name_ar>موزع</name_ar>
-            <name_ar_tashkeel>مَوْزَع</name_ar_tashkeel>
-            <name_ar_normalized>موزع</name_ar_normalized>
-            <name_en_normalized>Mawza</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Habashi Mountain</name_en>
-            <name_ar>جبل حبشي</name_ar>
-            <name_ar_tashkeel>جَبَل حَبَشِي</name_ar_tashkeel>
-            <name_ar_normalized>جبل حبشي</name_ar_normalized>
-            <name_en_normalized>Habashi Mountain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Mashra&#x27;a and Hadnan</name_en>
-            <name_ar>مشرعة وحدنان</name_ar>
-            <name_ar_tashkeel>مَشْرَعَة وَحَدْنَان</name_ar_tashkeel>
-            <name_ar_normalized>مشرعه وحدنان</name_ar_normalized>
-            <name_en_normalized>Mashraa and Hadnan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Saber Al-Mawadim</name_en>
-            <name_ar>صبر الموادم</name_ar>
-            <name_ar_tashkeel>صَبِر المَوَادِم</name_ar_tashkeel>
-            <name_ar_normalized>صبر الموادم</name_ar_normalized>
-            <name_en_normalized>Saber Al Mawadim</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Al-Misrakh</name_en>
-            <name_ar>المسراخ</name_ar>
-            <name_ar_tashkeel>المِسْرَاخ</name_ar_tashkeel>
-            <name_ar_normalized>المسراخ</name_ar_normalized>
-            <name_en_normalized>Al Misrakh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Khadeer</name_en>
-            <name_ar>خدير</name_ar>
-            <name_ar_tashkeel>خَدِيْر</name_ar_tashkeel>
-            <name_ar_normalized>خدير</name_ar_normalized>
-            <name_en_normalized>Khadeer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Al-Selw</name_en>
-            <name_ar>الصلو</name_ar>
-            <name_ar_tashkeel>الصِّلْو</name_ar_tashkeel>
-            <name_ar_normalized>الصلو</name_ar_normalized>
-            <name_en_normalized>Al Selw</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Shamaiatain</name_en>
-            <name_ar>الشمايتين</name_ar>
-            <name_ar_tashkeel>الشَّمَايَتَيْن</name_ar_tashkeel>
-            <name_ar_normalized>الشمايتين</name_ar_normalized>
-            <name_en_normalized>Al Shamaiatain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Al-Waz&#x27;iah</name_en>
-            <name_ar>الوازعية</name_ar>
-            <name_ar_tashkeel>الوَازِعِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الوازعيه</name_ar_normalized>
-            <name_en_normalized>Al Waziah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Haifan</name_en>
-            <name_ar>حيفان</name_ar>
-            <name_ar_tashkeel>حَيْفَان</name_ar_tashkeel>
-            <name_ar_normalized>حيفان</name_ar_normalized>
-            <name_en_normalized>Haifan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Al-Mathfar</name_en>
-            <name_ar>المظفر</name_ar>
-            <name_ar_tashkeel>المَظْفَر</name_ar_tashkeel>
-            <name_ar_normalized>المظفر</name_ar_normalized>
-            <name_en_normalized>Al Mathfar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Al-Qahera</name_en>
-            <name_ar>القاهرة</name_ar>
-            <name_ar_tashkeel>القَاهِرَة</name_ar_tashkeel>
-            <name_ar_normalized>القاهره</name_ar_normalized>
-            <name_en_normalized>Al Qahera</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Salah</name_en>
-            <name_ar>صالة</name_ar>
-            <name_ar_tashkeel>صَالَة</name_ar_tashkeel>
-            <name_ar_normalized>صاله</name_ar_normalized>
-            <name_en_normalized>Salah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Al-Taiziah</name_en>
-            <name_ar>التعزية</name_ar>
-            <name_ar_tashkeel>التَّعِزِّيَة</name_ar_tashkeel>
-            <name_ar_normalized>التعزيه</name_ar_normalized>
-            <name_en_normalized>Al Taiziah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>21</id>
-            <name_en>Al-Ma&#x27;afer</name_en>
-            <name_ar>المعافر</name_ar>
-            <name_ar_tashkeel>المَعَافِر</name_ar_tashkeel>
-            <name_ar_normalized>المعافر</name_ar_normalized>
-            <name_en_normalized>Al Maafer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>22</id>
-            <name_en>Al-Mawasit</name_en>
-            <name_ar>المواسط</name_ar>
-            <name_ar_tashkeel>المَوَاسِط</name_ar_tashkeel>
-            <name_ar_normalized>المواسط</name_ar_normalized>
-            <name_en_normalized>Al Mawasit</name_en_normalized>
-        </districts>
-        <districts>
-            <id>23</id>
-            <name_en>Sama&#x27;</name_en>
-            <name_ar>سامع</name_ar>
-            <name_ar_tashkeel>سَامِع</name_ar_tashkeel>
-            <name_ar_normalized>سامع</name_ar_normalized>
-            <name_en_normalized>Sama</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>13</id>
-        <name_en>Al-jawf</name_en>
-        <name_ar>الجوف</name_ar>
-        <name_ar_tashkeel>الجَوْف</name_ar_tashkeel>
-        <phone_numbering_plan>06</phone_numbering_plan>
-        <capital_name_ar>الحزم</capital_name_ar>
-        <capital_name_en>Al-Hazm</capital_name_en>
-        <name_ar_normalized>الجوف</name_ar_normalized>
-        <name_en_normalized>Al jawf</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Barat Al-enan</name_en>
-            <name_ar>برط العنان</name_ar>
-            <name_ar_tashkeel>بَرَطَ العِنَان</name_ar_tashkeel>
-            <name_ar_normalized>برط العنان</name_ar_normalized>
-            <name_en_normalized>Barat Al enan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Hazm</name_en>
-            <name_ar>الحزم</name_ar>
-            <name_ar_tashkeel>الحَزْم</name_ar_tashkeel>
-            <name_ar_normalized>الحزم</name_ar_normalized>
-            <name_en_normalized>Al Hazm</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Humaidat</name_en>
-            <name_ar>الحميدات</name_ar>
-            <name_ar_tashkeel>الحُمَيْدَات</name_ar_tashkeel>
-            <name_ar_normalized>الحميدات</name_ar_normalized>
-            <name_en_normalized>Al Humaidat</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Khab and Al-Sha’af</name_en>
-            <name_ar>خب والشعف</name_ar>
-            <name_ar_tashkeel>خَب وَالشَعَف</name_ar_tashkeel>
-            <name_ar_normalized>خب والشعف</name_ar_normalized>
-            <name_en_normalized>Khab and Al Sha’af</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Kharab Al-Marashi</name_en>
-            <name_ar>خراب المراشي</name_ar>
-            <name_ar_tashkeel>خَرَاب المَرَاشِي</name_ar_tashkeel>
-            <name_ar_normalized>خراب المراشي</name_ar_normalized>
-            <name_en_normalized>Kharab Al Marashi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Khalq</name_en>
-            <name_ar>الخلق</name_ar>
-            <name_ar_tashkeel>الخَلَق</name_ar_tashkeel>
-            <name_ar_normalized>الخلق</name_ar_normalized>
-            <name_en_normalized>Al Khalq</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Rajozah</name_en>
-            <name_ar>رجوزة</name_ar>
-            <name_ar_tashkeel>رَجُوْزَة</name_ar_tashkeel>
-            <name_ar_normalized>رجوزه</name_ar_normalized>
-            <name_en_normalized>Rajozah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Zaher</name_en>
-            <name_ar>الزاهر</name_ar>
-            <name_ar_tashkeel>الزَّاهِر</name_ar_tashkeel>
-            <name_ar_normalized>الزاهر</name_ar_normalized>
-            <name_en_normalized>Al Zaher</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Al-Ghail</name_en>
-            <name_ar>الغيل</name_ar>
-            <name_ar_tashkeel>الغَيْل</name_ar_tashkeel>
-            <name_ar_normalized>الغيل</name_ar_normalized>
-            <name_en_normalized>Al Ghail</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Mutoon</name_en>
-            <name_ar>المتون</name_ar>
-            <name_ar_tashkeel>المُتُوْن</name_ar_tashkeel>
-            <name_ar_normalized>المتون</name_ar_normalized>
-            <name_en_normalized>Al Mutoon</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Al-Masloob</name_en>
-            <name_ar>المصلوب</name_ar>
-            <name_ar_tashkeel>المَصْلُوْب</name_ar_tashkeel>
-            <name_ar_normalized>المصلوب</name_ar_normalized>
-            <name_en_normalized>Al Masloob</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Matmmah</name_en>
-            <name_ar>المطمة</name_ar>
-            <name_ar_tashkeel>المَطَمّة</name_ar_tashkeel>
-            <name_ar_normalized>المطمه</name_ar_normalized>
-            <name_en_normalized>Al Matmmah</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>14</id>
-        <name_en>Ma&#x27;rib</name_en>
-        <name_ar>مأرب</name_ar>
-        <name_ar_tashkeel>مَأْرِب</name_ar_tashkeel>
-        <phone_numbering_plan>06</phone_numbering_plan>
-        <capital_name_ar>مدينة مأرب</capital_name_ar>
-        <capital_name_en>Ma&#x27;rib City</capital_name_en>
-        <name_ar_normalized>مارب</name_ar_normalized>
-        <name_en_normalized>Marib</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Bedbedah</name_en>
-            <name_ar>بدبدة</name_ar>
-            <name_ar_tashkeel>بِدْبِدَة</name_ar_tashkeel>
-            <name_ar_normalized>بدبده</name_ar_normalized>
-            <name_en_normalized>Bedbedah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Morad Mountain</name_en>
-            <name_ar>جبل مراد</name_ar>
-            <name_ar_tashkeel>جَبَل مُرَاد</name_ar_tashkeel>
-            <name_ar_normalized>جبل مراد</name_ar_normalized>
-            <name_en_normalized>Morad Mountain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Madghal Al-Gida&#x27;an</name_en>
-            <name_ar>مدغل الجدعان</name_ar>
-            <name_ar_tashkeel>مَدْغَل الجِدْعَان</name_ar_tashkeel>
-            <name_ar_normalized>مدغل الجدعان</name_ar_normalized>
-            <name_en_normalized>Madghal Al Gidaan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Ma&#x27;rib City</name_en>
-            <name_ar>مدينة مأرب</name_ar>
-            <name_ar_tashkeel>مَدِينَة مَأْرِب</name_ar_tashkeel>
-            <name_ar_normalized>مدينه مارب</name_ar_normalized>
-            <name_en_normalized>Marib City</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Hareeb</name_en>
-            <name_ar>حريب</name_ar>
-            <name_ar_tashkeel>حَرِيْب</name_ar_tashkeel>
-            <name_ar_normalized>حريب</name_ar_normalized>
-            <name_en_normalized>Hareeb</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Hareeb Al-Qaramish</name_en>
-            <name_ar>حريب القرامش</name_ar>
-            <name_ar_tashkeel>حَرِيْب القَرَامِش</name_ar_tashkeel>
-            <name_ar_normalized>حريب القرامش</name_ar_normalized>
-            <name_en_normalized>Hareeb Al Qaramish</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Rahabah</name_en>
-            <name_ar>رحبة</name_ar>
-            <name_ar_tashkeel>رَحَبَة</name_ar_tashkeel>
-            <name_ar_normalized>رحبه</name_ar_normalized>
-            <name_en_normalized>Rahabah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Raghwan</name_en>
-            <name_ar>رغوان</name_ar>
-            <name_ar_tashkeel>رَغْوَان</name_ar_tashkeel>
-            <name_ar_normalized>رغوان</name_ar_normalized>
-            <name_en_normalized>Raghwan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Sirwah</name_en>
-            <name_ar>صرواح</name_ar>
-            <name_ar_tashkeel>صِرْوَاح</name_ar_tashkeel>
-            <name_ar_normalized>صرواح</name_ar_normalized>
-            <name_en_normalized>Sirwah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Al-Abdiah</name_en>
-            <name_ar>العبدية</name_ar>
-            <name_ar_tashkeel>العَبْدِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>العبديه</name_ar_normalized>
-            <name_en_normalized>Al Abdiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Mahliah</name_en>
-            <name_ar>ماهلية</name_ar>
-            <name_ar_tashkeel>ماهِلِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>ماهليه</name_ar_normalized>
-            <name_en_normalized>Mahliah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Jobah</name_en>
-            <name_ar>الجوبة</name_ar>
-            <name_ar_tashkeel>الجُوْبَة</name_ar_tashkeel>
-            <name_ar_normalized>الجوبه</name_ar_normalized>
-            <name_en_normalized>Al Jobah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Majzar</name_en>
-            <name_ar>مجزر</name_ar>
-            <name_ar_tashkeel>مَجْزَر</name_ar_tashkeel>
-            <name_ar_normalized>مجزر</name_ar_normalized>
-            <name_en_normalized>Majzar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Mokalla City</name_en>
-            <name_ar>مدينة المكلا</name_ar>
-            <name_ar_tashkeel>مَدِيْنَة المُكَلَّا</name_ar_tashkeel>
-            <name_ar_normalized>مدينه المكلا</name_ar_normalized>
-            <name_en_normalized>Al Mokalla City</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>15</id>
-        <name_en>Hadramot</name_en>
-        <name_ar>حضرموت</name_ar>
-        <name_ar_tashkeel>حَضْرَمَوْت</name_ar_tashkeel>
-        <phone_numbering_plan>05</phone_numbering_plan>
-        <capital_name_ar>المكلا</capital_name_ar>
-        <capital_name_en>Al-Mokalla</capital_name_en>
-        <name_ar_normalized>حضرموت</name_ar_normalized>
-        <name_en_normalized>Hadramot</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Mokalla</name_en>
-            <name_ar>المكلا</name_ar>
-            <name_ar_tashkeel>المُكَلَّا</name_ar_tashkeel>
-            <name_ar_normalized>المكلا</name_ar_normalized>
-            <name_en_normalized>Al Mokalla</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Thamood</name_en>
-            <name_ar>ثمود</name_ar>
-            <name_ar_tashkeel>ثَمُوْد</name_ar_tashkeel>
-            <name_ar_normalized>ثمود</name_ar_normalized>
-            <name_en_normalized>Thamood</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Qaf</name_en>
-            <name_ar>القف</name_ar>
-            <name_ar_tashkeel>القَف</name_ar_tashkeel>
-            <name_ar_normalized>القف</name_ar_normalized>
-            <name_en_normalized>Al Qaf</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Zamakh and Manookh</name_en>
-            <name_ar>زمخ ومنوخ</name_ar>
-            <name_ar_tashkeel>زَمَخ وَمُنُوْخ</name_ar_tashkeel>
-            <name_ar_normalized>زمخ ومنوخ</name_ar_normalized>
-            <name_en_normalized>Zamakh and Manookh</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Hajr</name_en>
-            <name_ar>حجر</name_ar>
-            <name_ar_tashkeel>حَجْر</name_ar_tashkeel>
-            <name_ar_normalized>حجر</name_ar_normalized>
-            <name_en_normalized>Hajr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Abr</name_en>
-            <name_ar>العبر</name_ar>
-            <name_ar_tashkeel>العَبْر</name_ar_tashkeel>
-            <name_ar_normalized>العبر</name_ar_normalized>
-            <name_en_normalized>Al Abr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Al-Qatn</name_en>
-            <name_ar>القطن</name_ar>
-            <name_ar_tashkeel>القَطَن</name_ar_tashkeel>
-            <name_ar_normalized>القطن</name_ar_normalized>
-            <name_en_normalized>Al Qatn</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Shibam</name_en>
-            <name_ar>شبام</name_ar>
-            <name_ar_tashkeel>شِبَام</name_ar_tashkeel>
-            <name_ar_normalized>شبام</name_ar_normalized>
-            <name_en_normalized>Shibam</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Sah</name_en>
-            <name_ar>ساه</name_ar>
-            <name_ar_tashkeel>سَاه</name_ar_tashkeel>
-            <name_ar_normalized>ساه</name_ar_normalized>
-            <name_en_normalized>Sah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Say&#x27;on</name_en>
-            <name_ar>سيئون</name_ar>
-            <name_ar_tashkeel>سَيْئُون</name_ar_tashkeel>
-            <name_ar_normalized>سيءون</name_ar_normalized>
-            <name_en_normalized>Sayon</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Tarim</name_en>
-            <name_ar>تريم</name_ar>
-            <name_ar_tashkeel>تَرِيْم</name_ar_tashkeel>
-            <name_ar_normalized>تريم</name_ar_normalized>
-            <name_en_normalized>Tarim</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Al-Soom</name_en>
-            <name_ar>السوم</name_ar>
-            <name_ar_tashkeel>السُّوْم</name_ar_tashkeel>
-            <name_ar_normalized>السوم</name_ar_normalized>
-            <name_en_normalized>Al Soom</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Al-Raidah and Qusaier</name_en>
-            <name_ar>الريدة وقصيعر</name_ar>
-            <name_ar_tashkeel>الرَّيْدَة وَقُصَيْعَِر</name_ar_tashkeel>
-            <name_ar_normalized>الريده وقصيعر</name_ar_normalized>
-            <name_en_normalized>Al Raidah and Qusaier</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Al-Dais</name_en>
-            <name_ar>الديس</name_ar>
-            <name_ar_tashkeel>الدِّيْس</name_ar_tashkeel>
-            <name_ar_normalized>الديس</name_ar_normalized>
-            <name_en_normalized>Al Dais</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Al-Shihr</name_en>
-            <name_ar>الشحر</name_ar>
-            <name_ar_tashkeel>الشِّحْر</name_ar_tashkeel>
-            <name_ar_normalized>الشحر</name_ar_normalized>
-            <name_en_normalized>Al Shihr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>16</id>
-            <name_en>Ghail Bin Yameen</name_en>
-            <name_ar>غيل بن يمين</name_ar>
-            <name_ar_tashkeel>غَيْل بِْن يَمِيْن</name_ar_tashkeel>
-            <name_ar_normalized>غيل بن يمين</name_ar_normalized>
-            <name_en_normalized>Ghail Bin Yameen</name_en_normalized>
-        </districts>
-        <districts>
-            <id>17</id>
-            <name_en>Ghail Ba Wazeer</name_en>
-            <name_ar>غيل باوزير</name_ar>
-            <name_ar_tashkeel>غَيْل بَاوَزِيْر</name_ar_tashkeel>
-            <name_ar_normalized>غيل باوزير</name_ar_normalized>
-            <name_en_normalized>Ghail Ba Wazeer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>18</id>
-            <name_en>Dawa&#x27;an</name_en>
-            <name_ar>دوعن</name_ar>
-            <name_ar_tashkeel>دَوْعَن</name_ar_tashkeel>
-            <name_ar_normalized>دوعن</name_ar_normalized>
-            <name_en_normalized>Dawaan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>19</id>
-            <name_en>Amd</name_en>
-            <name_ar>عمد</name_ar>
-            <name_ar_tashkeel>عَمْد</name_ar_tashkeel>
-            <name_ar_normalized>عمد</name_ar_normalized>
-            <name_en_normalized>Amd</name_en_normalized>
-        </districts>
-        <districts>
-            <id>20</id>
-            <name_en>Al-Ayn Valley</name_en>
-            <name_ar>حورة ووادي العين</name_ar>
-            <name_ar_tashkeel>حُوْرَة وَوَادِي العَيْن</name_ar_tashkeel>
-            <name_ar_normalized>حوره ووادي العين</name_ar_normalized>
-            <name_en_normalized>Al Ayn Valley</name_en_normalized>
-        </districts>
-        <districts>
-            <id>21</id>
-            <name_en>Raikhyah</name_en>
-            <name_ar>رخية</name_ar>
-            <name_ar_tashkeel>رَخْيَة</name_ar_tashkeel>
-            <name_ar_normalized>رخيه</name_ar_normalized>
-            <name_en_normalized>Raikhyah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>22</id>
-            <name_en>Yabo&#x27;th</name_en>
-            <name_ar>يبعث</name_ar>
-            <name_ar_tashkeel>يَبْعُث</name_ar_tashkeel>
-            <name_ar_normalized>يبعث</name_ar_normalized>
-            <name_en_normalized>Yaboth</name_en_normalized>
-        </districts>
-        <districts>
-            <id>23</id>
-            <name_en>Hajar Al-Saia&#x27;ar</name_en>
-            <name_ar>حجر الصيعر</name_ar>
-            <name_ar_tashkeel>حَجْر الصَّيْعَر</name_ar_tashkeel>
-            <name_ar_normalized>حجر الصيعر</name_ar_normalized>
-            <name_en_normalized>Hajar Al Saiaar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>24</id>
-            <name_en>Barom Maifa&#x27;a</name_en>
-            <name_ar>بروم ميفع</name_ar>
-            <name_ar_tashkeel>بُرُوم مَيْفَع</name_ar_tashkeel>
-            <name_ar_normalized>بروم ميفع</name_ar_normalized>
-            <name_en_normalized>Barom Maifaa</name_en_normalized>
-        </districts>
-        <districts>
-            <id>25</id>
-            <name_en>Al-Dhlia&#x27;ah</name_en>
-            <name_ar>الضليعة</name_ar>
-            <name_ar_tashkeel>الضِّلِيْعَة</name_ar_tashkeel>
-            <name_ar_normalized>الضليعه</name_ar_normalized>
-            <name_en_normalized>Al Dhliaah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>26</id>
-            <name_en>Rumah</name_en>
-            <name_ar>رماه</name_ar>
-            <name_ar_tashkeel>رُمَاه</name_ar_tashkeel>
-            <name_ar_normalized>رماه</name_ar_normalized>
-            <name_en_normalized>Rumah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>27</id>
-            <name_en>Huridhah</name_en>
-            <name_ar>حريضة</name_ar>
-            <name_ar_tashkeel>حُرَيْضَة</name_ar_tashkeel>
-            <name_ar_normalized>حريضه</name_ar_normalized>
-            <name_en_normalized>Huridhah</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>16</id>
-        <name_en>Al-Maharah</name_en>
-        <name_ar>المهرة</name_ar>
-        <name_ar_tashkeel>المَهَرَة</name_ar_tashkeel>
-        <phone_numbering_plan>05</phone_numbering_plan>
-        <capital_name_ar>الغيضة</capital_name_ar>
-        <capital_name_en>Al-Ghaidhah</capital_name_en>
-        <name_ar_normalized>المهره</name_ar_normalized>
-        <name_en_normalized>Al Maharah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Haat</name_en>
-            <name_ar>حات</name_ar>
-            <name_ar_tashkeel>حَات</name_ar_tashkeel>
-            <name_ar_normalized>حات</name_ar_normalized>
-            <name_en_normalized>Haat</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Hsween</name_en>
-            <name_ar>حصوين</name_ar>
-            <name_ar_tashkeel>حَصْوِيْن</name_ar_tashkeel>
-            <name_ar_normalized>حصوين</name_ar_normalized>
-            <name_en_normalized>Hsween</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Hawf</name_en>
-            <name_ar>حوف</name_ar>
-            <name_ar_tashkeel>حَوْف</name_ar_tashkeel>
-            <name_ar_normalized>حوف</name_ar_normalized>
-            <name_en_normalized>Hawf</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Syhoot</name_en>
-            <name_ar>سيحوت</name_ar>
-            <name_ar_tashkeel>سَيْحُوْت</name_ar_tashkeel>
-            <name_ar_normalized>سيحوت</name_ar_normalized>
-            <name_en_normalized>Syhoot</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Shihin</name_en>
-            <name_ar>شحن</name_ar>
-            <name_ar_tashkeel>شِحِْن</name_ar_tashkeel>
-            <name_ar_normalized>شحن</name_ar_normalized>
-            <name_en_normalized>Shihin</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Ghaidhah</name_en>
-            <name_ar>الغيضة</name_ar>
-            <name_ar_tashkeel>الغَيْضَة</name_ar_tashkeel>
-            <name_ar_normalized>الغيضه</name_ar_normalized>
-            <name_en_normalized>Al Ghaidhah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Qashn</name_en>
-            <name_ar>قشن</name_ar>
-            <name_ar_tashkeel>قِشْن</name_ar_tashkeel>
-            <name_ar_normalized>قشن</name_ar_normalized>
-            <name_en_normalized>Qashn</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Masilah</name_en>
-            <name_ar>المسيلة</name_ar>
-            <name_ar_tashkeel>المَسِيْلَة</name_ar_tashkeel>
-            <name_ar_normalized>المسيله</name_ar_normalized>
-            <name_en_normalized>Al Masilah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Man&#x27;r</name_en>
-            <name_ar>منعر</name_ar>
-            <name_ar_tashkeel>مَنْعَر</name_ar_tashkeel>
-            <name_ar_normalized>منعر</name_ar_normalized>
-            <name_en_normalized>Manr</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>17</id>
-        <name_en>Al-Dhale&#x27;</name_en>
-        <name_ar>الضالع</name_ar>
-        <name_ar_tashkeel>الضَّالِع</name_ar_tashkeel>
-        <phone_numbering_plan>02</phone_numbering_plan>
-        <capital_name_ar>مدينة الضالع</capital_name_ar>
-        <capital_name_en>Al-Dhale&#x27; City</capital_name_en>
-        <name_ar_normalized>الضالع</name_ar_normalized>
-        <name_en_normalized>Al Dhale</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Azariq</name_en>
-            <name_ar>الأزارق</name_ar>
-            <name_ar_tashkeel>الأَزَارِق</name_ar_tashkeel>
-            <name_ar_normalized>الازارق</name_ar_normalized>
-            <name_en_normalized>Al Azariq</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Hasha&#x27;</name_en>
-            <name_ar>الحشاء</name_ar>
-            <name_ar_tashkeel>الحَشَاء</name_ar_tashkeel>
-            <name_ar_normalized>الحشاء</name_ar_normalized>
-            <name_en_normalized>Al Hasha</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Hosain</name_en>
-            <name_ar>الحصين</name_ar>
-            <name_ar_tashkeel>الحُصَيْن</name_ar_tashkeel>
-            <name_ar_normalized>الحصين</name_ar_normalized>
-            <name_en_normalized>Al Hosain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Sho&#x27;aib</name_en>
-            <name_ar>الشعيب</name_ar>
-            <name_ar_tashkeel>الشُّعَيْب</name_ar_tashkeel>
-            <name_ar_normalized>الشعيب</name_ar_normalized>
-            <name_en_normalized>Al Shoaib</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Dhale&#x27;</name_en>
-            <name_ar>الضالع</name_ar>
-            <name_ar_tashkeel>الضَّالِع</name_ar_tashkeel>
-            <name_ar_normalized>الضالع</name_ar_normalized>
-            <name_en_normalized>Al Dhale</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Joban</name_en>
-            <name_ar>جبن</name_ar>
-            <name_ar_tashkeel>جُبَن</name_ar_tashkeel>
-            <name_ar_normalized>جبن</name_ar_normalized>
-            <name_en_normalized>Joban</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Jehaf</name_en>
-            <name_ar>جحاف</name_ar>
-            <name_ar_tashkeel>جِحَاف</name_ar_tashkeel>
-            <name_ar_normalized>جحاف</name_ar_normalized>
-            <name_en_normalized>Jehaf</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Damt</name_en>
-            <name_ar>دمت</name_ar>
-            <name_ar_tashkeel>دَمْت</name_ar_tashkeel>
-            <name_ar_normalized>دمت</name_ar_normalized>
-            <name_en_normalized>Damt</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Qa&#x27;tabah</name_en>
-            <name_ar>قعطبة</name_ar>
-            <name_ar_tashkeel>قَعْطَبَة</name_ar_tashkeel>
-            <name_ar_normalized>قعطبه</name_ar_normalized>
-            <name_en_normalized>Qatabah</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>18</id>
-        <name_en>Al-Mahweet</name_en>
-        <name_ar>المحويت</name_ar>
-        <name_ar_tashkeel>المَحْوِيْت</name_ar_tashkeel>
-        <phone_numbering_plan>07</phone_numbering_plan>
-        <capital_name_ar>مدينة المحويت</capital_name_ar>
-        <capital_name_en>Al-Mahweet City</capital_name_en>
-        <name_ar_normalized>المحويت</name_ar_normalized>
-        <name_en_normalized>Al Mahweet</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Melhan</name_en>
-            <name_ar>ملحان</name_ar>
-            <name_ar_tashkeel>مَلْحَان</name_ar_tashkeel>
-            <name_ar_normalized>ملحان</name_ar_normalized>
-            <name_en_normalized>Melhan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Khabt</name_en>
-            <name_ar>الخبت</name_ar>
-            <name_ar_tashkeel>الخَبْت</name_ar_tashkeel>
-            <name_ar_normalized>الخبت</name_ar_normalized>
-            <name_en_normalized>Al Khabt</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Tawilah</name_en>
-            <name_ar>الطويلة</name_ar>
-            <name_ar_tashkeel>الطَّوِيْلَة</name_ar_tashkeel>
-            <name_ar_normalized>الطويله</name_ar_normalized>
-            <name_en_normalized>Al Tawilah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Bni Sa&#x27;d</name_en>
-            <name_ar>بني سعد</name_ar>
-            <name_ar_tashkeel>بَنِي سَعْد</name_ar_tashkeel>
-            <name_ar_normalized>بني سعد</name_ar_normalized>
-            <name_en_normalized>Bni Sad</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Rojom</name_en>
-            <name_ar>الرجم</name_ar>
-            <name_ar_tashkeel>الرُّجُم</name_ar_tashkeel>
-            <name_ar_normalized>الرجم</name_ar_normalized>
-            <name_en_normalized>Al Rojom</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Mahweet</name_en>
-            <name_ar>المحويت</name_ar>
-            <name_ar_tashkeel>المَحْوِيْت</name_ar_tashkeel>
-            <name_ar_normalized>المحويت</name_ar_normalized>
-            <name_en_normalized>Al Mahweet</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Al-Mahweet City</name_en>
-            <name_ar>مدينة المحويت</name_ar>
-            <name_ar_tashkeel>مَدِيْنَة المَحْوِيْت</name_ar_tashkeel>
-            <name_ar_normalized>مدينه المحويت</name_ar_normalized>
-            <name_en_normalized>Al Mahweet City</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Shibam Kawkaban</name_en>
-            <name_ar>شبام كوكبان</name_ar>
-            <name_ar_tashkeel>شِبَام كَوْكَبَان</name_ar_tashkeel>
-            <name_ar_normalized>شبام كوكبان</name_ar_normalized>
-            <name_en_normalized>Shibam Kawkaban</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Hofash</name_en>
-            <name_ar>حفاش</name_ar>
-            <name_ar_tashkeel>حُفَاش</name_ar_tashkeel>
-            <name_ar_normalized>حفاش</name_ar_normalized>
-            <name_en_normalized>Hofash</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>19</id>
-        <name_en>Lahj</name_en>
-        <name_ar>لحج</name_ar>
-        <name_ar_tashkeel>لَحْج</name_ar_tashkeel>
-        <phone_numbering_plan>02</phone_numbering_plan>
-        <capital_name_ar>الحوطة</capital_name_ar>
-        <capital_name_en>Al-Hotah</capital_name_en>
-        <name_ar_normalized>لحج</name_ar_normalized>
-        <name_en_normalized>Lahj</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Al-Had</name_en>
-            <name_ar>الحد</name_ar>
-            <name_ar_tashkeel>الحَد</name_ar_tashkeel>
-            <name_ar_normalized>الحد</name_ar_normalized>
-            <name_en_normalized>Al Had</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Hotah</name_en>
-            <name_ar>الحوطة</name_ar>
-            <name_ar_tashkeel>الحُوْطَة</name_ar_tashkeel>
-            <name_ar_normalized>الحوطه</name_ar_normalized>
-            <name_en_normalized>Al Hotah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Qabbaytah</name_en>
-            <name_ar>القبيطة</name_ar>
-            <name_ar_tashkeel>القَبَّيْطَة</name_ar_tashkeel>
-            <name_ar_normalized>القبيطه</name_ar_normalized>
-            <name_en_normalized>Al Qabbaytah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Al-Mosaimeer</name_en>
-            <name_ar>المسيمير</name_ar>
-            <name_ar_tashkeel>المُسَيمِيْر</name_ar_tashkeel>
-            <name_ar_normalized>المسيمير</name_ar_normalized>
-            <name_en_normalized>Al Mosaimeer</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Al-Madharaba and Al-A&#x27;ara</name_en>
-            <name_ar>المضاربة والعارة</name_ar>
-            <name_ar_tashkeel>المَضَارِبَة وَالعَارَة</name_ar_tashkeel>
-            <name_ar_normalized>المضاربه والعاره</name_ar_normalized>
-            <name_en_normalized>Al Madharaba and Al Aara</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-Muflhi</name_en>
-            <name_ar>المفلحي</name_ar>
-            <name_ar_tashkeel>المُفْلِحِي</name_ar_tashkeel>
-            <name_ar_normalized>المفلحي</name_ar_normalized>
-            <name_en_normalized>Al Muflhi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Al-Maqatirah</name_en>
-            <name_ar>المقاطرة</name_ar>
-            <name_ar_tashkeel>المَقَاطِرَة</name_ar_tashkeel>
-            <name_ar_normalized>المقاطره</name_ar_normalized>
-            <name_en_normalized>Al Maqatirah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Milah</name_en>
-            <name_ar>الملاح</name_ar>
-            <name_ar_tashkeel>المَلَاح</name_ar_tashkeel>
-            <name_ar_normalized>الملاح</name_ar_normalized>
-            <name_en_normalized>Al Milah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Tbn</name_en>
-            <name_ar>تبن</name_ar>
-            <name_ar_tashkeel>تُبَن</name_ar_tashkeel>
-            <name_ar_normalized>تبن</name_ar_normalized>
-            <name_en_normalized>Tbn</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Halimain</name_en>
-            <name_ar>حالمين</name_ar>
-            <name_ar_tashkeel>حَالِمَيْن</name_ar_tashkeel>
-            <name_ar_normalized>حالمين</name_ar_normalized>
-            <name_en_normalized>Halimain</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Hobail Jabr</name_en>
-            <name_ar>حبيل جبر</name_ar>
-            <name_ar_tashkeel>حَبِيْل جَبْر</name_ar_tashkeel>
-            <name_ar_normalized>حبيل جبر</name_ar_normalized>
-            <name_en_normalized>Hobail Jabr</name_en_normalized>
-        </districts>
-        <districts>
-            <id>12</id>
-            <name_en>Radfan</name_en>
-            <name_ar>ردفان</name_ar>
-            <name_ar_tashkeel>رَدْفَان</name_ar_tashkeel>
-            <name_ar_normalized>ردفان</name_ar_normalized>
-            <name_en_normalized>Radfan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>13</id>
-            <name_en>Toor Al-Baha</name_en>
-            <name_ar>طور الباحة</name_ar>
-            <name_ar_tashkeel>طُوْر البَاحَة</name_ar_tashkeel>
-            <name_ar_normalized>طور الباحه</name_ar_normalized>
-            <name_en_normalized>Toor Al Baha</name_en_normalized>
-        </districts>
-        <districts>
-            <id>14</id>
-            <name_en>Yafe&#x27;</name_en>
-            <name_ar>يافع</name_ar>
-            <name_ar_tashkeel>يَافِع</name_ar_tashkeel>
-            <name_ar_normalized>يافع</name_ar_normalized>
-            <name_en_normalized>Yafe</name_en_normalized>
-        </districts>
-        <districts>
-            <id>15</id>
-            <name_en>Yahar</name_en>
-            <name_ar>يهر</name_ar>
-            <name_ar_tashkeel>يَهَر</name_ar_tashkeel>
-            <name_ar_normalized>يهر</name_ar_normalized>
-            <name_en_normalized>Yahar</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>20</id>
-        <name_en>Raimah</name_en>
-        <name_ar>ريمة</name_ar>
-        <name_ar_tashkeel>رَيْمَة</name_ar_tashkeel>
-        <phone_numbering_plan>03</phone_numbering_plan>
-        <capital_name_ar>الجبين</capital_name_ar>
-        <capital_name_en>Al-Jabeen</capital_name_en>
-        <name_ar_normalized>ريمه</name_ar_normalized>
-        <name_en_normalized>Raimah</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Bilad Al-Ta&#x27;am</name_en>
-            <name_ar>بلاد الطعام</name_ar>
-            <name_ar_tashkeel>بِلَاد الطَّعَام</name_ar_tashkeel>
-            <name_ar_normalized>بلاد الطعام</name_ar_normalized>
-            <name_en_normalized>Bilad Al Taam</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al-Salfiah</name_en>
-            <name_ar>السلفية</name_ar>
-            <name_ar_tashkeel>السَّلْفِيَة</name_ar_tashkeel>
-            <name_ar_normalized>السلفيه</name_ar_normalized>
-            <name_en_normalized>Al Salfiah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Al-Jabeen</name_en>
-            <name_ar>الجبين</name_ar>
-            <name_ar_tashkeel>الجَبِيْن</name_ar_tashkeel>
-            <name_ar_normalized>الجبين</name_ar_normalized>
-            <name_en_normalized>Al Jabeen</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Mizhir</name_en>
-            <name_ar>مزهر</name_ar>
-            <name_ar_tashkeel>مِزْهِر</name_ar_tashkeel>
-            <name_ar_normalized>مزهر</name_ar_normalized>
-            <name_en_normalized>Mizhir</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Kosmah</name_en>
-            <name_ar>كسمة</name_ar>
-            <name_ar_tashkeel>كُسْمَة</name_ar_tashkeel>
-            <name_ar_normalized>كسمه</name_ar_normalized>
-            <name_en_normalized>Kosmah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Al-ja&#x27;faria</name_en>
-            <name_ar>الجعفرية</name_ar>
-            <name_ar_tashkeel>الجَعْفَرِيَّة</name_ar_tashkeel>
-            <name_ar_normalized>الجعفريه</name_ar_normalized>
-            <name_en_normalized>Al jafaria</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>21</id>
-        <name_en>Socatra</name_en>
-        <name_ar>سقطرى</name_ar>
-        <name_ar_tashkeel>سُقَطْرَى</name_ar_tashkeel>
-        <phone_numbering_plan>05</phone_numbering_plan>
-        <capital_name_ar>حديبو</capital_name_ar>
-        <capital_name_en>Hadibu</capital_name_en>
-        <name_ar_normalized>سقطرا</name_ar_normalized>
-        <name_en_normalized>Socatra</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Hadibu</name_en>
-            <name_ar>حديبو</name_ar>
-            <name_ar_tashkeel>حَدِيْبُو</name_ar_tashkeel>
-            <name_ar_normalized>حديبو</name_ar_normalized>
-            <name_en_normalized>Hadibu</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Qulansiyah and &#x27;Abd-al-Kuri</name_en>
-            <name_ar>قلنسية وعبد الكوري</name_ar>
-            <name_ar_tashkeel>قَلَنْسِيِّة وَعَبْد الكُوْرِي</name_ar_tashkeel>
-            <name_ar_normalized>قلنسيه وعبد الكوري</name_ar_normalized>
-            <name_en_normalized>Qulansiyah and Abd al Kuri</name_en_normalized>
-        </districts>
-    </governorates>
-    <governorates>
-        <id>22</id>
-        <name_en>Abyan</name_en>
-        <name_ar>أبين</name_ar>
-        <name_ar_tashkeel>أَبْيَن</name_ar_tashkeel>
-        <phone_numbering_plan>02</phone_numbering_plan>
-        <capital_name_ar>زنجبار</capital_name_ar>
-        <capital_name_en>Zunjubar</capital_name_en>
-        <name_ar_normalized>ابين</name_ar_normalized>
-        <name_en_normalized>Abyan</name_en_normalized>
-        <districts>
-            <id>1</id>
-            <name_en>Mudiyah</name_en>
-            <name_ar>مودية</name_ar>
-            <name_ar_tashkeel>مُوْدِيَة</name_ar_tashkeel>
-            <name_ar_normalized>موديه</name_ar_normalized>
-            <name_en_normalized>Mudiyah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>2</id>
-            <name_en>Al Mahfid</name_en>
-            <name_ar>المحفد</name_ar>
-            <name_ar_tashkeel>المَحْفَد</name_ar_tashkeel>
-            <name_ar_normalized>المحفد</name_ar_normalized>
-            <name_en_normalized>Al Mahfid</name_en_normalized>
-        </districts>
-        <districts>
-            <id>3</id>
-            <name_en>Jayshan</name_en>
-            <name_ar>جيشان</name_ar>
-            <name_ar_tashkeel>جَيْشَان</name_ar_tashkeel>
-            <name_ar_normalized>جيشان</name_ar_normalized>
-            <name_en_normalized>Jayshan</name_en_normalized>
-        </districts>
-        <districts>
-            <id>4</id>
-            <name_en>Lawdar</name_en>
-            <name_ar>لودر</name_ar>
-            <name_ar_tashkeel>لَوْدَر</name_ar_tashkeel>
-            <name_ar_normalized>لودر</name_ar_normalized>
-            <name_en_normalized>Lawdar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>5</id>
-            <name_en>Sabah</name_en>
-            <name_ar>سباح</name_ar>
-            <name_ar_tashkeel>سَبَاح</name_ar_tashkeel>
-            <name_ar_normalized>سباح</name_ar_normalized>
-            <name_en_normalized>Sabah</name_en_normalized>
-        </districts>
-        <districts>
-            <id>6</id>
-            <name_en>Rusud</name_en>
-            <name_ar>رصد</name_ar>
-            <name_ar_tashkeel>رُصُد</name_ar_tashkeel>
-            <name_ar_normalized>رصد</name_ar_normalized>
-            <name_en_normalized>Rusud</name_en_normalized>
-        </districts>
-        <districts>
-            <id>7</id>
-            <name_en>Sarar</name_en>
-            <name_ar>سرار</name_ar>
-            <name_ar_tashkeel>سَرَار</name_ar_tashkeel>
-            <name_ar_normalized>سرار</name_ar_normalized>
-            <name_en_normalized>Sarar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>8</id>
-            <name_en>Al-Wadhi&#x27;</name_en>
-            <name_ar>الوضيع</name_ar>
-            <name_ar_tashkeel>الوَضِيْع</name_ar_tashkeel>
-            <name_ar_normalized>الوضيع</name_ar_normalized>
-            <name_en_normalized>Al Wadhi</name_en_normalized>
-        </districts>
-        <districts>
-            <id>9</id>
-            <name_en>Ahwar</name_en>
-            <name_ar>أحور</name_ar>
-            <name_ar_tashkeel>أَحْوَر</name_ar_tashkeel>
-            <name_ar_normalized>احور</name_ar_normalized>
-            <name_en_normalized>Ahwar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>10</id>
-            <name_en>Zunjubar</name_en>
-            <name_ar>زنجبار</name_ar>
-            <name_ar_tashkeel>زُنْجُبَار</name_ar_tashkeel>
-            <name_ar_normalized>زنجبار</name_ar_normalized>
-            <name_en_normalized>Zunjubar</name_en_normalized>
-        </districts>
-        <districts>
-            <id>11</id>
-            <name_en>Khanfar</name_en>
-            <name_ar>خنفر</name_ar>
-            <name_ar_tashkeel>خَنْفَر</name_ar_tashkeel>
-            <name_ar_normalized>خنفر</name_ar_normalized>
-            <name_en_normalized>Khanfar</name_en_normalized>
-        </districts>
-    </governorates>
-</root>

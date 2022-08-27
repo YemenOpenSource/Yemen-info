@@ -56,11 +56,11 @@
 			"districts": [
 				{
 					"id": 1,
-					"name_en": "Sana'a Alqdimah",
+					"name_en": "Sana'a Al-qdimah",
 					"name_ar": "صنعاء القديمة",
 					"name_ar_tashkeel": "صَنْعاء القَدِيمَة",
 					"name_ar_normalized": "صنعاء القديمه",
-					"name_en_normalized": "Sanaa Alqdimah"
+					"name_en_normalized": "Sanaa Al qdimah"
 				},
 				{
 					"id": 2,
@@ -2166,14 +2166,6 @@
 					"name_ar_tashkeel": "مَجْزَر",
 					"name_ar_normalized": "مجزر",
 					"name_en_normalized": "Majzar"
-				},
-				{
-					"id": 14,
-					"name_en": "Al-Mokalla City",
-					"name_ar": "مدينة المكلا",
-					"name_ar_tashkeel": "مَدِيْنَة المُكَلَّا",
-					"name_ar_normalized": "مدينه المكلا",
-					"name_en_normalized": "Al Mokalla City"
 				}
 			]
 		},

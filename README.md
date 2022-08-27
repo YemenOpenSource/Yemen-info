@@ -30,9 +30,9 @@ This repository will help. Yes a little, it is helpful!
 
 ## How to use it
 
-Simply, just download the [yemen.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
+Simply, just download the [yemen-info.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen-info.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: [yemen.csv](./other-formats/yemen.csv), [yemen.xlsx](./other-formats/yemen.xlsx) (Microsoft EXCEL format), [yemen.xml](./other-formats/yemen.xml), [yemen.yml](./other-formats/yemen.yml) and other formats.
+We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: [yemen-info.csv](./other-formats/yemen-info.csv), [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./other-formats/yemen-info.xml), [yemen-info.yml](./other-formats/yemen-info.yml) and [yemen-info.sql](./other-formats/yemen-info.sql).
 
 You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governorate's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
@@ -54,22 +54,21 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ## TODO
 
-- [ ] Add an SQL format with relationships to make it easy to grab it into your database.
-- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
-- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen.json` file.
 - [ ] Make an Arabic version of the Readme file.
+- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
+- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
 
 # How To contribute
 
 You can make an issue if you find any mistakes or you have any suggestions or create a pull request.
 
-Our `yemen.json` is the main source of data. If you change something on `yemen.json` you will do us a favor if you add the same change to other files with different formats like:
+Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` you will do us a favor if you add the same change to other files with different formats like:
 
-- [yemen.csv]('./other-formats/yemen.csv'),
-- [yemen.xlsx](./other-formats/yemen.xlsx),
-- [yemen.xml](./other-formats/yemen.xml),
-- [yemen.yml]('./other-formats/yemen.yml'),
-- [yemen.sql]('./other-formats/yemen.sql'),
+- [yemen-info.csv]('./other-formats/yemen-info.csv'),
+- [yemen-info.xlsx](./other-formats/yemen-info.xlsx),
+- [yemen-info.xml](./other-formats/yemen-info.xml),
+- [yemen-info.yml]('./other-formats/yemen-info.yml'),
+- [yemen-info.sql]('./other-formats/yemen-info.sql'),
   and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes are related to it.
 
 We may automate the process using python code with GitHub actions, and we are welcoming contributions in this area, it will help us a lot.
