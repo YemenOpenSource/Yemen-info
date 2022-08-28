@@ -1,104 +1,113 @@
 # Yemen-info
 
-Here are some files for the most important information for Yemen programmatically. We have information about Yemeni governorates and districts in both Arabic and English languages.
-The Arabic names are introduced in many forms: with Tashkeel, without it, and as a normalized text.
-The English names are provided as close as possible to the Arabic name, and we have another format as a normalized text. These normalized texts are very useful for searching on the web or mobile applications.
+هنا بعض الملفات لأهم المعلومات المتعلقة باليمن من ناحية برمجية. لدينا معلومات عن محافظات اليمن ومديرياتها باللغتين العربية والإنجليزية. قُدّمت الأسماء العربية للمحافظات والمديريات بعدة أشكال: بالتشكيل وبدونه، وحتى بصيغة موحّدة نمطية (normalized text).
+وقُدّمت الأسماء الإنجليزية بأقرب صورة ممكنة للاسم العربي، وبصيغة أخرى موحّدة كذلك.
+هذه الصيغة الموحّدة مفيدة جدًا في البحث في تطبيقات الويب والجوال.
 
-## Why?
+## لماذا؟
 
-Many governments have open data centers with an incredible amount of information that is very useful for programmers, data scientists, and researchers. Unfortunately, we don't have something like this so we decided to build it ourselves.
-For example, a simple question such as: "What are the governorate and districts of Yemen with the right pronunciation" is not answerable because of the lack of information.
-This repository will help. Yes a little, it is helpful!
+لدى العديد من الحكومات مراكز بيانات مفتوحة بمحتوى هائل من المعلومات القيّمة للمبرمجين وعلماء البيانات والباحثين. للأسف، أننا لا نملك شيئًا كهذا، فلهذا قررنا بناءه بأنفسنا.
+على سبيل المثال، فسؤال يسير كهذا: "ما المحافظات والمديريات اليمنية مع النطق الصحيح لها؟" متعذّر الإجابة لقلة المعلومات المتوفرة.
+هذا المستودع البرمجي سيساعد. نعم، مساعدة قليلة لكنها مفيدة.
 
-## Methodology and Notes
+## المنهجية والملاحظات
 
-- Capital Districts are chosen for every governorate except Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorates. If there is a match between the name of the governorate capital and one of the districts, that makes this district the capital. Sometimes Capital has a suffix "City", and that doesn't affect that it is the capital among other districts. For example, Amran's capital is "Amran City", and one of the districts is called "Amran", They are the same thing. So, Why didn't add "City" to the districts as well? because we strictly stick to the official documents.
+- اختيرت عاصمة لكل محافظة عدا محافظات: أمانة العاصمة، وصنعاء، وعدن لعدم وجود عواصم لها بحسب البيانات. لو كان هناك اختلاف بسيط بين اسم عاصمة المحافظة وأحد المديريات، فهذا يعني أن هذه المديريات هي نفسها عاصمة المحافظة. أحيانا يُزاد على عاصمة المحافظة كلمة "مدينة" وهذا لا يؤثر أنها هي عاصمة المحافظة من بين المديريات. مثًلا، عاصمة محافظة عمران: "مدينة عمران"، وأحد مديريات المحافظة: عمران. هما نفس الشيء. فلماذا لم نُضف كلمة "مدينة" إلى المديرية؟ السبب ملتزمون بشدة بالوثائق الرسمية.
 
-- We choose to put the capital name underneath the governorate directly to make it easier to grab the information and because some governorate does not have capital as we mentioned above.
+- اخترنا أن نضع اسم عاصمة المحافظة مباشرة تحتها لتسهيل الأمر في جلب المعلومات، ولأن بعض المحافظات ليس لديها عاصمة كما أشرنا آنفًا.
 
-- We have done our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistakes you are sure about, we are more than welcome to correct them.
+- بذلنا ما في وسعنا لتدقيق المعلومات، ولكن لا نملك ضمانة أيًا كانت على دقة المعلومات المُقدّمة. إن كنت تعلم أي خطًأ أنت متأكد منه، سنرحب بشدة بتعديله.
 
-- We have done our research in August 2022. So, if our information is outdated because of the changes in the governorate and districts, we hope to update this repo with the latest information.
+- أتممنا بحثنا في أغسطس من العام 2022. لذلك، لو كانت المعلومات متقادمة أو غير صحيحة فهذا يعود إلى التغييرات في المحافظات والمديريات على أرض الواقع. نأمل أن نُحدّث المستودع بأحدث المعلومات.
 
-- We have chosen the Fusha pronunciation over some local pronunciations in the Tashkeel.
+- اخترنا التشكيل بنطق العربية الفصحى على حساب نطق بعض اللهجات المحلية.
 
-- Our Arabic Tashkeel is the ultimate way of pronunciation. If the English version contrasts with the Arabic version, the Arabic version is probably the correct pronunciation, and, as always, if you are sure about more correct pronunciation, tell us to fix it.
+- تشكيل الأسماء العربي هو المرجع النهائي للنطق. لو تعارض التشكيل العربي مع النسخة الإنجليزية، فالنطق الصحيح هو في التشكيل العربي. وكما في العادة، لو كنت متأكدًا من النطق الصحيح، أخبرنا للتصحيح.
 
-- In the English version of the governorate/districts we chose to Add **Al** as a representative of "أل التعريف" in Arabic because we think that this prefix is an identifier and we can remove it in different contexts when we are talking about the governorate/districts. For example, make the Arabic version of "التحرير" district is: "Al-Tahrir" instead of "At Tahrir" which some people/organizations prefer. We prefer the first version. If you prefer the second version of naming governorate/districts in English, you may check [this website](https://yemenlg.org/governorates/).
+- في النسخة الإنجليزية من المحافظات والمديريات اخترنا أن نضيف _\*\*Al_ كما هو في الاسم العربي عند التعبير عن "أل التعريف"؛ لأننا نعدها معرّفًا ويمكن حذفها في سياقات مختلفة. مثال عليها مديرية "التحرير" تترجم إلى "Al-Tahrir" بدلًا عن "At Tahrir" والتي قد يفضلها البعض. نحن نفضل الصيغة الأولى للترجمة لما قدّمناه. لو كنت تفضّل الصيغة الثانية يمكنك الاطلاع على [هذا الموقع](https://yemenlg.org/governorates).
 
-- We made a normalized version for every governorate and district. Out methodology in Arabic text is by using [Ar-PHP](https://ar-php.org/github/examples/standard.php) algorithms for Arabic text normalization. For English text we have made changes to the text: 1. remove apostrophes ('), 2. replace dashes (-) with one blank space. All of this text normalization we made is to help get better results when searching either in Arabic or English.
+- قمنا بتوحيد النصوص لكل محافظة ومديرية. في الأسماء العربية استخدمنا خوارزمية مكتبة [Ar-PHP](https://ar-php.org/github/examples/standard.php). وفي الأسماء الإنجليزية جعلنا التغييرات كالتالي: 1- حذف الفاصلة العليا (')، 2- استبدال الشرطة (-) بمسافة. كل هذه التغييرات المتعلقة بتوحيد النصوص أو كما يُقال تنميطها هي من أجل استرجاع نتائج أفضل في البحث باللغة العربية أو الإنجليزية.
 
-## How to use it
+## كيفية الاستخدام
 
-Simply, just download the [yemen-info.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen-info.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
+ببساطة، نزّل ملف [yemen-info.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen-info.json) واستخدمه كما يحلو لك. هو عبارة عن ملف JSON، لذلك فهو لا يتعلق بلغة برمجية ولا بإطار عمل معيّن فأكثر اللغات البرمجية تدعمه بسهولة.
+لدينا عدة صيغ لنفس المعلومات يمكنك استخدامها لو كنت تفضلها في مجلد [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main) حيث تجد ملفات:
+[yemen-info.csv](./other-formats/yemen-info.csv) و [yemen-info.xlsx](./other-formats/ yemen-info.xlsx) (صيغة ميكروسوفت إكسل)، و [yemen-info.xml](./other-formats/yemen-info.xml)
+و [yemen-info.yml]([yemen-info.yml]) و [yemen-info.sql](./other-formats/yemen-info.sql).
 
-We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) like: [yemen-info.csv](./other-formats/yemen-info.csv), [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./other-formats/yemen-info.xml), [yemen-info.yml](./other-formats/yemen-info.yml) and [yemen-info.sql](./other-formats/yemen-info.sql).
+يمكنك كذلك استخدام [ملف قاموس cspell](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) لتجاهل أسماء المحافظات والمديريات من تخطئتها من إضافات وبرامج التصحيح الإملائي. كان هذا أمرًا عَرَضيًا عن هدفنا الرئيسي في المشروع ولكننا شاكرون لهذه النتيجة!
+يمكنك نسخ قائمة الكلمات لقائمة الاستثناءات لأي محرر نصوص لديه ميزة التصحيح الإملائي، حيث يمكنك إضافتها للقاموس الشخصي لكل لا يعدها البرنامج كلمات خاطئة. هذا موجود في برامج ميكروسوفت وورد، ليبرا أوفيس، وحتى إضافة [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) على المحرر البرمجي VS Code.
 
-You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni cities/governorate's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
+> ملاحظة جانبية: ساهمنا نحن في Yemeni Open Source في الإضافة السابقة الذكر ولمزيد من التفاصيل يمكنك المطالعة على [الرابط](https://github.com/Yemeni-Open-Source/impactful-contributions).
 
-## Features
+## المميزات
 
-✅ Arabic Tashkeel to every governorate and every district.
+✅ تشكيل عربي كامل لكل محافظة ومديرية.
 
-✅ Phone numbering plan (code prefix) for every governorate.
+✅ مفاتيح أرقام الهاتف الثابت لكل محافظة.
 
-✅ Custom cspell dictionary for spell checkers, to ignore Yemeni governorates' or districts' names.
+✅ ملف قاموس cspell لاستثناء جميع محافظات ومديريات اليمن من تخطئة تسميتها في المصححات الإملائية.
 
-✅ A unique id for every governorate and district.
+✅ معرف فريد لكل محافظة ومديرية.
 
-✅ Capital districts for every governorate.
+✅ عواصم جميع المحافظات من المديريات.
 
-✅ Text normalization for every governorate/district in both Arabic and English. (very good for search).
+✅ توحيد النصوص (text normalization) لكل محافظة ومديرية سواء باللغة العربية أو الإنجليزية (فعال جدًا في البحث).
 
-✅ Several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
+✅ العديد من الصيغ المختلفة للبيانات مثل: CSV و XLSX (صيغة ميكروسوفت إكسل) و XML و Yaml و SQL.
 
-## TODO
+## قائمة المهام
 
-- [ ] Make an Arabic version of the Readme file.
-- [ ] Make the 1.0.0 release (THEN DELETE THIS LINE).
-- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
-- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
+- [] نشر الإصدار رقم 1.0.0
+- [] إضافة الاوسمة المفيدة في ملف Readme مع رابط النسخة العربية والإنجليزية للملف.
+- [] نشر كود برمجي لتحويل ملف JSON مباشرة إلى: CSV و XLSX و XML و Yaml و SQL.
+- [] إضافة ميزة GitHub Action لأتمتة العملية السابقة بعد أي عملية commit لملف `yemen-info.json`.
 
-# How To contribute
+# كيفية المساهمة
 
-You can make an issue if you find any mistakes or you have any suggestions or create a pull request.
+يمكنك إضافة issue لو وجدت أي خطأ أو كان لديك اقتراح أو يمكنك إضافة pull request.
 
-Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` you will do us a favor if you add the same change to other files with different formats like:
+ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف ستعمل خيرًا جزيلًا لتعديل نفس البيانات على هذه الملفات:
 
-- [yemen-info.csv]('./other-formats/yemen-info.csv'),
-- [yemen-info.xlsx](./other-formats/yemen-info.xlsx),
-- [yemen-info.xml](./other-formats/yemen-info.xml),
-- [yemen-info.yml]('./other-formats/yemen-info.yml'),
-- [yemen-info.sql]('./other-formats/yemen-info.sql'),
-  and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes are related to it.
+- [yemen-info.csv]('./other-formats/yemen-info.csv')
+- [yemen-info.xlsx](./other-formats/yemen-info.xlsx)
+- [yemen-info.xml](./other-formats/yemen-info.xml)
+- [yemen-info.yml]('./other-formats/yemen-info.yml')
+- [yemen-info.sql]('./other-formats/yemen-info.sql')
+  وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.en.md).
 
-We may automate the process using python code with GitHub actions, and we are welcoming contributions in this area, it will help us a lot.
+وفي المستقبل سنعمل على أتمتة العملية باستخدام كود برمجي وخدمة GitHub Actions، ونرحب بالمساهمات في هذه المساحة التي ستساعدنا كثيرًا.
 
-## Later On Future (out of our scope now)
+## لاحقًا في المستقبل (خارج نطاقنا حاليًا)
 
-This list is for todos that are not in our scope now, but if we have time and resources we may do it, or we can do it separately in another repo.
+هذه قائمة من المهمات المستقبلية خارج نطاقنا حاليًا، ولكن لو وجد الوقت والبيانات ربما سنعمل عليها، وربما نعمل عليها في مستودع آخر.
 
-- Add polygon for map coordinates.
-- Add latitude and longitude for map coordinates in governorates'/districts' centers.
-- Add a useful and joyful JS map like [this](https://yemenlg.org/ar/).
+- إضافة نقاط polygon للخرائط.
+- إضافة نقاط الطول والعرض (latitude و longitude) لمراكز المحافظات والمديريات.
+- إضافة خريطة تفاعلية جميلة ومفيدة مثل الخريطة على [هذا الموقع](https://yemenlg.org/ar/).
 
-## Resources
+## المصادر
 
-some resources that helped us to build this project:
+بعض المصادر التي ساعدتنا لإنجاز هذا المشروع:
 
-- [Modaqiq](https://dictionary.alc.ae/modaqiq) was used for automatic Tashkeel before we checked it ourselves.
-- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) helped us with the general information about Yemen.
-- [Local governorate in Yemen](https://yemenlg.org/ar/%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%81%d8%b8%d8%a7%d8%aa/) helped with data about districts within every governorate, with the English version of governorate and districts names.
-- [Yemen Information Center](https://yemen-nic.info/yemen/gover/) helped besides the previous resource above.
-- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) Was used to know every governorate capital.
-- [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) was used to text normalized all districts and governorates. Thanks, Eng. [Khaled Alshamaa](https://github.com/khaled-alshamaa).
+-
 
-# Thanks
+- [مدقّق](https://dictionary.alc.ae/modaqiq) استُخدم لإضافة التشكيل الآلي قبل التحقق اليدوي بأنفسنا.
 
-For all contributers. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+- [Grammarly](https://app.grammarly.com/) كان مساعدًا كبيرًا على تصحيح الأخطاء الإملائية والنحوية في اللغة الإنجليزية في نسخة ملف Readme الإنجليزية.
 
-But also other people who helped us with some of the names of Yemeni governorate and districts, and they are in alphabetical order:
+- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) ساعدنا بالمعلومات العامة عن اليمن.
 
+- [الحكم المحلي في اليمن](https://yemenlg.org/ar/) ساعدنا في البيانات عن المديريات لكل محافظة، مع الترجمة الإنجليزية لها.
+- [Yemen Information Center](https://yemen-nic.info/yemen/gover/) ساعدنا في البيانات إضافة للمصدر السابق.
+- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) استخدمناه لمعرفة عاصمة كل محافظة.
+- [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) استخدمت هذه المكتبة البرمجية لتوحيد النصوص العربية.  شكرا للمهندس [خالد الشمعة](https://github.com/khaled-alshamaa).
+
+# شكر وامتنان
+
+نشكر كل المساهمين. يمكنك معرفة جميغ المساهمين في صفحة [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+
+ونشكر كذلك الذين شاركوا في أسماء بعض المديريات اليمنية ولكن لم يشاركوا مباشرة في الكود على المستودع، وهم بالترتيب الأبجدي:
 - أمجد الهتاري
 - صفوان بنيان
 - ضياء الجبوبي
