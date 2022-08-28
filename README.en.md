@@ -56,8 +56,6 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ## TODO
 
-- [ ] Make an Arabic version of the Readme file.
-- [ ] Make the 1.0.0 release (THEN DELETE THIS LINE).
 - [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
 
