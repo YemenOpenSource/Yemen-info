@@ -2,6 +2,8 @@
 
 <h1>مشروع Yemen-info </h1>
 
+[English Readme](./README.en.md)
+
 هنا بعض الملفات لأهم المعلومات المتعلقة باليمن من ناحية برمجية. لدينا معلومات عن محافظات اليمن ومديرياتها باللغتين العربية والإنجليزية. قُدّمت الأسماء العربية للمحافظات والمديريات بعدة أشكال: بالتشكيل وبدونه، وحتى بصيغة موحّدة نمطية (normalized text).
 وقُدّمت الأسماء الإنجليزية بأقرب صورة ممكنة للاسم العربي، وبصيغة أخرى موحّدة كذلك.
 هذه الصيغة الموحّدة مفيدة جدًا في البحث في تطبيقات الويب والجوال.
@@ -84,7 +86,7 @@
 
 ⦿ [ملف yemen-info.sql]('./other-formats/yemen-info.sql')
 
-وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.en.md).
+وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/main/README.en.md).
 
 وفي المستقبل سنعمل على أتمتة العملية باستخدام كود برمجي وخدمة GitHub Actions، ونرحب بالمساهمات في هذه المساحة التي ستساعدنا كثيرًا.
 
