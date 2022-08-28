@@ -71,11 +71,11 @@
 
 ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف ستعمل خيرًا جزيلًا لتعديل نفس البيانات على هذه الملفات:
 
-- [yemen-info.csv]('./other-formats/yemen-info.csv')
-- [yemen-info.xlsx](./other-formats/yemen-info.xlsx)
-- [yemen-info.xml](./other-formats/yemen-info.xml)
-- [yemen-info.yml]('./other-formats/yemen-info.yml')
-- [yemen-info.sql]('./other-formats/yemen-info.sql')
+⦿ [yemen-info.csv]('./other-formats/yemen-info.csv')
+⦿ [yemen-info.xlsx](./other-formats/yemen-info.xlsx)
+⦿ [yemen-info.xml](./other-formats/yemen-info.xml)
+⦿ [yemen-info.yml]('./other-formats/yemen-info.yml')
+⦿ [yemen-info.sql]('./other-formats/yemen-info.sql')
   وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.en.md).
 
 وفي المستقبل سنعمل على أتمتة العملية باستخدام كود برمجي وخدمة GitHub Actions، ونرحب بالمساهمات في هذه المساحة التي ستساعدنا كثيرًا.
@@ -84,37 +84,36 @@
 
 هذه قائمة من المهمات المستقبلية خارج نطاقنا حاليًا، ولكن لو وجد الوقت والبيانات ربما سنعمل عليها، وربما نعمل عليها في مستودع آخر.
 
-- إضافة نقاط polygon للخرائط.
-- إضافة نقاط الطول والعرض (latitude و longitude) لمراكز المحافظات والمديريات.
-- إضافة خريطة تفاعلية جميلة ومفيدة مثل الخريطة على [هذا الموقع](https://yemenlg.org/ar/).
+⦿ إضافة نقاط polygon للخرائط.
+⦿ إضافة نقاط الطول والعرض (latitude و longitude) لمراكز المحافظات والمديريات.
+⦿ إضافة خريطة تفاعلية جميلة ومفيدة مثل الخريطة على [هذا الموقع](https://yemenlg.org/ar/).
 
 ## المصادر
 
 بعض المصادر التي ساعدتنا لإنجاز هذا المشروع:
 
--
 
-- [مدقّق](https://dictionary.alc.ae/modaqiq) استُخدم لإضافة التشكيل الآلي قبل التحقق اليدوي بأنفسنا.
+⦿ [مدقّق](https://dictionary.alc.ae/modaqiq) استُخدم لإضافة التشكيل الآلي قبل التحقق اليدوي بأنفسنا.
 
-- [Grammarly](https://app.grammarly.com/) كان مساعدًا كبيرًا على تصحيح الأخطاء الإملائية والنحوية في اللغة الإنجليزية في نسخة ملف Readme الإنجليزية.
+⦿ [Grammarly](https://app.grammarly.com/) كان مساعدًا كبيرًا على تصحيح الأخطاء الإملائية والنحوية في اللغة الإنجليزية في نسخة ملف Readme الإنجليزية.
 
-- [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) ساعدنا بالمعلومات العامة عن اليمن.
+⦿ [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) ساعدنا بالمعلومات العامة عن اليمن.
 
-- [الحكم المحلي في اليمن](https://yemenlg.org/ar/) ساعدنا في البيانات عن المديريات لكل محافظة، مع الترجمة الإنجليزية لها.
-- [Yemen Information Center](https://yemen-nic.info/yemen/gover/) ساعدنا في البيانات إضافة للمصدر السابق.
-- [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) استخدمناه لمعرفة عاصمة كل محافظة.
-- [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) استخدمت هذه المكتبة البرمجية لتوحيد النصوص العربية.  شكرا للمهندس [خالد الشمعة](https://github.com/khaled-alshamaa).
+⦿ [الحكم المحلي في اليمن](https://yemenlg.org/ar/) ساعدنا في البيانات عن المديريات لكل محافظة، مع الترجمة الإنجليزية لها.
+⦿ [Yemen Information Center](https://yemen-nic.info/yemen/gover/) ساعدنا في البيانات إضافة للمصدر السابق.
+⦿ [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) استخدمناه لمعرفة عاصمة كل محافظة.
+⦿ [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) استخدمت هذه المكتبة البرمجية لتوحيد النصوص العربية.  شكرا للمهندس [خالد الشمعة](https://github.com/khaled-alshamaa).
 
 # شكر وامتنان
 
 نشكر كل المساهمين. يمكنك معرفة جميغ المساهمين في صفحة [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
 
 ونشكر كذلك الذين شاركوا في أسماء بعض المديريات اليمنية ولكن لم يشاركوا مباشرة في الكود على المستودع، وهم بالترتيب الأبجدي:
-- أمجد الهتاري
-- صفوان بنيان
-- ضياء الجبوبي
-- طلال محرم
-- عبداللطيف الرداعي
-- يعقوب الكهادي
+⦿ أمجد الهتاري
+⦿ صفوان بنيان
+⦿ ضياء الجبوبي
+⦿ طلال محرم
+⦿ عبداللطيف الرداعي
+⦿ يعقوب الكهادي
 
 </div>
