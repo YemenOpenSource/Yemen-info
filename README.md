@@ -86,7 +86,7 @@
 
 ⦿ [ملف yemen-info.sql]('./other-formats/yemen-info.sql')
 
-وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/main/README.en.md).
+وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md]([https://github.com/Yemeni-Open-Source/Yemen-info/main/README.md] و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/README.en. md).
 
 وفي المستقبل سنعمل على أتمتة العملية باستخدام كود برمجي وخدمة GitHub Actions، ونرحب بالمساهمات في هذه المساحة التي ستساعدنا كثيرًا.
 
