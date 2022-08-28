@@ -33,10 +33,10 @@
 ## كيفية الاستخدام
 
 ببساطة، نزّل ملف [yemen-info.json](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/yemen-info.json) واستخدمه كما يحلو لك. هو عبارة عن ملف JSON، لذلك فهو لا يتعلق بلغة برمجية ولا بإطار عمل معيّن فأكثر اللغات البرمجية تدعمه بسهولة.
-لدينا عدة صيغ لنفس المعلومات يمكنك استخدامها لو كنت تفضلها في مجلد [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main) حيث تجد ملفات:
-[yemen-info.csv](./other-formats/yemen-info.csv) و [yemen-info.xlsx](./other-formats/ yemen-info.xlsx) (صيغة ميكروسوفت إكسل)، و [yemen-info.xml](./other-formats/yemen-info.xml)
-و [yemen-info.yml]([yemen-info.yml]) و [yemen-info.sql](./other-formats/yemen-info.sql).
-
+لدينا عدة صيغ لنفس المعلومات يمكنك استخدامها لو كنت تفضلها في مجلد [other-formats folder](https://github.com/Yemeni-Open-Source/Yemen-info/tree/main/other-formats) حيث تجد ملفات:
+[yemen-info.csv](./other-formats/yemen-info.csv) و [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (صيغة ميكروسوفت إكسل)، و [yemen-info.xml](./other-formats/yemen-info.xml)
+و [yemen-info.yml](./other-formats/yemen-info.yml) و [yemen-info.sql](./other-formats/yemen-info.sql).
+  
 يمكنك كذلك استخدام [ملف قاموس cspell](https://github.com/Yemeni-Open-Source/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) لتجاهل أسماء المحافظات والمديريات من تخطئتها من إضافات وبرامج التصحيح الإملائي. كان هذا أمرًا عَرَضيًا عن هدفنا الرئيسي في المشروع ولكننا شاكرون لهذه النتيجة!
 يمكنك نسخ قائمة الكلمات لقائمة الاستثناءات لأي محرر نصوص لديه ميزة التصحيح الإملائي، حيث يمكنك إضافتها للقاموس الشخصي لكل لا يعدها البرنامج كلمات خاطئة. هذا موجود في برامج ميكروسوفت وورد، ليبرا أوفيس، وحتى إضافة [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) على المحرر البرمجي VS Code.
 
@@ -68,7 +68,7 @@
 
 ⦿ إضافة ميزة GitHub Action لأتمتة العملية السابقة بعد أي عملية commit لملف `yemen-info.json`.
 
-# كيفية المساهمة
+## كيفية المساهمة
 
 يمكنك إضافة issue لو وجدت أي خطأ أو كان لديك اقتراح أو يمكنك إضافة pull request.
 
