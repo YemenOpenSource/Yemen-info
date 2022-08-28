@@ -74,15 +74,15 @@
 
 ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف ستعمل خيرًا جزيلًا لتعديل نفس البيانات على هذه الملفات:
 
-⦿ [yemen-info.csv]('./other-formats/yemen-info.csv')
+⦿ [ملف yemen-info.csv]('./other-formats/yemen-info.csv')
 
-⦿ [yemen-info.xlsx](./other-formats/yemen-info.xlsx)
+⦿ [ملف yemen-info.xlsx](./other-formats/yemen-info.xlsx)
 
-⦿ [yemen-info.xml](./other-formats/yemen-info.xml)
+⦿ [ملف yemen-info.xml](./other-formats/yemen-info.xml)
 
-⦿ [yemen-info.yml]('./other-formats/yemen-info.yml')
+⦿ [ملف yemen-info.yml]('./other-formats/yemen-info.yml')
 
-⦿ [yemen-info.sql]('./other-formats/yemen-info.sql')
+⦿ [ملف yemen-info.sql]('./other-formats/yemen-info.sql')
 
 وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) و [README.en.md](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.en.md).
 
