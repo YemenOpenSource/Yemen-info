@@ -2138,6 +2138,14 @@
       <name_ar_normalized>مجزر</name_ar_normalized>
       <name_en_normalized>Majzar</name_en_normalized>
     </districts>
+    <districts>
+      <id>14</id>
+      <name_en>Ma&#x27;rib</name_en>
+      <name_ar>مأرب</name_ar>
+      <name_ar_tashkeel>مَأْرِب</name_ar_tashkeel>
+      <name_ar_normalized>مارب</name_ar_normalized>
+      <name_en_normalized>Marib</name_en_normalized>
+    </districts>
   </governorates>
   <governorates>
     <id>15</id>
@@ -2145,8 +2153,8 @@
     <name_ar>حضرموت</name_ar>
     <name_ar_tashkeel>حَضْرَمَوْت</name_ar_tashkeel>
     <phone_numbering_plan>05</phone_numbering_plan>
-    <capital_name_ar>المكلا</capital_name_ar>
-    <capital_name_en>Al-Mokalla</capital_name_en>
+    <capital_name_ar>Al-Mokalla City</capital_name_ar>
+    <capital_name_en>مدينة المكلا</capital_name_en>
     <name_ar_normalized>حضرموت</name_ar_normalized>
     <name_en_normalized>Hadramot</name_en_normalized>
     <districts>
@@ -2364,6 +2372,14 @@
       <name_ar_tashkeel>حُرَيْضَة</name_ar_tashkeel>
       <name_ar_normalized>حريضه</name_ar_normalized>
       <name_en_normalized>Huridhah</name_en_normalized>
+    </districts>
+    <districts>
+      <id>28</id>
+      <name_en>Al-Mokalla City</name_en>
+      <name_ar>مدينة المكلا</name_ar>
+      <name_ar_tashkeel>مَدِيْنَة المُكَلَّا</name_ar_tashkeel>
+      <name_ar_normalized>مدينه المكلا</name_ar_normalized>
+      <name_en_normalized>Al Mokalla City</name_en_normalized>
     </districts>
   </governorates>
   <governorates>

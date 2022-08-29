@@ -2166,6 +2166,14 @@
 					"name_ar_tashkeel": "مَجْزَر",
 					"name_ar_normalized": "مجزر",
 					"name_en_normalized": "Majzar"
+				},
+				{
+					"id": 14,
+					"name_en": "Ma'rib",
+					"name_ar": "مأرب",
+					"name_ar_tashkeel": "مَأْرِب",
+					"name_ar_normalized": "مارب",
+					"name_en_normalized": "Marib"
 				}
 			]
 		},
@@ -2175,8 +2183,8 @@
 			"name_ar": "حضرموت",
 			"name_ar_tashkeel": "حَضْرَمَوْت",
 			"phone_numbering_plan": "05",
-			"capital_name_ar": "المكلا",
-			"capital_name_en": "Al-Mokalla",
+			"capital_name_ar": "Al-Mokalla City",
+			"capital_name_en": "مدينة المكلا",
 			"name_ar_normalized": "حضرموت",
 			"name_en_normalized": "Hadramot",
 			"districts": [
@@ -2395,6 +2403,14 @@
 					"name_ar_tashkeel": "حُرَيْضَة",
 					"name_ar_normalized": "حريضه",
 					"name_en_normalized": "Huridhah"
+				},
+				{
+					"id": 28,
+					"name_en": "Al-Mokalla City",
+					"name_ar": "مدينة المكلا",
+					"name_ar_tashkeel": "مَدِيْنَة المُكَلَّا",
+					"name_ar_normalized": "مدينه المكلا",
+					"name_en_normalized": "Al Mokalla City"
 				}
 			]
 		},
