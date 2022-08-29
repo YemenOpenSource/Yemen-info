@@ -54,6 +54,8 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ✅ Several formats such as CSV, XLSX (Microsoft EXCEL format), XML, YAML, and SQL formats.
 
+✅ A Readme file in Arabic and English languages.
+
 ## TODO
 
 - [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
@@ -87,7 +89,7 @@ This list is for todos that are not in our scope now, but if we have time and re
 some resources that helped us to build this project:
 
 - [Modaqiq](https://dictionary.alc.ae/modaqiq) was used for automatic Tashkeel before we checked it ourselves.
-- [Grammarly](https://app.grammarly.com/) was a grate help to correct spelling and grammar errors in this English version of the readme file.
+- [Grammarly](https://app.grammarly.com/) was a great help to correct spelling and grammar errors in this English version of the readme file.
 - [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) helped us with the general information about Yemen.
 - [Local governorate in Yemen](https://yemenlg.org/ar/%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%81%d8%b8%d8%a7%d8%aa/) helped with data about districts within every governorate, with the English version of governorate and districts names.
 - [Yemen Information Center](https://yemen-nic.info/yemen/gover/) helped besides the previous resource above.
@@ -96,7 +98,7 @@ some resources that helped us to build this project:
 
 # Thanks
 
-For all contributers. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+For all contributors. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
 
 But also other people who helped us with some of the names of Yemeni governorate and districts, and they are in alphabetical order:
 
