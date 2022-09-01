@@ -42,6 +42,8 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ✅ Arabic Tashkeel to every governorate and every district.
 
+✅ Multiple formats: JSON, CSV, XLSX, XML, Yaml, and SQL.
+
 ✅ Phone numbering plan (code prefix) for every governorate.
 
 ✅ Custom cspell dictionary for spell checkers, to ignore Yemeni governorates' or districts' names.
