@@ -15,6 +15,9 @@ changelog:
     - title: Removing bugs 🐛
       labels:
         - bug
+    - title: documentations 📒
+      labels:
+        - documentation
     - title: Other Changes 🚀
       labels:
         - "*"
