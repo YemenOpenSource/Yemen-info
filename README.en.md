@@ -60,6 +60,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ## TODO
 
+- [ ] ِAdd Uzaal (sub-districts) for every district.
 - [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
 
