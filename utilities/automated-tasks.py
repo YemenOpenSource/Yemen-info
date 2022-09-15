@@ -25,12 +25,12 @@ def write_json_file(file_path: str, data: list | dict) -> bool:
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
         file.close()
-        # TODO Watheq: why this function returns boolean?
+        # ` Watheq: why this function returns boolean? A: Just an indiction that it works successfully. you can change it!
         return True
 
 
 def remove_duplication():
-    # TODO Watheq: can you give more details?
+    # TODO Watheq: can you give more details? Just remove any duplication, it someone add the same district or city, it will be removed automatically.
     #  which duplicate should be removed?
     json_file = read_json_file('./yemen-info.json')
     # TODO
@@ -68,7 +68,7 @@ def sort_governorate_districts_by_name_en(file_path):
 
 
 def sort_governorate_cities_by_name_ar(file_path):
-    # TODO Watheq: do you mean sort by districts name_ar?
+    # TODO Watheq: do you mean sort by districts name_ar? A: yeah. it was before, they were named cities. now they are named: "governorates"
     #  because there's no cities field in the json.
     return 'Complete sorting by `governorate name_ar` name'
 
