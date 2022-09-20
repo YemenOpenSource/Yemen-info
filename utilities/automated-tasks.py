@@ -138,35 +138,7 @@ def convert_json_to_xml(file_path: str) -> str:
     Convert json or dictionary to xml and write it to a file
     :returns message donating the completion of conversion
     """
-    import xml.etree.cElementTree as xMl
-
-    def _to_xml(key: str, data: dict | list) -> xMl.Element:
-        """
-        this is a helper function which will be called to convert list and dictionary to xml
-        :param key: the current key in the json/dictionary
-        :param data: the data of the key
-        :return: xml element that contains sub-elements built from list or dictionary
-        """
-        if isinstance(data, list):
-            _root = xMl.Element(key)
-            for element in data:
-                if type(element) not in (dict, list):
-                    item = xMl.Element("item")
-                    item.text = str(element)
-                    _root.append(item)
-                else:
-                    _root.append(_to_xml(key=key[:-1], data=element))
-            return _root
-        elif isinstance(data, dict):
-            _root = xMl.Element(key)
-            for _key, _value in data.items():
-                if type(_value) not in (dict, list):
-                    ele = xMl.Element(str(_key))
-                    ele.text = str(_value)
-                    _root.append(ele)
-                else:
-                    _root.append(_to_xml(_key, _value))
-            return _root
+    from json2xml import xMl, _to_xml
 
     json_data = read_json_file(file_path)
     root = xMl.Element("Yemen")
