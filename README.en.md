@@ -14,7 +14,7 @@ This repository will help. Yes a little, but it is helpful!
 
 - Capital Districts are chosen for every governorate except Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorates. If there is a match between the name of the governorate capital and one of the districts, that makes this district the capital. Sometimes Capital has a suffix "City", and that doesn't affect that it is the capital among other districts. For example, Amran's capital is "Amran City", and one of the districts is called "Amran", They are the same thing. So, Why didn't add "City" to the districts as well? because we strictly stick to the official documents.
 
-- We choose to put the capital name underneath the governorate directly to make it easier to grab the information and because some governorate does not have capital as we mentioned above.
+- We choose to put the capital name in the same degree as the governorate, not in inner degree, to make it easier to grab the information and because some governorate does not have capital as we mentioned above.
 
 - We have done our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistakes you are sure about, we are more than welcome to correct them.
 
@@ -40,7 +40,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ## Features
 
-✅ Arabic Tashkeel to every governorate and every district.
+✅ Arabic Tashkeel to every governorate and every district, in addition to a copy without Tashkeel.
 
 ✅ Multiple formats: JSON, CSV, XLSX, XML, Yaml, and SQL.
 
