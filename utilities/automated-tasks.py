@@ -138,15 +138,12 @@ def convert_json_to_xml(file_path: str) -> str:
     Convert json or dictionary to xml and write it to a file
     :returns message donating the completion of conversion
     """
-    from json2xml import xMl, _to_xml
+    from json2xml import xMl, json_2_xml
 
     json_data = read_json_file(file_path)
     root = xMl.Element("Yemen")
-    for key, value in json_data.items():
-        if type(value) not in (dict, list):
-            xMl.SubElement(root, key).text = value
-        else:
-            root.append(_to_xml(key, value))
+    root = json_2_xml(root=root, json_data=json_data)
+    xMl.indent(root)
     xMl.ElementTree(root).write("./yemen-info.xml", encoding="utf-16")
     return "Completed converting json to xml"
 
@@ -201,8 +198,8 @@ def add_id_for_each_item():
 ################################
 # Using Functions
 ################################
-sort_json_by_governorate_name("../yemen-info.json")
+# sort_json_by_governorate_name("../yemen-info.json")
 # sort_json_by_districts_name('./yemen-info.json)
-sort_governorate_districts_by_name_en("../yemen-info.json")
-sort_governorate_districts_by_name_ar("../yemen-info.json")
+# sort_governorate_districts_by_name_en("../yemen-info.json")
+# sort_governorate_districts_by_name_ar("../yemen-info.json")
 convert_json_to_xml("../yemen-info.json")
