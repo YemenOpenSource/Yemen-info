@@ -60,7 +60,7 @@ You can also use the [cspell dictionary file Here](https://github.com/Yemeni-Ope
 
 ## TODO
 
-- [ ] ِAdd Uzaal (sub-districts) for every district.
+- [ ] Add Uzaal (sub-districts) for every district.
 - [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 - [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
 
@@ -101,7 +101,13 @@ some resources that helped us to build this project:
 
 # Thanks
 
-For all contributors. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+For all contributors for this project:
+
+<a href="https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yemeni-Open-Source/Yemen-info" />
+</a>
+
+<br />
 
 But also other people who helped us with some of the names of Yemeni governorate and districts, and they are in alphabetical order:
 
