@@ -120,7 +120,11 @@
 
 # شكر وامتنان
 
-نشكر كل المساهمين. يمكنك معرفة جميغ المساهمين في صفحة [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+نشكر كل المساهمين في هذا المشروع:
+
+<a href="https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yemeni-Open-Source/Yemen-info" />
+</a>
 
 ونشكر كذلك الذين شاركوا في أسماء بعض المديريات اليمنية ولكن لم يشاركوا مباشرة في الكود على المستودع، وهم بالترتيب الأبجدي:
 
