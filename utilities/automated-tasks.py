@@ -104,28 +104,18 @@ def sort_governorate_districts_by_name_ar(file_path: str) -> str:
     return "Completed sorting by districts' name_ar."
 
 
-# TODO Watheq: what do you think?
-#  the above 2 functions can be merged as one like this:
-"""
-def sort_governorate_districts_by_name_(file_path: str, language: str) -> str:
+def convert_json_to_csv(file_path: str) -> str:
+    """
+    Function to read json file and send the data to the conversion function, then write the CSV in file
+    :param file_path: the path of the json file
+    :return: a string message denoting the completion of converting
+    """
     json_data = read_json_file(file_path)
-
-    governorates = json_data.get("governorates")
-    for governorate in governorates:
-        districts = governorate.get("districts")
-        districts = sorted(districts, key=lambda district: district.get(f"name_{language}"))
-        governorate["districts"] = districts
-
-    json_data["governorates"] = governorates
-    write_json_file(f"yemen-info-governorate-sorted-by-district-name-{language}.json", json_data)
-
-    return f"Completed sorting by districts' name_{language}."
-"""
-
-
-def convert_json_to_csv():
-    json_file = read_json_file('./yemen-info.json')
-    # TODO
+    from json2csv import json_2_csv
+    csv = json_2_csv(json_data=json_data)
+    with open("../automated/yemen-info.csv", "w", encoding="utf-16") as csv_file:
+        csv_file.write(csv)
+    return "Completed converting json to csv."
 
 
 def convert_json_to_sql():
@@ -149,9 +139,14 @@ def convert_json_to_xml(file_path: str) -> str:
 
 
 def convert_json_to_yaml(file_path: str) -> str:
-    from json2yaml import json_to_yaml
+    """
+    Function to read json file and send the data to the conversion function, then write the YAML in file
+    :param file_path: the path of the json file
+    :return: a string message denoting the completion of converting
+    """
+    from json2yaml import json_2_yaml
     json_data = read_json_file(file_path=file_path)
-    yaml = json_to_yaml(json_data=json_data)
+    yaml = json_2_yaml(json_data=json_data)
     with open("../automated/yemen-info.yml", "w", encoding="utf-16") as yaml_file:
         yaml_file.write(yaml)
     return "Completed converting json to yaml"
@@ -202,9 +197,11 @@ def add_id_for_each_item():
 ################################
 # Using Functions
 ################################
+file_path: str = "../yemen-info.json"
 # sort_json_by_governorate_name("../yemen-info.json")
 # sort_json_by_districts_name('./yemen-info.json)
 # sort_governorate_districts_by_name_en("../yemen-info.json")
 # sort_governorate_districts_by_name_ar("../yemen-info.json")
-convert_json_to_xml("../yemen-info.json")
-convert_json_to_yaml("../yemen-info.json")
+convert_json_to_xml(file_path=file_path)
+convert_json_to_yaml(file_path=file_path)
+convert_json_to_csv(file_path=file_path)
