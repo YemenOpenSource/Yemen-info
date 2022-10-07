@@ -144,13 +144,17 @@ def convert_json_to_xml(file_path: str) -> str:
     root = xMl.Element("Yemen")
     root = json_2_xml(root=root, json_data=json_data)
     xMl.indent(root)
-    xMl.ElementTree(root).write("./yemen-info.xml", encoding="utf-16")
+    xMl.ElementTree(root).write("../automated/yemen-info.xml", encoding="utf-16")
     return "Completed converting json to xml"
 
 
-def convert_json_to_yaml():
-    json_file = read_json_file('./yemen-info.json')
-    # TODO
+def convert_json_to_yaml(file_path: str) -> str:
+    from json2yaml import json_to_yaml
+    json_data = read_json_file(file_path=file_path)
+    yaml = json_to_yaml(json_data=json_data)
+    with open("../automated/yemen-info.yml", "w", encoding="utf-16") as yaml_file:
+        yaml_file.write(yaml)
+    return "Completed converting json to yaml"
 
 
 def add_all_yemeni_names_to_custom_dictionary():
@@ -203,3 +207,4 @@ def add_id_for_each_item():
 # sort_governorate_districts_by_name_en("../yemen-info.json")
 # sort_governorate_districts_by_name_ar("../yemen-info.json")
 convert_json_to_xml("../yemen-info.json")
+convert_json_to_yaml("../yemen-info.json")
