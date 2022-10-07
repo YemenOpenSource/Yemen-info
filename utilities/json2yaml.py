@@ -7,7 +7,7 @@
 import yaml
 
 
-def json_to_yaml(json_data: dict) -> str:
+def json_2_yaml(json_data: dict) -> str:
 	"""
 	Function which will convert json string object to yaml string
 	:param json_data: the json string which will be converted to yaml

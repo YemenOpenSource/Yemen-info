@@ -1,5 +1,5 @@
 import pytest
-from utilities.json2yaml import json_to_yaml
+from utilities.json2yaml import json_2_yaml
 
 
 class TestJson2Yaml:
@@ -8,7 +8,7 @@ class TestJson2Yaml:
         json = {
             "key": "value"
         }
-        yaml = json_to_yaml(json)
+        yaml = json_2_yaml(json)
         assert yaml == "key: value\n"
 
     def test_json2yaml_json_with_list(self):
@@ -17,7 +17,7 @@ class TestJson2Yaml:
             "key": "value",
             "items": [1, 2, 3, 4]
         }
-        yaml = json_to_yaml(json)
+        yaml = json_2_yaml(json)
         assert yaml == "key: value\nitems:\n- 1\n- 2\n- 3\n- 4\n"
 
     def test_json2yaml_json_with_dict(self):
@@ -27,11 +27,11 @@ class TestJson2Yaml:
                 "key": "value"
             }
         }
-        yaml = json_to_yaml(json)
+        yaml = json_2_yaml(json)
         assert yaml == "dict:\n  key: value\n"
 
     def test_json2yaml_not_json(self):
         json = "{key: value}"
         with pytest.raises(ValueError) as err:
-            json_to_yaml(json)
+            json_2_yaml(json)
         assert "you must enter the json data fully as dictionary." == str(err.value)
