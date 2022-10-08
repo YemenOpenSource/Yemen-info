@@ -113,7 +113,7 @@ def convert_json_to_csv(file_path: str) -> str:
     json_data = read_json_file(file_path)
     from json2csv import json_2_csv
     csv = json_2_csv(json_data=json_data)
-    with open("../automated/yemen-info.csv", "w", encoding="utf-16") as csv_file:
+    with open("./automated/yemen-info.csv", "w", encoding="utf-16") as csv_file:
         csv_file.write(csv)
     print("Completed converting json to csv.")
     return "Completed converting json to csv."
@@ -148,7 +148,7 @@ def convert_json_to_xml(file_path: str) -> str:
     root = xMl.Element("Yemen")
     root = json_2_xml(root=root, json_data=json_data)
     xMl.indent(root)
-    xMl.ElementTree(root).write("../automated/yemen-info.xml", encoding="utf-16")
+    xMl.ElementTree(root).write("./automated/yemen-info.xml", encoding="utf-16")
     print("Completed converting json to xml.")
     return "Completed converting json to xml."
 
@@ -162,7 +162,7 @@ def convert_json_to_yaml(file_path: str) -> str:
     from json2yaml import json_2_yaml
     json_data = read_json_file(file_path=file_path)
     yaml = json_2_yaml(json_data=json_data)
-    with open("../automated/yemen-info.yml", "w", encoding="utf-16") as yaml_file:
+    with open("./automated/yemen-info.yml", "w", encoding="utf-16") as yaml_file:
         yaml_file.write(yaml)
     print("Completed converting json to yaml.")
     return "Completed converting json to yaml."
@@ -213,13 +213,19 @@ def add_id_for_each_item():
 ################################
 # Using Functions
 ################################
-json_file_path: str = "../yemen-info.json"
-csv_file_path: str = "../automated/yemen-info.csv"
-excel_file_path: str = "../automated/yemen-info.xlsx"
-# sort_json_by_governorate_name("../yemen-info.json")
-# sort_json_by_districts_name("../yemen-info.json")
-# sort_governorate_districts_by_name_en("../yemen-info.json")
-# sort_governorate_districts_by_name_ar("../yemen-info.json")
+try:
+    import os
+    os.mkdir("automated")
+except FileExistsError:
+    ...
+
+json_file_path: str = "./yemen-info.json"
+csv_file_path: str = "./automated/yemen-info.csv"
+excel_file_path: str = "./automated/yemen-info.xlsx"
+# sort_json_by_governorate_name("./yemen-info.json")
+# sort_json_by_districts_name("./yemen-info.json")
+# sort_governorate_districts_by_name_en("./yemen-info.json")
+# sort_governorate_districts_by_name_ar("./yemen-info.json")
 convert_json_to_xml(file_path=json_file_path)
 convert_json_to_yaml(file_path=json_file_path)
 convert_json_to_csv(file_path=json_file_path)
