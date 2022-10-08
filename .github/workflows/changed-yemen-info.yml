@@ -1,0 +1,46 @@
+name: first maid github actions
+on:
+  push:
+    paths:
+      - 'yemen-info.json'
+    branches: [main, github_actions]
+  pull_request:
+     branches: [main, github_actions]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install required libraries
+        run: pip install -r requirements
+
+      - name: run the tests
+        run: pytest tests/
+
+      - name: run the automated tasks
+        run: python3 utilities/automated-tasks.py
+
+      - name: add and commit generated file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add automated/yemen-info.xml
+          git commit -m "automatically converted json to xml"
+          
+          git add automated/yemen-info.yaml
+          git commit -m "automatically converted json to yaml"
+          
+          git add automated/yemen-info.csv
+          git commit -m "automatically converted json to csv"
+          
+          git add automated/yemen-info.xlsx
+          git commit -m "automatically converted csv to xlsx"
+
+      - name: push the generated file
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GIT_ACTION_TOKEN }}
+          branch: github_actions
