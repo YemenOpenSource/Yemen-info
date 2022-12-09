@@ -294,6 +294,8 @@ def convert_json_to_sql(json_file: str, db_file: str):
     else:
         conn.commit()
 
+    print("Completed converting json to SQL.")
+    return "Completed converting json to SQL."
 
 def convert_json_to_xml(file_path: str) -> str:
     """
