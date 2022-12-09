@@ -1,10 +1,12 @@
+import json
+
+from pyarabic import araby
+from pyarabic import number
+
 from ast import parse
 from codecs import ascii_encode
-import json
-import pprint
 from collections import defaultdict
-import pyarabic.araby as araby
-import pyarabic.number as number
+
 from collections import OrderedDict
 from operator import getitem
 
@@ -20,10 +22,8 @@ def read_json_file(file_path: str) -> dict:
     :param file_path: the path of the json file.
     :returns: dictionary of the json data.
     """
-    with open(file_path) as file:
-        data = json.load(file)
-        file.close()
-        return data
+    with open(file_path) as fr:
+        return json.load(fr)
 
 
 def write_json_file(file_path: str, data: dict) -> None:
@@ -32,23 +32,48 @@ def write_json_file(file_path: str, data: dict) -> None:
     :param file_path: the path of the json file
     :param data: the data that will be dumped to json file.
     """
-    with open(file_path, "w") as file:
-        json.dump(data, file, indent=4, ensure_ascii=False)
-        file.close()
-        return
-
+    with open(file_path, "w") as fw:
+        return json.dump(data, fw, indent=4, ensure_ascii=False)
 
 def remove_duplication():
-    # TODO: Just remove any duplication, if someone add the same district or city, it will be removed automatically.
-    json_file = read_json_file("./yemen-info.json")
-    # TODO
+    PATH = "./yemen-info.json"
 
+    # TODO: Just remove any duplication, if someone add the same district or city, it will be removed automatically.
+    json_file = read_json_file(PATH)
+    
+    # TODO: This code just filters the governorates section.
+    # NOTE: You can specify what you want to search using e.g name_en, name_ar.
+    # I will use in this example name_en
+    
+    try:
+        prime_governorates = []
+
+        # Filter duplicate governorates
+        for governorate_index, governorate in enumerate(json_file.get("governorates")):
+            governorate_value = governorate.get("name_en", "").strip().lower()
+            if not governorate_value in prime_governorates:
+                prime_districts = []
+                prime_governorates.append(governorate_value)
+                # Filter duplicate districts
+                for district_index, district in enumerate(governorate.get("districts")):
+                    district_value = district.get("name_en", "").strip().lower()
+                    if not district_value in prime_districts:
+                        prime_districts.append(district_value)
+                    else:
+                        governorate.get("districts").pop(district_index)
+            else:
+                json_file.get("governorates").pop(governorate_index)
+    except Exception as err:
+        print("Something wrong happened when removing duplicate data.")
+        print(f"error message '{err}'")
+    else:
+        write_json_file(PATH, json_file)
 
 def sort_json_by_governorate_name(file_path):
     json_data = read_json_file(file_path)
-    workflows = json_data["governorates"]
+    workflows = json_data.get("governorates", [])
 
-    sorted_data = sorted(workflows, key=lambda d: d["name_en"])
+    sorted_data = sorted(workflows, key=lambda d: d.get("name_en", ""))
 
     # TODO Watheq: the next line will only write the list of governorates, not all the yemeni info dictionary.
     #  is it fine?
@@ -60,7 +85,18 @@ def sort_json_by_governorate_name(file_path):
 
 def sort_governorates_by_name_ar(file_path):
     # TODO
-    return "Complete sorting by `governorate name_en` name"
+    json_data = read_json_file(file_path)
+    workflows = json_data.get("governorates", [])
+
+    sorted_data = sorted(workflows, key=lambda d: d.get("name_ar", ""))
+
+    # TODO Watheq: the next line will only write the list of governorates, not all the yemeni info dictionary.
+    #  is it fine?
+    write_json_file("./yemen-info-sorted-by-governorate-name-en.json",
+                    sorted_data)  # TODO keep the original structure like "Governorates"
+
+    # TODO
+    return "Complete sorting by `governorate name_ar` name"
 
 
 def sort_governorate_districts_by_name_en(file_path: str) -> str:
@@ -74,7 +110,7 @@ def sort_governorate_districts_by_name_en(file_path: str) -> str:
     governorates = json_data.get("governorates")
     for governorate in governorates:
         districts = governorate.get("districts")
-        districts = sorted(districts, key=lambda district: district.get("name_en"))
+        districts = sorted(districts, key=lambda district: district.get("name_en", ""))
         governorate["districts"] = districts
 
     json_data["governorates"] = governorates
@@ -226,6 +262,11 @@ excel_file_path: str = "./automated/yemen-info.xlsx"
 # sort_json_by_districts_name("./yemen-info.json")
 # sort_governorate_districts_by_name_en("./yemen-info.json")
 # sort_governorate_districts_by_name_ar("./yemen-info.json")
+
+
+# remove duplicate data before converting.
+remove_duplication()
+
 convert_json_to_xml(file_path=json_file_path)
 convert_json_to_yaml(file_path=json_file_path)
 convert_json_to_csv(file_path=json_file_path)
