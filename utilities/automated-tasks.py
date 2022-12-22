@@ -132,8 +132,15 @@ def convert_csv_to_excel(csv_file_path: str, excel_file_path: str) -> str:
     return "Completed converting csv to excel."
 
 
-def convert_json_to_sql():
-    json_file = read_json_file("./yemen-info.json")
+def convert_json_to_sql(file_path: str) -> str:
+    from json2sql import json_2_sql
+    json_file = read_json_file(file_path)
+    sql = json_2_sql(json_data=json_file)
+    with open("./automated/yemen-info.sql", "w", encoding="utf-16") as file:
+        file.write(sql)
+        file.close()
+    print("Completed converting json to sql.")
+    return "Completed converting json to sql."
     # TODO
 
 
@@ -226,7 +233,8 @@ excel_file_path: str = "./automated/yemen-info.xlsx"
 # sort_json_by_districts_name("./yemen-info.json")
 # sort_governorate_districts_by_name_en("./yemen-info.json")
 # sort_governorate_districts_by_name_ar("./yemen-info.json")
-convert_json_to_xml(file_path=json_file_path)
-convert_json_to_yaml(file_path=json_file_path)
-convert_json_to_csv(file_path=json_file_path)
-convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
+# convert_json_to_xml(file_path=json_file_path)
+# convert_json_to_yaml(file_path=json_file_path)
+# convert_json_to_csv(file_path=json_file_path)
+# convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
+convert_json_to_sql(file_path=json_file_path)
