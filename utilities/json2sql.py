@@ -1,143 +1,118 @@
-import json
 from typing import Union
 
-overall = ""
 singular_dict = {
-    "countries": "country",
-    "timezones": "timezone",
-    "translations": "translation",
-    "governorates": "governorate",
-    "districts": "district"
+    "countries".upper(): "country",
+    "timezones".upper(): "timezone",
+    "translations".upper(): "translation",
+    "governorates".upper(): "governorate",
+    "districts".upper(): "district"
 }
-nested_tables = {}
-created_tables = {}
+all_objects = dict()
 
 
-def _get_cols_another_tables(json_data: dict):
+def _get_list_cols_nested_tables(table_name: str, json_data: dict):
     cols = []
-    another_tables = []
+    nested_tables = []
     json_data = json_data if isinstance(json_data, dict) else json_data[0]
+    json_data.pop("id", None)
     for key, value in json_data.items():
-        if key == "id":
-            continue
         if isinstance(value, (list, dict)):
-            another_tables.append(key)
+            nested_tables.append(key)
         else:
             cols.append(key)
-    return cols, another_tables
+    all_objects[table_name] = {
+        "list_cols": cols,
+        "nested_tables": nested_tables
+    }
 
 
-def _create_table(json_data: dict, table_name: str = "countries", reference_table: str = None):
-    _overall = ""
-    _create_table = f"DROP TABLE IF EXISTS `{table_name}`;\nCREATE TABLE IF NOT EXISTS `{table_name}` ("
+def _create_table(cols: list, table_name: str = "countries", reference_table: str = None):
+    create_query = f"DROP TABLE IF EXISTS `{table_name}`;\nCREATE TABLE IF NOT EXISTS `{table_name}` (\n\t"
+    create_query += f"`{singular_dict.get(table_name, table_name.lower())}_id` bigint UNSIGNED PRIMARY KEY NOT NULL,"
     if reference_table:
-        _create_table += f"\n\t`{singular_dict.get(reference_table)}_id` bigint UNSIGNED NOT NULL,"
-    _create_table += f"\n\t`{singular_dict.get(table_name, table_name)}_id` bigint UNSIGNED PRIMARY KEY NOT NULL,"
-    cols, another_tables = _get_cols_another_tables(json_data)
+        create_query += f"\n\t`{singular_dict.get(reference_table, reference_table.lower())}_id` bigint UNSIGNED NOT NULL,"
     for col in cols:
-        _create_table += f"\n\t`{col}` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL" \
-                         f"{',' if col != cols[-1] else ''}"
+        create_query += f"\n\t`{col}` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL" \
+                        f"{',' if col != cols[-1] else ''}"
     if reference_table:
-        _create_table += f"{',' if _create_table[-1] != ',' else ''}\n\tCONSTRAINT fk_{singular_dict.get(reference_table)}_{table_name} " \
-                         f"FOREIGN KEY (`{singular_dict.get(reference_table)}_id`) " \
-                         f"REFERENCES {reference_table}(`{singular_dict.get(reference_table)}_id`)"
-    _create_table += "\r)\tENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;\n"
-    _overall += _create_table
-    _cols = f"{'' if not reference_table else '`' + singular_dict.get(reference_table) + '_id`, '}`{singular_dict.get(table_name, table_name)}_id`, "
+        create_query += f",\n\tCONSTRAINT fk_{singular_dict.get(reference_table)}_{table_name} " \
+                        f"FOREIGN KEY (`{singular_dict.get(reference_table)}_id`) " \
+                        f"REFERENCES {reference_table}(`{singular_dict.get(reference_table)}_id`)"
+    create_query += "\n)\tENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;\n"
+    _cols = f"`{singular_dict.get(table_name, table_name.lower())}_id`, {'`' + singular_dict.get(reference_table, reference_table.lower()) + '_id`, ' if reference_table else ''}"
     for col in cols:
         _cols += f"`{col}`, "
-    _cols = _cols.strip()[:-1]
-    return _overall, _cols, another_tables
+    cols = _cols.strip(", ")
+    all_objects[table_name]["create_query"] = create_query
+    all_objects[table_name]["insert_query"] = ""
+    all_objects[table_name]["cols"] = cols
+    all_objects[table_name]["values"] = ""
+    all_objects[table_name]["current_pk"] = "0"
 
 
-def get_values(items, table_name, reference_table, reference_table_id):
-    if table_name not in nested_tables:
-        nested_tables.update({table_name: []})
-    for item in items:
-        # print({reference_table: reference_table_id, **item})
-        item = {f"{singular_dict.get(reference_table)}_id": reference_table_id, **item}
-        nested_tables.get(table_name).append(item)
-
-
-def _insert_into_from_list(another_tables, insert_into, json_data, reference_table, reference_table_id, table_name,
-                           cols):
-    insert_into += f"({str(reference_table_id) if reference_table else ''}"
-    for index, items in enumerate(json_data):
-        if "id" not in items:
-            insert_into += f", {index + 1}"
-        for key in items:
-            if key not in another_tables:
-                insert_into += f", {repr(items.get(key))}"
-            else:
-                get_values(items.get(key), key, table_name, items.get("id", index + 1))
-        insert_into += f"),\n({str(reference_table_id)}" if 1 <= index + 1 < len(json_data) else ")\n"
-        # for key in another_tables:
-        #     sql = _insert_into(items.get(key), key, table_name, items.get("id"), sql, cols, another_tables)
-
-    return insert_into
-
-
-def _insert_into(json_data: Union[list, dict], table_name: str, reference_table: str, reference_table_id: int, sql: str,
+def _insert_into(json_data: Union[list, dict], table_name: str, reference_table: str, reference_table_id: int,
                  cols: str, nested_tables: list):
-    insert_into = f"INSERT INTO `{table_name}`\n({cols})\nVALUES\n"
+    insert_query = f"INSERT INTO `{table_name}`\n({cols})\n\tVALUES\n"
+    if not all_objects[table_name]["insert_query"]:
+        all_objects[table_name]["insert_query"] += insert_query
     if isinstance(json_data, list):
-        insert_into = _insert_into_from_list(nested_tables, insert_into, json_data, reference_table,
-                                             reference_table_id, table_name, cols)
+        for item in json_data:
+            _insert_from_dict(json_data=item, nested_tables=nested_tables, reference_table=reference_table,
+                              reference_table_id=reference_table_id, table_name=table_name)
     elif isinstance(json_data, dict):
-        insert_into += f"({str(reference_table_id) + ', ' if reference_table else ''}"
-        if "id" not in json_data:
-            insert_into += f"{reference_table_id if reference_table_id else 1}"  # TODO: here supposed to be the primary key.
-            # TODO: if table is created call get_values() function to get (1,2,) values syntax only of the rows
-            #  of course take care of the counter to start increasingly
-            #  e.g. first object has 10 nested elements, the counter start with the second object from 11
-
-        for key in json_data:
-            if key not in nested_tables:
-                insert_into += f", {repr(json_data.get(key))}"
-        insert_into += ")\n"
-
-    insert_into = insert_into.strip() + ";\n\n"
-    sql += insert_into
-
-    return sql
+        _insert_from_dict(json_data=json_data, nested_tables=nested_tables, reference_table=reference_table,
+                          reference_table_id=reference_table_id, table_name=table_name)
 
 
-def create_table(json_data: dict, table_name: str = "countries", reference_table: str = None,
-                 reference_table_id: int = 1):
-    # TODO: get the number max level in the json
-    overall = ""
-    data = json_data[0] if isinstance(json_data, list) else json_data
-    # TODO: Abdullah why don't you check here:
-    #  there should be an external/general dictionary to hold created tables w their sql, cols, and another tables.
-    #  for every item in the json data list, if the item doesn't has a created table,
-    #  then call create table, else just call the get rows values.
-    # TODO (INCOMPLETE)
-    sql, cols, nested_tables = _create_table(json_data=data, table_name=table_name, reference_table=reference_table)
-    created_tables.update({table_name: {
-        "sql": sql,
-        "cols": cols,
-        "nested_tables": nested_tables
-    }})
-    sql = _insert_into(json_data=json_data, table_name=table_name, reference_table=reference_table,
-                       reference_table_id=reference_table_id, sql=sql, cols=cols, nested_tables=nested_tables)
-    created_tables.update({table_name: {
-        "sql": sql
-    }})
-    # if "districts" in nested_tables:
-    #     nested_tables.remove("districts")
+def _insert_from_dict(json_data, nested_tables, reference_table, reference_table_id, table_name):
+    values = ""
+    json_data.pop("id", None)
+    current_pk = int(all_objects[table_name]["current_pk"]) + 1
+    values += f"({current_pk}, {str(reference_table_id) + ', ' if reference_table else ''}"
+    all_objects[table_name]["current_pk"] = str(current_pk)
+    for key in json_data:
+        if key not in nested_tables:
+            value = str(json_data.get(key)).replace("'", '\\\'')
+            values += f"'{value}', "
+    values = values.strip(", ") + ");\n\n"
+    all_objects[table_name]["values"] = all_objects[table_name]["values"].strip().replace(";", ",\n") + values
+
     for table in nested_tables:
-        overall += create_table(data.get(table), table, table_name, data.get("id", 1))
-
-    sql += overall
-    return sql
+        get_sql(json_data=json_data.get(table), table_name=table, reference_table=table_name,
+                reference_table_id=current_pk)
 
 
-def json_to_sql(json_data: dict):
-    sql = "DROP DATABASE IF EXISTS `countries`;\n" \
-          "CREATE DATABASE IF NOT EXISTS `countries`;\n" \
-          "USE `countries`;\n\n"
-    sql += create_table(json_data=json_data)
-    with open("nested_tables.json", "w", encoding="utf-16") as file:
-        file.write(json.dumps(nested_tables, ensure_ascii=False, indent=2))
-    print(created_tables)
+def get_sql(json_data: dict, table_name: str = "countries", reference_table: str = None, reference_table_id: int = 1):
+    table_name = table_name.upper()
+    data = json_data[0] if isinstance(json_data, list) else json_data
+    if table_name not in all_objects:
+        _get_list_cols_nested_tables(table_name=table_name, json_data=data)
+        _create_table(cols=all_objects[table_name]["list_cols"], table_name=table_name, reference_table=reference_table)
+    cols, nested_tables = all_objects[table_name]["cols"], all_objects[table_name]["nested_tables"]
+    _insert_into(json_data=json_data, table_name=table_name, reference_table=reference_table,
+                 reference_table_id=reference_table_id, cols=cols, nested_tables=nested_tables)
+
+
+def reduce_all_objects():
+    for key in all_objects.keys():
+        all_objects.get(key).pop("cols", None)
+        all_objects.get(key).pop("current_pk", None)
+        all_objects.get(key).pop("list_cols", None)
+        all_objects.get(key).pop("nested_tables", None)
+
+
+def json_2_sql(json_data: dict, database_name: str = "ALL_COUNTRIES", first_table_name: str = "COUNTRIES"):
+    all_objects[database_name] = {
+        "create_query": f"DROP DATABASE IF EXISTS `{database_name}`;\nCREATE DATABASE IF NOT EXISTS `{database_name}`;\n"
+                        f"USE `{database_name}`;\n\n"
+    }
+    get_sql(json_data=json_data, table_name=first_table_name)
+    sql = ""
+    reduce_all_objects()
+    for key, values in all_objects.items():
+        for _key in values.keys():
+            try:
+                sql += values.get(_key)
+            except TypeError:
+                ...
     return sql

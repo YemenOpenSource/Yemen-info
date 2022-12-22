@@ -133,10 +133,10 @@ def convert_csv_to_excel(csv_file_path: str, excel_file_path: str) -> str:
 
 
 def convert_json_to_sql(file_path: str) -> str:
-    from json2sql import json_to_sql
+    from json2sql import json_2_sql
     json_file = read_json_file(file_path)
-    sql = json_to_sql(json_data=json_file)
-    with open("yemen-info.sql", "w", encoding="utf-16") as file:
+    sql = json_2_sql(json_data=json_file)
+    with open("./automated/yemen-info.sql", "w", encoding="utf-16") as file:
         file.write(sql)
         file.close()
     print("Completed converting json to sql.")
