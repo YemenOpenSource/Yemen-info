@@ -1,11 +1,11 @@
 from typing import Union
 
 singular_dict = {
-    "countries".upper(): "country",
-    "timezones".upper(): "timezone",
-    "translations".upper(): "translation",
-    "governorates".upper(): "governorate",
-    "districts".upper(): "district"
+    "countries": "country",
+    "timezones": "timezone",
+    "translations": "translation",
+    "governorates": "governorate",
+    "districts": "district"
 }
 all_objects = dict()
 
@@ -85,7 +85,6 @@ def _insert_from_dict(json_data, nested_tables, reference_table, reference_table
 
 
 def get_sql(json_data: dict, table_name: str = "countries", reference_table: str = None, reference_table_id: int = 1):
-    table_name = table_name.upper()
     data = json_data[0] if isinstance(json_data, list) else json_data
     if table_name not in all_objects:
         _get_list_cols_nested_tables(table_name=table_name, json_data=data)
@@ -103,7 +102,7 @@ def reduce_all_objects():
         all_objects.get(key).pop("nested_tables", None)
 
 
-def json_2_sql(json_data: dict, database_name: str = "ALL_COUNTRIES", first_table_name: str = "COUNTRIES"):
+def json_2_sql(json_data: dict, database_name: str = "COUNTRIES", first_table_name: str = "countries"):
     all_objects[database_name] = {
         "create_query": f"DROP DATABASE IF EXISTS `{database_name}`;\nCREATE DATABASE IF NOT EXISTS `{database_name}`;\n"
                         f"USE `{database_name}`;\n\n"
