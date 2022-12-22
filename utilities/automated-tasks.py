@@ -296,7 +296,7 @@ def convert_json_to_sql(json_file: str, db_file: str):
     print("Completed converting json to SQL.")
     return "Completed converting json to SQL."
 
-def _convert_json_to_sql(file_path: str) -> str:
+def new_json2sql(file_path: str) -> str:
     from json2sql import json_2_sql
     json_file = read_json_file(file_path)
     sql = json_2_sql(json_data=json_file)
@@ -406,4 +406,4 @@ convert_json_to_yaml(file_path=json_file_path)
 convert_json_to_csv(file_path=json_file_path)
 convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
 convert_json_to_sql(json_file = json_file_path, db_file = db_file_path)
-_convert_json_to_sql(file_path=json_file_path)
+new_json2sql(file_path=json_file_path)
