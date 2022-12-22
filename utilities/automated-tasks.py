@@ -40,11 +40,11 @@ def remove_duplication():
 
     # TODO: Just remove any duplication, if someone add the same district or city, it will be removed automatically.
     json_file = read_json_file(PATH)
-    
+
     # TODO: This code just filters the governorates section.
     # NOTE: You can specify what you want to search using e.g name_en, name_ar.
     # I will use in this example name_en
-    
+
     try:
         prime_governorates = []
 
@@ -173,7 +173,6 @@ def convert_json_to_sql(json_file: str, db_file: str):
 
     json_data = read_json_file(json_file)
 
-    # TODO
     sql_script = """
     CREATE TABLE IF NOT EXISTS yemeninfo (
         id  INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -297,6 +296,15 @@ def convert_json_to_sql(json_file: str, db_file: str):
     print("Completed converting json to SQL.")
     return "Completed converting json to SQL."
 
+def new_json2sql(file_path: str) -> str:
+    from json2sql import json_2_sql
+    json_file = read_json_file(file_path)
+    sql = json_2_sql(json_data=json_file)
+    with open("./automated/yemen-info.sql", "w", encoding="utf-16") as file:
+        file.write(sql)
+    print("Completed converting json to sql.")
+    return "Completed converting json to sql."
+
 def convert_json_to_xml(file_path: str) -> str:
     """
     Convert json or dictionary to xml and write it to a file
@@ -397,4 +405,5 @@ convert_json_to_xml(file_path=json_file_path)
 convert_json_to_yaml(file_path=json_file_path)
 convert_json_to_csv(file_path=json_file_path)
 convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
-convert_json_to_sql(json_file = json_file, db_file = db_file_path)
+convert_json_to_sql(json_file = json_file_path, db_file = db_file_path)
+new_json2sql(file_path=json_file_path)
