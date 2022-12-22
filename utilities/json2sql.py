@@ -7,7 +7,7 @@ singular_dict = {
     "governorates".upper(): "governorate",
     "districts".upper(): "district"
 }
-all_objects = {}
+all_objects = dict()
 
 
 def _get_list_cols_nested_tables(table_name: str, json_data: dict):
@@ -30,7 +30,7 @@ def _create_table(cols: list, table_name: str = "countries", reference_table: st
     create_query = f"DROP TABLE IF EXISTS `{table_name}`;\nCREATE TABLE IF NOT EXISTS `{table_name}` (\n\t"
     create_query += f"`{singular_dict.get(table_name, table_name.lower())}_id` bigint UNSIGNED PRIMARY KEY NOT NULL,"
     if reference_table:
-        create_query += f"\n\t`{singular_dict.get(reference_table)}_id` bigint UNSIGNED NOT NULL,"
+        create_query += f"\n\t`{singular_dict.get(reference_table, reference_table.lower())}_id` bigint UNSIGNED NOT NULL,"
     for col in cols:
         create_query += f"\n\t`{col}` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL" \
                         f"{',' if col != cols[-1] else ''}"
@@ -39,7 +39,7 @@ def _create_table(cols: list, table_name: str = "countries", reference_table: st
                         f"FOREIGN KEY (`{singular_dict.get(reference_table)}_id`) " \
                         f"REFERENCES {reference_table}(`{singular_dict.get(reference_table)}_id`)"
     create_query += "\n)\tENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;\n"
-    _cols = f"`{singular_dict.get(table_name, table_name)}_id`, {'`' + singular_dict.get(reference_table) + '_id`, ' if reference_table else ''}"
+    _cols = f"`{singular_dict.get(table_name, table_name.lower())}_id`, {'`' + singular_dict.get(reference_table, reference_table.lower()) + '_id`, ' if reference_table else ''}"
     for col in cols:
         _cols += f"`{col}`, "
     cols = _cols.strip(", ")
@@ -48,11 +48,6 @@ def _create_table(cols: list, table_name: str = "countries", reference_table: st
     all_objects[table_name]["cols"] = cols
     all_objects[table_name]["values"] = ""
     all_objects[table_name]["current_pk"] = "0"
-
-
-def _insert_from_list(json_data: list, nested_tables, reference_table, reference_table_id, table_name):
-    ...
-    # for index, items in enumerate(json_data):
 
 
 def _insert_into(json_data: Union[list, dict], table_name: str, reference_table: str, reference_table_id: int,
@@ -65,7 +60,8 @@ def _insert_into(json_data: Union[list, dict], table_name: str, reference_table:
             _insert_from_dict(json_data=item, nested_tables=nested_tables, reference_table=reference_table,
                               reference_table_id=reference_table_id, table_name=table_name)
     elif isinstance(json_data, dict):
-        _insert_from_dict(json_data, nested_tables, reference_table, reference_table_id, table_name)
+        _insert_from_dict(json_data=json_data, nested_tables=nested_tables, reference_table=reference_table,
+                          reference_table_id=reference_table_id, table_name=table_name)
 
 
 def _insert_from_dict(json_data, nested_tables, reference_table, reference_table_id, table_name):
@@ -105,12 +101,12 @@ def reduce_all_objects():
         all_objects.get(key).pop("nested_tables", None)
 
 
-def json_2_sql(json_data: dict, database_name: str = "ALL_COUNTRIES"):
+def json_2_sql(json_data: dict, database_name: str = "ALL_COUNTRIES", first_table_name: str = "COUNTRIES"):
     all_objects[database_name] = {
         "create_query": f"DROP DATABASE IF EXISTS `{database_name}`;\nCREATE DATABASE IF NOT EXISTS `{database_name}`;\n"
                         f"USE `{database_name}`;\n\n"
     }
-    get_sql(json_data=json_data)
+    get_sql(json_data=json_data, table_name=first_table_name)
     sql = ""
     reduce_all_objects()
     for key, values in all_objects.items():
