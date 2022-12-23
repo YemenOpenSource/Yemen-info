@@ -418,9 +418,9 @@ db_file_path: str = "./automated/yemen-info.db"
 # remove duplicate data before converting.
 remove_duplication()
 
-# convert_json_to_xml(file_path=json_file_path)
-# convert_json_to_yaml(file_path=json_file_path)
-# convert_json_to_csv(file_path=json_file_path)
-# convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
+convert_json_to_xml(file_path=json_file_path)
+convert_json_to_yaml(file_path=json_file_path)
+convert_json_to_csv(file_path=json_file_path)
+convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
 convert_json_to_sql(json_file = json_file_path, db_file = db_file_path)
 new_json2sql(file_path=json_file_path)
