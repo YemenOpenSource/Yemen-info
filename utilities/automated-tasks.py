@@ -299,10 +299,27 @@ def convert_json_to_sql(json_file: str, db_file: str):
 def new_json2sql(file_path: str) -> str:
     from json2sql import json_2_sql
     json_file = read_json_file(file_path)
-    sql = json_2_sql(json_data=json_file)
-    with open("./automated/yemen-info.sql", "w", encoding="utf-16") as file:
+    sql = json_2_sql(json_data=json_file, sqlite=True)
+    with open("./automated/yemen-info-sqlite.sql", "w", encoding="utf-16") as file:
         file.write(sql)
-    print("Completed converting json to sql.")
+    print("Completed converting json to sqlite format.")
+    ############################################################################
+    # if you want to write the sql script to sqlite db, uncomment the next block
+    # try:
+    #     import sqlite3
+    #     connection = sqlite3.connect("automated/yemen-info-.db")
+    #     connection.executescript(sql)
+    #     print("wrote the sql to sqlite db successfully.")
+    # except Exception as e:
+    #     print(f"error writing data: {e}")
+    #     connection.commit()
+    # finally:
+    #     connection.close()
+    ############################################################################
+    sql = json_2_sql(json_data=json_file, sqlite=False)
+    with open("./automated/yemen-info-mysql.sql", "w", encoding="utf-16") as file:
+        file.write(sql)
+    print("Completed converting json to mysql format.")
     return "Completed converting json to sql."
 
 def convert_json_to_xml(file_path: str) -> str:
