@@ -343,6 +343,8 @@ Tiffah
 Tohaita
 Toor
 Towahi
+uzlah
+uzaal
 Wadhi
 Waz'iah
 Wazeer
@@ -363,6 +365,7 @@ Zaher
 Zahrah
 Zamakh
 Zaydiyah
+Zubayrat
 Zuhrah
 Zunjubar
 آزَاْل
@@ -409,6 +412,7 @@ Zunjubar
 الرَّوْنَة
 الريدة
 الرَّيْدَة
+الزبيرات
 السّ
 السبرة
 السَّبْرَة
