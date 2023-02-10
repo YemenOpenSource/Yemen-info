@@ -101,7 +101,7 @@ some resources that helped us to build this project:
 - [Yemen Information Center](https://yemen-nic.info/yemen/gover/) helped besides the previous resource above.
 - [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) Was used to know every governorate capital.
 - [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) was used to text normalized all districts and governorates. Thanks, Eng. [Khaled Alshamaa](https://github.com/khaled-alshamaa).
-- [ملف إكسل يحتوي العزل اليمنية](https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/a0385cba-d2c7-4ced-802f-895255aac3ca/download/yem_admin_ochayemen_20191002.xlsx) استخدمنا هذا الملف لإضافة العزل لكل مديرية.
+- [Excel file contains Yemeni uzaal](https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/a0385cba-d2c7-4ced-802f-895255aac3ca/download/yem_admin_ochayemen_20191002.xlsx) we have used this file to add uzaal for every district.
 
 # Thanks
 
