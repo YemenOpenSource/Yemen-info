@@ -5,3 +5,4 @@ venv/
 v/
 automated/
 **/__pycache__/**
+**/.pyc
