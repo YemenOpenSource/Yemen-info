@@ -355,7 +355,7 @@ def convert_json_to_yaml(file_path: str) -> str:
 
 def add_all_yemeni_names_to_custom_dictionary():
     json_file = read_json_file("./yemen-info.json")
-    # TODO
+    # TODO (watheq): Can you give more explanation?
 
 
 def add_tashkeel_to_governorates_and_cities():
