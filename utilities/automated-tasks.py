@@ -305,16 +305,16 @@ def new_json2sql(file_path: str) -> str:
     print("Completed converting json to sqlite format.")
     ############################################################################
     # if you want to write the sql script to sqlite db, uncomment the next block
-    # try:
-    #     import sqlite3
-    #     connection = sqlite3.connect("automated/yemen-info-.db")
-    #     connection.executescript(sql)
-    #     print("wrote the sql to sqlite db successfully.")
-    # except Exception as e:
-    #     print(f"error writing data: {e}")
-    #     connection.commit()
-    # finally:
-    #     connection.close()
+    try:
+        import sqlite3
+        connection = sqlite3.connect("automated/yemen-info-.db")
+        connection.executescript(sql)
+        print("wrote the sql to sqlite db successfully.")
+    except Exception as e:
+        print(f"error writing data: {e}")
+        connection.commit()
+    finally:
+        connection.close()
     ############################################################################
     sql = json_2_sql(json_data=json_file, sqlite=False)
     with open("./automated/yemen-info-mysql.sql", "w", encoding="utf-16") as file:
@@ -422,5 +422,5 @@ convert_json_to_xml(file_path=json_file_path)
 convert_json_to_yaml(file_path=json_file_path)
 convert_json_to_csv(file_path=json_file_path)
 convert_csv_to_excel(csv_file_path=csv_file_path, excel_file_path=excel_file_path)
-convert_json_to_sql(json_file = json_file_path, db_file = db_file_path)
+# convert_json_to_sql(json_file = json_file_path, db_file = db_file_path)
 new_json2sql(file_path=json_file_path)
