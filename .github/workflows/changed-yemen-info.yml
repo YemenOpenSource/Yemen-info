@@ -1,4 +1,4 @@
-name: first maid github actions
+name: Generate needed formats from JSON
 on:
   push:
     paths:
