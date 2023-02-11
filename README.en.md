@@ -34,11 +34,11 @@ This repository will help. Yes a little, but it is helpful!
 
 Simply, just download the [yemen-info.json](https://github.com/YemenOpenSource/Yemen-info/blob/main/yemen-info.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/YemenOpenSource/Yemen-info/tree/main/other-formats) like: [yemen-info.csv](./other-formats/yemen-info.csv), [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./other-formats/yemen-info.xml), [yemen-info.yml](./other-formats/yemen-info.yml) and [yemen-info.sql](./other-formats/yemen-info.sql).
+We have different formats with the same information you can use if you prefer in [automated](https://github.com/YemenOpenSource/Yemen-info/tree/main/automated) folder like: [yemen-info.csv](./automated/yemen-info.csv), [yemen-info.xlsx](./automated/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./automated/yemen-info.xml), [yemen-info.yml](./automated/yemen-info.yml), [yemen-info-mysql.sql](./automated/yemen-info-mysql.sql), and [yemen-info-sqlite.sql](./automated/yemen-info-sqlite.sql).
 
 You can also use the [cspell dictionary file Here](https://github.com/YemenOpenSource/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni districts'/governorate's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
-> By the way, we have contributed in Yemeni-Open-Source to the previous plugin, and you can find more on [this link](https://github.com/Yemeni-Open-Source/impactful-contributions).
+> By the way, we have contributed in Yemeni-Open-Source to the previous plugin, and you can find more on [this link](https://github.com/YemenOpenSource/impactful-contributions).
 
 ## Features
 
@@ -62,25 +62,24 @@ You can also use the [cspell dictionary file Here](https://github.com/YemenOpenS
 
 ✅ Uzaal names for every district.
 
-## TODO
+✅ Scripts to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 
-- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
-- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
+✅ Automate conversion scripts after any modification to `yemen-info.json` file using GitHub Action. So all data are in sync in all formats.
 
 # How To contribute
 
 You can make an issue if you find any mistakes or you have any suggestions or create a pull request.
 
-Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` you will do us a favor if you add the same change to other files with different formats like:
+Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` these files will be changed automatically:
 
-- [yemen-info.csv]('./other-formats/yemen-info.csv'),
-- [yemen-info.xlsx](./other-formats/yemen-info.xlsx),
-- [yemen-info.xml](./other-formats/yemen-info.xml),
-- [yemen-info.yml]('./other-formats/yemen-info.yml'),
-- [yemen-info.sql]('./other-formats/yemen-info.sql'),
-  and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes are related to it.
+- [yemen-info.csv]('./automated/yemen-info.csv'),
+- [yemen-info.xlsx](./automated/yemen-info.xlsx),
+- [yemen-info.xml](./automated/yemen-info.xml),
+- [yemen-info.yml]('./automated/yemen-info.yml'),
+- [yemen-info-mysql.sql]('./automated/yemen-info-mysql.sql'),
+- [yemen-info-sqlite.sql]('./automated/yemen-info-sqlite.sql').
 
-We may automate the process using python code with GitHub actions, and we are welcoming contributions in this area, it will help us a lot.
+We also remind you to update the [README.md](./README.md) and [README.en.md](./README.en.md) files if the changes are related to them.
 
 ## Later On Future (out of our scope now)
 
@@ -107,7 +106,7 @@ some resources that helped us to build this project:
 
 For all contributors for this project:
 
-<a href="https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors">
+<a href="https://github.com/YemenOpenSource/Yemen-info/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Yemeni-Open-Source/Yemen-info" />
 </a>
 

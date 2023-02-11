@@ -16,11 +16,11 @@
 
 ## المنهجية والملاحظات
 
-⦿ أضفنا أسماء عواصم كل محافظة عدا محافظات: أمانة العاصمة، وصنعاء، وعدن لعدم وجود عواصم لها بحسب البيانات. لو كان هناك اختلاف بسيط بين اسم عاصمة المحافظة وأحد المديريات، فهذا يعني أن هذه المديريات هي نفسها عاصمة المحافظة. أحيانا يُزاد على عاصمة المحافظة كلمة "مدينة" وهذا لا يؤثر أنها هي عاصمة المحافظة من بين المديريات. مثًلا، عاصمة محافظة عمران: "مدينة عمران"، وأحد مديريات المحافظة: عمران. هما نفس الشيء. فلماذا لم نُضف كلمة "مدينة" إلى المديرية؟ السبب أنّنا ملتزمون بشدة بالوثائق الرسمية.
+⦿ أضفنا أسماء عواصم كل محافظة عدا محافظات: أمانة العاصمة، وصنعاء، وعدن لعدم وجود عواصم لها بحسب البيانات. لو كان هناك اختلاف بسيط بين اسم عاصمة المحافظة وأحد المديريات، فهذا يعني أن هذه المديريات هي نفسها عاصمة المحافظة. أحيانا يُزاد على عاصمة المحافظة كلمة "مدينة" وهذا لا يؤثر أنها هي عاصمة المحافظة من بين المديريات. مثًلا، عاصمة محافظة عمران: "مدينة عمران"، وأحد مديريات المحافظة: عمران. هما نفس الشيء. فلماذا لم نُضف كلمة "مدينة" إلى المديرية؟ السبب ملتزمون بشدة بالوثائق الرسمية.
 
-⦿ اخترنا أن نضع اسم عاصمة المحافظة مباشرة في نفس درجة البيانات وليس في درجة ضمنية داخلية لتسهيل الأمر في جلب المعلومات، ولأن بعض المحافظات ليس لديها عاصمة كما أشرنا آنفًا.
+⦿ اخترنا أن نضع اسم عاصمة المحافظة مباشرة تحتها لتسهيل الأمر في جلب المعلومات، ولأن بعض المحافظات ليس لديها عاصمة كما أشرنا آنفًا.
 
-⦿ بذلنا ما في وسعنا لتدقيق المعلومات، ولكن لا نملك ضمانة أيًا كانت على دقة المعلومات المُقدّمة. إن كنت تعلم أي خطًأ أنت متأكد منه، سنرحب كثيرًا بتعديله.
+⦿ بذلنا ما في وسعنا لتدقيق المعلومات، ولكن لا نملك ضمانة أيًا كانت على دقة المعلومات المُقدّمة. إن كنت تعلم أي خطًأ أنت متأكد منه، سنرحب بشدة بتعديله.
 
 ⦿ أتممنا بحثنا في فبراير من العام 2023. لذلك، لو كانت المعلومات متقادمة أو غير صحيحة فهذا يعود إلى التغييرات في المحافظات والمديريات على أرض الواقع. نأمل أن نُحدّث المستودع بأحدث المعلومات.
 
@@ -37,18 +37,18 @@
 ## كيفية الاستخدام
 
 ببساطة، نزّل ملف [yemen-info.json](https://github.com/YemenOpenSource/Yemen-info/blob/main/yemen-info.json) واستخدمه كما يحلو لك. هو عبارة عن ملف JSON، لذلك فهو لا يتعلق بلغة برمجية ولا بإطار عمل معيّن فأكثر اللغات البرمجية تدعمه بسهولة.
-لدينا عدة صيغ لنفس المعلومات يمكنك استخدامها لو كنت تفضلها في مجلد [other-formats folder](https://github.com/YemenOpenSource/Yemen-info/tree/main/other-formats) حيث تجد ملفات:
-[yemen-info.csv](./other-formats/yemen-info.csv) و [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (صيغة ميكروسوفت إكسل)، و [yemen-info.xml](./other-formats/yemen-info.xml)
-و [yemen-info.yml](./other-formats/yemen-info.yml) و [yemen-info.sql](./other-formats/yemen-info.sql).
+لدينا عدة صيغ لنفس المعلومات يمكنك استخدامها لو كنت تفضلها في مجلد [automated](https://github.com/YemenOpenSource/Yemen-info/tree/main/automated) حيث تجد ملفات:
+[yemen-info.csv](./automated/yemen-info.csv) و [yemen-info.xlsx](./automated/yemen-info.xlsx) (صيغة ميكروسوفت إكسل)، و [yemen-info.xml](./automated/yemen-info.xml)
+و [yemen-info.yml](./automated/yemen-info.yml) و [yemen-info-mysql](./automated/yemen-info-mysql.sql) و [yemen-info-sqlite](./automated/yemen-info-sqlite.sql).
 
 يمكنك كذلك استخدام [ملف قاموس cspell](https://github.com/YemenOpenSource/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) لتجاهل أسماء المحافظات والمديريات من تخطئتها من إضافات وبرامج التصحيح الإملائي. كان هذا أمرًا عَرَضيًا عن هدفنا الرئيسي في المشروع ولكننا شاكرون لهذه النتيجة!
 يمكنك نسخ قائمة الكلمات لقائمة الاستثناءات لأي محرر نصوص لديه ميزة التصحيح الإملائي، حيث يمكنك إضافتها للقاموس الشخصي لكل لا يعدها البرنامج كلمات خاطئة. هذا موجود في برامج ميكروسوفت وورد، ليبرا أوفيس، وحتى إضافة [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) على المحرر البرمجي VS Code.
 
-> ملاحظة جانبية: ساهمنا نحن في Yemeni Open Source في الإضافة السابقة الذكر ولمزيد من التفاصيل يمكنك المطالعة على [الرابط](https://github.com/Yemeni-Open-Source/impactful-contributions).
+> ملاحظة جانبية: ساهمنا نحن في Yemeni Open Source في الإضافة السابقة الذكر ولمزيد من التفاصيل يمكنك المطالعة على [الرابط](https://github.com/YemenOpenSource/impactful-contributions).
 
 ## المميزات
 
-✅ تشكيل عربي كامل لكل محافظة ومديرية، مع وجود نسخة عادية دون تشكيل.
+✅ تشكيل عربي كامل لكل محافظة ومديرية.
 
 ✅ صيغ متعددة: JSON و CSV و XLSX و XML و Yaml و SQL.
 
@@ -66,31 +66,29 @@
 
 ✅ أسماء العُزَل لكل مديرية.
 
-## قائمة المهام
+✅ أكواد برمجية لتحويل ملف JSON مباشرة إلى: CSV و XLSX و XML و Yaml و SQL.
 
-⦿ نشر كود برمجي لتحويل ملف JSON مباشرة إلى: CSV و XLSX و XML و Yaml و SQL.
-
-⦿ إضافة ميزة GitHub Action لأتمتة العملية السابقة بعد أي عملية commit لملف `yemen-info.json`.
+✅ أتمتة سكريبتات التحويل لمختلف الصيغ بعد أي تعديل لملف `yemen-info.json` عن طريق GitHub Action، بحيث تتزامن البيانات في مختلف الصيغ.
 
 ## كيفية المساهمة
 
 يمكنك إضافة issue لو وجدت أي خطأ أو كان لديك اقتراح أو يمكنك إضافة pull request.
 
-ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف ستعمل خيرًا جزيلًا لتعديل نفس البيانات على هذه الملفات:
+ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف فستتغير هذه الملفات تلقائيا:
 
-⦿ [ملف yemen-info.csv]('./other-formats/yemen-info.csv')
+⦿ [ملف yemen-info.csv]('./automated/yemen-info.csv')
 
-⦿ [ملف yemen-info.xlsx](./other-formats/yemen-info.xlsx)
+⦿ [ملف yemen-info.xlsx](./automated/yemen-info.xlsx)
 
-⦿ [ملف yemen-info.xml](./other-formats/yemen-info.xml)
+⦿ [ملف yemen-info.xml](./automated/yemen-info.xml)
 
-⦿ [ملف yemen-info.yml]('./other-formats/yemen-info.yml')
+⦿ [ملف yemen-info.yml]('./automated/yemen-info.yml')
 
-⦿ [ملف yemen-info.sql]('./other-formats/yemen-info.sql')
+⦿ [ملف yemen-info-mysql.sql]('./automated/yemen-info-mysql.sql')
 
-وغيرها من الملفات الأخرى إن وجدت. وتحديث ملف [README.md](./README.md) و [README.en.md](./README.en.md).
+⦿ [ملف yemen-info-sqlite.sql]('./automated/yemen-info-sqlite.sql')
 
-وفي المستقبل سنعمل على أتمتة العملية باستخدام كود برمجي وخدمة GitHub Actions، ونرحب بالمساهمات في هذه المساحة التي ستساعدنا كثيرًا.
+كما ننبه إلى تحديث ملفي [README.md](./README.md) و [README.en.md](./README.en.md) إن وجد شيء متعلّق بها.
 
 ## لاحقًا في المستقبل (خارج نطاقنا حاليًا)
 
@@ -130,8 +128,7 @@
   <img src="https://contrib.rocks/image?repo=Yemeni-Open-Source/Yemen-info" />
 </a>
 
-<br/>
-
+<br />
 ونشكر كذلك الذين شاركوا في أسماء بعض المديريات اليمنية ولكن لم يشاركوا مباشرة في الكود على المستودع، وهم بالترتيب الأبجدي:
 
 ⦿ أمجد الهتاري
