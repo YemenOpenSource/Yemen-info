@@ -70,7 +70,7 @@ You can also use the [cspell dictionary file Here](https://github.com/YemenOpenS
 
 You can make an issue if you find any mistakes or you have any suggestions or create a pull request.
 
-Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` these files will change automatically:
+Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` these files will be changed automatically:
 
 - [yemen-info.csv]('./automated/yemen-info.csv'),
 - [yemen-info.xlsx](./automated/yemen-info.xlsx),
@@ -79,7 +79,7 @@ Our `yemen-info.json` is the main source of data. If you change something on `ye
 - [yemen-info-mysql.sql]('./automated/yemen-info-mysql.sql'),
 - [yemen-info-sqlite.sql]('./automated/yemen-info-sqlite.sql').
 
-We also remind you to update the [README.md](./README.md) and [README.en.md](./README.en.md) file if the changes are related to it.
+We also remind you to update the [README.md](./README.md) and [README.en.md](./README.en.md) files if the changes are related to them.
 
 ## Later On Future (out of our scope now)
 
