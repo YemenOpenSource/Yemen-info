@@ -1,0 +1,39 @@
+name: Generate needed formats from JSON
+on:
+  push:
+    paths:
+      - 'yemen-info.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: install required libraries
+        run: pip install -r requirements.txt
+
+      - name: run the tests
+        run: python3 -B -m pytest tests/
+
+      - name: run the automated tasks
+        run: python3 -B utilities/automated-tasks.py
+
+      - name: add and commit generated file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          
+          git add .
+          git commit -m "automatically converted after editing yemen-info.json"
+
+      - name: push the generated file
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GIT_ACTION_TOKEN }}
+          branch: main

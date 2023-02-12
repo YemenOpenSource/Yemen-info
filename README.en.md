@@ -14,7 +14,7 @@ This repository will help. Yes a little, but it is helpful!
 
 - Capital Districts are chosen for every governorate except Amant Al-Asmah, Sanaa, and Aden. regarding the Yemeni governorates. If there is a match between the name of the governorate capital and one of the districts, that makes this district the capital. Sometimes Capital has a suffix "City", and that doesn't affect that it is the capital among other districts. For example, Amran's capital is "Amran City", and one of the districts is called "Amran", They are the same thing. So, Why didn't add "City" to the districts as well? because we strictly stick to the official documents.
 
-- We choose to put the capital name underneath the governorate directly to make it easier to grab the information and because some governorate does not have capital as we mentioned above.
+- We choose to put the capital name in the same degree as the governorate, not in inner degree, to make it easier to grab the information and because some governorate does not have capital as we mentioned above.
 
 - We have done our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistakes you are sure about, we are more than welcome to correct them.
 
@@ -34,15 +34,15 @@ This repository will help. Yes a little, but it is helpful!
 
 Simply, just download the [yemen-info.json](https://github.com/YemenOpenSource/Yemen-info/blob/main/yemen-info.json) file and use it however you want. It is a JSON file, so it is language agnostic, and most programming languages support it easily.
 
-We have different formats with the same information you can use if you prefer in [other-formats folder](https://github.com/YemenOpenSource/Yemen-info/tree/main/other-formats) like: [yemen-info.csv](./other-formats/yemen-info.csv), [yemen-info.xlsx](./other-formats/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./other-formats/yemen-info.xml), [yemen-info.yml](./other-formats/yemen-info.yml) and [yemen-info.sql](./other-formats/yemen-info.sql).
+We have different formats with the same information you can use if you prefer in [automated](https://github.com/YemenOpenSource/Yemen-info/tree/main/automated) folder like: [yemen-info.csv](./automated/yemen-info.csv), [yemen-info.xlsx](./automated/yemen-info.xlsx) (Microsoft EXCEL format), [yemen-info.xml](./automated/yemen-info.xml), [yemen-info.yml](./automated/yemen-info.yml), [yemen-info-mysql.sql](./automated/yemen-info-mysql.sql), and [yemen-info-sqlite.sql](./automated/yemen-info-sqlite.sql).
 
 You can also use the [cspell dictionary file Here](https://github.com/YemenOpenSource/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni districts'/governorate's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
-> By the way, we have contributed in Yemeni-Open-Source to the previous plugin, and you can find more on [this link](https://github.com/Yemeni-Open-Source/impactful-contributions).
+> By the way, we have contributed in Yemeni-Open-Source to the previous plugin, and you can find more on [this link](https://github.com/YemenOpenSource/impactful-contributions).
 
 ## Features
 
-✅ Arabic Tashkeel to every governorate and every district.
+✅ Arabic Tashkeel to every governorate and every district, in addition to a copy without Tashkeel.
 
 ✅ Multiple formats: JSON, CSV, XLSX, XML, Yaml, and SQL.
 
@@ -62,25 +62,24 @@ You can also use the [cspell dictionary file Here](https://github.com/YemenOpenS
 
 ✅ Uzaal names for every district.
 
-## TODO
+✅ Scripts to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 
-- [ ] Add script to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
-- [ ] Add GitHub actions file to automate the process after any commit or changes to the `yemen-info.json` file.
+✅ Automate conversion scripts after any modification to `yemen-info.json` file using GitHub Action. So all data are in sync in all formats.
 
 # How To contribute
 
 You can make an issue if you find any mistakes or you have any suggestions or create a pull request.
 
-Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` you will do us a favor if you add the same change to other files with different formats like:
+Our `yemen-info.json` is the main source of data. If you change something on `yemen-info.json` these files will be changed automatically:
 
-- [yemen-info.csv]('./other-formats/yemen-info.csv'),
-- [yemen-info.xlsx](./other-formats/yemen-info.xlsx),
-- [yemen-info.xml](./other-formats/yemen-info.xml),
-- [yemen-info.yml]('./other-formats/yemen-info.yml'),
-- [yemen-info.sql]('./other-formats/yemen-info.sql'),
-  and any other future formats, and update the [Readme](https://github.com/Yemeni-Open-Source/Yemen-info/edit/main/README.md) file if the changes are related to it.
+- [yemen-info.csv]('./automated/yemen-info.csv'),
+- [yemen-info.xlsx](./automated/yemen-info.xlsx),
+- [yemen-info.xml](./automated/yemen-info.xml),
+- [yemen-info.yml]('./automated/yemen-info.yml'),
+- [yemen-info-mysql.sql]('./automated/yemen-info-mysql.sql'),
+- [yemen-info-sqlite.sql]('./automated/yemen-info-sqlite.sql').
 
-We may automate the process using python code with GitHub actions, and we are welcoming contributions in this area, it will help us a lot.
+We also remind you to update the [README.md](./README.md) and [README.en.md](./README.en.md) files if the changes are related to them.
 
 ## Later On Future (out of our scope now)
 
@@ -101,11 +100,17 @@ some resources that helped us to build this project:
 - [Yemen Information Center](https://yemen-nic.info/yemen/gover/) helped besides the previous resource above.
 - [Yemen Embassy- Cairo](http://www.yemenembassy-cairo.com/aboutyemen6.asp) Was used to know every governorate capital.
 - [Ar-PHP](https://github.com/khaled-alshamaa/ar-php) was used to text normalized all districts and governorates. Thanks, Eng. [Khaled Alshamaa](https://github.com/khaled-alshamaa).
-- [ملف إكسل يحتوي العزل اليمنية](https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/a0385cba-d2c7-4ced-802f-895255aac3ca/download/yem_admin_ochayemen_20191002.xlsx) استخدمنا هذا الملف لإضافة العزل لكل مديرية.
+- [Excel file contains Yemeni uzaal](https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/a0385cba-d2c7-4ced-802f-895255aac3ca/download/yem_admin_ochayemen_20191002.xlsx) we have used this file to add uzaal for every district.
 
 # Thanks
 
-For all contributors. You can find the contributors on the [Contributors Page](https://github.com/Yemeni-Open-Source/Yemen-info/graphs/contributors).
+For all contributors for this project:
+
+<a href="https://github.com/YemenOpenSource/Yemen-info/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yemeni-Open-Source/Yemen-info" />
+</a>
+
+<br />
 
 But also other people who helped us with some of the names of Yemeni governorate and districts, and they are in alphabetical order:
 

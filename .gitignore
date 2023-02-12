@@ -1,4 +1,7 @@
 .DS_Store
 .backup-attempts/
 .idea
-venv
+venv/
+v/
+**/__pycache__/**
+**/.pyc
