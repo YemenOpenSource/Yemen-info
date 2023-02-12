@@ -76,17 +76,17 @@
 
 ملف `yemen-info.json` هو المصدر الأساسي للبيانات. لو غيّرت شيئًا على هذا الملف فستتغير هذه الملفات تلقائيا:
 
-⦿ [ملف yemen-info.csv]('./automated/yemen-info.csv')
+⦿ [ملف yemen-info.csv](./automated/yemen-info.csv)
 
 ⦿ [ملف yemen-info.xlsx](./automated/yemen-info.xlsx)
 
 ⦿ [ملف yemen-info.xml](./automated/yemen-info.xml)
 
-⦿ [ملف yemen-info.yml]('./automated/yemen-info.yml')
+⦿ [ملف yemen-info.yml](./automated/yemen-info.yml)
 
-⦿ [ملف yemen-info-mysql.sql]('./automated/yemen-info-mysql.sql')
+⦿ [ملف yemen-info-mysql.sql](./automated/yemen-info-mysql.sql)
 
-⦿ [ملف yemen-info-sqlite.sql]('./automated/yemen-info-sqlite.sql')
+⦿ [ملف yemen-info-sqlite.sql](./automated/yemen-info-sqlite.sql)
 
 كما ننبه إلى تحديث ملفي [README.md](./README.md) و [README.en.md](./README.en.md) إن وجد شيء متعلّق بها.
 
