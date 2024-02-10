@@ -1,6 +1,6 @@
 # Yemen-info
 
-Here are some files for the most important information for Yemen programmatically. We have information about Yemeni governorates, districts and uzaal in both Arabic and English languages.
+Here are some files for the most important information for Yemen programmatically. We have information about Yemeni governorates, districts, uzaal and villages in both Arabic and English languages.
 The Arabic names are introduced in many forms: with Tashkeel, without it, and as a normalized text.
 The English names are provided as close as possible to the Arabic name, and we have another format as a normalized text. These normalized texts are very useful for searching on the web or mobile applications.
 
@@ -28,7 +28,9 @@ This repository will help. Yes a little, but it is helpful!
 
 - We made a normalized version for every governorate and district. Our methodology in Arabic text is by using [Ar-PHP](https://ar-php.org/github/examples/standard.php) algorithms for Arabic text normalization. For English text we have made changes to the text: 1. remove apostrophes ('), 2. replace dashes (-) with one blank space. All of this text normalization we made is to help get better results when searching either in Arabic or English.
 
-- On February 10, we added a list of uzaal for each district. But the data is not accurate 100%, as is the case in the governorates and districts, and we also did not add the Tashkeel because we cannot verify them. We put the English name as we received it from the excel file, so, for example, we find in this English name the use of the name of the uzlah of “الزبيرات” with this English name “Az Zubayrat” instead of “ Al Zubayrat", we did not adhere to Tashkeel here as the districts because we are not sure of the accuracy of the data of the uzaal.
+- On February 10th 2023, we added a list of uzaal for each district. But the data is not accurate 100%, as is the case in the governorates and districts, and we also did not add the Tashkeel because we cannot verify them. We put the English name as we received it from the excel file, so, for example, we find in this English name the use of the name of the uzlah of “الزبيرات” with this English name “Az Zubayrat” instead of “ Al Zubayrat", we did not adhere to Tashkeel here as the districts because we are not sure of the accuracy of the data of the uzaal.
+
+- And on February 10th 2024, we added a list of villages for each uzlah, And what applies to the uzaal data applies also to the villages data.
 
 ## How to use it
 
@@ -65,6 +67,8 @@ You can also use the [cspell dictionary file Here](https://github.com/YemenOpenS
 ✅ Scripts to convert JSON file programmatically to: CSV, XML, XLSX, YAML, SQL.
 
 ✅ Automate conversion scripts after any modification to `yemen-info.json` file using GitHub Action. So all data are in sync in all formats.
+
+✅ Villages names for every uzlah (new).
 
 # How To contribute
 
