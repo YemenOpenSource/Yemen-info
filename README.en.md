@@ -18,7 +18,7 @@ This repository will help. Yes a little, but it is helpful!
 
 - We have done our best to make the information accurate, but we don't make any warranty whatsoever for the accuracy of the information provided. If you know any mistakes you are sure about, we are more than welcome to correct them.
 
-- We have done our research in February 2023. So, if our information is outdated because of the changes in the governorate and districts, we hope to update this repo with the latest information.
+- We have done our research in February 2024. So, if our information is outdated because of the changes in the governorate and districts, we hope to update this repo with the latest information.
 
 - We have chosen the Fusha pronunciation over some local pronunciations in the Tashkeel.
 
