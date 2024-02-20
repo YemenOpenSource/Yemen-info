@@ -1,0 +1,43 @@
+name: Generate CSV and Excel formats from JSON
+on:
+  push:
+    paths:
+      - 'yemen-info.json'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick, fileinfo
+
+      - name: install dependencies
+        run:  utilities/json2csv/composer install --no-interaction --no-update
+
+      - name: List Installed Dependencies
+        run: composer show -D
+
+      - name: execute command
+        run: php utilities/json2csv/ json2csv convert
+
+      - name: add and commit generated file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+
+          git add .
+          git commit -m "automatically converted csv and excel after editing yemen-info.json"
+
+      - name: push the generated file
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GIT_ACTION_TOKEN }}
+          branch: main
