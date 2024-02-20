@@ -24,6 +24,7 @@ jobs:
         run: composer install --no-interaction
 
       - name: List Installed Dependencies
+        working-directory: "./utilities/json2csv"
         run: composer show -D
 
       - name: Execute command
