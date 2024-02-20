@@ -20,7 +20,7 @@ class Convert extends Command
      *
      * @var string
      */
-    protected $description = 'Convert Yemen-info.json file to csv and excel';                   
+    protected $description = 'Convert Yemen-info.json file to csv and excel';
 
     /**
      * Execute the console command.
@@ -79,8 +79,8 @@ class Convert extends Command
         $uniqueData = array_map('unserialize', array_unique(array_map('serialize', $data)));
 
         $fastExcel = new FastExcel($uniqueData);
-        $fastExcel->export('file.csv');
-        $fastExcel->export('file.xlsx');
+        $fastExcel->export("./automated/yemen-info.csv");
+        $fastExcel->export("./automated/yemen-info.xlsx");
     }
 
 
