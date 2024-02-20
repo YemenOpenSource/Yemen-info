@@ -5,3 +5,9 @@ venv/
 v/
 **/__pycache__/**
 **/.pyc
+
+/vendor
+/.idea
+/.vscode
+/.vagrant
+.phpunit.result.cache
