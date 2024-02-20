@@ -16,19 +16,19 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: ${{ matrix.php }}
+          php-version: '8.1'
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick, fileinfo
 
-      - name: install dependencies
+      - name: Install dependencies
         run:  utilities/json2csv/composer install --no-interaction --no-update
 
       - name: List Installed Dependencies
         run: composer show -D
 
-      - name: execute command
+      - name: Execute command
         run: php utilities/json2csv/ json2csv convert
 
-      - name: add and commit generated file
+      - name: Add and commit generated file
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
@@ -36,7 +36,7 @@ jobs:
           git add .
           git commit -m "automatically converted csv and excel after editing yemen-info.json"
 
-      - name: push the generated file
+      - name: Push the generated file
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GIT_ACTION_TOKEN }}
