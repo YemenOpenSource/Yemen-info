@@ -1,92 +1,0 @@
-    {
-        "emoji": "🇾🇪",
-        "emojiU": "U+1F1FE U+1F1EA",
-        "governorates": [
-            {
-                "id": 1,
-                "name_en": "Amant Al-Asmah",
-                "name_ar": "أمانة العاصمة",
-                "name_ar_tashkeel": "أَمانَة العاصِمَةِ",
-                "phone_numbering_plan": "01",
-                "capital_name_ar": "",
-                "capital_name_en": "",
-                "name_ar_normalized": "امانه العاصمه",
-                "name_en_normalized": "Amant Al Asmah",
-                "districts": [
-                    {
-                        "id": 2,
-                        "name_en": "Azal",
-                        "name_ar": "آزَاْل",
-                        "name_ar_tashkeel": "آزَاْل",
-                        "name_ar_normalized": "ازال",
-                        "name_en_normalized": "Azal",
-                        "uzaal": [
-                            {
-                                "id": 2,
-                                "name_en": "Azaal",
-                                "name_ar": "ازال",
-                                "name_ar_normalized": "ازال",
-                                "name_en_normalized": "Azaal"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "name_en": "Al-Safiah",
-                        "name_ar": "الصافية",
-                        "name_ar_tashkeel": "الصَّافِيَة",
-                        "name_ar_normalized": "الصافيه",
-                        "name_en_normalized": "Al Safiah"
-                    },
-                    {
-                        "id": 4,
-                        "name_en": "Al-Sabe'en",
-                        "name_ar": "السبعين",
-                        "name_ar_tashkeel": "السَّبْعِين",
-                        "name_ar_normalized": "السبعين",
-                        "name_en_normalized": "Al Sabeen",
-                        "uzaal": [
-                            {
-                                "id": 4,
-                                "name_en": "As Sab'in",
-                                "name_ar": "السبعين",
-                                "name_ar_normalized": "السبعين",
-                                "name_en_normalized": "As Sabin",
-                                "villages": [
-                                    {
-                                        "id": 8,
-                                        "name_en": "Al-Amanh",
-                                        "name_ar": "الامانة",
-                                        "name_ar_normalized": "الامانه",
-                                        "name_en_normalized": "Al Amanh"
-                                    },
-                                    {
-                                        "id": 9,
-                                        "name_en": "As-Swad Ash-Shmaly",
-                                        "name_ar": "السواد الشمالي",
-                                        "name_ar_normalized": "السواد الشمالي",
-                                        "name_en_normalized": "As Swad Ash Shmaly"
-                                    },
-                                    {
-                                        "id": 10,
-                                        "name_en": "Hart An-Nsr",
-                                        "name_ar": "حارة النصر",
-                                        "name_ar_normalized": "حاره النصر",
-                                        "name_en_normalized": "Hart An Nsr"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "name_en": "Sh'oob",
-                        "name_ar": "شعوب",
-                        "name_ar_tashkeel": "شُعُوْب",
-                        "name_ar_normalized": "شعوب",
-                        "name_en_normalized": "Shoob"
-                    }
-                ]
-            }
-        ]
-    }

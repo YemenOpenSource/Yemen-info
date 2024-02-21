@@ -31,7 +31,7 @@ class Convert extends Command
     {
         ini_set('memory_limit', '-1');
 
-        $json = file_get_contents("./yemen-info.json");
+        $json = file_get_contents("../../../../yemen-info.json");
 
         $yemenData = json_decode($json, true);
 
