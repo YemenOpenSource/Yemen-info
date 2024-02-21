@@ -32,7 +32,8 @@ jobs:
         run: php utilities/json2csv/ json2csv convert
 
       - name: Set file permissions
-        run: chmod 777 utilities/json2csv/app/Commands/Convert.php
+        run: chmod 777 automated/yemen-info.csv automated/yemen-info.xlsx
+
 
       - name: Add and commit generated file
         run: |
