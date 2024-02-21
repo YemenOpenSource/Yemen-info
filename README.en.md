@@ -40,7 +40,7 @@ We have different formats with the same information you can use if you prefer in
 
 You can also use the [cspell dictionary file Here](https://github.com/YemenOpenSource/Yemen-info/blob/main/.cspell/custom-dictionary-workspace.txt) to ignore Yemeni districts'/governorate's names from underlined spell checker. This was a side effect of the main goal but we are thankful for it. You can find it and copy the text and paste it into any text editor that has the functionality of a spelling dictionary and the user dictionary, like Microsoft Word, LibreOffice, or Even [Arabic - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-arabic) extension on VS Code.
 
-> By the way, we have contributed in Yemeni-Open-Source to the previous plugin, and you can find more on [this link](https://github.com/YemenOpenSource/impactful-contributions).
+> By the way, we have contributed in Yemen Open Source to the previous plugin, and you can find more on [this link](https://github.com/YemenOpenSource/impactful-contributions).
 
 ## Features
 
