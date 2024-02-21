@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Pull latest changes
+        run: git pull origin main
+
       - uses: actions/checkout@v3
 
       - uses: actions/setup-python@v4
