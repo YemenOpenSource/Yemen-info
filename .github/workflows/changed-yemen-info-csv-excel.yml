@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: write-all
     strategy:
       fail-fast: true
 
@@ -29,6 +30,9 @@ jobs:
 
       - name: Execute command
         run: php utilities/json2csv/ json2csv convert
+
+      - name: Set file permissions
+        run: chmod 777 utilities/json2csv/app/Commands/Convert.php
 
       - name: Add and commit generated file
         run: |
