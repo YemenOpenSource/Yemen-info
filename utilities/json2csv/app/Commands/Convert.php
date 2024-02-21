@@ -80,8 +80,9 @@ class Convert extends Command
         $uniqueData = array_map('unserialize', array_unique(array_map('serialize', $data)));
 
         $fastExcel = new FastExcel($uniqueData);
-        $fastExcel->export("./automated/yemen-info.csv");
-        $fastExcel->export("./automated/yemen-info.xlsx");
+        $fastExcel->export("yemen-info.csv");
+        $fastExcel->export("yemen-info.xlsx");
+
     }
 
 
