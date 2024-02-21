@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Pull latest changes
-        run: git pull origin main
-
       - uses: actions/checkout@v3
 
       - uses: actions/setup-python@v4
@@ -29,6 +26,7 @@ jobs:
 
       - name: add and commit generated file
         run: |
+          git pull origin main
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
 

@@ -12,9 +12,6 @@ jobs:
       fail-fast: true
 
     steps:
-      - name: Pull latest changes
-        run: git pull origin main
-
       - uses: actions/checkout@v3
 
       - name: Setup PHP
@@ -40,6 +37,7 @@ jobs:
 
       - name: Add and commit generated file
         run: |
+          git pull origin main
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
 
