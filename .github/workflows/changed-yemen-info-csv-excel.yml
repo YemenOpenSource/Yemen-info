@@ -29,7 +29,7 @@ jobs:
         run: composer show -D
 
       - name: Execute command
-        run: php utilities/json2csv/ json2csv convert
+        run: cd utilities/json2csv && php json2csv convert
 
       - name: Set file permissions
         run: chmod 777 automated/yemen-info.csv automated/yemen-info.xlsx
