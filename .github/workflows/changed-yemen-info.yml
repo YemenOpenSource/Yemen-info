@@ -27,7 +27,7 @@ jobs:
       - name: run the automated tasks
         run: python3 -B utilities/automated-tasks.py
 
-        - name: Setup PHP
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
