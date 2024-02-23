@@ -1,8 +1,5 @@
 name: Generate CSV and Excel formats from JSON
 on:
-  push:
-    paths:
-      - 'yemen-info.json'
   workflow_dispatch:
 jobs:
   build:

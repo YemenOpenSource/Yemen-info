@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: write-all
+    strategy:
+      fail-fast: true
 
     steps:
       - uses: actions/checkout@v3
@@ -23,6 +26,26 @@ jobs:
 
       - name: run the automated tasks
         run: python3 -B utilities/automated-tasks.py
+
+        - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick, fileinfo
+
+      - name: Install dependencies
+        working-directory: "./utilities/json2csv"
+        run: composer install --no-interaction
+
+      - name: List Installed Dependencies
+        working-directory: "./utilities/json2csv"
+        run: composer show -D
+
+      - name: Execute command
+        run: cd utilities/json2csv && php json2csv convert
+
+      - name: Set file permissions
+        run: chmod 777 automated/yemen-info.csv automated/yemen-info.xlsx
 
       - name: add and commit generated file
         run: |
