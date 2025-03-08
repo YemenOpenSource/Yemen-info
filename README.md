@@ -4,7 +4,7 @@
 
 <div dir="rtl" align="justify">
 
-<h1>مشروع Yemen-info </h1>
+<h1>مشروع Yemen Info</h1>
 
 [English Readme](./README.en.md)
 
