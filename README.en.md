@@ -1,4 +1,4 @@
-# Yemen-info
+# Yemen Info
 
 Here are some files for the most important information for Yemen programmatically. We have information about Yemeni governorates, districts, uzaal and villages in both Arabic and English languages.
 The Arabic names are introduced in many forms: with Tashkeel, without it, and as a normalized text.
