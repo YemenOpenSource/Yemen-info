@@ -1,6 +1,10 @@
 [![Stand With Palestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/banner-no-action.svg)](https://TheBSD.github.io/StandWithPalestine/)
 
 [![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
+[![ko-fi][ico-ko-fi]][link-ko-fi]
+
+[ico-ko-fi]: https://img.shields.io/badge/Ko--fi-Support-ff5f5f?logo=ko-fi&style=flat-square
+[link-ko-fi]: https://ko-fi.com/watheq_show
 
 <div dir="rtl" align="justify">
 
@@ -152,3 +156,7 @@
 ⦿ يعقوب الكهادي
 
 </div>
+
+
+## دعم المشروع
+إذا ساعدك هذا المشروع، يمكنك دعم استمراريته عبر [كوب قهوة ☕](https://ko-fi.com/watheq_show)
