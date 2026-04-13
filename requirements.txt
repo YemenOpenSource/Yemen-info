@@ -10,7 +10,7 @@ pluggy==1.0.0
 py==1.11.0
 PyArabic==0.6.15
 pyparsing==3.0.9
-pytest==7.1.3
+pytest==9.0.3
 PyYAML==6.0
 requests==2.31.0
 six==1.16.0
