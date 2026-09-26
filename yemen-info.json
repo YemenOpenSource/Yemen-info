@@ -13150,6 +13150,190 @@
                   "name_en_normalized": "Qsha"
                 }
               ]
+            },
+            {
+              "id": 2235,
+              "name_en": "Bani Yusuf",
+              "name_ar": "بني يوسف",
+              "name_ar_normalized": "بني يوسف",
+              "name_en_normalized": "Bani Yusuf",
+              "villages": [
+                {
+                  "id": 24768,
+                  "name_en": "Al-Jybl",
+                  "name_ar": "الجيبل",
+                  "name_ar_normalized": "الجيبل",
+                  "name_en_normalized": "Al Jybl"
+                },
+                {
+                  "id": 24769,
+                  "name_en": "Al-Hjr",
+                  "name_ar": "الحجر",
+                  "name_ar_normalized": "الحجر",
+                  "name_en_normalized": "Al Hjr"
+                },
+                {
+                  "id": 24770,
+                  "name_en": "Al-Hrf",
+                  "name_ar": "الحرف",
+                  "name_ar_normalized": "الحرف",
+                  "name_en_normalized": "Al Hrf"
+                },
+                {
+                  "id": 24771,
+                  "name_en": "Ad-Dar",
+                  "name_ar": "الدار",
+                  "name_ar_normalized": "الدار",
+                  "name_en_normalized": "Ad Dar"
+                },
+                {
+                  "id": 24772,
+                  "name_en": "As-Sad'h",
+                  "name_ar": "الساده",
+                  "name_ar_normalized": "الساده",
+                  "name_en_normalized": "As Sadh"
+                },
+                {
+                  "id": 24773,
+                  "name_en": "Ash-Shrf",
+                  "name_ar": "الشرف",
+                  "name_ar_normalized": "الشرف",
+                  "name_en_normalized": "Ash Shrf"
+                },
+                {
+                  "id": 24774,
+                  "name_en": "Ash-Sht",
+                  "name_ar": "الشط",
+                  "name_ar_normalized": "الشط",
+                  "name_en_normalized": "Ash Sht"
+                },
+                {
+                  "id": 24775,
+                  "name_en": "At-Tarfh As-Sfla",
+                  "name_ar": "الطارفه السفلى",
+                  "name_ar_normalized": "الطارفه السفلا",
+                  "name_en_normalized": "At Tarfh As Sfla"
+                },
+                {
+                  "id": 24776,
+                  "name_en": "At-Tarfh Al-Lya",
+                  "name_ar": "الطارفه العليا",
+                  "name_ar_normalized": "الطارفه العليا",
+                  "name_en_normalized": "At Tarfh Al Lya"
+                },
+                {
+                  "id": 24777,
+                  "name_en": "Al-Arbh",
+                  "name_ar": "العاربه",
+                  "name_ar_normalized": "العاربه",
+                  "name_en_normalized": "Al Arbh"
+                },
+                {
+                  "id": 24778,
+                  "name_en": "Al-Ghwyl",
+                  "name_ar": "الغويل",
+                  "name_ar_normalized": "الغويل",
+                  "name_en_normalized": "Al Ghwyl"
+                },
+                {
+                  "id": 24779,
+                  "name_en": "Al-Qa'imh",
+                  "name_ar": "القائمه",
+                  "name_ar_normalized": "القاءمه",
+                  "name_en_normalized": "Al Qaimh"
+                },
+                {
+                  "id": 24780,
+                  "name_en": "Al-Qahrh",
+                  "name_ar": "القاهره",
+                  "name_ar_normalized": "القاهره",
+                  "name_en_normalized": "Al Qahrh"
+                },
+                {
+                  "id": 24781,
+                  "name_en": "Al-Mdhab",
+                  "name_ar": "المذاب",
+                  "name_ar_normalized": "المذاب",
+                  "name_en_normalized": "Al Mdhab"
+                },
+                {
+                  "id": 24782,
+                  "name_en": "Al-Mrwlh As-Sfla",
+                  "name_ar": "المروله السفلى",
+                  "name_ar_normalized": "المروله السفلا",
+                  "name_en_normalized": "Al Mrwlh As Sfla"
+                },
+                {
+                  "id": 24783,
+                  "name_en": "Al-Mrwlh Al-Lya",
+                  "name_ar": "المروله العليا",
+                  "name_ar_normalized": "المروله العليا",
+                  "name_en_normalized": "Al Mrwlh Al Lya"
+                },
+                {
+                  "id": 24784,
+                  "name_en": "Al-Mhlhly",
+                  "name_ar": "المهلهلي",
+                  "name_ar_normalized": "المهلهلي",
+                  "name_en_normalized": "Al Mhlhly"
+                },
+                {
+                  "id": 24785,
+                  "name_en": "Al-Myakhydh",
+                  "name_ar": "المياخيذ",
+                  "name_ar_normalized": "المياخيذ",
+                  "name_en_normalized": "Al Myakhydh"
+                },
+                {
+                  "id": 24786,
+                  "name_en": "Bny Ahmd",
+                  "name_ar": "بني احمد",
+                  "name_ar_normalized": "بني احمد",
+                  "name_en_normalized": "Bny Ahmd"
+                },
+                {
+                  "id": 24787,
+                  "name_en": "Byt An-Nhym",
+                  "name_ar": "بيت النحيم",
+                  "name_ar_normalized": "بيت النحيم",
+                  "name_en_normalized": "Byt An Nhym"
+                },
+                {
+                  "id": 24788,
+                  "name_en": "Hjr Al-Md",
+                  "name_ar": "حجر المض",
+                  "name_ar_normalized": "حجر المض",
+                  "name_en_normalized": "Hjr Al Md"
+                },
+                {
+                  "id": 24789,
+                  "name_en": "Khdhaf",
+                  "name_ar": "خذاف",
+                  "name_ar_normalized": "خذاف",
+                  "name_en_normalized": "Khdhaf"
+                },
+                {
+                  "id": 24790,
+                  "name_en": "Dar Al-Mgharb",
+                  "name_ar": "دار المغارب",
+                  "name_ar_normalized": "دار المغارب",
+                  "name_en_normalized": "Dar Al Mgharb"
+                },
+                {
+                  "id": 24791,
+                  "name_en": "Ghbsh",
+                  "name_ar": "غبش",
+                  "name_ar_normalized": "غبش",
+                  "name_en_normalized": "Ghbsh"
+                },
+                {
+                  "id": 24792,
+                  "name_en": "Qrfh",
+                  "name_ar": "قرفه",
+                  "name_ar_normalized": "قرفه",
+                  "name_en_normalized": "Qrfh"
+                }
+              ]
             }
           ]
         },
@@ -121872,13 +122056,6 @@
                   "name_en_normalized": "Al Barkh"
                 },
                 {
-                  "id": 24741,
-                  "name_en": "Ash-Shrf",
-                  "name_ar": "الشرف",
-                  "name_ar_normalized": "الشرف",
-                  "name_en_normalized": "Ash Shrf"
-                },
-                {
                   "id": 24742,
                   "name_en": "Al-Fswr",
                   "name_ar": "الفصور",
@@ -121898,349 +122075,6 @@
                   "name_ar": "جبل السقعه",
                   "name_ar_normalized": "جبل السقعه",
                   "name_en_normalized": "Jbl As Sqh"
-                },
-                {
-                  "id": 24745,
-                  "name_en": "Al-Adyr'",
-                  "name_ar": "الاديرع",
-                  "name_ar_normalized": "الاديرع",
-                  "name_en_normalized": "Al Adyr"
-                },
-                {
-                  "id": 24746,
-                  "name_en": "Al-Akmh",
-                  "name_ar": "الاكمة",
-                  "name_ar_normalized": "الاكمه",
-                  "name_en_normalized": "Al Akmh"
-                },
-                {
-                  "id": 24747,
-                  "name_en": "Ad-Dwm",
-                  "name_ar": "الدوم",
-                  "name_ar_normalized": "الدوم",
-                  "name_en_normalized": "Ad Dwm"
-                },
-                {
-                  "id": 24748,
-                  "name_en": "Adh-Dhnyb",
-                  "name_ar": "الذنيب",
-                  "name_ar_normalized": "الذنيب",
-                  "name_en_normalized": "Adh Dhnyb"
-                },
-                {
-                  "id": 24749,
-                  "name_en": "As-Slb",
-                  "name_ar": "الصلب",
-                  "name_ar_normalized": "الصلب",
-                  "name_en_normalized": "As Slb"
-                },
-                {
-                  "id": 24750,
-                  "name_en": "Al-Yn",
-                  "name_ar": "العين",
-                  "name_ar_normalized": "العين",
-                  "name_en_normalized": "Al Yn"
-                },
-                {
-                  "id": 24751,
-                  "name_en": "Al-Qhaf",
-                  "name_ar": "القحاف",
-                  "name_ar_normalized": "القحاف",
-                  "name_en_normalized": "Al Qhaf"
-                },
-                {
-                  "id": 24752,
-                  "name_en": "Al-Mqsws",
-                  "name_ar": "المقصوص",
-                  "name_ar_normalized": "المقصوص",
-                  "name_en_normalized": "Al Mqsws"
-                },
-                {
-                  "id": 24753,
-                  "name_en": "Al-Mnakh",
-                  "name_ar": "المناخ",
-                  "name_ar_normalized": "المناخ",
-                  "name_en_normalized": "Al Mnakh"
-                },
-                {
-                  "id": 24754,
-                  "name_en": "Al-Mnawd",
-                  "name_ar": "المناود",
-                  "name_ar_normalized": "المناود",
-                  "name_en_normalized": "Al Mnawd"
-                },
-                {
-                  "id": 24755,
-                  "name_en": "Al-Ybwn",
-                  "name_ar": "اليبون",
-                  "name_ar_normalized": "اليبون",
-                  "name_en_normalized": "Al Ybwn"
-                },
-                {
-                  "id": 24756,
-                  "name_en": "Brdad",
-                  "name_ar": "برداد",
-                  "name_ar_normalized": "برداد",
-                  "name_en_normalized": "Brdad"
-                },
-                {
-                  "id": 24757,
-                  "name_en": "Jrnat",
-                  "name_ar": "جرنات",
-                  "name_ar_normalized": "جرنات",
-                  "name_en_normalized": "Jrnat"
-                },
-                {
-                  "id": 24758,
-                  "name_en": "Jnabh",
-                  "name_ar": "جنابة",
-                  "name_ar_normalized": "جنابه",
-                  "name_en_normalized": "Jnabh"
-                },
-                {
-                  "id": 24759,
-                  "name_en": "Hjrh",
-                  "name_ar": "حجرة",
-                  "name_ar_normalized": "حجره",
-                  "name_en_normalized": "Hjrh"
-                },
-                {
-                  "id": 24760,
-                  "name_en": "Hsmh",
-                  "name_ar": "حصمة",
-                  "name_ar_normalized": "حصمه",
-                  "name_en_normalized": "Hsmh"
-                },
-                {
-                  "id": 24761,
-                  "name_en": "Khr's'h",
-                  "name_ar": "خرعسة",
-                  "name_ar_normalized": "خرعسه",
-                  "name_en_normalized": "Khrsh"
-                },
-                {
-                  "id": 24762,
-                  "name_en": "Khnazr",
-                  "name_ar": "خنازر",
-                  "name_ar_normalized": "خنازر",
-                  "name_en_normalized": "Khnazr"
-                },
-                {
-                  "id": 24763,
-                  "name_en": "Shrar",
-                  "name_ar": "شرار",
-                  "name_ar_normalized": "شرار",
-                  "name_en_normalized": "Shrar"
-                },
-                {
-                  "id": 24764,
-                  "name_en": "Db'",
-                  "name_ar": "ضبع",
-                  "name_ar_normalized": "ضبع",
-                  "name_en_normalized": "Db"
-                },
-                {
-                  "id": 24765,
-                  "name_en": "Aqf",
-                  "name_ar": "عقف",
-                  "name_ar_normalized": "عقف",
-                  "name_en_normalized": "Aqf"
-                },
-                {
-                  "id": 24766,
-                  "name_en": "Qd'",
-                  "name_ar": "قضع",
-                  "name_ar_normalized": "قضع",
-                  "name_en_normalized": "Qd"
-                },
-                {
-                  "id": 24767,
-                  "name_en": "Mshrfh",
-                  "name_ar": "مشرفه",
-                  "name_ar_normalized": "مشرفه",
-                  "name_en_normalized": "Mshrfh"
-                },
-                {
-                  "id": 24768,
-                  "name_en": "Al-Jybl",
-                  "name_ar": "الجيبل",
-                  "name_ar_normalized": "الجيبل",
-                  "name_en_normalized": "Al Jybl"
-                },
-                {
-                  "id": 24769,
-                  "name_en": "Al-Hjr",
-                  "name_ar": "الحجر",
-                  "name_ar_normalized": "الحجر",
-                  "name_en_normalized": "Al Hjr"
-                },
-                {
-                  "id": 24770,
-                  "name_en": "Al-Hrf",
-                  "name_ar": "الحرف",
-                  "name_ar_normalized": "الحرف",
-                  "name_en_normalized": "Al Hrf"
-                },
-                {
-                  "id": 24771,
-                  "name_en": "Ad-Dar",
-                  "name_ar": "الدار",
-                  "name_ar_normalized": "الدار",
-                  "name_en_normalized": "Ad Dar"
-                },
-                {
-                  "id": 24772,
-                  "name_en": "As-Sad'h",
-                  "name_ar": "الساده",
-                  "name_ar_normalized": "الساده",
-                  "name_en_normalized": "As Sadh"
-                },
-                {
-                  "id": 24773,
-                  "name_en": "Ash-Shrf",
-                  "name_ar": "الشرف",
-                  "name_ar_normalized": "الشرف",
-                  "name_en_normalized": "Ash Shrf"
-                },
-                {
-                  "id": 24774,
-                  "name_en": "Ash-Sht",
-                  "name_ar": "الشط",
-                  "name_ar_normalized": "الشط",
-                  "name_en_normalized": "Ash Sht"
-                },
-                {
-                  "id": 24775,
-                  "name_en": "At-Tarfh As-Sfla",
-                  "name_ar": "الطارفه السفلى",
-                  "name_ar_normalized": "الطارفه السفلا",
-                  "name_en_normalized": "At Tarfh As Sfla"
-                },
-                {
-                  "id": 24776,
-                  "name_en": "At-Tarfh Al-Lya",
-                  "name_ar": "الطارفه العليا",
-                  "name_ar_normalized": "الطارفه العليا",
-                  "name_en_normalized": "At Tarfh Al Lya"
-                },
-                {
-                  "id": 24777,
-                  "name_en": "Al-Arbh",
-                  "name_ar": "العاربه",
-                  "name_ar_normalized": "العاربه",
-                  "name_en_normalized": "Al Arbh"
-                },
-                {
-                  "id": 24778,
-                  "name_en": "Al-Ghwyl",
-                  "name_ar": "الغويل",
-                  "name_ar_normalized": "الغويل",
-                  "name_en_normalized": "Al Ghwyl"
-                },
-                {
-                  "id": 24779,
-                  "name_en": "Al-Qa'imh",
-                  "name_ar": "القائمه",
-                  "name_ar_normalized": "القاءمه",
-                  "name_en_normalized": "Al Qaimh"
-                },
-                {
-                  "id": 24780,
-                  "name_en": "Al-Qahrh",
-                  "name_ar": "القاهره",
-                  "name_ar_normalized": "القاهره",
-                  "name_en_normalized": "Al Qahrh"
-                },
-                {
-                  "id": 24781,
-                  "name_en": "Al-Mdhab",
-                  "name_ar": "المذاب",
-                  "name_ar_normalized": "المذاب",
-                  "name_en_normalized": "Al Mdhab"
-                },
-                {
-                  "id": 24782,
-                  "name_en": "Al-Mrwlh As-Sfla",
-                  "name_ar": "المروله السفلى",
-                  "name_ar_normalized": "المروله السفلا",
-                  "name_en_normalized": "Al Mrwlh As Sfla"
-                },
-                {
-                  "id": 24783,
-                  "name_en": "Al-Mrwlh Al-Lya",
-                  "name_ar": "المروله العليا",
-                  "name_ar_normalized": "المروله العليا",
-                  "name_en_normalized": "Al Mrwlh Al Lya"
-                },
-                {
-                  "id": 24784,
-                  "name_en": "Al-Mhlhly",
-                  "name_ar": "المهلهلي",
-                  "name_ar_normalized": "المهلهلي",
-                  "name_en_normalized": "Al Mhlhly"
-                },
-                {
-                  "id": 24785,
-                  "name_en": "Al-Myakhydh",
-                  "name_ar": "المياخيذ",
-                  "name_ar_normalized": "المياخيذ",
-                  "name_en_normalized": "Al Myakhydh"
-                },
-                {
-                  "id": 24786,
-                  "name_en": "Bny Ahmd",
-                  "name_ar": "بني احمد",
-                  "name_ar_normalized": "بني احمد",
-                  "name_en_normalized": "Bny Ahmd"
-                },
-                {
-                  "id": 24787,
-                  "name_en": "Byt An-Nhym",
-                  "name_ar": "بيت النحيم",
-                  "name_ar_normalized": "بيت النحيم",
-                  "name_en_normalized": "Byt An Nhym"
-                },
-                {
-                  "id": 24788,
-                  "name_en": "Hjr Al-Md",
-                  "name_ar": "حجر المض",
-                  "name_ar_normalized": "حجر المض",
-                  "name_en_normalized": "Hjr Al Md"
-                },
-                {
-                  "id": 24789,
-                  "name_en": "Khdhaf",
-                  "name_ar": "خذاف",
-                  "name_ar_normalized": "خذاف",
-                  "name_en_normalized": "Khdhaf"
-                },
-                {
-                  "id": 24790,
-                  "name_en": "Dar Al-Mgharb",
-                  "name_ar": "دار المغارب",
-                  "name_ar_normalized": "دار المغارب",
-                  "name_en_normalized": "Dar Al Mgharb"
-                },
-                {
-                  "id": 24791,
-                  "name_en": "Ghbsh",
-                  "name_ar": "غبش",
-                  "name_ar_normalized": "غبش",
-                  "name_en_normalized": "Ghbsh"
-                },
-                {
-                  "id": 24792,
-                  "name_en": "Qrfh",
-                  "name_ar": "قرفه",
-                  "name_ar_normalized": "قرفه",
-                  "name_en_normalized": "Qrfh"
-                },
-                {
-                  "id": 24793,
-                  "name_en": "Al-Mshjb",
-                  "name_ar": "المشجب",
-                  "name_ar_normalized": "المشجب",
-                  "name_en_normalized": "Al Mshjb"
                 }
               ]
             },
@@ -191695,7 +191529,184 @@
               "name_en": "Bani Yusuf",
               "name_ar": "بني يوسف",
               "name_ar_normalized": "بني يوسف",
-              "name_en_normalized": "Bani Yusuf"
+              "name_en_normalized": "Bani Yusuf",
+              "villages": [
+                {
+                  "id": 24741,
+                  "name_en": "Ash-Shrf",
+                  "name_ar": "الشرف",
+                  "name_ar_normalized": "الشرف",
+                  "name_en_normalized": "Ash Shrf"
+                },
+                {
+                  "id": 24745,
+                  "name_en": "Al-Adyr'",
+                  "name_ar": "الاديرع",
+                  "name_ar_normalized": "الاديرع",
+                  "name_en_normalized": "Al Adyr"
+                },
+                {
+                  "id": 24746,
+                  "name_en": "Al-Akmh",
+                  "name_ar": "الاكمة",
+                  "name_ar_normalized": "الاكمه",
+                  "name_en_normalized": "Al Akmh"
+                },
+                {
+                  "id": 24747,
+                  "name_en": "Ad-Dwm",
+                  "name_ar": "الدوم",
+                  "name_ar_normalized": "الدوم",
+                  "name_en_normalized": "Ad Dwm"
+                },
+                {
+                  "id": 24748,
+                  "name_en": "Adh-Dhnyb",
+                  "name_ar": "الذنيب",
+                  "name_ar_normalized": "الذنيب",
+                  "name_en_normalized": "Adh Dhnyb"
+                },
+                {
+                  "id": 24749,
+                  "name_en": "As-Slb",
+                  "name_ar": "الصلب",
+                  "name_ar_normalized": "الصلب",
+                  "name_en_normalized": "As Slb"
+                },
+                {
+                  "id": 24750,
+                  "name_en": "Al-Yn",
+                  "name_ar": "العين",
+                  "name_ar_normalized": "العين",
+                  "name_en_normalized": "Al Yn"
+                },
+                {
+                  "id": 24751,
+                  "name_en": "Al-Qhaf",
+                  "name_ar": "القحاف",
+                  "name_ar_normalized": "القحاف",
+                  "name_en_normalized": "Al Qhaf"
+                },
+                {
+                  "id": 24752,
+                  "name_en": "Al-Mqsws",
+                  "name_ar": "المقصوص",
+                  "name_ar_normalized": "المقصوص",
+                  "name_en_normalized": "Al Mqsws"
+                },
+                {
+                  "id": 24753,
+                  "name_en": "Al-Mnakh",
+                  "name_ar": "المناخ",
+                  "name_ar_normalized": "المناخ",
+                  "name_en_normalized": "Al Mnakh"
+                },
+                {
+                  "id": 24754,
+                  "name_en": "Al-Mnawd",
+                  "name_ar": "المناود",
+                  "name_ar_normalized": "المناود",
+                  "name_en_normalized": "Al Mnawd"
+                },
+                {
+                  "id": 24755,
+                  "name_en": "Al-Ybwn",
+                  "name_ar": "اليبون",
+                  "name_ar_normalized": "اليبون",
+                  "name_en_normalized": "Al Ybwn"
+                },
+                {
+                  "id": 24756,
+                  "name_en": "Brdad",
+                  "name_ar": "برداد",
+                  "name_ar_normalized": "برداد",
+                  "name_en_normalized": "Brdad"
+                },
+                {
+                  "id": 24757,
+                  "name_en": "Jrnat",
+                  "name_ar": "جرنات",
+                  "name_ar_normalized": "جرنات",
+                  "name_en_normalized": "Jrnat"
+                },
+                {
+                  "id": 24758,
+                  "name_en": "Jnabh",
+                  "name_ar": "جنابة",
+                  "name_ar_normalized": "جنابه",
+                  "name_en_normalized": "Jnabh"
+                },
+                {
+                  "id": 24759,
+                  "name_en": "Hjrh",
+                  "name_ar": "حجرة",
+                  "name_ar_normalized": "حجره",
+                  "name_en_normalized": "Hjrh"
+                },
+                {
+                  "id": 24760,
+                  "name_en": "Hsmh",
+                  "name_ar": "حصمة",
+                  "name_ar_normalized": "حصمه",
+                  "name_en_normalized": "Hsmh"
+                },
+                {
+                  "id": 24761,
+                  "name_en": "Khr's'h",
+                  "name_ar": "خرعسة",
+                  "name_ar_normalized": "خرعسه",
+                  "name_en_normalized": "Khrsh"
+                },
+                {
+                  "id": 24762,
+                  "name_en": "Khnazr",
+                  "name_ar": "خنازر",
+                  "name_ar_normalized": "خنازر",
+                  "name_en_normalized": "Khnazr"
+                },
+                {
+                  "id": 24763,
+                  "name_en": "Shrar",
+                  "name_ar": "شرار",
+                  "name_ar_normalized": "شرار",
+                  "name_en_normalized": "Shrar"
+                },
+                {
+                  "id": 24764,
+                  "name_en": "Db'",
+                  "name_ar": "ضبع",
+                  "name_ar_normalized": "ضبع",
+                  "name_en_normalized": "Db"
+                },
+                {
+                  "id": 24765,
+                  "name_en": "Aqf",
+                  "name_ar": "عقف",
+                  "name_ar_normalized": "عقف",
+                  "name_en_normalized": "Aqf"
+                },
+                {
+                  "id": 24766,
+                  "name_en": "Qd'",
+                  "name_ar": "قضع",
+                  "name_ar_normalized": "قضع",
+                  "name_en_normalized": "Qd"
+                },
+                {
+                  "id": 24767,
+                  "name_en": "Mshrfh",
+                  "name_ar": "مشرفه",
+                  "name_ar_normalized": "مشرفه",
+                  "name_en_normalized": "Mshrfh"
+                },
+                {
+                  "id": 24793,
+                  "name_en": "Al-Mshjb",
+                  "name_ar": "المشجب",
+                  "name_ar_normalized": "المشجب",
+                  "name_en_normalized": "Al Mshjb"
+                }
+              ]
             },
             {
               "id": 1772,
